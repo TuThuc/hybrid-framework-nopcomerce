@@ -41,4 +41,41 @@ public void TC_03() {
 	System.out.println(number3 +" lớn nhất");
 }
 	}
+//@Test
+public void TC_04() {
+	int number = scanner.nextInt();
+	
+	if (number>=10 && number <=100) {
+		System.out.println(number + " nam trong [10,100]");
+	}
+	else {
+		System.out.println(number + " khong nam trong [10,100]" );
+	}
 }
+//@Test
+public void TC_05() {
+String tenHS = scanner.nextLine();
+float diemHS = scanner.nextFloat();
+if(diemHS>=0 && diemHS <5) {
+	System.out.println(tenHS + " dat diem D");
+}else if(diemHS>=5 && diemHS <7.5) {
+	System.out.println(tenHS + " dat diem C");
+}else if(diemHS>7.5 && diemHS <8.5) {
+	System.out.println(tenHS + " dat diem B");	
+}else if(diemHS>=8.5 && diemHS <=10) {
+	System.out.println(tenHS + " dat diem A");
+}
+}
+@Test
+public void TC_06() {
+int numberMounth	= scanner.nextInt();
+if(numberMounth == 1 ||numberMounth == 12) {
+	System.out.println("So ngay thang " + numberMounth + " la 31" );
+	}else if(numberMounth == 2) {
+		System.out.println("So ngay thang " + numberMounth + " la 28" );
+}else {
+	System.out.println("So ngay thang " + numberMounth + " la 30" );
+}
+}
+}
+
