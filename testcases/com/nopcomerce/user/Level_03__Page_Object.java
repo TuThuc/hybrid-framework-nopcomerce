@@ -14,7 +14,7 @@ import commons.BasePage;
 import pageObjects.HomePageObject;
 import pageObjects.RegisterPageObject;
 
-public class Level_03__Page_Object extends BasePage {
+public class Level_03__Page_Object  {
 	WebDriver driver;
 	String emailAdress;
 
