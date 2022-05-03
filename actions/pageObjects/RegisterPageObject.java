@@ -1,9 +1,16 @@
 package pageObjects;
 
-public class RegisterPageObject {
+import org.openqa.selenium.WebDriver;
 
+import commons.BasePage;
+import pageUIs.RegisterPageUI;
+
+public class RegisterPageObject extends BasePage{
+private WebDriver driver;
 	public void clickToRegisterButton() {
-		// TODO Auto-generated method stub
+		waitForElementClickable(driver, RegisterPageUI.REGISTER_BUTTON);
+		clickToElement(driver, RegisterPageUI.REGISTER_BUTTON);
+		
 
 	}
 
