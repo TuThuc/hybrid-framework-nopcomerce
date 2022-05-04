@@ -2,7 +2,7 @@
 <suite parallel="false" name="NopCommerce">
   <test name="Run on Firefox ">
     <classes>
-      <class name="com.nopcomerce.user.Topic_02_Switch_Case"/>
+      <class name="com.nopcomerce.user.Level_03_Page_Object"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

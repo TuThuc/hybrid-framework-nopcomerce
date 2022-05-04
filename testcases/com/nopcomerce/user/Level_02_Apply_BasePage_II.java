@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import commons.BasePage;
 
-public class Level_02__Apply_BasePage_II {
+public class Level_02_Apply_BasePage_II {
 	WebDriver driver;
 	String emailAdress;
 	// Declare - Khai bao
