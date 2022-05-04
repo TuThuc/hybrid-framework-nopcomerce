@@ -37,12 +37,12 @@ public class Level_03_Page_Object {
 	}
 
 	@Test
-	public void TC_01_Rgister_Empty_Data() {
-		System.out.println("Home page - Step 01: Click to Register link");
+	public void Register_01_Rgister_Empty_Data() {
+		System.out.println("Register_01 - Step 01: Click to Register link");
 		homePage.clickToRegisterLink();
-		System.out.println("Register page - Step 02: Click to Register button");
+		System.out.println("Register_01 - Step 02: Click to Register button");
 		registerPage.clickToRegisterButton();
-		System.out.println("Register Page - Step 03: Verify error message displayed");
+		System.out.println("Register_01 - Step 03: Verify error message displayed");
 		Assert.assertEquals(registerPage.getErrorMessageAtFirstnameTextbox(), "First name is required.");
 		Assert.assertEquals(registerPage.getErrorMessageAtLastnameTextbox(), "Last name is required.");
 		Assert.assertEquals(registerPage.getErrorMessageAtEmailTextbox(), "Email is required.");
@@ -52,11 +52,11 @@ public class Level_03_Page_Object {
 	}
 
 	@Test
-	public void TC_02_Register_Invalid_Email() {
-		System.out.println("Home page - Step 01: Click to Register link");
+	public void Register_02_Register_Invalid_Email() {
+		System.out.println("Register_02 - Step 01: Click to Register link");
 		homePage.clickToRegisterLink();
 
-		System.out.println("Register Page - Step 02: Input to required fields");
+		System.out.println("Register_02 - Step 02: Input to required fields");
 
 		registerPage.inputToFirstnameTextbox(firstName);
 		registerPage.inputToLastnameTextbox(lastName);
@@ -64,18 +64,18 @@ public class Level_03_Page_Object {
 		registerPage.inputToPasswordTextbox(password);
 		registerPage.inputToConfirmPasswordTextbox(password);
 
-		System.out.println("Register page - Step 03: Click to Register button");
+		System.out.println("Register_02 - Step 03: Click to Register button");
 		registerPage.clickToRegisterButton();
 
-		System.out.println("Register Page - Step 04: Verify error message displayed");
+		System.out.println("Register_02 - Step 04: Verify error message displayed");
 		Assert.assertEquals(registerPage.getErrorMessageAtEmailTextbox(), "Wrong email");
 	}
 
 	@Test
-	public void TC_03_Register_Success() {
-		System.out.println("Home page - Step 01: Click to Register link");
+	public void Register_03_Register_Success() {
+		System.out.println("Register_03 - Step 01: Click to Register link");
 		homePage.clickToRegisterLink();
-		System.out.println("Register Page - Step 02: Input to required fields");
+		System.out.println("Register_03 - Step 02: Input to required fields");
 
 		registerPage.inputToFirstnameTextbox(firstName);
 		registerPage.inputToLastnameTextbox(lastName);
@@ -83,23 +83,23 @@ public class Level_03_Page_Object {
 		registerPage.inputToPasswordTextbox(password);
 		registerPage.inputToConfirmPasswordTextbox(password);
 
-		System.out.println("Register page - Step 03: Click to Register button");
+		System.out.println("Register_03 - Step 03: Click to Register button");
 		registerPage.clickToRegisterButton();
 
-		System.out.println("Register page - Step 04: Verify success message displayed");
+		System.out.println("Register_03 - Step 04: Verify success message displayed");
 		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 
-		System.out.println("Register page - Step 05: Click to Logout link");
+		System.out.println("Register_03 - Step 05: Click to Logout link");
 		registerPage.clickToLogoutLink();
 	}
 
 	@Test
-	public void TC_04_Register_Existing_Email() {
+	public void Register_04_Register_Existing_Email() {
 
-		System.out.println("Home page - Step 01: Click to Register link");
+		System.out.println("Register_04 - Step 01: Click to Register link");
 		homePage.clickToRegisterLink();
 
-		System.out.println("Register Page - Step 02: Input to required fields");
+		System.out.println("Register_04 - Step 02: Input to required fields");
 
 		registerPage.inputToFirstnameTextbox(firstName);
 		registerPage.inputToLastnameTextbox(lastName);
@@ -107,21 +107,21 @@ public class Level_03_Page_Object {
 		registerPage.inputToPasswordTextbox(password);
 		registerPage.inputToConfirmPasswordTextbox(password);
 
-		System.out.println("Register page - Step 03: Click to Register button");
+		System.out.println("Register_04 - Step 03: Click to Register button");
 		registerPage.clickToRegisterButton();
-		System.out.println("Register page - Step 04: Verify error existing email message displayed");
+		System.out.println("Register_04 - Step 04: Verify error existing email message displayed");
 
 		Assert.assertEquals(registerPage.getErrorExistingEmailMessage(), "The specified email already exists");
 
 	}
 
 	@Test
-	public void TC_05_Register_Password_Less_Than_6_Chars() {
+	public void Register_05_Register_Password_Less_Than_6_Chars() {
 
-		System.out.println("Home page - Step 01: Click to Register link");
+		System.out.println("Register_05 - Step 01: Click to Register link");
 		homePage.clickToRegisterLink();
 
-		System.out.println("Register Page - Step 02: Input to required fields");
+		System.out.println("Register_05 - Step 02: Input to required fields");
 
 		registerPage.inputToFirstnameTextbox(lastName);
 		registerPage.inputToLastnameTextbox(lastName);
@@ -129,20 +129,20 @@ public class Level_03_Page_Object {
 		registerPage.inputToPasswordTextbox("123");
 		registerPage.inputToConfirmPasswordTextbox("123");
 
-		System.out.println("Register page - Step 03: Click to Register button");
+		System.out.println("Register_05 - Step 03: Click to Register button");
 		registerPage.clickToRegisterButton();
-		System.out.println("Register Page - Step 04: Verify error message displayed");
+		System.out.println("Register_05 - Step 04: Verify error message displayed");
 		Assert.assertEquals(registerPage.getErrorMessageAtPasswordTextbox(), "Password must meet the following rules:\nmust have at least 6 characters");
 
 	}
 
 	@Test
-	public void TC_06_Register_Invalid_Confirm_Password() {
+	public void Register_06_Register_Invalid_Confirm_Password() {
 
-		System.out.println("Home page - Step 01: Click to Register link");
+		System.out.println("Register_06 - Step 01: Click to Register link");
 		homePage.clickToRegisterLink();
 
-		System.out.println("Register Page - Step 02: Input to required fields");
+		System.out.println("Register_06 - Step 02: Input to required fields");
 
 		registerPage.inputToFirstnameTextbox(firstName);
 		registerPage.inputToLastnameTextbox(lastName);
@@ -150,9 +150,9 @@ public class Level_03_Page_Object {
 		registerPage.inputToPasswordTextbox(password);
 		registerPage.inputToConfirmPasswordTextbox(emailAdress);
 
-		System.out.println("Register page - Step 03: Click to Register button");
+		System.out.println("Register_06 - Step 03: Click to Register button");
 		registerPage.clickToRegisterButton();
-		System.out.println("Register Page - Step 04: Verify error message displayed");
+		System.out.println("Register_06 - Step 04: Verify error message displayed");
 		Assert.assertEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), "The password and confirmation password do not match.");
 	}
 
