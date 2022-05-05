@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import pageObjects.HomePageObject;
 import pageObjects.RegisterPageObject;
 
-public class Level_03_Page_Object {
+public class Level_03_Page_Object_01_Register {
 	private WebDriver driver;
 	private String firstName, lastName, emailAdress, password;
 
