@@ -12,9 +12,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.RegisterPageObject;
+import pageFactory.HomePageObject;
+import pageFactory.LoginPageObject;
+import pageFactory.RegisterPageObject;
 
 public class Level_05_Page_Factory extends BaseTest {
 	private WebDriver driver;
