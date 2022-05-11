@@ -39,7 +39,9 @@ public class BasePage {
 	protected String getPageSourceCode(WebDriver driver) {
 		return driver.getPageSource();
 	}
-
+	protected void backToPage(WebDriver driver) {
+		driver.navigate().back();
+	}
 	protected void forwardToPage(WebDriver driver) {
 		driver.navigate().forward();
 	}
@@ -56,8 +58,6 @@ public class BasePage {
 
 	protected void acceptAlert(WebDriver driver) {
 		waitForAlertPresence(driver).accept();
-		;
-
 	}
 
 	protected void cancelAlert(WebDriver driver) {
@@ -108,6 +108,7 @@ public class BasePage {
 				driver.close();
 			}
 			driver.switchTo().window(parentID);
+			
 		}
 
 	}
@@ -158,10 +159,7 @@ public class BasePage {
 		// Step 1: Click vao element cho nó xổ hết ra
 		getWebElement(driver, parentXpath).click();
 		sleepInSecond(1);
-		WebDriverWait explicitWait = new WebDriverWait(driver, 30);
-		explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector(childXpath)));
-
-		List<WebElement> allitems = explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByXpath(childXpath)));
+		List<WebElement> allitems = new WebDriverWait(driver, longTimeout).until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector(childXpath)));
 		for (WebElement item : allitems) {
 			if (item.getText().trim().equals(expectedTextItem)) {
 				JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
