@@ -1,5 +1,7 @@
 package com.nopcomerce.user;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -8,11 +10,11 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageFactory.HomePageObject;
-import pageFactory.LoginPageObject;
-import pageFactory.RegisterPageObject;
+import pageObjects.HomePageObject;
+import pageObjects.LoginPageObject;
+import pageObjects.RegisterPageObject;
 
-public class Level_05_Page_Factory extends BaseTest {
+public class Level_06_Page_Generator_Manager_I extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, existingEmailAdress, invalidEmail, notfoundEmail, password, incorrectPassword;
 	private HomePageObject homePage;
@@ -23,6 +25,9 @@ public class Level_05_Page_Factory extends BaseTest {
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowerDriver(browserName);
+
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get("https://demo.nopcommerce.com/");
 		homePage = new HomePageObject(driver);
 
 		firstName = "Automation";

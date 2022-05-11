@@ -1,5 +1,6 @@
 package commons;
 
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -14,11 +15,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	private WebDriver driver;
-	
 
 	protected WebDriver getBrowerDriver(String browserName) {
 		if (browserName.equals("firefox")) {
-			//System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDivers\\geckodriver.exe");
+			// System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDivers\\geckodriver.exe");
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		} else if (browserName.equals("h_firefox")) {
@@ -63,5 +63,10 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://demo.nopcommerce.com/");
 		return driver;
+	}
+
+	protected int generateFakeNumber() {
+		Random rand = new Random();
+		return rand.nextInt(9999);
 	}
 }
