@@ -21,6 +21,7 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 	private HomePageObject homePage;
 	private LoginPageObject loginPage;
 	private RegisterPageObject registerPage;
+	
 
 	@Parameters("browser")
 	@BeforeClass
