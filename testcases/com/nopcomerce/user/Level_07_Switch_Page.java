@@ -11,20 +11,17 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.CustomerInforPageObject;
-import pageObjects.PageGeneratorManager;
-import pageObjects.RegisterPageObject;
+import commons.PageGeneratorManager;
+import pageObjects.user.UserAddressPageObject;
+import pageObjects.user.UserCustomerInforPageObject;
+import pageObjects.user.UserHomePageObject;
+import pageObjects.user.UserLoginPageObject;
+import pageObjects.user.UserMyProductReviewPageObject;
+import pageObjects.user.UserRegisterPageObject;
+import pageObjects.user.UserRewardPointPageObject;
 
 public class Level_07_Switch_Page extends BaseTest {
-	private WebDriver driver;
-	private String firstName, lastName, emailAdress,  password;
-	private HomePageObject homePage;
-	private LoginPageObject loginPage;
-	private RegisterPageObject registerPage;
-	private CustomerInforPageObject custormerInforPage;
-
+	
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
@@ -32,7 +29,7 @@ public class Level_07_Switch_Page extends BaseTest {
 
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://demo.nopcommerce.com/");
-		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage = PageGeneratorManager.getUserHomePage(driver);
 		firstName = "Automation";
 		lastName = "FC";
 		password = "123456";
@@ -42,7 +39,7 @@ public class Level_07_Switch_Page extends BaseTest {
 	@Test
 	public void User_01_Register() {
 		System.out.println(" Step 01: Click to Register link");
-		registerPage = homePage.clickToRegisterLink();
+		registerPage = homePage.openRegisterPage();
 		System.out.println("Step 02: Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
 		registerPage.inputToLastnameTextbox(lastName);
@@ -62,7 +59,7 @@ public class Level_07_Switch_Page extends BaseTest {
 	@Test
 	public void User_02_Login() {
 		System.out.println("Login_02 - Step 01: Click to Login link");
-		loginPage = homePage.clickToLoginLink();
+		loginPage = homePage.openLoginPage();
 
 		System.out.println("Login_06 - Step 02: Input to required fields");
 
@@ -78,14 +75,35 @@ public class Level_07_Switch_Page extends BaseTest {
 	}
 	@Test
 	public void User_03_Customer_Infor() {
-	custormerInforPage = homePage.clickToMyAccountLink();
+	custormerInforPage = homePage.openCustomerInforPage();
 	Assert.assertTrue(custormerInforPage.isCustomerInforPageDisplayed());
 	}
 
 	@Test
 	public void User_04_Switch_Page() {
-
+//Customer -> Address
+		addressPage = custormerInforPage.openAddressPage(driver);
+		//Address -> My Product Review
+		myProductReviewPage = addressPage.openMyProductReviewPage(driver);
+		// My Product Review -> Reward Point
+		rewardPointPage = myProductReviewPage.openRewardPointPage(driver);
+				// Reward Point --> Address 
+				addressPage = rewardPointPage.openAddressPage(driver);
+		//address ->reward Point
+		rewardPointPage = addressPage.openRewardPointPage(driver);
+		// Reward Point -> My Product Review 
+		myProductReviewPage = rewardPointPage.openMyProductReviewPage(driver);
+		//  My Product Review  -> Address
+		addressPage = myProductReviewPage.openAddressPage(driver);
 		
+		custormerInforPage =addressPage.openCustomerInforPage(driver);
+		
+		
+		
+		
+		
+		
+
 	}
 
 
@@ -94,5 +112,14 @@ public class Level_07_Switch_Page extends BaseTest {
 	public void afterClass() {
 		driver.quit();
 	}
+	private WebDriver driver;
+	private String firstName, lastName, emailAdress,  password;
+	private UserHomePageObject homePage;
+	private UserLoginPageObject loginPage;
+	private UserRegisterPageObject registerPage;
+	private UserCustomerInforPageObject custormerInforPage;
+private UserAddressPageObject addressPage;
+private UserMyProductReviewPageObject  myProductReviewPage;
+private UserRewardPointPageObject rewardPointPage;
 
 }
