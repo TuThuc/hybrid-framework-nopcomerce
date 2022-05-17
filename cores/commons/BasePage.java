@@ -47,9 +47,11 @@ public class BasePage {
 	public String getPageSourceCode(WebDriver driver) {
 		return driver.getPageSource();
 	}
+
 	public void backToPage(WebDriver driver) {
 		driver.navigate().back();
 	}
+
 	public void forwardToPage(WebDriver driver) {
 		driver.navigate().forward();
 	}
@@ -116,7 +118,7 @@ public class BasePage {
 				driver.close();
 			}
 			driver.switchTo().window(parentID);
-			
+
 		}
 
 	}
@@ -334,37 +336,42 @@ public class BasePage {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByXpath(xpathLocator)));
 	}
+
 	public UserAddressPageObject openAddressPage(WebDriver driver) {
 		waitForElementVisible(driver, BasePageUI.ADDRESS_LINK);
 		clickToElement(driver, BasePageUI.ADDRESS_LINK);
 		return PageGeneratorManager.getUserAddressPage(driver);
 	}
-		public UserCustomerInforPageObject openCustomerInforPage(WebDriver driver) {
-			waitForElementVisible(driver, BasePageUI.CUSTOMER_INFOR__LINK);
-			clickToElement(driver, BasePageUI.CUSTOMER_INFOR__LINK);
-			return PageGeneratorManager.getUserCustomerInforPage(driver);
+
+	public UserCustomerInforPageObject openCustomerInforPage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.CUSTOMER_INFOR__LINK);
+		clickToElement(driver, BasePageUI.CUSTOMER_INFOR__LINK);
+		return PageGeneratorManager.getUserCustomerInforPage(driver);
 	}
+
 	public UserMyProductReviewPageObject openMyProductReviewPage(WebDriver driver) {
 		waitForElementVisible(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
 		clickToElement(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
 		return PageGeneratorManager.getMyProductReviewPage(driver);
 	}
+
 	public UserRewardPointPageObject openRewardPointPage(WebDriver driver) {
 		waitForElementVisible(driver, BasePageUI.REWARD_POINTS_LINK);
 		clickToElement(driver, BasePageUI.REWARD_POINTS_LINK);
 		return PageGeneratorManager.getRewardPointPage(driver);
 	}
-	public UserHomePageObject clickToLogoutLinkAtUserPage() {
+
+	public UserHomePageObject clickToLogoutLinkAtUserPage(WebDriver driver) {
 		waitForElementVisible(driver, BasePageUI.LOGOUT__LINK_AT_USER);
 		clickToElement(driver, BasePageUI.LOGOUT__LINK_AT_USER);
 		return PageGeneratorManager.getUserHomePage(driver);
 	}
-	public AdminLoginPageObject clickToLogoutLinkAtAdminPage() {
+
+	public AdminLoginPageObject clickToLogoutLinkAtAdminPage(WebDriver driver) {
 		waitForElementVisible(driver, BasePageUI.LOGOUT__LINK_AT_ADMIN);
 		clickToElement(driver, BasePageUI.LOGOUT__LINK_AT_ADMIN);
 		return PageGeneratorManager.getAdminLoginPage(driver);
 	}
-	
 
 	private long longTimeout = 30;
 
