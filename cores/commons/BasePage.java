@@ -125,24 +125,32 @@ public class BasePage {
 	// Locator type: id=/ css=/ class=/ name=/ xpath=
 	// Locator type: Id=/ Css=/ class=/ Name=/ Xpath=
 	// Locator type: ID=/ CSS=/ class=/ NAME=/ XPATH=
-	
-private By getByLocator(String locatorType) {
-	By by = null;
-	if(locatorType.startsWith("id=")|| locatorType.startsWith("Id=")  || locatorType.startsWith("ID=")) {
-		by = By.id(locatorType.substring(3));
-	} else if(locatorType.startsWith("class=")|| locatorType.startsWith("Class=")  || locatorType.startsWith("CLASS=")) {
-		by = By.className(locatorType.substring(6));
-	} else if(locatorType.startsWith("name=")|| locatorType.startsWith("Name=")  || locatorType.startsWith("NAME=")) {
-		by = By.name(locatorType.substring(5));
-	}else if(locatorType.startsWith("css=")|| locatorType.startsWith("Css=")  || locatorType.startsWith("CSS=")) {
-		by = By.cssSelector(locatorType.substring(4));
-	} else if(locatorType.startsWith("xpath=")|| locatorType.startsWith("Xpath=")  || locatorType.startsWith("XPATH=") || locatorType.startsWith("XPath=")) {
-		by = By.xpath(locatorType.substring(6));
-	} else {
-		throw new RuntimeException("Locator type is not support");
+
+	private By getByLocator(String locatorType) {
+		By by = null;
+		if (locatorType.startsWith("id=") || locatorType.startsWith("Id=") || locatorType.startsWith("ID=")) {
+			by = By.id(locatorType.substring(3));
+		} else if (locatorType.startsWith("class=") || locatorType.startsWith("Class=") || locatorType.startsWith("CLASS=")) {
+			by = By.className(locatorType.substring(6));
+		} else if (locatorType.startsWith("name=") || locatorType.startsWith("Name=") || locatorType.startsWith("NAME=")) {
+			by = By.name(locatorType.substring(5));
+		} else if (locatorType.startsWith("css=") || locatorType.startsWith("Css=") || locatorType.startsWith("CSS=")) {
+			by = By.cssSelector(locatorType.substring(4));
+		} else if (locatorType.startsWith("xpath=") || locatorType.startsWith("Xpath=") || locatorType.startsWith("XPATH=") || locatorType.startsWith("XPath=")) {
+			by = By.xpath(locatorType.substring(6));
+		} else {
+			throw new RuntimeException("Locator type is not support");
+		}
+		return by;
 	}
-	return  by;
-}
+
+	private String getDynamicXpath(String locatorType, String... dynamicValues) {
+		if (locatorType.startsWith("xpath=") || locatorType.startsWith("Xpath=") || locatorType.startsWith("XPATH=") || locatorType.startsWith("XPath=")) {
+			locatorType = String.format(locatorType, (Object[]) dynamicValues);
+		}
+		return locatorType;
+	}
+
 	private WebElement getWebElement(WebDriver driver, String locatorType) {
 		return driver.findElement(getByLocator(locatorType));
 	}
@@ -151,12 +159,12 @@ private By getByLocator(String locatorType) {
 		return driver.findElements(getByLocator(locatorType));
 	}
 
-	public void clickToElement(WebDriver driver, String locatorType) {
-		getWebElement(driver, locatorType).click();
+	public void clickToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).click();
 	}
 
-	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue) {
-		WebElement element = getWebElement(driver, locatorType);
+	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue, String... dynamicValues) {
+		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		element.clear();
 		element.sendKeys(textValue);
 	}
@@ -165,8 +173,8 @@ private By getByLocator(String locatorType) {
 		return getWebElement(driver, locatorType).getText();
 	}
 
-	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem) {
-		Select select = new Select(getWebElement(driver, locatorType));
+	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem, String... dynamicValues) {
+		Select select = new Select(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
 		select.selectByValue(textItem);
 	}
 
