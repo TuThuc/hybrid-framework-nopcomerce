@@ -33,7 +33,7 @@ public class PageGeneratorManager {
 	public static UserMyProductReviewPageObject getMyProductReviewPage(WebDriver driver) {
 		return new UserMyProductReviewPageObject(driver);
 	}
-	public static UserRewardPointPageObject getRewardPointPage(WebDriver driver) {
+	public static UserRewardPointPageObject getUserRewardPointPage(WebDriver driver) {
 		return new UserRewardPointPageObject(driver);
 	}
 	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {
