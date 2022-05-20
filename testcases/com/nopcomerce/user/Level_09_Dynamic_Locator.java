@@ -93,6 +93,7 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 		custormerInforPage = addressPage.openCustomerInforPage(driver);
 
 	}
+
 	@Test
 	public void User_03_Dynamic_Page_01() {
 		// Customer -> Address
@@ -111,6 +112,33 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 		custormerInforPage = (UserCustomerInforPageObject) myProductReviewPage.openPagesAtMyAccountByName(driver, "Customer info");
 
 	}
+
+	@Test
+	public void User_03_Dynamic_Page_02() {
+		// Customer -> Address
+		custormerInforPage.openPagesAtMyAccountByPageName(driver, "Addresses");
+		addressPage = PageGeneratorManager.getUserAddressPage(driver);
+		// Address -> My Product Review
+		addressPage.openPagesAtMyAccountByName(driver, "My product reviews");
+		myProductReviewPage = PageGeneratorManager.getMyProductReviewPage(driver);
+		// My Product Review -> Reward Point
+		myProductReviewPage.openPagesAtMyAccountByName(driver, "Reward points");
+		rewardPointPage = PageGeneratorManager.getUserRewardPointPage(driver);
+		// Reward Point --> Address
+		rewardPointPage.openPagesAtMyAccountByName(driver, "Addresses");
+		addressPage = PageGeneratorManager.getUserAddressPage(driver);
+		// address ->reward Point
+		addressPage.openPagesAtMyAccountByName(driver, "Reward points");
+		rewardPointPage = PageGeneratorManager.getUserRewardPointPage(driver);
+		// Reward Point -> My Product Review
+		rewardPointPage.openPagesAtMyAccountByName(driver, "My product reviews");
+		myProductReviewPage = PageGeneratorManager.getMyProductReviewPage(driver);
+		// My Product Review -> Customer info
+		myProductReviewPage.openPagesAtMyAccountByName(driver, "Customer info");
+		custormerInforPage = PageGeneratorManager.getUserCustomerInforPage(driver);
+
+	}
+
 	@AfterClass
 	public void afterClass() {
 		driver.quit();
