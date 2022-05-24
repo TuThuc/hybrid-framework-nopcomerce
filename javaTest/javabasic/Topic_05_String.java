@@ -3,7 +3,7 @@ package javabasic;
 import org.testng.annotations.Test;
 
 public class Topic_05_String {
-	String courseName = "Automation Testing Advanced";
+	public String courseName = "Automation Testing Advanced";
 	String courseSchool = "Automation Testing 345 Tutorials Online";
 	String ProductPrice = "$100.00";
 
