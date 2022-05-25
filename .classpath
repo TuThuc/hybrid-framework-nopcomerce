@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="javaTest"/>
+	<classpathentry kind="src" path="javaTest">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="testcases"/>
 	<classpathentry kind="src" path="testdata"/>
 	<classpathentry kind="src" path="cores"/>
