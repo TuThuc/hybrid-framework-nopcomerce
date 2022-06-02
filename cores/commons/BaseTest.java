@@ -54,7 +54,12 @@ public class BaseTest {
 			// Cốc cốc browser trừ đi 5-6 version ra ChromeDriver
 			WebDriverManager.chromedriver().driverVersion("100.0.4896.60").setup();
 			ChromeOptions options = new ChromeOptions();
-			options.setBinary("C:\\Users\\Admin\\AppData\\Local\\CocCoc\\Browser\\Application\\browser.exe");
+			if (GlobalConstants.OS_NAME.startsWith("window")) {
+				options.setBinary("C:\\Users\\Admin\\AppData\\Local\\CocCoc\\Browser\\Application\\browser.exe");
+			} else {
+				options.setBinary("....");
+
+			}
 			driver = new ChromeDriver(options);
 		} else if (browserList == BrowserList.BRAVE) {
 			// Brave browser version nào thì dùng ChromeDriver đó
@@ -65,7 +70,7 @@ public class BaseTest {
 		} else {
 			throw new RuntimeException("Brower name invalid");
 		}
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
 		driver.get(GlobalConstants.PORTAL_DEV_URL);
 		return driver;
 	}
