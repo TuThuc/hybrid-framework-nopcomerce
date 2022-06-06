@@ -75,7 +75,7 @@ public class BaseTest {
 		return driver;
 	}
 
-	protected WebDriver getBrowerDriver(String browserName, String environmentName) {
+	protected WebDriver getBrowerDriver(String browserName, String appURL) {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) {
 			// System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDivers\\geckodriver.exe");
@@ -124,11 +124,11 @@ public class BaseTest {
 			throw new RuntimeException("Brower name invalid");
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.get(getEnvironmentURL(environmentName));
+		driver.get(appURL);
 		return driver;
 	}
 
-	private String getEnvironmentURL(String serverName) {
+	protected String getEnvironmentURL(String serverName) {
 		String envURL = null;
 		EnvironmentList environment = EnvironmentList.valueOf(serverName.toUpperCase());
 		if (environment == EnvironmentList.DEV) {
