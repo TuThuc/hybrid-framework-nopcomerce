@@ -1,5 +1,7 @@
 package com.jquery.datatable;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -13,6 +15,8 @@ import pageObject.JQuery.PageGeneratorManager;
 
 public class Level_10_DataTable_DataGrid extends BaseTest {
 	HomePageObject homePage;
+	List<String> actualAllCountryValues;
+	List<String> expectedAllCountryValues;
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass
@@ -21,7 +25,7 @@ public class Level_10_DataTable_DataGrid extends BaseTest {
 		homePage = PageGeneratorManager.getHomePage(driver);
 	}
 
-	@Test
+	//@Test
 	public void Table_01_Paging() {
 		homePage.openPagingByPageNumber("10");
 		homePage.sleepInSecond(1);
@@ -34,7 +38,7 @@ public class Level_10_DataTable_DataGrid extends BaseTest {
 		Assert.assertTrue(homePage.isPageNumberActived("5"));
 	}
 
-	@Test
+	//@Test
 	public void Table_02_Enter_To_Header() {
 		homePage.refreshCurrentPage(driver);
 		homePage.enterToHeaderTextboxByLabel("Country", "Argentina");
@@ -51,8 +55,13 @@ public class Level_10_DataTable_DataGrid extends BaseTest {
 	}
 
 	@Test
-	public void Table_03() {
-
+	public void Table_03_Enter_To_Header() {
+		//Đọc dữ liệu của file country.txt ra 
+		//Lưu vào 1 List<String> = Expected Value
+		
+		//actual value
+   actualAllCountryValues=homePage.getValueEachRowAtAllPage();
+   Assert.assertEquals(actualAllCountryValues, expectedAllCountryValues);
 	}
 
 	@AfterClass
