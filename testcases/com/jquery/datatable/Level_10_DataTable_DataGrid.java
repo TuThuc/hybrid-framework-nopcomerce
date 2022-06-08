@@ -88,10 +88,34 @@ public class Level_10_DataTable_DataGrid extends BaseTest {
 		homePage.sleepInSecond(3);
 		homePage.selectDropdownByColumnNameAtRowNumber("Origin", "5", "US");
 		homePage.sleepInSecond(3);
-		homePage.checkToCheckboxByColumnNameAtRowNumber("With Poster?", "1");
-		homePage.sleepInSecond(3);
 		homePage.checkToCheckboxByColumnNameAtRowNumber("With Poster?", "3");
 		homePage.sleepInSecond(3);
+		homePage.checkToCheckboxByColumnNameAtRowNumber("With Poster?", "5");
+		homePage.sleepInSecond(3);
+		homePage.uncheckToCheckboxByColumnNameAtRowNumber("With Poster?", "1");
+		homePage.sleepInSecond(3);
+		homePage.uncheckToCheckboxByColumnNameAtRowNumber("With Poster?", "2");
+		homePage.sleepInSecond(3);
+		homePage.uncheckToCheckboxByColumnNameAtRowNumber("With Poster?", "4");
+		homePage.sleepInSecond(3);
+		homePage.clickToIconByRowNumber("1", "Remove Current Row");
+		homePage.sleepInSecond(2);
+		homePage.clickToIconByRowNumber("1", "Insert Row Above");
+		homePage.sleepInSecond(2);
+		homePage.clickToIconByRowNumber("1", "Move Down");
+		homePage.sleepInSecond(2);
+		homePage.clickToIconByRowNumber("3", "Move Up");
+		homePage.sleepInSecond(2);
+		homePage.clickToIconByRowNumber("5", "Remove Current Row");
+		homePage.sleepInSecond(2);
+		homePage.clickToIconByRowNumber("4", "Remove Current Row");
+		homePage.sleepInSecond(2);
+		homePage.clickToIconByRowNumber("3", "Remove Current Row");
+		homePage.sleepInSecond(2);
+		homePage.clickToIconByRowNumber("2", "Remove Current Row");
+		homePage.sleepInSecond(2);
+		homePage.clickToIconByRowNumber("1", "Remove Current Row");
+		homePage.sleepInSecond(2);
 	}
 
 	@AfterClass

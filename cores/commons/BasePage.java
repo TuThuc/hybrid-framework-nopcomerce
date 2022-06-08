@@ -258,14 +258,27 @@ public class BasePage {
 
 	public void checkToDefaultCheckboxRadio(WebDriver driver, String locatorType) {
 		WebElement element = getWebElement(driver, locatorType);
-		if (element.isSelected()) {
+		if (!element.isSelected()) {
 			element.click();
 		}
 	}
 
 	public void checkToDefaultCheckboxRadio(WebDriver driver, String locatorType, String... dynamicValues) {
 		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
-		if (!(element.isSelected())) {
+		if (!element.isSelected()) {
+			element.click();
+		}
+	}
+	public void uncheckToDefaultCheckboxRadio(WebDriver driver, String locatorType) {
+		WebElement element = getWebElement(driver, locatorType);
+		if (element.isSelected()) {
+			element.click();
+		}
+	}
+
+	public void uncheckToDefaultCheckboxRadio(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
+		if (element.isSelected()) {
 			element.click();
 		}
 	}
