@@ -25,7 +25,7 @@ public class Level_10_DataTable_DataGrid extends BaseTest {
 		homePage = PageGeneratorManager.getHomePage(driver);
 	}
 
-	//@Test
+	// @Test
 	public void Table_01_Paging() {
 		homePage.openPagingByPageNumber("10");
 		homePage.sleepInSecond(1);
@@ -38,7 +38,7 @@ public class Level_10_DataTable_DataGrid extends BaseTest {
 		Assert.assertTrue(homePage.isPageNumberActived("5"));
 	}
 
-	//@Test
+	// @Test
 	public void Table_02_Enter_To_Header() {
 		homePage.refreshCurrentPage(driver);
 		homePage.enterToHeaderTextboxByLabel("Country", "Argentina");
@@ -54,14 +54,44 @@ public class Level_10_DataTable_DataGrid extends BaseTest {
 
 	}
 
-	@Test
+	// @Test
 	public void Table_03_Enter_To_Header() {
-		//Đọc dữ liệu của file country.txt ra 
-		//Lưu vào 1 List<String> = Expected Value
-		
-		//actual value
-   actualAllCountryValues=homePage.getValueEachRowAtAllPage();
-   Assert.assertEquals(actualAllCountryValues, expectedAllCountryValues);
+		// Đọc dữ liệu của file country.txt ra
+		// Lưu vào 1 List<String> = Expected Value
+
+		// actual value
+		actualAllCountryValues = homePage.getValueEachRowAtAllPage();
+		Assert.assertEquals(actualAllCountryValues, expectedAllCountryValues);
+	}
+
+	@Test
+	public void Table_04_Enter_To_Textbox_At_Any_Row() {
+		homePage.clickToLoadButton();
+		homePage.sleepInSecond(5);
+		// Value de nhap lieu - tham so 1
+		// Row number: tại row nào
+		// ex: nhập vào textbox tai dong so 3/5/2
+		// Column name: Album/Artist/year/ price
+
+		homePage.enterToTextboxByColumnNameAtRowNumber("Album", "2", "Micheal 97");
+		homePage.sleepInSecond(2);
+
+		homePage.enterToTextboxByColumnNameAtRowNumber("Artist", "3", "Micheal Jackson");
+		homePage.sleepInSecond(2);
+		homePage.enterToTextboxByColumnNameAtRowNumber("Year", "4", "1997");
+		homePage.sleepInSecond(2);
+		homePage.enterToTextboxByColumnNameAtRowNumber("Price", "5", "15");
+
+		homePage.selectDropdownByColumnNameAtRowNumber("Origin", "1", "Japan");
+		homePage.sleepInSecond(3);
+		homePage.selectDropdownByColumnNameAtRowNumber("Origin", "4", "Hong Kong");
+		homePage.sleepInSecond(3);
+		homePage.selectDropdownByColumnNameAtRowNumber("Origin", "5", "US");
+		homePage.sleepInSecond(3);
+		homePage.checkToCheckboxByColumnNameAtRowNumber("With Poster?", "1");
+		homePage.sleepInSecond(3);
+		homePage.checkToCheckboxByColumnNameAtRowNumber("With Poster?", "3");
+		homePage.sleepInSecond(3);
 	}
 
 	@AfterClass
