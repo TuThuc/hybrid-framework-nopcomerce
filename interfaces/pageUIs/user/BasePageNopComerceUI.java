@@ -1,6 +1,6 @@
 package pageUIs.user;
 
-public class BasePageUI {
+public class BasePageNopComerceUI {
 	public static final String ADDRESS_LINK = "XPath=//div[contains(@class,'account-navigation')]//a[text()='Addresses']";
 	public static final String REWARD_POINTS_LINK="Xpath=//a[text()='Reward points']";
 	public static final String ADDRESS_PAGE = "XPATH=//div[contains(@class,'account-navigation')]//a[text()='Addresses']";
