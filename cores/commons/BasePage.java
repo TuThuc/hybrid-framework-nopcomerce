@@ -22,6 +22,7 @@ import pageObjects.user.UserCustomerInforPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserMyProductReviewPageObject;
 import pageObjects.user.UserRewardPointPageObject;
+import pageUIs.jQuery.uploadFile.BasePageJQueryUI;
 import pageUIs.user.BasePageNopComerceUI;
 
 //Common class
@@ -406,6 +407,14 @@ public class BasePage {
 		}
 	}
 
+	public boolean isImageLoaded(WebDriver driver, String locatorType, String... dynamicValues) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		boolean status = (boolean) jsExecutor.executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
+				getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
+		return status;
+
+	}
+
 	public void waitForElementVisible(WebDriver driver, String locatorType) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByLocator(locatorType)));
@@ -464,12 +473,14 @@ public class BasePage {
 	public void uploadMultipleFiles(WebDriver driver, String... fileName) {
 		String filePath = GlobalConstants.UPLOAD_FILE;
 		// Đường dẫn của tất cả các file
+		// 1 file: test.png
+		// nhiều file String[] fileNames = {"test.png", "test1.png"}
 		String fullFileName = "";
 		for (String file : fileName) {
 			fullFileName = fullFileName + filePath + file + "\n";
 		}
 		fullFileName = fullFileName.trim();
-		// getElement(driver, BasePageJQueryUI.UPLOAD_FILE).sendkeys(fullFileName);
+		getWebElement(driver, BasePageJQueryUI.UPLOAD_FILE).sendKeys(fullFileName);
 	}
 
 	// Tối ưu ở bài học Level_07_Switch_Page
