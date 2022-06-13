@@ -288,7 +288,9 @@ public class BasePage {
 	public boolean isElementDisplayed(WebDriver driver, String locatorType) {
 		return getWebElement(driver, locatorType).isDisplayed();
 	}
-
+	public boolean isElementUnDisplayed(WebDriver driver, String locatorType) {
+		return (!getWebElement(driver, locatorType).isDisplayed());
+	}
 	public boolean isElementDisplayed(WebDriver driver, String locatorType, String... dynamicValues) {
 		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).isDisplayed();
 	}
