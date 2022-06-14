@@ -36,12 +36,15 @@ public class Level_13_Element_Undisplayed extends BaseTest {
 	// Verify False - mong đợi Confirm Email undisplayed(false)
 	loginPage.enterEmailAddressTextbox("");
 	loginPage.sleepInSecond(3);
-	verifyFalse(loginPage.isConfirmEmailAddressTextboxDisplayed());
+	//verifyFalse(loginPage.isConfirmEmailAddressTextboxDisplayed());
+	verifyTrue(loginPage.isConfirmEmailAddressTextboxUnDisplayed());
 	}
 	@Test
 	public void TC_03_Verify_Element_Undisplayed_Not_In_DOM() {
 		loginPage.clickCloseIconAtRegisterForm();
 		loginPage.sleepInSecond(3);
+		
+		verifyTrue(loginPage.isConfirmEmailAddressTextboxUnDisplayed());
 	}
 	@AfterClass
 	public void afterClass() {

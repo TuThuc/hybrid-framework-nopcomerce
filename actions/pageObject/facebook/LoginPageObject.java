@@ -36,6 +36,10 @@ public void clickCloseIconAtRegisterForm() {
 	waitForElementVisible(driver, LoginPageUI.CLOSE_ICON);
 	clickToElement(driver, LoginPageUI.CLOSE_ICON);
 }
+public boolean isConfirmEmailAddressTextboxUnDisplayed() {
+	waitForElementUndisplayed(driver, LoginPageUI.CONFIRM_EMAIL_ADDRESS_TEXTBOX);
+	return isElementUnDisplayed(driver, LoginPageUI.CONFIRM_EMAIL_ADDRESS_TEXTBOX);
+}
 	
 }
 
