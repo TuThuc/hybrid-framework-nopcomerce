@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import commons.GlobalConstants;
 import commons.PageGeneratorManager;
-import pageObjects.admin.AdminDashboardPageObject;
-import pageObjects.admin.AdminLoginPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserRegisterPageObject;
 
@@ -26,8 +24,8 @@ public class Level_10_Exer_Handle_Data_Table extends BaseTest {
 		lastName = "Thuc";
 		password = "123456";
 		emailAdress = "afc" + generateFakeNumber() + "@mail.vn";
-		adminEmail ="admin@yourstore.com";
-		adminPassword = "123456";
+		// adminEmail = "admin@yourstore.com";
+		// adminPassword = "123456";
 	}
 
 	@Test
@@ -48,11 +46,9 @@ public class Level_10_Exer_Handle_Data_Table extends BaseTest {
 		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 		System.out.println("Step 05: Switch to page admin - Open URL admin");
 		registerPage.openPageUrl(driver, GlobalConstants.ADMIN_PAGE_URL);
-		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
-		System.out.println("Step 05: Switch to page admin - Login admin Page");
-		adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmail, adminPassword);
-		
-		
+		// adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
+		// System.out.println("Step 05: Switch to page admin - Login admin Page");
+		// adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmail, adminPassword);
 
 	}
 
@@ -62,13 +58,11 @@ public class Level_10_Exer_Handle_Data_Table extends BaseTest {
 	}
 
 	private WebDriver driver;
-	private String firstName, lastName, emailAdress, password, adminEmail, adminPassword;
+	private String firstName, lastName, emailAdress, password;
 	private UserHomePageObject homePage;
-	
-	private UserRegisterPageObject registerPage;
-	private AdminLoginPageObject adminLoginPage;
-	private AdminDashboardPageObject adminDashboardPage;
-	
 
+	private UserRegisterPageObject registerPage;
+	// private AdminLoginPageObject adminLoginPage;
+	// private AdminDashboardPageObject adminDashboardPage;
 
 }

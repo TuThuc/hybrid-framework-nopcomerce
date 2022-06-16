@@ -152,6 +152,10 @@ public class BaseTest {
 		return envURL;
 	}
 
+	public WebDriver getDriverInstance() {
+		return this.driver;
+	}
+
 	protected int generateFakeNumber() {
 
 		Random rand = new Random();
