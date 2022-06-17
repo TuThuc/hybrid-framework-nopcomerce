@@ -53,7 +53,7 @@ public class ReportNGListener implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		System.setProperty("org.uncommons.reportng.escape-output", "false");
-
+		// Lấy ra driver từ Class Test
 		Object testClass = result.getInstance();
 		WebDriver webDriver = ((BaseTest) testClass).getDriverInstance();
 

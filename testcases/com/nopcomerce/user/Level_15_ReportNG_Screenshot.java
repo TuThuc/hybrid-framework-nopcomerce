@@ -1,6 +1,7 @@
 package com.nopcomerce.user;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -51,7 +52,7 @@ public class Level_15_ReportNG_Screenshot extends BaseTest {
 		registerPage.clickToRegisterButton();
 
 		log.info("Register - Step 08: Verify register success message is displayed");
-		verifyEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed.");
+		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed.");
 
 		log.info("Register - Step 09: Click to Logout link");
 		homePage = registerPage.clickToLogoutLink();
@@ -73,13 +74,13 @@ public class Level_15_ReportNG_Screenshot extends BaseTest {
 		homePage = loginPage.clickToLoginButton();
 
 		log.info("Login - Step 05: Verify 'MyAccount' link is displayed ");
-		verifyFalse(homePage.isMyAccountLinkDisplayed());
+		Assert.assertFalse(homePage.isMyAccountLinkDisplayed());
 
 		log.info("Login - Step 06: Navigate to Customer infor page");
 		custormerInforPage = homePage.openCustomerInforPage();
 
 		log.info("Login - Step 07: Verify 'Customer infor' page is displayed ");
-		verifyFalse(custormerInforPage.isCustomerInforPageDisplayed());
+		Assert.assertFalse(custormerInforPage.isCustomerInforPageDisplayed());
 
 	}
 
