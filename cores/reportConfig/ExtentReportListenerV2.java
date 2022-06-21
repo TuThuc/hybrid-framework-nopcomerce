@@ -42,13 +42,12 @@ public class ExtentReportListenerV2 extends BaseTest implements ITestListener {
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		System.out.println("---------- " + result.getName() + " SKIPPED test ----------");
 		ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");
 	}
 
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		System.out.println("---------- " + result.getName() + " FAILED WITH SUCCESS PERCENTAGE test ----------");
+	
 	}
 
 }
