@@ -54,13 +54,12 @@ public class Level_15_ReportNG_Screenshot extends BaseTest {
 		log.info("Register - Step 08: Verify register success message is displayed");
 		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed.");
 
-		log.info("Register - Step 09: Click to Logout link");
-		homePage = registerPage.clickToLogoutLink();
-
 	}
 
 	@Test
 	public void User_02_Login() {
+		log.info("Login - Step 01: Click to Logout link");
+		homePage = registerPage.clickToLogoutLink();
 		log.info("Login - Step 01: Navigate to Login page");
 		loginPage = homePage.openLoginPage();
 
