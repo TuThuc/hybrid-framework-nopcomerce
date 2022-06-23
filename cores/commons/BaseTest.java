@@ -1,5 +1,6 @@
 package commons;
 
+import java.io.File;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -15,12 +16,18 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.BeforeSuite;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	private WebDriver driver;
 	protected final Log log;
+
+	@BeforeSuite
+	public void initBeforeSuite() {
+		deleteAllureReport();
+	}
 
 	protected BaseTest() {
 		log = LogFactory.getLog(getClass());
@@ -204,5 +211,22 @@ public class BaseTest {
 			Reporter.getCurrentTestResult().setThrowable(e);
 		}
 		return pass;
+	}
+
+	public void deleteAllureReport() {
+		try {
+
+			String pathFolderDownload = GlobalConstants.PROJECT_PATH + "/Allure-results";
+			File file = new File(pathFolderDownload);
+			File[] listOfFiles = file.listFiles();
+			for (int i = 0; i < listOfFiles.length; i++) {
+				if (listOfFiles[i].isFile()) {
+					System.out.println(listOfFiles[i].getName());
+					new File(listOfFiles[i].toString()).delete();
+				}
+			}
+		} catch (Exception e) {
+			System.out.print(e.getMessage());
+		}
 	}
 }
