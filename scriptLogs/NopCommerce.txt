@@ -1,0 +1,10 @@
+[2022-06-28 16:13:38,736] Register - Step 01: Navigate to 'Register' link
+[2022-06-28 16:13:40,931] Register - Step 02: Enter to FirstName textbox with value is Automation'
+[2022-06-28 16:13:41,299] Register - Step 03: Enter to FirstName textbox with value is FC'
+[2022-06-28 16:13:41,364] Register - Step 04: Enter to emailAdress textbox with value is afc8295@mail.vn'
+[2022-06-28 16:13:41,432] Register - Step 05: Enter to password textbox with value is 123456'
+[2022-06-28 16:13:41,490] Register - Step 06: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-06-28 16:13:41,613] Register - Step 07: Click to 'Register' button
+[2022-06-28 16:13:42,500] Register - Step 08: Verify register success message is displayed
+[2022-06-28 16:13:42,984] OS name = windows 10
+[2022-06-28 16:13:42,985] Driver instance name = firefoxdriver: firefox on windows (efe65523-73f8-4018-b14e-8ae076a2fd9a)
