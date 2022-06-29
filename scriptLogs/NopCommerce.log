@@ -275,3 +275,135 @@
 [2022-06-28 16:13:42,500] Register - Step 08: Verify register success message is displayed
 [2022-06-28 16:13:42,984] OS name = windows 10
 [2022-06-28 16:13:42,985] Driver instance name = firefoxdriver: firefox on windows (efe65523-73f8-4018-b14e-8ae076a2fd9a)
+[2022-06-29 14:58:24,370] Register - Step 01: Navigate to 'Register' link
+[2022-06-29 14:58:25,791] Register - Step 02: Enter to FirstName textbox with value is Automation'
+[2022-06-29 14:58:56,216] Login - Step 01: Navigate to Login page
+[2022-06-29 14:58:56,719] Login - Step 02: Enter to EmailAdress textbox with value is null'
+[2022-06-29 14:59:26,789] OS name = windows 10
+[2022-06-29 14:59:26,790] Driver instance name = firefoxdriver: firefox on windows (abb46eec-7d2a-4480-b839-28c3ee48c68c)
+[2022-06-29 15:02:56,825] Register - Step 01: Navigate to 'Register' link
+[2022-06-29 15:02:57,534] Register - Step 02: Enter to FirstName textbox with value is Automation'
+[2022-06-29 15:02:57,874] Register - Step 03: Enter to FirstName textbox with value is FC'
+[2022-06-29 15:02:57,928] Register - Step 04: Enter to emailAdress textbox with value is null'
+[2022-06-29 15:02:58,054] Login - Step 01: Navigate to Login page
+[2022-06-29 15:02:58,527] Login - Step 02: Enter to EmailAdress textbox with value is null'
+[2022-06-29 15:02:58,580] OS name = windows 10
+[2022-06-29 15:02:58,581] Driver instance name = firefoxdriver: firefox on windows (27c7c33e-83cb-4c4d-9bfe-2b3543ed78d9)
+[2022-06-29 15:04:29,284] Register - Step 01: Navigate to 'Register' link
+[2022-06-29 15:04:29,997] Register - Step 02: Enter to FirstName textbox with value is Automation'
+[2022-06-29 15:04:30,116] Register - Step 03: Enter to FirstName textbox with value is FC'
+[2022-06-29 15:04:30,174] Register - Step 04: Enter to emailAdress textbox with value is afc5493@mail.vn'
+[2022-06-29 15:04:30,253] Register - Step 05: Enter to password textbox with value is 123456'
+[2022-06-29 15:04:30,320] Register - Step 06: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-06-29 15:04:30,386] Register - Step 07: Click to 'Register' button
+[2022-06-29 15:04:31,490] Register - Step 08: Verify register success message is displayed
+[2022-06-29 15:04:31,649] Login - Step 01: Navigate to Login page
+[2022-06-29 15:05:01,686] OS name = windows 10
+[2022-06-29 15:05:01,686] Driver instance name = firefoxdriver: firefox on windows (98b9f823-201a-4cca-9d8a-5f1361d6f4ce)
+[2022-06-29 15:06:53,445] Register - Step 01: Navigate to 'Register' link
+[2022-06-29 15:06:54,312] Register - Step 02: Enter to FirstName textbox with value is Automation'
+[2022-06-29 15:06:54,403] Register - Step 03: Enter to FirstName textbox with value is FC'
+[2022-06-29 15:06:54,456] Register - Step 04: Enter to emailAdress textbox with value is afc9433@mail.vn'
+[2022-06-29 15:06:54,526] Register - Step 05: Enter to password textbox with value is 123456'
+[2022-06-29 15:06:54,583] Register - Step 06: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-06-29 15:06:54,646] Register - Step 07: Click to 'Register' button
+[2022-06-29 15:06:55,724] Register - Step 08: Verify register success message is displayed
+[2022-06-29 15:06:55,768] Register - Step 09: Click to Logout link
+[2022-06-29 15:06:56,598] Login - Step 01: Navigate to Login page
+[2022-06-29 15:06:57,151] Login - Step 02: Enter to EmailAdress textbox with value is afc9433@mail.vn'
+[2022-06-29 15:06:57,215] Login - Step 03: Enter to Password textbox with value is 123456'
+[2022-06-29 15:06:57,270] Login - Step 04: Click to 'Login' button
+[2022-06-29 15:06:58,002] Login - Step 05: Verify 'MyAccount' link is displayed 
+[2022-06-29 15:06:58,076]  -------------------------- FAILED -------------------------- 
+[2022-06-29 15:06:58,076] Login - Step 06: Navigate to Customer infor page
+[2022-06-29 15:06:58,581] Login - Step 07: Verify 'Customer infor' page is displayed 
+[2022-06-29 15:06:58,630]  -------------------------- PASSED -------------------------- 
+[2022-06-29 15:06:58,637] OS name = windows 10
+[2022-06-29 15:06:58,637] Driver instance name = firefoxdriver: firefox on windows (e8b70bba-006e-4b5a-bc29-73a09987a784)
+[2022-06-29 15:55:43,064] Register - Step 01: Navigate to 'Register' link
+[2022-06-29 15:55:44,591] Register - Step 01: Click to Checkbox Gender
+[2022-06-29 15:55:44,861] Register - Step 02: Enter to FirstName textbox with value is Automation'
+[2022-06-29 15:55:45,208] Register - Step 03: Enter to FirstName textbox with value is FC'
+[2022-06-29 15:55:45,265] Step 04: Select Day of Birthday
+[2022-06-29 15:55:45,586] Step 04: Select Month of Birthday
+[2022-06-29 15:55:45,860] Step 04: Select year of Birthday
+[2022-06-29 15:55:46,130] Register - Step 04: Enter to emailAdress textbox with value is afc9088@mail.vn'
+[2022-06-29 15:55:46,185] Register - Step 01: Click to Radio 
+[2022-06-29 15:55:46,222] Register - Step 05: Enter to password textbox with value is 123456'
+[2022-06-29 15:55:46,274] Register - Step 06: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-06-29 15:55:46,328] Register - Step 07: Click to 'Register' button
+[2022-06-29 15:55:47,183] Register - Step 08: Verify register success message is displayed
+[2022-06-29 15:55:47,271] Register - Step 09: Click to Logout link
+[2022-06-29 15:55:48,291] Login - Step 01: Navigate to Login page
+[2022-06-29 15:55:48,823] Login - Step 02: Enter to EmailAdress textbox with value is afc9088@mail.vn'
+[2022-06-29 15:55:48,892] Login - Step 03: Enter to Password textbox with value is 123456'
+[2022-06-29 15:55:48,949] Login - Step 04: Click to 'Login' button
+[2022-06-29 15:55:49,661] Login - Step 05: Verify 'MyAccount' link is displayed 
+[2022-06-29 15:55:49,724]  -------------------------- PASSED -------------------------- 
+[2022-06-29 15:55:49,725] Login - Step 06: Navigate to Customer infor page
+[2022-06-29 15:55:50,273] Login - Step 07: Verify 'Customer infor' page is displayed 
+[2022-06-29 15:55:50,326]  -------------------------- PASSED -------------------------- 
+[2022-06-29 15:55:50,331] OS name = windows 10
+[2022-06-29 15:55:50,331] Driver instance name = firefoxdriver: firefox on windows (03c8b989-9048-43c7-9a5f-67a5f3bf4536)
+[2022-06-29 16:26:21,295] Register - Step 01: Navigate to 'Register' link
+[2022-06-29 16:26:23,396] Register - Step 01: Click to Checkbox Gender
+[2022-06-29 16:26:23,671] Register - Step 02: Enter to FirstName textbox with value is Automation'
+[2022-06-29 16:26:24,076] Register - Step 03: Enter to FirstName textbox with value is FC'
+[2022-06-29 16:26:24,138] Step 04: Select Day of Birthday
+[2022-06-29 16:26:24,479] Step 04: Select Month of Birthday
+[2022-06-29 16:26:24,781] Step 04: Select year of Birthday
+[2022-06-29 16:26:25,053] Register - Step 04: Enter to emailAdress textbox with value is afc6393@mail.vn'
+[2022-06-29 16:26:25,112] Register - Step 01: Click to Radio 
+[2022-06-29 16:26:25,148] Register - Step 05: Enter to password textbox with value is 123456'
+[2022-06-29 16:26:25,212] Register - Step 06: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-06-29 16:26:25,284] Register - Step 07: Click to 'Register' button
+[2022-06-29 16:26:26,257] Register - Step 08: Verify register success message is displayed
+[2022-06-29 16:26:26,329] Register - Step 09: Click to Logout link
+[2022-06-29 16:26:28,974] Login - Step 01: Navigate to Login page
+[2022-06-29 16:26:29,535] Login - Step 02: Enter to EmailAdress textbox with value is afc6393@mail.vn'
+[2022-06-29 16:26:29,602] Login - Step 03: Enter to Password textbox with value is 123456'
+[2022-06-29 16:26:29,660] Login - Step 04: Click to 'Login' button
+[2022-06-29 16:26:30,462] Login - Step 05: Verify 'MyAccount' link is displayed 
+[2022-06-29 16:26:30,525]  -------------------------- PASSED -------------------------- 
+[2022-06-29 16:26:30,532] MyAccount - Step 01: Navigate to Customer infor page
+[2022-06-29 16:26:31,065] MyAccount - Step 02: Verify 'Customer infor' page is displayed 
+[2022-06-29 16:26:31,118]  -------------------------- PASSED -------------------------- 
+[2022-06-29 16:26:31,118] MyAccount - Step 03: Verify 'FirstName' value is correctly 
+[2022-06-29 16:26:31,154]  -------------------------- PASSED -------------------------- 
+[2022-06-29 16:26:31,155] MyAccount - Step 04: Verify 'LastName' value is correctly 
+[2022-06-29 16:26:31,192]  -------------------------- PASSED -------------------------- 
+[2022-06-29 16:26:31,192] MyAccount - Step 05: Verify 'Email' value is correctly 
+[2022-06-29 16:26:31,233]  -------------------------- PASSED -------------------------- 
+[2022-06-29 16:26:31,238] OS name = windows 10
+[2022-06-29 16:26:31,238] Driver instance name = firefoxdriver: firefox on windows (474ef021-babf-4bf1-aba7-9ba873d0439c)
+[2022-06-29 16:27:48,578] Register - Step 01: Navigate to 'Register' link
+[2022-06-29 16:27:49,296] Register - Step 01: Click to Checkbox Gender
+[2022-06-29 16:27:49,597] Register - Step 02: Enter to FirstName textbox with value is Automation'
+[2022-06-29 16:27:49,713] Register - Step 03: Enter to FirstName textbox with value is FC'
+[2022-06-29 16:27:49,781] Step 04: Select Day of Birthday
+[2022-06-29 16:27:50,086] Step 04: Select Month of Birthday
+[2022-06-29 16:27:50,413] Step 04: Select year of Birthday
+[2022-06-29 16:27:50,684] Register - Step 04: Enter to emailAdress textbox with value is afc2259@mail.vn'
+[2022-06-29 16:27:50,759] Register - Step 01: Click to Radio 
+[2022-06-29 16:27:50,795] Register - Step 05: Enter to password textbox with value is 123456'
+[2022-06-29 16:27:50,853] Register - Step 06: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-06-29 16:27:50,912] Register - Step 07: Click to 'Register' button
+[2022-06-29 16:27:51,728] Register - Step 08: Verify register success message is displayed
+[2022-06-29 16:27:51,796] Register - Step 09: Click to Logout link
+[2022-06-29 16:27:52,674] Login - Step 01: Navigate to Login page
+[2022-06-29 16:27:53,192] Login - Step 02: Enter to EmailAdress textbox with value is afc2259@mail.vn'
+[2022-06-29 16:27:53,260] Login - Step 03: Enter to Password textbox with value is 123456'
+[2022-06-29 16:27:53,316] Login - Step 04: Click to 'Login' button
+[2022-06-29 16:27:54,123] Login - Step 05: Verify 'MyAccount' link is displayed 
+[2022-06-29 16:27:54,185]  -------------------------- PASSED -------------------------- 
+[2022-06-29 16:27:54,195] MyAccount - Step 01: Navigate to Customer infor page
+[2022-06-29 16:27:54,700] MyAccount - Step 02: Verify 'Customer infor' page is displayed 
+[2022-06-29 16:27:54,764]  -------------------------- PASSED -------------------------- 
+[2022-06-29 16:27:54,764] MyAccount - Step 03: Verify 'FirstName' value is correctly 
+[2022-06-29 16:27:54,801]  -------------------------- PASSED -------------------------- 
+[2022-06-29 16:27:54,801] MyAccount - Step 04: Verify 'LastName' value is correctly 
+[2022-06-29 16:27:54,838]  -------------------------- PASSED -------------------------- 
+[2022-06-29 16:27:54,838] MyAccount - Step 05: Verify 'Email' value is correctly 
+[2022-06-29 16:27:54,873]  -------------------------- PASSED -------------------------- 
+[2022-06-29 16:28:04,881] OS name = windows 10
+[2022-06-29 16:28:04,881] Driver instance name = firefoxdriver: firefox on windows (8a53cc16-1711-450c-b2cf-f0ab50d94470)

@@ -259,6 +259,10 @@ public class BasePage {
 		return getWebElement(driver, locatorType).getAttribute(attributeName);
 	}
 
+	public String getElementAttribute(WebDriver driver, String locatorType, String attributeName, String... dynamicValues) {
+		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).getAttribute(attributeName);
+	}
+
 	public String getElementCssValue(WebDriver driver, String locatorType, String propertyName) {
 		return getWebElement(driver, locatorType).getCssValue(propertyName);
 	}
@@ -593,9 +597,89 @@ public class BasePage {
 
 	}
 
+	// Pattern Object
 	public void openPagesAtMyAccountByPageName(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
 		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
+	}
+
+	/**
+	 * Enter to dynamic Textbox by ID
+	 * 
+	 * @author Tu Thuc
+	 * @param driver
+	 * @param textboxID
+	 * @param value
+	 */
+	public void inputTextboxByID(WebDriver driver, String textboxID, String value) {
+		waitForElementVisible(driver, BasePageNopComerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		sendkeyToElement(driver, BasePageNopComerceUI.DYNAMIC_TEXTBOX_BY_ID, value, textboxID);
+
+	}
+
+	/**
+	 * Click to dynamic Button by text
+	 * 
+	 * @author Tu Thuc
+	 * @param driver
+	 * @param buttonText
+	 */
+	public void clickToButtonByText(WebDriver driver, String buttonText) {
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
+		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
+
+	}
+
+	/**
+	 * Select item in Dropdown by name attribute
+	 * 
+	 * @author Tu Thuc
+	 * @param driver
+	 * @param dropdownAttributeName
+	 * @param itemValue
+	 */
+
+	public void selectToDropdownByName(WebDriver driver, String dropdownAttributeName, String itemValue) {
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName);
+		selectItemInDefaultDropdown(driver, BasePageNopComerceUI.DYNAMIC_DROPDOWN_BY_NAME, itemValue, dropdownAttributeName);
+	}
+
+	/**
+	 * Click to dynamicCheckbox by label
+	 * 
+	 * @author Tu Thuc
+	 * @param driver
+	 * @param radioButtonLabelName
+	 */
+	public void clickToCheckboxByLabel(WebDriver driver, String radioButtonLabelName) {
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_CHECKBOX_BY_LABEL, radioButtonLabelName);
+		checkToDefaultCheckboxRadio(driver, BasePageNopComerceUI.DYNAMIC_CHECKBOX_BY_LABEL, radioButtonLabelName);
+	}
+
+	/**
+	 * Click to dynamic Radio by label
+	 * 
+	 * @author Tu Thuc
+	 * @param driver
+	 * @param radioButtonLabelName
+	 * @param itemValue
+	 */
+	public void clickToRadioByLabel(WebDriver driver, String radioButtonLabelName) {
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_RADIO_BY_LABEL, radioButtonLabelName);
+		checkToDefaultCheckboxRadio(driver, BasePageNopComerceUI.DYNAMIC_RADIO_BY_LABEL, radioButtonLabelName);
+	}
+
+	/**
+	 * Get value in textbox by textboxID
+	 * 
+	 * @author Tu Thuc
+	 * @param driver
+	 * @param textboxID
+	 */
+	public String getTextboxValueByID(WebDriver driver, String textboxID) {
+		waitForElementVisible(driver, BasePageNopComerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		return getElementAttribute(driver, BasePageNopComerceUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
+
 	}
 
 	// Level_08_Switch_Role
