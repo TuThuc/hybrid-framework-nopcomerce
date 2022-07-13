@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WordPress - Admin">
+  <listeners>
+  <listener class-name ="commons.MethodListener"/>
+    <!-- <listener class-name="reportConfig.ReportNGListener"/> -->
+<!-- <listener class-name="reportConfig.ExtentTestListener"/> -->
+<!-- <listener class-name="reportConfig.AllureTestListener"/> -->
+<!--   <listener class-name ="org.uncommons.reportng.HTMLReporter"/> -->
+  <!-- listener class-name ="org.uncommons.reportng.JUnitXMLReporter"/> -->
+  </listeners>
+<parameter name = "urlAdmin" value = "https://localhost:4499/wp-admin"/>
+<parameter name = "urlUser" value = "https://localhost:4499"/>
+<test name="Run on firefox ">
+  <parameter name = "browser" value = "firefox"/>
+    <packages>
+      <package name="com.wordpress.admin"/>
+    </packages>
+  </test> 
+
+</suite>
