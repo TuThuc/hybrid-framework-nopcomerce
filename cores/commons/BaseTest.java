@@ -37,7 +37,7 @@ public class BaseTest {
 	protected WebDriver getBrowerDriver(String browserName) {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) {
-			// System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDivers\\geckodriver.exe");
+
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		} else if (browserList == BrowserList.H_FIREFOX) {
@@ -95,9 +95,10 @@ public class BaseTest {
 	protected WebDriver getBrowerDriver(String browserName, String appURL) {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) {
-			// System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDivers\\geckodriver.exe");
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			FirefoxOptions options = new FirefoxOptions();
+			options.setAcceptInsecureCerts(true);
+			driver = new FirefoxDriver(options);
 		} else if (browserList == BrowserList.H_FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
 			// Brower Options: selenium 3.xx
@@ -107,7 +108,9 @@ public class BaseTest {
 			driver = new FirefoxDriver(options);
 		} else if (browserList == BrowserList.CHROME) {
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.setAcceptInsecureCerts(true);
+			driver = new ChromeDriver(options);
 		} else if (browserList == BrowserList.H_CHROME) {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
@@ -117,6 +120,7 @@ public class BaseTest {
 
 		} else if (browserList == BrowserList.EDGE) {
 			WebDriverManager.edgedriver().setup();
+
 			driver = new EdgeDriver();
 		} else if (browserList == BrowserList.OPERA) {
 			WebDriverManager.operadriver().setup();

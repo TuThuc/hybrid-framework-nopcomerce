@@ -42,7 +42,7 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 		searchPostUrl = adminPostSearchPage.getPageUrl(driver);
 
 		log.info("Creat_Post - Step 03: Click to 'Add New' button ");
-		adminPostAddNewPage = adminPostAddNewPage.clickToAddNewButton();
+		adminPostAddNewPage = adminPostSearchPage.clickToAddNewButton();
 
 		log.info("Creat_Post - Step 04: Enter to post title ");
 		adminPostAddNewPage.enterToAddNewPostTitle(postTitleValue);
@@ -54,7 +54,7 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 		adminPostAddNewPage.clickToPushlistButton();
 
 		log.info("Creat_Post - Step 03: Verify 'Post published' message is displayed");
-		verifyTrue(adminPostAddNewPage.isPostPublishMessageDisplayed("P"));
+		verifyTrue(adminPostAddNewPage.isPostPublishMessageDisplayed("Post published."));
 	}
 
 	@Test
@@ -92,9 +92,10 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 	private WebDriver driver;
 	private String adminPassword = "automationfc";
 	private String adminUsername = "automationfc";
-	String searchPostUrl = "";
-	String postTitleValue = "";
-	String postBodyValue = "";
+	int randomNumber = generateFakeNumber();
+	String searchPostUrl;
+	String postTitleValue = "Live codeing Title" + randomNumber;
+	String postBodyValue = "Live codeing Body" + randomNumber;
 	private AdminLoginPO adminLoginPage;
 	private AdminDashboardPO adminDashboardPage;
 	private AdminPostSearchPO adminPostSearchPage;

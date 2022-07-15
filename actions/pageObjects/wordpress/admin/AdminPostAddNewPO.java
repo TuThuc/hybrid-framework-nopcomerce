@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
 import pageUIs.wordpress.admin.AdminPostAddNewPageUI;
-import pageUIs.wordpress.admin.AdminPostSearchPageUI;
 
 public class AdminPostAddNewPO extends BasePage {
 	WebDriver driver;
@@ -14,12 +13,6 @@ public class AdminPostAddNewPO extends BasePage {
 		this.driver = driver;
 	}
 
-	public AdminPostAddNewPO clickToAddNewButton() {
-		waitForElementClickable(driver, AdminPostSearchPageUI.ADD_NEW_BUTTON);
-		clickToElement(driver, AdminPostSearchPageUI.ADD_NEW_BUTTON);
-		return PageGeneratorManager.getAdminPostAddNewPage(driver);
-	}
-
 	public void enterToAddNewPostTitle(String postTitleValue) {
 		waitForElementVisible(driver, AdminPostAddNewPageUI.TITLE_TEXTBOX);
 		sendkeyToElement(driver, AdminPostAddNewPageUI.TITLE_TEXTBOX, postTitleValue);
@@ -27,6 +20,9 @@ public class AdminPostAddNewPO extends BasePage {
 	}
 
 	public void enterToAddNewBody(String postBodyValue) {
+		waitForElementClickable(driver, AdminPostAddNewPageUI.BODY_BUTTON);
+		clickToElement(driver, AdminPostAddNewPageUI.BODY_BUTTON);
+
 		waitForElementVisible(driver, AdminPostAddNewPageUI.BODY_TEXTBOX);
 		sendkeyToElement(driver, AdminPostAddNewPageUI.BODY_TEXTBOX, postBodyValue);
 
