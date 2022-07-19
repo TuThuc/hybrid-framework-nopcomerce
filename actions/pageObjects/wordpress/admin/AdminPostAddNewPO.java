@@ -27,6 +27,11 @@ public class AdminPostAddNewPO extends BasePage {
 		sendkeyToElement(driver, AdminPostAddNewPageUI.BODY_TEXTBOX, postBodyValue);
 
 	}
+	public void clickToPrePushlistButton() {
+		waitForElementClickable(driver, AdminPostAddNewPageUI.PRE_PUBLISH_BUTTON);
+		clickToElement(driver, AdminPostAddNewPageUI.PRE_PUBLISH_BUTTON);
+		
+	}
 
 	public void clickToPushlistButton() {
 		waitForElementClickable(driver, AdminPostAddNewPageUI.PUBLISH_BUTTON);
@@ -43,5 +48,6 @@ public class AdminPostAddNewPO extends BasePage {
 		return PageGeneratorManager.getAdminPostSearchPage(driver);
 
 	}
+
 
 }

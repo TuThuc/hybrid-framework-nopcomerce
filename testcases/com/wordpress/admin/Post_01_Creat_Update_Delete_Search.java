@@ -51,10 +51,14 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 		adminPostAddNewPage.enterToAddNewBody(postBodyValue);
 
 		log.info("Creat_Post - Step 06: Click to 'Publish' button ");
+		adminPostAddNewPage.clickToPrePushlistButton();
+		
+
+		log.info("Creat_Post - Step 07: Click to 'Publish' button ");
 		adminPostAddNewPage.clickToPushlistButton();
 
 		log.info("Creat_Post - Step 03: Verify 'Post published' message is displayed");
-		verifyTrue(adminPostAddNewPage.isPostPublishMessageDisplayed("Post published."));
+		verifyTrue(adminPostAddNewPage.isPostPublishMessageDisplayed("Bài viết đã được đăng."));
 	}
 
 	@Test
