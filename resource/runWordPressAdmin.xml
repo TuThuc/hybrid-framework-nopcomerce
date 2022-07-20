@@ -8,8 +8,8 @@
   <listener class-name ="org.uncommons.reportng.HTMLReporter"/>
   <listener class-name ="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-<parameter name = "adminUrl" value = "https://automationfc.net/wp-admin"/>
-<parameter name = "urlUser" value = "https://automationfc.net"/>
+<parameter name = "adminUrl" value = "https://192.168.11.250:4499/wp-admin"/>
+<parameter name = "urlUser" value = "https://192.168.11.250:4499"/>
 <test name="Run on firefox ">
   <parameter name = "browser" value = "firefox"/>
    <classes> 
