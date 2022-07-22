@@ -1,17 +1,61 @@
-[2022-07-20 10:45:09,015] Pre-condition - Step 01: Open browser and admin Url
-[2022-07-20 10:45:36,704] Pre-condition - Step 02: Enter to Username textbox with value automationfc
-[2022-07-20 10:45:38,807] Pre-condition - Step 03: Enter to Password textbox with value automationfc
-[2022-07-20 10:45:38,863] Pre-condition - Step 04: Click to Login button
-[2022-07-20 10:45:46,619] Creat_Post - Step 01: Click to 'Post' menu link 
-[2022-07-20 10:45:54,341] Creat_Post - Step 02: Get 'Search Post' page Url
-[2022-07-20 10:45:54,442] Creat_Post - Step 03: Click to 'Add New' button 
-[2022-07-20 10:46:00,513] Creat_Post - Step 04: Enter to post title 
-[2022-07-20 10:46:02,514] Creat_Post - Step 05: Enter to body 
-[2022-07-20 10:46:07,308] Creat_Post - Step 06: Click to 'Publish' button 
-[2022-07-20 10:46:08,292] Creat_Post - Step 07: Click to 'Publish' button 
-[2022-07-20 10:46:08,594] Creat_Post - Step 08: Verify 'Post published' message is displayed
-[2022-07-20 10:46:11,445]  -------------------------- PASSED -------------------------- 
-[2022-07-20 10:46:12,218] Search_Post - Step 01: Open 'Search Post' page
-[2022-07-20 10:46:15,245] View_Post - Step 03: Verify 'Post published' message is displayed
-[2022-07-20 10:46:15,265] OS name = windows 10
-[2022-07-20 10:46:15,265] Driver instance name = firefoxdriver: firefox on windows (1f1c58a0-7dda-4192-9593-fa17ed7f436e)
+[2022-07-22 15:16:14,178] Pre-condition - Step 01: Open browser and admin Site
+[2022-07-22 15:16:22,719] Pre-condition - Step 02: Enter to Username textbox with value automationfc
+[2022-07-22 15:16:22,900] Pre-condition - Step 03: Enter to Password textbox with value automationfc
+[2022-07-22 15:16:23,051] Pre-condition - Step 04: Click to Login button
+[2022-07-22 15:16:26,424] Creat_Post - Step 01: Click to 'Post' menu link 
+[2022-07-22 15:16:28,042] Creat_Post - Step 02: Get 'Search Post' page Url
+[2022-07-22 15:16:28,053] Creat_Post - Step 03: Click to 'Add New' button 
+[2022-07-22 15:16:31,790] Creat_Post - Step 04: Enter to post title 
+[2022-07-22 15:16:34,024] Creat_Post - Step 05: Enter to post body 
+[2022-07-22 15:16:35,710] Creat_Post - Step 06: Click to 'Pre - Publish' button 
+[2022-07-22 15:16:35,924] Creat_Post - Step 07: Click to 'Publish' button 
+[2022-07-22 15:16:36,169] Creat_Post - Step 08: Verify 'Post published' message is displayed
+[2022-07-22 15:16:40,716]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:16:40,802] Search_Post - Step 01: Open 'Search Post' page
+[2022-07-22 15:16:44,249] Search_Post - Step 02: Enter to 'Search textbox'
+[2022-07-22 15:16:44,456] Search_Post - Step 03: Click to 'Search posts' button
+[2022-07-22 15:16:48,074] Search_Post - Step 04: Verify search table containsLive codeing Title 2334'
+[2022-07-22 15:16:48,169]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:16:48,169] Search_Post - Step 05: Verify search table containsautomationfc'
+[2022-07-22 15:16:48,241]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:16:48,241] Search_Post - Step 06: Open End User site 
+[2022-07-22 15:16:51,142] Search_Post - Step 07: Verify Post infor displayed on at Home Page
+[2022-07-22 15:16:51,205]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:16:51,256]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:16:51,307]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:16:51,358]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:16:51,358] Search_Post - Step 08: Click to Post title
+[2022-07-22 15:16:52,934] Search_Post - Step 09: Verify Post infor displayed on at Post Detail Page
+[2022-07-22 15:16:52,988]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:16:53,041]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:16:53,098]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:16:53,148]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:16:53,155] Edit_Post - Step 01: Open Admin site
+[2022-07-22 15:16:55,316] Edit_Post - Step 02: Click to 'Post' menu link 
+[2022-07-22 15:16:57,004] Edit_Post - Step 03: Enter to 'Search textbox'
+[2022-07-22 15:16:57,196] Edit_Post - Step 04: Click to 'Search posts' button
+[2022-07-22 15:17:00,363] Edit_Post - Step 05: Click to Post title link and navigate to Edit Post page 
+[2022-07-22 15:17:03,752] Edit_Post - Step 06: Enter to post title 
+[2022-07-22 15:17:05,495] Edit_Post - Step 07: Enter to post body 
+[2022-07-22 15:17:07,524] Edit_Post - Step 08: Click to 'Update' button 
+[2022-07-22 15:17:07,936] Edit_Post - Step 09: Verify 'Post updated' message is displayed
+[2022-07-22 15:17:10,770]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:17:10,770] Edit_Postt - Step 10: Open 'Search Post' page
+[2022-07-22 15:17:14,198] Edit_Post - Step 11: Enter to 'Search textbox'
+[2022-07-22 15:17:14,375] Edit_Post - Step 12: Click to 'Search posts' button
+[2022-07-22 15:17:16,777] Edit_Post - Step 13: Verify search table containsEdit Title 2334'
+[2022-07-22 15:17:16,850]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:17:16,850] Edit_Post - Step 14: Verify search table containsautomationfc'
+[2022-07-22 15:17:16,913]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:17:16,913] Edit_Post - Step 15: Open End User site 
+[2022-07-22 15:17:18,101] Edit_Post - Step 16: Verify Post infor displayed on at Home Page
+[2022-07-22 15:17:18,159]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:17:18,213]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:17:18,286]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:17:18,286] Edit_Post - Step 08: Click to Post title
+[2022-07-22 15:17:19,324] Edit_Post - Step 09: Verify Post infor displayed on at Post Detail Page
+[2022-07-22 15:17:19,382]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:17:19,433]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:17:19,485]  -------------------------- PASSED -------------------------- 
+[2022-07-22 15:17:49,928] OS name = windows 10
+[2022-07-22 15:17:49,929] Driver instance name = chromedriver: chrome on windows (76e8ba2d16deeb24e5047f42871d4dec)

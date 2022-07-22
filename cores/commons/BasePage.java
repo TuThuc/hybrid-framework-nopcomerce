@@ -25,6 +25,8 @@ import pageObjects.user.UserCustomerInforPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserMyProductReviewPageObject;
 import pageObjects.user.UserRewardPointPageObject;
+import pageObjects.wordpress.AdminDashboardPO;
+import pageObjects.wordpress.UserHomePO;
 import pageUIs.jQuery.uploadFile.BasePageJQueryUI;
 import pageUIs.user.BasePageNopComerceUI;
 
@@ -200,6 +202,12 @@ public class BasePage {
 		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		element.clear();
 		element.sendKeys(textValue);
+	}
+
+	public void clearValueInToElementByDeleteKey(WebDriver driver, String locatorType) {
+		WebElement element = getWebElement(driver, locatorType);
+		element.sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
+
 	}
 
 	public String getElementText(WebDriver driver, String locatorType) {
@@ -693,6 +701,16 @@ public class BasePage {
 		waitForElementVisible(driver, BasePageNopComerceUI.LOGOUT__LINK_AT_ADMIN);
 		clickToElement(driver, BasePageNopComerceUI.LOGOUT__LINK_AT_ADMIN);
 		return PageGeneratorManager.getAdminLoginPage(driver);
+	}
+
+	public UserHomePO openEndUserSite(WebDriver driver, String endUserUrl) {
+		openPageUrl(driver, endUserUrl);
+		return pageObjects.wordpress.PageGeneratorManager.getUserHomePage(driver);
+	}
+
+	public AdminDashboardPO openAdminSite(WebDriver driver, String adminUrl) {
+		openPageUrl(driver, adminUrl);
+		return pageObjects.wordpress.PageGeneratorManager.getAdminDashboardPage(driver);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;

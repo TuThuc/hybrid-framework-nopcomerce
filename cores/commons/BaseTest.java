@@ -304,7 +304,7 @@ public class BaseTest {
 			String dayValue = "0" + day;
 			return dayValue;
 		}
-		return day + "";
+		return String.valueOf(day);
 	}
 
 	protected String getCurrentMonth() {
@@ -314,7 +314,7 @@ public class BaseTest {
 			String monthValue = "0" + month;
 			return monthValue;
 		}
-		return month + "";
+		return String.valueOf(month);
 	}
 
 	protected String getCurrentYear() {
@@ -322,7 +322,7 @@ public class BaseTest {
 		return now.getYear() + "";
 	}
 
-	protected String getCurrentToday() {
-		return getCurrentYear() + "-" + getCurrentMonth() + "-" + getCurrentDate();
+	protected String getCurrentDay() {
+		return getCurrentDate() + "/" + getCurrentMonth() + "/" + getCurrentYear();
 	}
 }

@@ -49,16 +49,16 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 		adminPostAddNewPage = adminPostSearchPage.clickToAddNewButton();
 
 		log.info("Creat_Post - Step 04: Enter to post title ");
-		adminPostAddNewPage.enterToAddNewPostTitle(postTitleValue);
+		adminPostAddNewPage.enterToAddNewPostTitle(postTitle);
 
 		log.info("Creat_Post - Step 05: Enter to post body ");
-		adminPostAddNewPage.enterToAddNewBody(postBodyValue);
+		adminPostAddNewPage.enterToAddNewBody(postBody);
 
 		log.info("Creat_Post - Step 06: Click to 'Pre - Publish' button ");
-		adminPostAddNewPage.clickToPrePushlistButton();
+		adminPostAddNewPage.clickToPublishOrUpdateButton();
 
 		log.info("Creat_Post - Step 07: Click to 'Publish' button ");
-		adminPostAddNewPage.clickToPushlistButton();
+		adminPostAddNewPage.clickToPrePublishButton();
 
 		log.info("Creat_Post - Step 08: Verify 'Post published' message is displayed");
 		verifyTrue(adminPostAddNewPage.isPostPublishMessageDisplayed("Post published."));
@@ -70,49 +70,141 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 		adminPostSearchPage = adminPostAddNewPage.openSearchPostPageUrl(searchPostUrl);
 
 		log.info("Search_Post - Step 02: Enter to 'Search textbox'");
-		adminPostSearchPage.enterToSearchTexbox(postTitleValue);
+		adminPostSearchPage.enterToSearchTexbox(postTitle);
 
 		log.info("Search_Post - Step 03: Click to 'Search posts' button");
 		adminPostSearchPage.clickToSearchPostsButton();
 
-		log.info("Search_Post - Step 04: Verify search table contains" + postTitleValue + "'");
-		verifyTrue(adminPostSearchPage.isPostSearchTableDisplayed("Title", postTitleValue));
+		log.info("Search_Post - Step 04: Verify search table contains" + postTitle + "'");
+		verifyTrue(adminPostSearchPage.isPostSearchTableDisplayed("title", postTitle));
 
 		log.info("Search_Post - Step 05: Verify search table contains" + authorName + "'");
-		verifyTrue(adminPostSearchPage.isPostSearchTableDisplayed("Author", postTitleValue));
+		verifyTrue(adminPostSearchPage.isPostSearchTableDisplayed("author", authorName));
 
 		log.info("Search_Post - Step 06: Open End User site ");
-		userHomePage = adminPostSearchPage.openEndUserSite(this.endUserUrl);
+		userHomePage = adminPostSearchPage.openEndUserSite(driver, this.endUserUrl);
 
 		log.info("Search_Post - Step 07: Verify Post infor displayed on at Home Page");
-		userHomePage.isPostInforDisplayed(postTitleValue);
-		userHomePage.isPostInforDisplayed(postBodyValue);
-		userHomePage.isPostInforDisplayed(postTitleValue);
-		userHomePage.isPostInforDisplayed(postTitleValue);
+		verifyTrue(userHomePage.isPostInforDisplayedWithPostTitle(postTitle));
+		verifyTrue(userHomePage.isPostInforDisplayedWithPostBody(postTitle, postBody));
+		verifyTrue(userHomePage.isPostInforDisplayedWithAuthorName(postTitle, authorName));
+		verifyTrue(userHomePage.isPostInforDisplayedWithCurrentDay(postTitle, currentDay));
 
 		log.info("Search_Post - Step 08: Click to Post title");
+		userPostDetailPage = userHomePage.clickToPostTitle(postTitle);
 
 		log.info("Search_Post - Step 09: Verify Post infor displayed on at Post Detail Page");
+		verifyTrue(userPostDetailPage.isPostInforDisplayedWithPostTitle(postTitle));
+		verifyTrue(userPostDetailPage.isPostInforDisplayedWithPostBody(postTitle, postBody));
+		verifyTrue(userPostDetailPage.isPostInforDisplayedWithAuthorName(postTitle, authorName));
+		verifyTrue(userPostDetailPage.isPostInforDisplayedWithCurrentDay(postTitle, currentDay));
 	}
 
 	@Test
-	public void Post_02_View_Post() {
-		log.info("View_Post - Step 03: Verify 'Post published' message is displayed");
+	public void Post_03_Edit_Post() {
+		log.info("Edit_Post - Step 01: Open Admin site");
+		adminDashboardPage = userPostDetailPage.openAdminSite(driver, this.adminUrl);
+
+		log.info("Edit_Post - Step 02: Click to 'Post' menu link ");
+		adminPostSearchPage = adminDashboardPage.clickToPostMenuLink();
+
+		log.info("Edit_Post - Step 03: Enter to 'Search textbox'");
+		adminPostSearchPage.enterToSearchTexbox(postTitle);
+
+		log.info("Edit_Post - Step 04: Click to 'Search posts' button");
+		adminPostSearchPage.clickToSearchPostsButton();
+
+		log.info("Edit_Post - Step 05: Click to Post title link and navigate to Edit Post page ");
+		adminPostAddNewPage = adminPostSearchPage.clickToPostTitleLink(postTitle);
+
+		log.info("Edit_Post - Step 06: Enter to post title ");
+		adminPostAddNewPage.enterToAddNewPostTitle(editPostTitle);
+
+		log.info("Edit_Post - Step 07: Enter to post body ");
+		adminPostAddNewPage.enterToEditPostBody(editPostBody);
+
+		log.info("Edit_Post - Step 08: Click to 'Update' button ");
+		adminPostAddNewPage.clickToPublishOrUpdateButton();
+
+		log.info("Edit_Post - Step 09: Verify 'Post updated' message is displayed");
+		verifyTrue(adminPostAddNewPage.isPostPublishMessageDisplayed("Post updated."));
+
+		log.info("Edit_Postt - Step 10: Open 'Search Post' page");
+		adminPostSearchPage = adminPostAddNewPage.openSearchPostPageUrl(searchPostUrl);
+
+		log.info("Edit_Post - Step 11: Enter to 'Search textbox'");
+		adminPostSearchPage.enterToSearchTexbox(editPostTitle);
+
+		log.info("Edit_Post - Step 12: Click to 'Search posts' button");
+		adminPostSearchPage.clickToSearchPostsButton();
+
+		log.info("Edit_Post - Step 13: Verify search table contains" + editPostTitle + "'");
+		verifyTrue(adminPostSearchPage.isPostSearchTableDisplayed("title", editPostTitle));
+
+		log.info("Edit_Post - Step 14: Verify search table contains" + authorName + "'");
+		verifyTrue(adminPostSearchPage.isPostSearchTableDisplayed("author", authorName));
+
+		log.info("Edit_Post - Step 15: Open End User site ");
+		userHomePage = adminPostSearchPage.openEndUserSite(driver, this.endUserUrl);
+
+		log.info("Edit_Post - Step 16: Verify Post infor displayed on at Home Page");
+		verifyTrue(userHomePage.isPostInforDisplayedWithPostTitle(editPostTitle));
+		verifyTrue(userHomePage.isPostInforDisplayedWithPostBody(editPostTitle, editPostBody));
+		verifyTrue(userHomePage.isPostInforDisplayedWithAuthorName(editPostTitle, authorName));
+		// verifyTrue(userHomePage.isPostInforDisplayedWithCurrentDay(editPostTitle, currentDay));
+
+		log.info("Edit_Post - Step 08: Click to Post title");
+		userPostDetailPage = userHomePage.clickToPostTitle(editPostTitle);
+
+		log.info("Edit_Post - Step 09: Verify Post infor displayed on at Post Detail Page");
+		verifyTrue(userPostDetailPage.isPostInforDisplayedWithPostTitle(editPostTitle));
+		verifyTrue(userPostDetailPage.isPostInforDisplayedWithPostBody(editPostTitle, editPostBody));
+		verifyTrue(userPostDetailPage.isPostInforDisplayedWithAuthorName(editPostTitle, authorName));
+		// verifyTrue(userPostDetailPage.isPostInforDisplayedWithCurrentDay(editPostTitle, currentDay));
 	}
 
 	@Test
-	public void Post_03_View_Post() {
+	public void Post_04_Delete_Post() {
+		log.info("Delete_Post - Step 01: Open Admin site");
+		adminDashboardPage = userPostDetailPage.openAdminSite(driver, this.adminUrl);
 
-	}
+		log.info("Delete_Post - Step 02: Click to 'Post' menu link ");
+		adminPostSearchPage = adminDashboardPage.clickToPostMenuLink();
 
-	@Test
-	public void Post_04_Edit_Post() {
+		log.info("Delete_Post - Step 03: Enter to 'Search textbox'");
+		adminPostSearchPage.enterToSearchTexbox(postTitle);
 
-	}
+		log.info("Delete_Post - Step 04: Click to 'Search posts' button");
+		adminPostSearchPage.clickToSearchPostsButton();
 
-	@Test
-	public void Post_05_Delete_Post() {
+		log.info("Delete_Post - Step 05: Select Post detail checkbox");
+		adminPostSearchPage.selectToPostDetailCheckbox();
+		log.info("Delete_Post - Step 06: Select 'Move to Trash' item in dropdown");
+		adminPostSearchPage.selectToMovetoTrash();
 
+		log.info("Delete_Post - Step 07: Click to 'Apply' button");
+
+		log.info("Delete_Post - Step 08: Verify '1 post moved to the Trash.' message is displayed");
+
+		log.info("Delete_Post - Step 09: Enter to 'Search textbox'");
+		adminPostSearchPage.enterToSearchTexbox(postTitle);
+
+		log.info("Delete_Post - Step 10: Click to 'Search posts' button");
+		adminPostSearchPage.clickToSearchPostsButton();
+
+		log.info("Delete_Post - Step 11: Verify 'No posts found.' message is displayed");
+
+		log.info("Delete_Post - Step 12: Open End User site ");
+		userHomePage = adminPostSearchPage.openEndUserSite(driver, this.endUserUrl);
+
+		log.info("Delete_Post - Step 13: Verify Post title undisplayed on at Home Page");
+		verifyTrue(userHomePage.isPostInforDisplayedWithPostTitle(editPostTitle));
+
+		log.info("Delete_Post - Step 14: Enter to Search textbox");
+
+		log.info("Delete_Post - Step 15: Click to Search button");
+
+		log.info("Delete_Post - Step 16: Verify 'Nothing Found.' message is displayed");
 	}
 
 	@AfterClass(alwaysRun = true)
@@ -125,11 +217,13 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 	private String adminUsername = "automationfc";
 	int randomNumber = generateFakeNumber();
 	String searchPostUrl;
-	String postTitleValue = "Live codeing Title" + randomNumber;
-	String postBodyValue = "Live codeing Body" + randomNumber;
+	String postTitle = "Live codeing Title " + randomNumber;
+	String postBody = "Live codeing Body " + randomNumber;
+	String editPostTitle = "Edit Title " + randomNumber;
+	String editPostBody = "Edit Body " + randomNumber;
 	String authorName = "automationfc";
 	String adminUrl, endUserUrl;
-	String currentDay = "20/07/2022";
+	String currentDay = getCurrentDay();
 	private AdminLoginPO adminLoginPage;
 	private AdminDashboardPO adminDashboardPage;
 	private AdminPostSearchPO adminPostSearchPage;
