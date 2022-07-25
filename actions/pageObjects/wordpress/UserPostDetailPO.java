@@ -33,4 +33,9 @@ public class UserPostDetailPO extends BasePage {
 		return isElementDisplayed(driver, UserPostDetailPageUI.POST_CURRENT_DATE_TEXT_BY_POST_TITLE, postTitle, currentDay);
 	}
 
+	public boolean isPostInforUpdatedDisplayedWithCurrentDay(String editPostTitle, String currentDay) {
+		waitForElementVisible(driver, UserPostDetailPageUI.POST_CURRENT_DATE_TEXT_BY_POST_TITLE_UPDATED, editPostTitle, currentDay);
+		return isElementDisplayed(driver, UserPostDetailPageUI.POST_CURRENT_DATE_TEXT_BY_POST_TITLE_UPDATED, editPostTitle, currentDay);
+	}
+
 }

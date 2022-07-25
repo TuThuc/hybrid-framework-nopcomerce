@@ -147,6 +147,7 @@ public class BaseTest {
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(appURL);
+		driver.manage().window().maximize();
 		return driver;
 	}
 

@@ -14,6 +14,7 @@ import pageObjects.wordpress.AdminPostSearchPO;
 import pageObjects.wordpress.PageGeneratorManager;
 import pageObjects.wordpress.UserHomePO;
 import pageObjects.wordpress.UserPostDetailPO;
+import pageObjects.wordpress.UserSearchPostPO;
 
 public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 
@@ -151,7 +152,7 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 		verifyTrue(userHomePage.isPostInforDisplayedWithPostTitle(editPostTitle));
 		verifyTrue(userHomePage.isPostInforDisplayedWithPostBody(editPostTitle, editPostBody));
 		verifyTrue(userHomePage.isPostInforDisplayedWithAuthorName(editPostTitle, authorName));
-		// verifyTrue(userHomePage.isPostInforDisplayedWithCurrentDay(editPostTitle, currentDay));
+		verifyTrue(userHomePage.isPostInforUpdatedDisplayedWithCurrentDay(editPostTitle, currentDay));
 
 		log.info("Edit_Post - Step 08: Click to Post title");
 		userPostDetailPage = userHomePage.clickToPostTitle(editPostTitle);
@@ -160,7 +161,7 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 		verifyTrue(userPostDetailPage.isPostInforDisplayedWithPostTitle(editPostTitle));
 		verifyTrue(userPostDetailPage.isPostInforDisplayedWithPostBody(editPostTitle, editPostBody));
 		verifyTrue(userPostDetailPage.isPostInforDisplayedWithAuthorName(editPostTitle, authorName));
-		// verifyTrue(userPostDetailPage.isPostInforDisplayedWithCurrentDay(editPostTitle, currentDay));
+		verifyTrue(userPostDetailPage.isPostInforUpdatedDisplayedWithCurrentDay(editPostTitle, currentDay));
 	}
 
 	@Test
@@ -172,39 +173,46 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 		adminPostSearchPage = adminDashboardPage.clickToPostMenuLink();
 
 		log.info("Delete_Post - Step 03: Enter to 'Search textbox'");
-		adminPostSearchPage.enterToSearchTexbox(postTitle);
+		adminPostSearchPage.enterToSearchTexbox(editPostTitle);
 
 		log.info("Delete_Post - Step 04: Click to 'Search posts' button");
 		adminPostSearchPage.clickToSearchPostsButton();
 
 		log.info("Delete_Post - Step 05: Select Post detail checkbox");
-		adminPostSearchPage.selectToPostDetailCheckbox();
+		adminPostSearchPage.selectPostCheckboxByTitle(editPostTitle);
 		log.info("Delete_Post - Step 06: Select 'Move to Trash' item in dropdown");
-		adminPostSearchPage.selectToMovetoTrash();
+		adminPostSearchPage.selectTextItemtInActionDropdown("Move to Trash");
 
 		log.info("Delete_Post - Step 07: Click to 'Apply' button");
+		adminPostSearchPage.clickToApplyButton();
 
 		log.info("Delete_Post - Step 08: Verify '1 post moved to the Trash.' message is displayed");
+		verifyTrue(adminPostSearchPage.isMoveToTrashMessageDisplayed("1 post moved to the Trash."));
 
 		log.info("Delete_Post - Step 09: Enter to 'Search textbox'");
-		adminPostSearchPage.enterToSearchTexbox(postTitle);
+		adminPostSearchPage.enterToSearchTexbox(editPostTitle);
 
 		log.info("Delete_Post - Step 10: Click to 'Search posts' button");
 		adminPostSearchPage.clickToSearchPostsButton();
 
 		log.info("Delete_Post - Step 11: Verify 'No posts found.' message is displayed");
+		verifyTrue(adminPostSearchPage.isNoPostFoundMessageDisplayed("No posts found."));
 
 		log.info("Delete_Post - Step 12: Open End User site ");
 		userHomePage = adminPostSearchPage.openEndUserSite(driver, this.endUserUrl);
 
 		log.info("Delete_Post - Step 13: Verify Post title undisplayed on at Home Page");
-		verifyTrue(userHomePage.isPostInforDisplayedWithPostTitle(editPostTitle));
+		verifyTrue(userHomePage.isNoPostInforUnDisplayedWithPostTitle(editPostTitle));
 
 		log.info("Delete_Post - Step 14: Enter to Search textbox");
+		userHomePage.enterToSearchTextbox(editPostTitle);
 
 		log.info("Delete_Post - Step 15: Click to Search button");
+		userSearchPostPage = userHomePage.clickToSearchButton();
 
 		log.info("Delete_Post - Step 16: Verify 'Nothing Found.' message is displayed");
+		verifyTrue(userSearchPostPage.isNothingFoundMessageDisplayed("Nothing Found"));
+
 	}
 
 	@AfterClass(alwaysRun = true)
@@ -230,5 +238,6 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 	private AdminPostAddNewPO adminPostAddNewPage;
 	private UserHomePO userHomePage;
 	private UserPostDetailPO userPostDetailPage;
+	private UserSearchPostPO userSearchPostPage;
 
 }
