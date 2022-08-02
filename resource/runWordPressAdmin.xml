@@ -12,15 +12,15 @@
 <parameter name = "endUserUrl" value = "https://localhost:4499"/>
 <!-- <test name="Run on firefox ">
   <parameter name = "browser" value = "firefox"/>
-   <classes> --> 
+   <classes>  -->
    <test name="Run on chrome ">
   <parameter name = "browser" value = "chrome"/>
    <classes>
       <class name="com.wordpress.admin.Post_01_Creat_Update_Delete_Search"/>
     </classes>
-    <!-- <packages>
+    <packages>
       <package name="com.wordpress.admin"/>
-    </packages> -->
+    </packages>
   </test> 
 
 </suite>

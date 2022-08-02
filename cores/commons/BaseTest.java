@@ -2,6 +2,8 @@ package commons;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -14,6 +16,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.testng.Assert;
@@ -40,7 +43,13 @@ public class BaseTest {
 		if (browserList == BrowserList.FIREFOX) {
 
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			// add extension to firefox
+			FirefoxProfile profile = new FirefoxProfile();
+			File adblock = new File(GlobalConstants.PROJECT_PATH + "\\browserExtentions\\adblock_for_firefox-5.0.4.xpi");
+			profile.addExtension(adblock);
+			FirefoxOptions options = new FirefoxOptions();
+			options.setProfile(profile);
+			driver = new FirefoxDriver(options);
 		} else if (browserList == BrowserList.H_FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
 			// Brower Options: selenium 3.xx
@@ -50,7 +59,12 @@ public class BaseTest {
 			driver = new FirefoxDriver(options);
 		} else if (browserList == BrowserList.CHROME) {
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			// add extension to chrome
+			File file = new File(GlobalConstants.PROJECT_PATH + "\\browserExtentions\\AdBlock-—-best-ad-blocker.crx");
+			ChromeOptions options = new ChromeOptions();
+			options.addExtensions(file);
+
+			driver = new ChromeDriver(options);
 		} else if (browserList == BrowserList.H_CHROME) {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
@@ -97,8 +111,23 @@ public class BaseTest {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
+			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, GlobalConstants.PROJECT_PATH + "\\browserLogs\\FirefoxLog.log");
 			FirefoxOptions options = new FirefoxOptions();
+			options.addPreference("browser.download.folderList", 2);
+			options.addPreference("browser.dowload.dir", GlobalConstants.PROJECT_PATH + "\\downloadFiles");
+			options.addPreference("browser.dowload.userDownloadDir", true);
+			options.addPreference("browser.helperApps.neverAsk.saveToDisk", "multipart/x-zip, application/zip, application/x-zip-compressed, application/msword, "
+					+ "application/csv,text/csv,image/png,image/jpeg, application/pdf, text/html, text/plain, application/excel," + "application/vnd.ms-excel, application/x-excel, application/x-msexcel, application/octet-stream");
+			options.addPreference("pdfjs.disabled", true);
+			options.addPreference("intl.accept_languages", "vi-vn, vi, en-us, en");
 			options.setAcceptInsecureCerts(true);
+
+			// FirefoxProfile profile = new FirefoxProfile();
+			// File adblock = new File(GlobalConstants.PROJECT_PATH + "\\browserExtentions\\adblock_for_firefox-5.0.4.xpi");
+			// profile.addExtension(adblock);
+			// FirefoxOptions options = new FirefoxOptions();
+			// options.setProfile(profile);
 			driver = new FirefoxDriver(options);
 		} else if (browserList == BrowserList.H_FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
@@ -109,8 +138,19 @@ public class BaseTest {
 			driver = new FirefoxDriver(options);
 		} else if (browserList == BrowserList.CHROME) {
 			WebDriverManager.chromedriver().setup();
+
+			System.setProperty("webdriver.chrome.args", "--disable-logging");
+			System.setProperty("webdriver.chrome.silentOutput", "true");
 			ChromeOptions options = new ChromeOptions();
+			Map<String, Object> prefs = new HashMap<String, Object>();
+			prefs.put("profile.default_content_setting.popups", 0);
+			prefs.put("dowload.default_directory", GlobalConstants.PROJECT_PATH + "\\downloadFiles");
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+
+			options.setExperimentalOption("prefs", prefs);
 			options.setAcceptInsecureCerts(true);
+			options.addArguments("--lang=vi");
 			driver = new ChromeDriver(options);
 		} else if (browserList == BrowserList.H_CHROME) {
 			WebDriverManager.chromedriver().setup();
@@ -128,6 +168,7 @@ public class BaseTest {
 			driver = new OperaDriver();
 		} else if (browserList == BrowserList.IE) {
 			WebDriverManager.iedriver().arch32().setup();
+
 			driver = new InternetExplorerDriver();
 
 		} else if (browserList == BrowserList.COCCOC) {

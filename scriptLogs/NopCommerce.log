@@ -1217,3 +1217,120 @@ Driver info: driver.version: RemoteWebDriver
 [2022-07-22 15:17:19,485]  -------------------------- PASSED -------------------------- 
 [2022-07-22 15:17:49,928] OS name = windows 10
 [2022-07-22 15:17:49,929] Driver instance name = chromedriver: chrome on windows (76e8ba2d16deeb24e5047f42871d4dec)
+[2022-07-29 16:37:38,854] Pre-condition - Step 01: Open browser and admin Site
+[2022-07-29 16:41:59,584] OS name = windows 10
+[2022-07-29 16:41:59,636] Driver instance name = firefoxdriver: firefox on windows (49034d31-c594-47eb-8dbf-8a4857607890)
+[2022-07-29 16:41:59,707] Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.11.250', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14240, moz:profile: C:\Users\TUTHUC~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 49034d31-c594-47eb-8dbf-8a4857607890
+[2022-08-02 10:19:58,940] Pre-condition - Step 01: Open browser and admin Site
+[2022-08-02 10:21:44,944] Pre-condition - Step 02: Enter to Username textbox with value automationfc
+[2022-08-02 10:21:45,619] Pre-condition - Step 03: Enter to Password textbox with value automationfc
+[2022-08-02 10:21:45,670] Pre-condition - Step 04: Click to Login button
+[2022-08-02 10:21:59,375] Creat_Post - Step 01: Click to 'Post' menu link 
+[2022-08-02 10:22:38,954] Creat_Post - Step 02: Get 'Search Post' page Url
+[2022-08-02 10:22:38,980] Creat_Post - Step 03: Click to 'Add New' button 
+[2022-08-02 10:22:49,870] Creat_Post - Step 04: Enter to post title 
+[2022-08-02 10:23:09,607] Creat_Post - Step 05: Enter to post body 
+[2022-08-02 10:23:13,250] Search_Post - Step 01: Open 'Search Post' page
+[2022-08-02 10:23:28,780] Search_Post - Step 02: Enter to 'Search textbox'
+[2022-08-02 10:24:09,695] Edit_Post - Step 01: Open Admin site
+[2022-08-02 10:24:09,790] Delete_Post - Step 01: Open Admin site
+[2022-08-02 10:24:09,900] OS name = windows 10
+[2022-08-02 10:24:09,900] Driver instance name = firefoxdriver: firefox on windows (4a562d21-baba-440d-9be7-592a25665f12)
+[2022-08-02 11:10:16,255] Pre-condition - Step 01: Open browser and admin Site
+[2022-08-02 11:10:55,453] Pre-condition - Step 02: Enter to Username textbox with value automationfc
+[2022-08-02 11:10:56,275] Pre-condition - Step 03: Enter to Password textbox with value automationfc
+[2022-08-02 11:10:56,475] Pre-condition - Step 04: Click to Login button
+[2022-08-02 11:11:18,670] Creat_Post - Step 01: Click to 'Post' menu link 
+[2022-08-02 11:11:23,592] Creat_Post - Step 02: Get 'Search Post' page Url
+[2022-08-02 11:11:23,771] Creat_Post - Step 03: Click to 'Add New' button 
+[2022-08-02 11:11:32,123] Creat_Post - Step 04: Enter to post title 
+[2022-08-02 11:11:33,600] Creat_Post - Step 05: Enter to post body 
+[2022-08-02 11:11:35,340] Creat_Post - Step 06: Click to 'Pre - Publish' button 
+[2022-08-02 11:11:35,589] Creat_Post - Step 07: Click to 'Publish' button 
+[2022-08-02 11:11:35,787] Creat_Post - Step 08: Verify 'Post published' message is displayed
+[2022-08-02 11:11:39,544]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:11:40,651] Search_Post - Step 01: Open 'Search Post' page
+[2022-08-02 11:11:43,142] Search_Post - Step 02: Enter to 'Search textbox'
+[2022-08-02 11:11:43,316] Search_Post - Step 03: Click to 'Search posts' button
+[2022-08-02 11:11:46,523] Search_Post - Step 04: Verify search table containsLive codeing Title 4984'
+[2022-08-02 11:11:46,590]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:11:46,590] Search_Post - Step 05: Verify search table containsautomationfc'
+[2022-08-02 11:11:46,652]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:11:46,652] Search_Post - Step 06: Open End User site 
+[2022-08-02 11:11:51,083] Search_Post - Step 07: Verify Post infor displayed on at Home Page
+[2022-08-02 11:11:51,139]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:11:51,192]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:11:51,244]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:11:51,294]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:11:51,294] Search_Post - Step 08: Click to Post title
+[2022-08-02 11:11:52,372] Search_Post - Step 09: Verify Post infor displayed on at Post Detail Page
+[2022-08-02 11:11:52,421]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:11:52,475]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:11:52,524]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:11:52,574]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:11:52,581] Edit_Post - Step 01: Open Admin site
+[2022-08-02 11:11:53,900] Edit_Post - Step 02: Click to 'Post' menu link 
+[2022-08-02 11:11:55,281] Edit_Post - Step 03: Enter to 'Search textbox'
+[2022-08-02 11:11:55,459] Edit_Post - Step 04: Click to 'Search posts' button
+[2022-08-02 11:11:57,343] Edit_Post - Step 05: Click to Post title link and navigate to Edit Post page 
+[2022-08-02 11:12:00,098] Edit_Post - Step 06: Enter to post title 
+[2022-08-02 11:12:01,573] Edit_Post - Step 07: Enter to post body 
+[2022-08-02 11:12:03,838] Edit_Post - Step 08: Click to 'Update' button 
+[2022-08-02 11:12:04,114] Edit_Post - Step 09: Verify 'Post updated' message is displayed
+[2022-08-02 11:12:05,680]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:05,680] Edit_Postt - Step 10: Open 'Search Post' page
+[2022-08-02 11:12:08,038] Edit_Post - Step 11: Enter to 'Search textbox'
+[2022-08-02 11:12:08,179] Edit_Post - Step 12: Click to 'Search posts' button
+[2022-08-02 11:12:10,264] Edit_Post - Step 13: Verify search table containsEdit Title 4984'
+[2022-08-02 11:12:10,338]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:10,338] Edit_Post - Step 14: Verify search table containsautomationfc'
+[2022-08-02 11:12:10,398]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:10,399] Edit_Post - Step 15: Open End User site 
+[2022-08-02 11:12:11,161] Edit_Post - Step 16: Verify Post infor displayed on at Home Page
+[2022-08-02 11:12:11,212]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:11,258]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:11,307]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:11,365]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:11,365] Edit_Post - Step 08: Click to Post title
+[2022-08-02 11:12:12,223] Edit_Post - Step 09: Verify Post infor displayed on at Post Detail Page
+[2022-08-02 11:12:12,292]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:12,338]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:12,395]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:12,441]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:12,446] Delete_Post - Step 01: Open Admin site
+[2022-08-02 11:12:13,768] Delete_Post - Step 02: Click to 'Post' menu link 
+[2022-08-02 11:12:15,029] Delete_Post - Step 03: Enter to 'Search textbox'
+[2022-08-02 11:12:15,155] Delete_Post - Step 04: Click to 'Search posts' button
+[2022-08-02 11:12:17,138] Delete_Post - Step 05: Select Post detail checkbox
+[2022-08-02 11:12:17,270] Delete_Post - Step 06: Select 'Move to Trash' item in dropdown
+[2022-08-02 11:12:17,496] Delete_Post - Step 07: Click to 'Apply' button
+[2022-08-02 11:12:20,421] Delete_Post - Step 08: Verify '1 post moved to the Trash.' message is displayed
+[2022-08-02 11:12:20,478]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:20,479] Delete_Post - Step 09: Enter to 'Search textbox'
+[2022-08-02 11:12:20,597] Delete_Post - Step 10: Click to 'Search posts' button
+[2022-08-02 11:12:22,297] Delete_Post - Step 11: Verify 'No posts found.' message is displayed
+[2022-08-02 11:12:22,367]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:22,367] Delete_Post - Step 12: Open End User site 
+[2022-08-02 11:12:23,136] Delete_Post - Step 13: Verify Post title undisplayed on at Home Page
+[2022-08-02 11:12:28,184]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:28,184] Delete_Post - Step 14: Enter to Search textbox
+[2022-08-02 11:12:28,335] Delete_Post - Step 15: Click to Search button
+[2022-08-02 11:12:29,263] Delete_Post - Step 16: Verify 'Nothing Found.' message is displayed
+[2022-08-02 11:12:29,312]  -------------------------- PASSED -------------------------- 
+[2022-08-02 11:12:29,315] OS name = windows 10
+[2022-08-02 11:12:29,315] Driver instance name = chromedriver: chrome on windows (2c8bb0bfcb88d31f22ce54194c5ac6e5)
+[2022-08-02 11:21:25,372] Pre-condition - Step 01: Open browser and admin Site
+[2022-08-02 11:21:40,666] OS name = windows 10
+[2022-08-02 11:21:40,666] Driver instance name = chromedriver: chrome on windows (a95c7725d6e95f89f8ccaa46fe4142d5)
+[2022-08-02 11:21:52,706] chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.88.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\TUTHUC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a95c7725d6e95f89f8ccaa46fe4142d5
