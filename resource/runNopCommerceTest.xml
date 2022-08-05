@@ -11,7 +11,7 @@
 <test name="Run on firefox ">
   <parameter name = "browser" value = "firefox"/>
     <classes>
-      <class name="com.nopcomerce.user.Level_18_Pattern_Object"/>
+      <class name="com.nopcomerce.user.Level_20_Faker_Data"/>
     </classes>
   </test> 
 

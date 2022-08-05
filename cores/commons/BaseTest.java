@@ -16,7 +16,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.testng.Assert;
@@ -44,11 +43,11 @@ public class BaseTest {
 
 			WebDriverManager.firefoxdriver().setup();
 			// add extension to firefox
-			FirefoxProfile profile = new FirefoxProfile();
-			File adblock = new File(GlobalConstants.PROJECT_PATH + "\\browserExtentions\\adblock_for_firefox-5.0.4.xpi");
-			profile.addExtension(adblock);
+			// FirefoxProfile profile = new FirefoxProfile();
+			// File adblock = new File(GlobalConstants.PROJECT_PATH + "\\browserExtentions\\adblock_for_firefox-5.0.4.xpi");
+			// profile.addExtension(adblock);
 			FirefoxOptions options = new FirefoxOptions();
-			options.setProfile(profile);
+			// options.setProfile(profile);
 			driver = new FirefoxDriver(options);
 		} else if (browserList == BrowserList.H_FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
