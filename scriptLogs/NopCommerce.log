@@ -1334,3 +1334,57 @@ System info: host: 'THUCTV', ip: '192.168.88.1', os.name: 'Windows 10', os.arch:
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\TUTHUC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 Session ID: a95c7725d6e95f89f8ccaa46fe4142d5
+[2022-08-05 23:02:23,476] Register - Step 01: Navigate to 'Register' link
+[2022-08-05 23:02:29,168] Register - Step 01: Click to Checkbox Gender
+[2022-08-05 23:02:29,969] Register - Step 02: Enter to FirstName textbox with value is Automation'
+[2022-08-05 23:02:30,570] Register - Step 03: Enter to LastName textbox with value is FC'
+[2022-08-05 23:02:31,034] Step 04: Select Day of Birthday
+[2022-08-05 23:02:31,733] Step 04: Select Month of Birthday
+[2022-08-05 23:02:32,551] Step 04: Select year of Birthday
+[2022-08-05 23:02:33,674] Register - Step 04: Enter to emailAdress textbox with value is automation9990hotmail.com'
+[2022-08-05 23:02:34,355] Register - Step 01: Click to Radio 
+[2022-08-05 23:02:34,850] Register - Step 05: Enter to password textbox with value is 123456'
+[2022-08-05 23:02:35,623] Register - Step 06: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-08-05 23:02:36,595] Register - Step 07: Click to 'Register' button
+[2022-08-05 23:02:37,751] Register - Step 08: Verify register success message is displayed
+[2022-08-05 23:02:50,097] Login - Step 01: Navigate to Login page
+[2022-08-05 23:02:51,901] MyAccount - Step 01: Navigate to Customer infor page
+[2022-08-05 23:02:51,961] OS name = windows 10
+[2022-08-05 23:02:51,963] Driver instance name = firefoxdriver: firefox on windows (1ba1ebea-4487-48f9-847a-b5e33bfec0e6)
+[2022-08-05 23:02:51,977] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-2RT7I3F', ip: '192.168.5.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ba1ebea-4487-48f9-847a-b5e33bfec0e6
+[2022-08-05 23:08:28,620] Register - Step 01: Navigate to 'Register' link
+[2022-08-05 23:08:33,604] Register - Step 01: Click to Checkbox Gender
+[2022-08-05 23:08:34,776] Register - Step 02: Enter to FirstName textbox with value is Automation'
+[2022-08-05 23:08:35,681] Register - Step 03: Enter to LastName textbox with value is FC'
+[2022-08-05 23:08:36,437] Step 04: Select Day of Birthday
+[2022-08-05 23:08:37,551] Step 04: Select Month of Birthday
+[2022-08-05 23:08:38,517] Step 04: Select year of Birthday
+[2022-08-05 23:08:39,356] Register - Step 04: Enter to emailAdress textbox with value is automation479@hotmail.com'
+[2022-08-05 23:08:39,980] Register - Step 01: Click to Radio 
+[2022-08-05 23:08:40,316] Register - Step 05: Enter to password textbox with value is 123456'
+[2022-08-05 23:08:40,776] Register - Step 06: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-08-05 23:08:41,425] Register - Step 07: Click to 'Register' button
+[2022-08-05 23:08:44,245] Register - Step 08: Verify register success message is displayed
+[2022-08-05 23:08:44,603] Register - Step 09: Click to Logout link
+[2022-08-05 23:08:48,318] Login - Step 01: Navigate to Login page
+[2022-08-05 23:08:49,838] Login - Step 02: Enter to EmailAdress textbox with value is automation479@hotmail.com'
+[2022-08-05 23:08:50,387] Login - Step 03: Enter to Password textbox with value is 123456'
+[2022-08-05 23:08:50,717] Login - Step 04: Click to 'Login' button
+[2022-08-05 23:08:53,706] Login - Step 05: Verify 'MyAccount' link is displayed 
+[2022-08-05 23:08:54,156]  -------------------------- PASSED -------------------------- 
+[2022-08-05 23:08:54,215] MyAccount - Step 01: Navigate to Customer infor page
+[2022-08-05 23:08:57,015] MyAccount - Step 02: Verify 'Customer infor' page is displayed 
+[2022-08-05 23:08:57,430]  -------------------------- PASSED -------------------------- 
+[2022-08-05 23:08:57,431] MyAccount - Step 03: Verify 'UserData.Register.FIRST_NAME' value is correctly 
+[2022-08-05 23:08:57,726]  -------------------------- PASSED -------------------------- 
+[2022-08-05 23:08:57,727] MyAccount - Step 04: Verify 'UserData.Register.LAST_NAME' value is correctly 
+[2022-08-05 23:08:58,101]  -------------------------- PASSED -------------------------- 
+[2022-08-05 23:08:58,102] MyAccount - Step 05: Verify 'Email' value is correctly 
+[2022-08-05 23:08:58,516]  -------------------------- PASSED -------------------------- 
+[2022-08-05 23:08:58,534] OS name = windows 10
+[2022-08-05 23:08:58,535] Driver instance name = firefoxdriver: firefox on windows (f731ebc6-264b-41eb-ab5c-af1fa2a1b00e)
