@@ -26,6 +26,17 @@ public class Level_20_Manager_Data_Json extends BaseTest {
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 		userData = UserDataMapper.getUserData();
 		emailAddress = userData.getEmailAddress() + generateFakeNumber() + "@hotmail.com";
+		
+		System.out.println(userData.getSubjects().get(0).getName());
+		System.out.println(userData.getSubjects().get(0).getPoint());
+		
+		System.out.println(userData.getSubjects().get(1).getName());
+		System.out.println(userData.getSubjects().get(1).getPoint());
+		
+		System.out.println(userData.getSubjects().get(2).getName());
+		System.out.println(userData.getSubjects().get(2).getPoint());
+		
+		
 	}
 
 	@Test
@@ -73,7 +84,7 @@ public class Level_20_Manager_Data_Json extends BaseTest {
 		homePage = registerPage.clickToLogoutLink();
 	}
 
-	@Test
+	//@Test
 	public void User_02_Login() {
 		log.info("Login - Step 01: Navigate to Login page");
 		loginPage = homePage.openLoginPage();
@@ -91,7 +102,7 @@ public class Level_20_Manager_Data_Json extends BaseTest {
 		verifyTrue(homePage.isMyAccountLinkDisplayed());
 	}
 
-	@Test
+	//@Test
 	public void User_03_My_Account() {
 		log.info("MyAccount - Step 01: Navigate to Customer infor page");
 		custormerInforPage = homePage.openCustomerInforPage();
@@ -117,7 +128,7 @@ public class Level_20_Manager_Data_Json extends BaseTest {
 
 	private WebDriver driver;
 
-	private String firstName, lastName, emailAddress, validpassword, date, month, year;
+private String emailAddress;
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserRegisterPageObject registerPage;
