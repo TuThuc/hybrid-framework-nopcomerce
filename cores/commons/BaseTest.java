@@ -186,22 +186,22 @@ public class BaseTest {
 			throw new RuntimeException("Brower name invalid");
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.get(appURL);
+		driver.get(getEnvironmentURL(appURL));
 		driver.manage().window().maximize();
 		return driver;
 	}
 
-	protected String getEnvironmentURL(String serverName) {
+	private String getEnvironmentURL(String serverName) {
 		String envURL = null;
 		EnvironmentList environment = EnvironmentList.valueOf(serverName.toUpperCase());
 		if (environment == EnvironmentList.DEV) {
-			envURL = "https://demo.nopcommerce.com";
+			envURL = "https://demo.guru99.com/v1";
 		} else if (environment == EnvironmentList.TESTING) {
-			envURL = "https://admin-demo.nopcommerce.com";
+			envURL = "https://demo.guru99.com/v2";
 		} else if (environment == EnvironmentList.STAGING) {
-			envURL = "https://staging.demo.nopcommerce.com";
+			envURL = "https://demo.guru99.com/v3";
 		} else if (environment == EnvironmentList.PRODUCTION) {
-			envURL = "https://product.demo.nopcommerce.com";
+			envURL = "https://demo.guru99.com/v4";
 		}
 		return envURL;
 	}
