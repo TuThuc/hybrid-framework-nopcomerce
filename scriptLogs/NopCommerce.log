@@ -2,3 +2,1167 @@
 [2022-08-22 22:12:45,069] Driver instance name = firefoxdriver: firefox on windows (30c1bef5-8792-40c6-970f-ebe221af97cc)
 [2022-09-08 11:56:38,835] OS name = windows 10
 [2022-09-08 11:56:38,835] Driver instance name = firefoxdriver: firefox on windows (9965a941-a2b5-4da9-bea9-cbff96ff59b7)
+[2022-09-14 16:20:37,999] TC_01 - Step 01: Get Employee list number at Customer Page
+[2022-09-14 16:20:38,000] TC_01 - Step 02: Get Employee list number at Customer Page
+[2022-09-14 16:20:53,165] TC_01 - Step 03: Verify Employee size in UI and DB are equal
+[2022-09-14 16:20:53,166]  -------------------------- PASSED -------------------------- 
+[2022-09-14 16:20:54,263] OS name = windows 10
+[2022-09-14 16:20:54,316] Driver instance name = firefoxdriver: firefox on windows (47e28382-2d9d-403a-96e2-4c2c29ad01d6)
+[2022-09-20 16:52:22,970] Precondition - Navigate to 'Register' link
+[2022-09-20 16:52:31,814] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-20 16:52:32,441] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-20 16:52:33,313] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-20 16:52:33,406] Register_01 - Step 04: Select Day of Birthday
+[2022-09-20 16:52:34,078] Register_01 - Step 05: Select Month of Birthday
+[2022-09-20 16:52:34,405] Register_01 - Step 06: Select year of Birthday
+[2022-09-20 16:52:34,677] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-20 16:52:34,742] Register_01 - Step 08: Click to Radio 
+[2022-09-20 16:52:34,775] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-20 16:52:34,988] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-20 16:52:35,107] Register_01 - Step 11: Click to register button
+[2022-09-20 16:52:35,814] Register_01 - Step 12: Verify error message displayed
+[2022-09-20 16:52:36,031]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:52:36,065]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:52:36,099]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:52:36,137]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:52:36,171]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:52:36,650] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-20 16:52:36,690] Register_02 - Step 02: Enter to FirstName textbox with value is Wilton'
+[2022-09-20 16:52:37,482] Register_02- Step 03: Enter to LastName textbox with value is Blick'
+[2022-09-20 16:52:37,534] Register_02 - Step 04: Select Day of Birthday
+[2022-09-20 16:52:37,584] Register_02 - Step 05: Select Month of Birthday
+[2022-09-20 16:52:37,636] Register_02 - Step 06: Select year of Birthday
+[2022-09-20 16:52:37,717] Register_02 - Step 07: Enter to emailAdress textbox with value is Blick'
+[2022-09-20 16:52:37,817] Register_02 - Step 08: Click to Radio 
+[2022-09-20 16:52:37,856] Register_02 - Step 09: Enter to password textbox with value is null'
+[2022-09-20 16:58:17,318] Precondition - Navigate to 'Register' link
+[2022-09-20 16:58:18,665] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-20 16:58:18,929] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-20 16:58:19,058] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-20 16:58:19,113] Register_01 - Step 04: Select Day of Birthday
+[2022-09-20 16:58:19,399] Register_01 - Step 05: Select Month of Birthday
+[2022-09-20 16:58:19,664] Register_01 - Step 06: Select year of Birthday
+[2022-09-20 16:58:19,945] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-20 16:58:19,998] Register_01 - Step 08: Click to Radio 
+[2022-09-20 16:58:20,038] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-20 16:58:20,083] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-20 16:58:20,134] Register_01 - Step 11: Click to register button
+[2022-09-20 16:58:20,405] Register_01 - Step 12: Verify error message displayed
+[2022-09-20 16:58:20,465]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:58:20,498]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:58:20,533]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:58:20,568]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:58:20,602]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:58:20,649] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-20 16:58:20,686] Register_02 - Step 02: Enter to FirstName textbox with value is Morgan'
+[2022-09-20 16:58:20,757] Register_02- Step 03: Enter to LastName textbox with value is Ortiz'
+[2022-09-20 16:58:20,820] Register_02 - Step 04: Select Day of Birthday
+[2022-09-20 16:58:20,873] Register_02 - Step 05: Select Month of Birthday
+[2022-09-20 16:58:20,927] Register_02 - Step 06: Select year of Birthday
+[2022-09-20 16:58:20,973] Register_02 - Step 07: Enter to emailAdress textbox with value is Ortiz'
+[2022-09-20 16:58:21,029] Register_02 - Step 08: Click to Radio 
+[2022-09-20 16:58:21,069] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 16:58:21,127] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 16:58:21,191] Register_02 - Step 11: Click to 'Register' button
+[2022-09-20 16:58:21,447] Register_02 - Step 12: Verify error message displayed
+[2022-09-20 16:58:21,483]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:58:21,489] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-20 16:58:21,522] Register_03 - Step 02: Enter to FirstName textbox with value is Morgan'
+[2022-09-20 16:58:21,598] Register_03 - Step 03: Enter to LastName textbox with value is Ortiz'
+[2022-09-20 16:58:21,671] Register_03 - Step 04: Select Day of Birthday
+[2022-09-20 16:58:21,731] Register_03 - Step 05: Select Month of Birthday
+[2022-09-20 16:58:21,785] Register_03 - Step 06: Select year of Birthday
+[2022-09-20 16:58:21,839] Register_03 - Step 07: Enter to emailAdress textbox with value is cole.grant@hotmail.com'
+[2022-09-20 16:58:21,932] Register_03 - Step 08: Click to Radio 
+[2022-09-20 16:58:21,967] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 16:58:22,039] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 16:58:22,118] Register_03 - Step 11: Click to 'Register' button
+[2022-09-20 16:58:22,908] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-20 16:58:22,946]  -------------------------- PASSED -------------------------- 
+[2022-09-20 16:58:22,951] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:01:04,691] Precondition - Navigate to 'Register' link
+[2022-09-20 17:01:05,979] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:01:06,247] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-20 17:01:06,359] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-20 17:01:06,419] Register_01 - Step 04: Select Day of Birthday
+[2022-09-20 17:01:06,706] Register_01 - Step 05: Select Month of Birthday
+[2022-09-20 17:01:06,987] Register_01 - Step 06: Select year of Birthday
+[2022-09-20 17:01:07,254] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-20 17:01:07,307] Register_01 - Step 08: Click to Radio 
+[2022-09-20 17:01:07,342] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-20 17:01:07,388] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-20 17:01:07,434] Register_01 - Step 11: Click to register button
+[2022-09-20 17:01:07,699] Register_01 - Step 12: Verify error message displayed
+[2022-09-20 17:01:07,749]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:01:07,780]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:01:07,814]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:01:07,849]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:01:07,883]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:01:07,951] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:01:07,983] Register_02 - Step 02: Enter to FirstName textbox with value is Waltraud'
+[2022-09-20 17:01:08,051] Register_02- Step 03: Enter to LastName textbox with value is Heller'
+[2022-09-20 17:01:08,105] Register_02 - Step 04: Select Day of Birthday
+[2022-09-20 17:01:08,155] Register_02 - Step 05: Select Month of Birthday
+[2022-09-20 17:01:08,206] Register_02 - Step 06: Select year of Birthday
+[2022-09-20 17:01:08,252] Register_02 - Step 07: Enter to emailAdress textbox with value is Heller'
+[2022-09-20 17:01:08,308] Register_02 - Step 08: Click to Radio 
+[2022-09-20 17:01:08,338] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:01:08,392] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 17:01:08,446] Register_02 - Step 11: Click to 'Register' button
+[2022-09-20 17:01:08,697] Register_02 - Step 12: Verify error message displayed
+[2022-09-20 17:01:08,763]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:01:08,775] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:01:08,811] Register_03 - Step 02: Enter to FirstName textbox with value is Waltraud'
+[2022-09-20 17:01:08,873] Register_03 - Step 03: Enter to LastName textbox with value is Heller'
+[2022-09-20 17:01:08,929] Register_03 - Step 04: Select Day of Birthday
+[2022-09-20 17:01:08,980] Register_03 - Step 05: Select Month of Birthday
+[2022-09-20 17:01:09,035] Register_03 - Step 06: Select year of Birthday
+[2022-09-20 17:01:09,080] Register_03 - Step 07: Enter to emailAdress textbox with value is lesley.gutmann@hotmail.com'
+[2022-09-20 17:01:09,167] Register_03 - Step 08: Click to Radio 
+[2022-09-20 17:01:09,200] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:01:09,263] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 17:01:09,327] Register_03 - Step 11: Click to 'Register' button
+[2022-09-20 17:01:10,073] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-20 17:01:10,112]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:01:10,112] Register_03 - Step 13: Click to Logout link
+[2022-09-20 17:01:10,822] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:03:24,717] Precondition - Navigate to 'Register' link
+[2022-09-20 17:03:26,411] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:03:26,693] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-20 17:03:26,759] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-20 17:03:26,833] Register_01 - Step 04: Select Day of Birthday
+[2022-09-20 17:03:27,179] Register_01 - Step 05: Select Month of Birthday
+[2022-09-20 17:03:27,497] Register_01 - Step 06: Select year of Birthday
+[2022-09-20 17:03:27,768] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-20 17:03:27,832] Register_01 - Step 08: Click to Radio 
+[2022-09-20 17:03:27,872] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-20 17:03:27,921] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-20 17:03:27,973] Register_01 - Step 11: Click to register button
+[2022-09-20 17:03:28,245] Register_01 - Step 12: Verify error message displayed
+[2022-09-20 17:03:28,298]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:03:28,332]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:03:28,364]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:03:28,397]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:03:28,429]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:03:28,474] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:03:28,516] Register_02 - Step 02: Enter to FirstName textbox with value is Nigel'
+[2022-09-20 17:03:28,598] Register_02- Step 03: Enter to LastName textbox with value is Mohr'
+[2022-09-20 17:03:28,661] Register_02 - Step 04: Select Day of Birthday
+[2022-09-20 17:03:28,716] Register_02 - Step 05: Select Month of Birthday
+[2022-09-20 17:03:28,771] Register_02 - Step 06: Select year of Birthday
+[2022-09-20 17:03:28,822] Register_02 - Step 07: Enter to emailAdress textbox with value is Mohr'
+[2022-09-20 17:03:28,891] Register_02 - Step 08: Click to Radio 
+[2022-09-20 17:03:28,930] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:03:28,989] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 17:03:29,069] Register_02 - Step 11: Click to 'Register' button
+[2022-09-20 17:03:29,324] Register_02 - Step 12: Verify error message displayed
+[2022-09-20 17:03:29,357]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:03:29,363] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:03:29,398] Register_03 - Step 02: Enter to FirstName textbox with value is Nigel'
+[2022-09-20 17:03:29,466] Register_03 - Step 03: Enter to LastName textbox with value is Mohr'
+[2022-09-20 17:03:29,535] Register_03 - Step 04: Select Day of Birthday
+[2022-09-20 17:03:29,592] Register_03 - Step 05: Select Month of Birthday
+[2022-09-20 17:03:29,643] Register_03 - Step 06: Select year of Birthday
+[2022-09-20 17:03:29,693] Register_03 - Step 07: Enter to emailAdress textbox with value is hector.walker@gmail.com'
+[2022-09-20 17:03:29,809] Register_03 - Step 08: Click to Radio 
+[2022-09-20 17:03:29,841] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:03:29,907] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 17:03:29,989] Register_03 - Step 11: Click to 'Register' button
+[2022-09-20 17:03:30,944] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-20 17:03:30,989]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:03:30,990] Register_03 - Step 13: Click to Logout link
+[2022-09-20 17:03:31,725] Register_03 - Step 14: Click to Register link
+[2022-09-20 17:03:32,209] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:03:32,481] Register_04 - Step 02: Enter to FirstName textbox with value is Nigel'
+[2022-09-20 17:03:32,539] Register_04 - Step 03: Enter to LastName textbox with value is Mohr'
+[2022-09-20 17:03:32,598] Register_04 - Step 04: Select Day of Birthday
+[2022-09-20 17:03:32,871] Register_04 - Step 05: Select Month of Birthday
+[2022-09-20 17:03:33,152] Register_04 - Step 06: Select year of Birthday
+[2022-09-20 17:03:33,416] Register_04 - Step 07: Enter to emailAdress textbox with value is hector.walker@gmail.com'
+[2022-09-20 17:03:33,497] Register_04 - Step 08: Click to Radio 
+[2022-09-20 17:03:33,534] Register_04 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:03:33,594] Register_04 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 17:03:33,647] Register_04 - Step 11: Click to 'Register' button
+[2022-09-20 17:03:34,093] Register_04 - Step 12: Verify error existing email message displayed
+[2022-09-20 17:08:40,916] Precondition - Navigate to 'Register' link
+[2022-09-20 17:08:42,212] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:08:42,478] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-20 17:08:42,556] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-20 17:08:42,619] Register_01 - Step 04: Select Day of Birthday
+[2022-09-20 17:08:42,909] Register_01 - Step 05: Select Month of Birthday
+[2022-09-20 17:08:43,178] Register_01 - Step 06: Select year of Birthday
+[2022-09-20 17:08:43,450] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-20 17:08:43,509] Register_01 - Step 08: Click to Radio 
+[2022-09-20 17:08:43,544] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-20 17:08:43,591] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-20 17:08:43,639] Register_01 - Step 11: Click to register button
+[2022-09-20 17:08:43,910] Register_01 - Step 12: Verify error message displayed
+[2022-09-20 17:08:43,959]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:08:43,991]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:08:44,027]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:08:44,060]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:08:44,094]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:08:44,142] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:08:44,182] Register_02 - Step 02: Enter to FirstName textbox with value is Antonio'
+[2022-09-20 17:08:44,254] Register_02- Step 03: Enter to LastName textbox with value is Flatley'
+[2022-09-20 17:08:44,314] Register_02 - Step 04: Select Day of Birthday
+[2022-09-20 17:08:44,368] Register_02 - Step 05: Select Month of Birthday
+[2022-09-20 17:08:44,419] Register_02 - Step 06: Select year of Birthday
+[2022-09-20 17:08:44,468] Register_02 - Step 07: Enter to emailAdress textbox with value is Flatley'
+[2022-09-20 17:08:44,527] Register_02 - Step 08: Click to Radio 
+[2022-09-20 17:08:44,562] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:08:44,618] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 17:08:44,677] Register_02 - Step 11: Click to 'Register' button
+[2022-09-20 17:08:44,935] Register_02 - Step 12: Verify error message displayed
+[2022-09-20 17:08:44,979]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:08:44,986] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:08:45,020] Register_03 - Step 02: Enter to FirstName textbox with value is Antonio'
+[2022-09-20 17:08:45,113] Register_03 - Step 03: Enter to LastName textbox with value is Flatley'
+[2022-09-20 17:08:45,179] Register_03 - Step 04: Select Day of Birthday
+[2022-09-20 17:08:45,232] Register_03 - Step 05: Select Month of Birthday
+[2022-09-20 17:08:45,280] Register_03 - Step 06: Select year of Birthday
+[2022-09-20 17:08:45,329] Register_03 - Step 07: Enter to emailAdress textbox with value is lin.bergnaum@yahoo.com'
+[2022-09-20 17:08:45,419] Register_03 - Step 08: Click to Radio 
+[2022-09-20 17:08:45,451] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:08:45,516] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 17:08:45,582] Register_03 - Step 11: Click to 'Register' button
+[2022-09-20 17:08:46,376] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-20 17:08:46,420]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:08:46,420] Register_03 - Step 13: Click to Logout link
+[2022-09-20 17:08:47,124] Register_03 - Step 14: Click to Register link
+[2022-09-20 17:08:47,560] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:08:47,816] Register_04 - Step 02: Enter to FirstName textbox with value is Antonio'
+[2022-09-20 17:08:47,893] Register_04 - Step 03: Enter to LastName textbox with value is Flatley'
+[2022-09-20 17:08:47,954] Register_04 - Step 04: Select Day of Birthday
+[2022-09-20 17:08:48,224] Register_04 - Step 05: Select Month of Birthday
+[2022-09-20 17:08:48,504] Register_04 - Step 06: Select year of Birthday
+[2022-09-20 17:08:48,780] Register_04 - Step 07: Enter to emailAdress textbox with value is lin.bergnaum@yahoo.com'
+[2022-09-20 17:08:48,876] Register_04 - Step 08: Click to Radio 
+[2022-09-20 17:08:48,906] Register_04 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:08:48,976] Register_04 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 17:08:49,028] Register_04 - Step 11: Click to 'Register' button
+[2022-09-20 17:08:49,468] Register_04 - Step 12: Verify error existing email message displayed
+[2022-09-20 17:08:49,519]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:08:49,524] Register_05 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:08:49,560] Register_05 - Step 02: Enter to FirstName textbox with value is Antonio'
+[2022-09-20 17:08:49,627] Register_05 - Step 03: Enter to LastName textbox with value is Flatley'
+[2022-09-20 17:08:49,693] Register_05 - Step 04: Select Day of Birthday
+[2022-09-20 17:08:49,744] Register_05 - Step 05: Select Month of Birthday
+[2022-09-20 17:08:49,798] Register_05 - Step 06: Select year of Birthday
+[2022-09-20 17:08:49,849] Register_05 - Step 07: Enter to emailAdress textbox with value is lin.bergnaum@yahoo.com'
+[2022-09-20 17:08:49,928] Register_05 - Step 08: Click to Radio 
+[2022-09-20 17:08:49,961] Register_05 - Step 09: Enter to password textbox with value is 123'
+[2022-09-20 17:08:50,008] Register_05 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-20 17:08:50,059] Register_05 - Step 11: Click to 'Register' button
+[2022-09-20 17:08:50,324] Register_05 - Step 12: Verify error message displayed
+[2022-09-20 17:12:11,520] Precondition - Navigate to 'Register' link
+[2022-09-20 17:12:12,804] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:12:13,109] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-20 17:12:13,228] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-20 17:12:13,307] Register_01 - Step 04: Select Day of Birthday
+[2022-09-20 17:12:13,611] Register_01 - Step 05: Select Month of Birthday
+[2022-09-20 17:12:13,879] Register_01 - Step 06: Select year of Birthday
+[2022-09-20 17:12:14,170] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-20 17:12:14,226] Register_01 - Step 08: Click to Radio 
+[2022-09-20 17:12:14,265] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-20 17:12:14,311] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-20 17:12:14,372] Register_01 - Step 11: Click to register button
+[2022-09-20 17:12:14,643] Register_01 - Step 12: Verify error message displayed
+[2022-09-20 17:12:14,703]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:12:14,734]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:12:14,768]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:12:14,802]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:12:14,835]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:12:14,880] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:12:14,915] Register_02 - Step 02: Enter to FirstName textbox with value is Carter'
+[2022-09-20 17:12:14,978] Register_02- Step 03: Enter to LastName textbox with value is Schmeler'
+[2022-09-20 17:12:15,038] Register_02 - Step 04: Select Day of Birthday
+[2022-09-20 17:12:15,091] Register_02 - Step 05: Select Month of Birthday
+[2022-09-20 17:12:15,145] Register_02 - Step 06: Select year of Birthday
+[2022-09-20 17:12:15,188] Register_02 - Step 07: Enter to emailAdress textbox with value is Schmeler'
+[2022-09-20 17:12:15,250] Register_02 - Step 08: Click to Radio 
+[2022-09-20 17:12:15,283] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:12:15,342] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 17:12:15,404] Register_02 - Step 11: Click to 'Register' button
+[2022-09-20 17:12:15,664] Register_02 - Step 12: Verify error message displayed
+[2022-09-20 17:12:15,721]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:12:15,732] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:12:15,772] Register_03 - Step 02: Enter to FirstName textbox with value is Carter'
+[2022-09-20 17:12:15,837] Register_03 - Step 03: Enter to LastName textbox with value is Schmeler'
+[2022-09-20 17:12:15,907] Register_03 - Step 04: Select Day of Birthday
+[2022-09-20 17:12:15,958] Register_03 - Step 05: Select Month of Birthday
+[2022-09-20 17:12:16,022] Register_03 - Step 06: Select year of Birthday
+[2022-09-20 17:12:16,077] Register_03 - Step 07: Enter to emailAdress textbox with value is jaime.bartoletti@hotmail.com'
+[2022-09-20 17:12:16,180] Register_03 - Step 08: Click to Radio 
+[2022-09-20 17:12:16,215] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:12:16,282] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 17:12:16,356] Register_03 - Step 11: Click to 'Register' button
+[2022-09-20 17:12:17,150] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-20 17:12:17,191]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:12:17,191] Register_03 - Step 13: Click to Logout link
+[2022-09-20 17:12:17,905] Register_03 - Step 14: Click to Register link
+[2022-09-20 17:12:18,372] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:12:18,622] Register_04 - Step 02: Enter to FirstName textbox with value is Carter'
+[2022-09-20 17:12:18,696] Register_04 - Step 03: Enter to LastName textbox with value is Schmeler'
+[2022-09-20 17:12:18,765] Register_04 - Step 04: Select Day of Birthday
+[2022-09-20 17:12:19,042] Register_04 - Step 05: Select Month of Birthday
+[2022-09-20 17:12:19,301] Register_04 - Step 06: Select year of Birthday
+[2022-09-20 17:12:19,587] Register_04 - Step 07: Enter to emailAdress textbox with value is jaime.bartoletti@hotmail.com'
+[2022-09-20 17:12:19,680] Register_04 - Step 08: Click to Radio 
+[2022-09-20 17:12:19,714] Register_04 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:12:19,773] Register_04 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-20 17:12:19,836] Register_04 - Step 11: Click to 'Register' button
+[2022-09-20 17:12:20,258] Register_04 - Step 12: Verify error existing email message displayed
+[2022-09-20 17:12:20,313]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:12:20,318] Register_05 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:12:20,353] Register_05 - Step 02: Enter to FirstName textbox with value is Carter'
+[2022-09-20 17:12:20,415] Register_05 - Step 03: Enter to LastName textbox with value is Schmeler'
+[2022-09-20 17:12:20,493] Register_05 - Step 04: Select Day of Birthday
+[2022-09-20 17:12:20,553] Register_05 - Step 05: Select Month of Birthday
+[2022-09-20 17:12:20,604] Register_05 - Step 06: Select year of Birthday
+[2022-09-20 17:12:20,655] Register_05 - Step 07: Enter to emailAdress textbox with value is jaime.bartoletti@hotmail.com'
+[2022-09-20 17:12:20,721] Register_05 - Step 08: Click to Radio 
+[2022-09-20 17:12:20,758] Register_05 - Step 09: Enter to password textbox with value is 123'
+[2022-09-20 17:12:20,804] Register_05 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-20 17:12:20,853] Register_05 - Step 11: Click to 'Register' button
+[2022-09-20 17:12:21,122] Register_05 - Step 12: Verify error message displayed
+[2022-09-20 17:12:21,181]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:12:21,186] Register_06 - Step 01: Click to Checkbox Gender
+[2022-09-20 17:12:21,218] Register_06 - Step 02: Enter to FirstName textbox with value is Carter'
+[2022-09-20 17:12:21,278] Register_06 - Step 03: Enter to LastName textbox with value is Schmeler'
+[2022-09-20 17:12:21,339] Register_06 - Step 04: Select Day of Birthday
+[2022-09-20 17:12:21,391] Register_06 - Step 05: Select Month of Birthday
+[2022-09-20 17:12:21,444] Register_06 - Step 06: Select year of Birthday
+[2022-09-20 17:12:21,492] Register_06 - Step 07: Enter to emailAdress textbox with value is jaime.bartoletti@hotmail.com'
+[2022-09-20 17:12:21,554] Register_06 - Step 08: Click to Radio 
+[2022-09-20 17:12:21,588] Register_06 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-20 17:12:21,654] Register_06 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-20 17:12:21,714] Register_06 - Step 11: Click to 'Register' button
+[2022-09-20 17:12:21,972] Register_06 - Step 12: Verify error message displayed
+[2022-09-20 17:12:22,029]  -------------------------- PASSED -------------------------- 
+[2022-09-20 17:12:22,035] OS name = windows 10
+[2022-09-20 17:12:22,035] Driver instance name = firefoxdriver: firefox on windows (a47d09a2-7b52-4334-b07f-b10af2ad2a9d)
+[2022-09-21 10:26:50,224] Precondition - Navigate to 'Register' link
+[2022-09-21 10:26:52,523] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-21 10:26:52,787] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-21 10:26:52,889] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-21 10:26:52,937] Register_01 - Step 04: Select Day of Birthday
+[2022-09-21 10:26:53,264] Register_01 - Step 05: Select Month of Birthday
+[2022-09-21 10:26:53,550] Register_01 - Step 06: Select year of Birthday
+[2022-09-21 10:26:53,838] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-21 10:26:53,910] Register_01 - Step 08: Click to Radio 
+[2022-09-21 10:26:53,949] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-21 10:26:53,995] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-21 10:26:54,056] Register_01 - Step 11: Click to register button
+[2022-09-21 10:26:54,352] Register_01 - Step 12: Verify error message displayed
+[2022-09-21 10:26:54,405]  -------------------------- PASSED -------------------------- 
+[2022-09-21 10:26:54,439]  -------------------------- PASSED -------------------------- 
+[2022-09-21 10:26:54,474]  -------------------------- PASSED -------------------------- 
+[2022-09-21 10:26:54,509]  -------------------------- PASSED -------------------------- 
+[2022-09-21 10:26:54,542]  -------------------------- PASSED -------------------------- 
+[2022-09-21 10:26:54,749] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-21 10:26:54,788] Register_02 - Step 02: Enter to FirstName textbox with value is Norris'
+[2022-09-21 10:26:54,893] Register_02- Step 03: Enter to LastName textbox with value is O'Kon'
+[2022-09-21 10:26:54,968] Register_02 - Step 04: Select Day of Birthday
+[2022-09-21 10:26:55,026] Register_02 - Step 05: Select Month of Birthday
+[2022-09-21 10:26:55,084] Register_02 - Step 06: Select year of Birthday
+[2022-09-21 10:26:55,134] Register_02 - Step 07: Enter to emailAdress textbox with value is O'Kon'
+[2022-09-21 10:26:55,200] Register_02 - Step 08: Click to Radio 
+[2022-09-21 10:26:55,239] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 10:26:55,317] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 10:26:55,382] Register_02 - Step 11: Click to 'Register' button
+[2022-09-21 10:26:55,644] Register_02 - Step 12: Verify error message displayed
+[2022-09-21 10:26:55,678]  -------------------------- PASSED -------------------------- 
+[2022-09-21 10:26:55,684] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-21 10:26:55,719] Register_03 - Step 02: Enter to FirstName textbox with value is Norris'
+[2022-09-21 10:26:55,792] Register_03 - Step 03: Enter to LastName textbox with value is O'Kon'
+[2022-09-21 10:26:55,862] Register_03 - Step 04: Select Day of Birthday
+[2022-09-21 10:26:55,915] Register_03 - Step 05: Select Month of Birthday
+[2022-09-21 10:26:55,962] Register_03 - Step 06: Select year of Birthday
+[2022-09-21 10:26:56,014] Register_03 - Step 07: Enter to emailAdress textbox with value is marian.raynor@yahoo.com'
+[2022-09-21 10:26:56,108] Register_03 - Step 08: Click to Radio 
+[2022-09-21 10:26:56,147] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 10:26:56,214] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 10:26:56,280] Register_03 - Step 11: Click to 'Register' button
+[2022-09-21 10:26:57,069] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-21 10:26:57,110]  -------------------------- PASSED -------------------------- 
+[2022-09-21 10:26:57,110] Register_03 - Step 13: Click to Logout link
+[2022-09-21 10:26:57,804] Register_03 - Step 14: Click to Register link
+[2022-09-21 10:26:58,240] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-21 10:26:58,517] Register_04 - Step 02: Enter to FirstName textbox with value is Norris'
+[2022-09-21 10:26:58,576] Register_04 - Step 03: Enter to LastName textbox with value is O'Kon'
+[2022-09-21 10:26:58,653] Register_04 - Step 04: Select Day of Birthday
+[2022-09-21 10:26:58,928] Register_04 - Step 05: Select Month of Birthday
+[2022-09-21 10:26:59,193] Register_04 - Step 06: Select year of Birthday
+[2022-09-21 10:26:59,459] Register_04 - Step 07: Enter to emailAdress textbox with value is marian.raynor@yahoo.com'
+[2022-09-21 10:26:59,535] Register_04 - Step 08: Click to Radio 
+[2022-09-21 10:26:59,568] Register_04 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 10:26:59,627] Register_04 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 10:26:59,682] Register_04 - Step 11: Click to 'Register' button
+[2022-09-21 10:27:00,106] Register_04 - Step 12: Verify error existing email message displayed
+[2022-09-21 10:27:00,161]  -------------------------- PASSED -------------------------- 
+[2022-09-21 10:27:00,167] Register_05 - Step 01: Click to Checkbox Gender
+[2022-09-21 10:27:00,201] Register_05 - Step 02: Enter to FirstName textbox with value is Norris'
+[2022-09-21 10:27:00,268] Register_05 - Step 03: Enter to LastName textbox with value is O'Kon'
+[2022-09-21 10:27:00,338] Register_05 - Step 04: Select Day of Birthday
+[2022-09-21 10:27:00,395] Register_05 - Step 05: Select Month of Birthday
+[2022-09-21 10:27:00,446] Register_05 - Step 06: Select year of Birthday
+[2022-09-21 10:27:00,500] Register_05 - Step 07: Enter to emailAdress textbox with value is marian.raynor@yahoo.com'
+[2022-09-21 10:27:00,572] Register_05 - Step 08: Click to Radio 
+[2022-09-21 10:27:00,607] Register_05 - Step 09: Enter to password textbox with value is 123'
+[2022-09-21 10:27:00,658] Register_05 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-21 10:27:00,707] Register_05 - Step 11: Click to 'Register' button
+[2022-09-21 10:27:00,975] Register_05 - Step 12: Verify error message displayed
+[2022-09-21 10:27:01,018]  -------------------------- PASSED -------------------------- 
+[2022-09-21 10:27:01,022] Register_06 - Step 01: Click to Checkbox Gender
+[2022-09-21 10:27:01,059] Register_06 - Step 02: Enter to FirstName textbox with value is Norris'
+[2022-09-21 10:27:01,112] Register_06 - Step 03: Enter to LastName textbox with value is O'Kon'
+[2022-09-21 10:27:01,176] Register_06 - Step 04: Select Day of Birthday
+[2022-09-21 10:27:01,229] Register_06 - Step 05: Select Month of Birthday
+[2022-09-21 10:27:01,278] Register_06 - Step 06: Select year of Birthday
+[2022-09-21 10:27:01,332] Register_06 - Step 07: Enter to emailAdress textbox with value is marian.raynor@yahoo.com'
+[2022-09-21 10:27:01,403] Register_06 - Step 08: Click to Radio 
+[2022-09-21 10:27:01,438] Register_06 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 10:27:01,511] Register_06 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-21 10:27:01,575] Register_06 - Step 11: Click to 'Register' button
+[2022-09-21 10:27:01,829] Register_06 - Step 12: Verify error message displayed
+[2022-09-21 10:27:01,860]  -------------------------- PASSED -------------------------- 
+[2022-09-21 10:27:01,883] OS name = windows 10
+[2022-09-21 10:27:01,884] Driver instance name = firefoxdriver: firefox on windows (511864d7-5a8e-4d1e-b0f4-c8079ace7050)
+[2022-09-21 11:30:05,970] Precondition - Navigate to 'Register' link
+[2022-09-21 11:30:08,846] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-21 11:30:09,208] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-21 11:30:09,316] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-21 11:30:09,381] Register_01 - Step 04: Select Day of Birthday
+[2022-09-21 11:30:09,688] Register_01 - Step 05: Select Month of Birthday
+[2022-09-21 11:30:09,958] Register_01 - Step 06: Select year of Birthday
+[2022-09-21 11:30:10,292] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-21 11:30:10,357] Register_01 - Step 08: Click to Radio 
+[2022-09-21 11:30:10,395] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-21 11:30:10,465] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-21 11:30:10,514] Register_01 - Step 11: Click to register button
+[2022-09-21 11:30:10,845] Register_01 - Step 12: Verify error message displayed
+[2022-09-21 11:30:10,908]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:30:10,944]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:30:10,978]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:30:11,012]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:30:11,046]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:30:11,129] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-21 11:30:11,247] Register_02 - Step 02: Enter to FirstName textbox with value is Linn'
+[2022-09-21 11:30:11,359] Register_02- Step 03: Enter to LastName textbox with value is O'Hara'
+[2022-09-21 11:30:11,419] Register_02 - Step 04: Select Day of Birthday
+[2022-09-21 11:30:11,474] Register_02 - Step 05: Select Month of Birthday
+[2022-09-21 11:30:11,530] Register_02 - Step 06: Select year of Birthday
+[2022-09-21 11:30:11,585] Register_02 - Step 07: Enter to emailAdress textbox with value is O'Hara'
+[2022-09-21 11:30:11,641] Register_02 - Step 08: Click to Radio 
+[2022-09-21 11:30:11,675] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 11:30:11,747] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 11:30:11,803] Register_02 - Step 11: Click to 'Register' button
+[2022-09-21 11:30:12,061] Register_02 - Step 12: Verify error message displayed
+[2022-09-21 11:30:12,093]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:30:12,099] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-21 11:30:12,133] Register_03 - Step 02: Enter to FirstName textbox with value is Linn'
+[2022-09-21 11:30:12,194] Register_03 - Step 03: Enter to LastName textbox with value is O'Hara'
+[2022-09-21 11:30:12,250] Register_03 - Step 04: Select Day of Birthday
+[2022-09-21 11:30:12,299] Register_03 - Step 05: Select Month of Birthday
+[2022-09-21 11:30:12,350] Register_03 - Step 06: Select year of Birthday
+[2022-09-21 11:30:12,395] Register_03 - Step 07: Enter to emailAdress textbox with value is jeremiah.douglas@yahoo.com'
+[2022-09-21 11:30:12,483] Register_03 - Step 08: Click to Radio 
+[2022-09-21 11:30:12,531] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 11:30:12,592] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 11:30:12,662] Register_03 - Step 11: Click to 'Register' button
+[2022-09-21 11:30:13,605] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-21 11:30:13,648]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:30:13,648] Register_03 - Step 13: Click to Logout link
+[2022-09-21 11:30:14,361] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-21 11:31:54,106] Precondition - Navigate to 'Register' link
+[2022-09-21 11:31:55,765] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-21 11:31:56,047] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-21 11:31:56,227] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-21 11:31:56,283] Register_01 - Step 04: Select Day of Birthday
+[2022-09-21 11:31:56,576] Register_01 - Step 05: Select Month of Birthday
+[2022-09-21 11:31:56,867] Register_01 - Step 06: Select year of Birthday
+[2022-09-21 11:31:57,153] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-21 11:31:57,214] Register_01 - Step 08: Click to Radio 
+[2022-09-21 11:31:57,254] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-21 11:31:57,304] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-21 11:31:57,359] Register_01 - Step 11: Click to register button
+[2022-09-21 11:31:57,641] Register_01 - Step 12: Verify error message displayed
+[2022-09-21 11:31:57,700]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:31:57,737]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:31:57,771]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:31:57,810]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:31:57,846]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:31:57,892] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-21 11:31:57,925] Register_02 - Step 02: Enter to FirstName textbox with value is Reggie'
+[2022-09-21 11:31:58,013] Register_02- Step 03: Enter to LastName textbox with value is Oberbrunner'
+[2022-09-21 11:31:58,105] Register_02 - Step 04: Select Day of Birthday
+[2022-09-21 11:31:58,163] Register_02 - Step 05: Select Month of Birthday
+[2022-09-21 11:31:58,218] Register_02 - Step 06: Select year of Birthday
+[2022-09-21 11:31:58,274] Register_02 - Step 07: Enter to emailAdress textbox with value is Oberbrunner'
+[2022-09-21 11:31:58,351] Register_02 - Step 08: Click to Radio 
+[2022-09-21 11:31:58,389] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 11:31:58,449] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 11:31:58,515] Register_02 - Step 11: Click to 'Register' button
+[2022-09-21 11:31:58,777] Register_02 - Step 12: Verify error message displayed
+[2022-09-21 11:31:58,809]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:31:58,815] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-21 11:31:58,849] Register_03 - Step 02: Enter to FirstName textbox with value is Reggie'
+[2022-09-21 11:31:58,919] Register_03 - Step 03: Enter to LastName textbox with value is Oberbrunner'
+[2022-09-21 11:31:59,003] Register_03 - Step 04: Select Day of Birthday
+[2022-09-21 11:31:59,057] Register_03 - Step 05: Select Month of Birthday
+[2022-09-21 11:31:59,107] Register_03 - Step 06: Select year of Birthday
+[2022-09-21 11:31:59,154] Register_03 - Step 07: Enter to emailAdress textbox with value is katharyn.schumm@hotmail.com'
+[2022-09-21 11:31:59,276] Register_03 - Step 08: Click to Radio 
+[2022-09-21 11:31:59,311] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 11:31:59,380] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 11:31:59,460] Register_03 - Step 11: Click to 'Register' button
+[2022-09-21 11:32:00,216] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-21 11:32:00,262]  -------------------------- PASSED -------------------------- 
+[2022-09-21 11:32:00,262] Register_03 - Step 13: Click to Logout link
+[2022-09-21 11:32:00,929] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:21:14,707] Precondition - Navigate to 'Register' link
+[2022-09-21 16:21:18,187] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:21:18,448] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-21 16:21:18,750] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-21 16:21:18,794] Register_01 - Step 04: Select Day of Birthday
+[2022-09-21 16:21:19,104] Register_01 - Step 05: Select Month of Birthday
+[2022-09-21 16:21:19,385] Register_01 - Step 06: Select year of Birthday
+[2022-09-21 16:21:19,657] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-21 16:21:19,721] Register_01 - Step 08: Click to Radio 
+[2022-09-21 16:21:19,754] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-21 16:21:19,801] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-21 16:21:19,850] Register_01 - Step 11: Click to register button
+[2022-09-21 16:21:20,192] Register_01 - Step 12: Verify error message displayed
+[2022-09-21 16:21:20,240]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:21:20,276]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:21:20,317]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:21:20,352]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:21:20,385]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:21:20,398] OS name = windows 10
+[2022-09-21 16:21:20,398] Driver instance name = firefoxdriver: firefox on windows (01d13f49-306e-4cea-9c64-764f1b83d66f)
+[2022-09-21 16:21:34,141] Precondition - Navigate to 'Register' link
+[2022-09-21 16:21:34,759] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:21:35,037] Register_02 - Step 02: Enter to FirstName textbox with value is Magnolia'
+[2022-09-21 16:21:35,214] Register_02- Step 03: Enter to LastName textbox with value is Goldner'
+[2022-09-21 16:21:35,300] Register_02 - Step 04: Select Day of Birthday
+[2022-09-21 16:21:35,574] Register_02 - Step 05: Select Month of Birthday
+[2022-09-21 16:21:35,838] Register_02 - Step 06: Select year of Birthday
+[2022-09-21 16:21:36,105] Register_02 - Step 07: Enter to emailAdress textbox with value is Goldner'
+[2022-09-21 16:21:36,172] Register_02 - Step 08: Click to Radio 
+[2022-09-21 16:21:36,211] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 16:21:36,275] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 16:21:36,327] Register_02 - Step 11: Click to 'Register' button
+[2022-09-21 16:21:36,602] Register_02 - Step 12: Verify error message displayed
+[2022-09-21 16:21:36,658]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:21:36,661] OS name = windows 10
+[2022-09-21 16:21:36,661] Driver instance name = firefoxdriver: firefox on windows (740f3d47-aeb8-43c0-b4de-60a02917eeb2)
+[2022-09-21 16:21:45,956] Precondition - Navigate to 'Register' link
+[2022-09-21 16:21:47,181] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:21:47,441] Register_03 - Step 02: Enter to FirstName textbox with value is Micaela'
+[2022-09-21 16:21:47,499] Register_03 - Step 03: Enter to LastName textbox with value is Hermann'
+[2022-09-21 16:21:47,557] Register_03 - Step 04: Select Day of Birthday
+[2022-09-21 16:21:47,830] Register_03 - Step 05: Select Month of Birthday
+[2022-09-21 16:21:48,109] Register_03 - Step 06: Select year of Birthday
+[2022-09-21 16:21:48,392] Register_03 - Step 07: Enter to emailAdress textbox with value is raleigh.botsford@gmail.com'
+[2022-09-21 16:21:48,446] Register_03 - Step 08: Click to Radio 
+[2022-09-21 16:21:48,484] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 16:21:48,532] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 16:21:48,580] Register_03 - Step 11: Click to 'Register' button
+[2022-09-21 16:21:49,394] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-21 16:21:49,445]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:21:49,445] Register_03 - Step 13: Click to Logout link
+[2022-09-21 16:21:50,156] OS name = windows 10
+[2022-09-21 16:21:50,156] Driver instance name = firefoxdriver: firefox on windows (50dcf02c-b4fe-46bf-88f4-6fddaa6e7239)
+[2022-09-21 16:21:58,680] Precondition - Navigate to 'Register' link
+[2022-09-21 16:21:59,246] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:21:59,504] Register_04 - Step 02: Enter to FirstName textbox with value is Marylin'
+[2022-09-21 16:21:59,560] Register_04 - Step 03: Enter to LastName textbox with value is Bins'
+[2022-09-21 16:21:59,619] Register_04 - Step 04: Select Day of Birthday
+[2022-09-21 16:21:59,894] Register_04 - Step 05: Select Month of Birthday
+[2022-09-21 16:22:00,158] Register_04 - Step 06: Select year of Birthday
+[2022-09-21 16:22:00,453] Register_04 - Step 07: Enter to emailAdress textbox with value is rosaline.heaney@hotmail.com'
+[2022-09-21 16:22:00,510] Register_04 - Step 08: Click to Radio 
+[2022-09-21 16:22:00,542] Register_04 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 16:22:00,591] Register_04 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 16:22:00,642] Register_04 - Step 11: Click to 'Register' button
+[2022-09-21 16:22:01,368] Register_04 - Step 12: Verify error existing email message displayed
+[2022-09-21 16:30:53,367] Precondition - Navigate to 'Register' link
+[2022-09-21 16:30:54,705] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:30:54,969] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-21 16:30:55,035] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-21 16:30:55,091] Register_01 - Step 04: Select Day of Birthday
+[2022-09-21 16:30:55,376] Register_01 - Step 05: Select Month of Birthday
+[2022-09-21 16:30:55,647] Register_01 - Step 06: Select year of Birthday
+[2022-09-21 16:30:55,921] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-21 16:30:55,968] Register_01 - Step 08: Click to Radio 
+[2022-09-21 16:30:56,004] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-21 16:30:56,054] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-21 16:30:56,117] Register_01 - Step 11: Click to register button
+[2022-09-21 16:30:56,407] Register_01 - Step 12: Verify error message displayed
+[2022-09-21 16:30:56,462]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:30:56,504]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:30:56,538]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:30:56,574]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:30:56,607]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:30:56,619] OS name = windows 10
+[2022-09-21 16:30:56,619] Driver instance name = firefoxdriver: firefox on windows (e42f2708-c041-4c1d-b4e1-82d23bbf9b76)
+[2022-09-21 16:30:58,015] Precondition - Navigate to 'Register' link
+[2022-09-21 16:31:59,346] Precondition - Navigate to 'Register' link
+[2022-09-21 16:32:00,596] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:32:00,891] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-21 16:32:00,951] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-21 16:32:01,006] Register_01 - Step 04: Select Day of Birthday
+[2022-09-21 16:32:01,287] Register_01 - Step 05: Select Month of Birthday
+[2022-09-21 16:32:01,558] Register_01 - Step 06: Select year of Birthday
+[2022-09-21 16:32:01,848] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-21 16:32:01,895] Register_01 - Step 08: Click to Radio 
+[2022-09-21 16:32:01,931] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-21 16:32:01,975] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-21 16:32:02,025] Register_01 - Step 11: Click to register button
+[2022-09-21 16:32:02,294] Register_01 - Step 12: Verify error message displayed
+[2022-09-21 16:32:02,343]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:32:02,379]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:32:02,413]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:32:02,448]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:32:02,477]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:32:02,489] Precondition - Navigate to 'Register' link
+[2022-09-21 16:32:02,916] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:32:03,176] Register_02 - Step 02: Enter to FirstName textbox with value is Beau'
+[2022-09-21 16:32:03,246] Register_02- Step 03: Enter to LastName textbox with value is Wiegand'
+[2022-09-21 16:32:03,312] Register_02 - Step 04: Select Day of Birthday
+[2022-09-21 16:32:03,585] Register_02 - Step 05: Select Month of Birthday
+[2022-09-21 16:32:03,862] Register_02 - Step 06: Select year of Birthday
+[2022-09-21 16:32:04,134] Register_02 - Step 07: Enter to emailAdress textbox with value is Wiegand'
+[2022-09-21 16:32:04,189] Register_02 - Step 08: Click to Radio 
+[2022-09-21 16:32:04,224] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 16:32:04,285] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 16:32:04,339] Register_02 - Step 11: Click to 'Register' button
+[2022-09-21 16:32:04,607] Register_02 - Step 12: Verify error message displayed
+[2022-09-21 16:32:04,652]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:32:04,655] Precondition - Navigate to 'Register' link
+[2022-09-21 16:32:05,084] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:32:05,341] Register_03 - Step 02: Enter to FirstName textbox with value is Beau'
+[2022-09-21 16:32:05,392] Register_03 - Step 03: Enter to LastName textbox with value is Wiegand'
+[2022-09-21 16:32:05,453] Register_03 - Step 04: Select Day of Birthday
+[2022-09-21 16:32:05,725] Register_03 - Step 05: Select Month of Birthday
+[2022-09-21 16:32:06,006] Register_03 - Step 06: Select year of Birthday
+[2022-09-21 16:32:06,286] Register_03 - Step 07: Enter to emailAdress textbox with value is veronica.simonis@gmail.com'
+[2022-09-21 16:32:06,387] Register_03 - Step 08: Click to Radio 
+[2022-09-21 16:32:06,419] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 16:32:06,470] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 16:32:06,522] Register_03 - Step 11: Click to 'Register' button
+[2022-09-21 16:32:07,306] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-21 16:32:07,354]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:32:07,354] Register_03 - Step 13: Click to Logout link
+[2022-09-21 16:32:08,073] Precondition - Navigate to 'Register' link
+[2022-09-21 16:32:08,504] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:32:08,767] Register_04 - Step 02: Enter to FirstName textbox with value is Beau'
+[2022-09-21 16:32:08,824] Register_04 - Step 03: Enter to LastName textbox with value is Wiegand'
+[2022-09-21 16:32:08,890] Register_04 - Step 04: Select Day of Birthday
+[2022-09-21 16:32:09,157] Register_04 - Step 05: Select Month of Birthday
+[2022-09-21 16:32:09,432] Register_04 - Step 06: Select year of Birthday
+[2022-09-21 16:32:09,718] Register_04 - Step 07: Enter to emailAdress textbox with value is veronica.simonis@gmail.com'
+[2022-09-21 16:32:09,806] Register_04 - Step 08: Click to Radio 
+[2022-09-21 16:32:09,837] Register_04 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 16:32:09,895] Register_04 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 16:32:09,951] Register_04 - Step 11: Click to 'Register' button
+[2022-09-21 16:32:10,340] Register_04 - Step 12: Verify error existing email message displayed
+[2022-09-21 16:32:10,390]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:32:10,393] Precondition - Navigate to 'Register' link
+[2022-09-21 16:32:10,773] Register_05 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:32:11,039] Register_05 - Step 02: Enter to FirstName textbox with value is Beau'
+[2022-09-21 16:32:11,118] Register_05 - Step 03: Enter to LastName textbox with value is Wiegand'
+[2022-09-21 16:32:11,181] Register_05 - Step 04: Select Day of Birthday
+[2022-09-21 16:32:11,456] Register_05 - Step 05: Select Month of Birthday
+[2022-09-21 16:32:11,722] Register_05 - Step 06: Select year of Birthday
+[2022-09-21 16:32:12,013] Register_05 - Step 07: Enter to emailAdress textbox with value is veronica.simonis@gmail.com'
+[2022-09-21 16:32:12,100] Register_05 - Step 08: Click to Radio 
+[2022-09-21 16:32:12,131] Register_05 - Step 09: Enter to password textbox with value is 123'
+[2022-09-21 16:32:12,183] Register_05 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-21 16:32:12,253] Register_05 - Step 11: Click to 'Register' button
+[2022-09-21 16:32:12,532] Register_05 - Step 12: Verify error message displayed
+[2022-09-21 16:32:12,572]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:32:12,574] Precondition - Navigate to 'Register' link
+[2022-09-21 16:32:12,966] Register_06 - Step 01: Click to Checkbox Gender
+[2022-09-21 16:32:13,225] Register_06 - Step 02: Enter to FirstName textbox with value is Beau'
+[2022-09-21 16:32:13,283] Register_06 - Step 03: Enter to LastName textbox with value is Wiegand'
+[2022-09-21 16:32:13,357] Register_06 - Step 04: Select Day of Birthday
+[2022-09-21 16:32:13,636] Register_06 - Step 05: Select Month of Birthday
+[2022-09-21 16:32:13,916] Register_06 - Step 06: Select year of Birthday
+[2022-09-21 16:32:14,204] Register_06 - Step 07: Enter to emailAdress textbox with value is veronica.simonis@gmail.com'
+[2022-09-21 16:32:14,280] Register_06 - Step 08: Click to Radio 
+[2022-09-21 16:32:14,315] Register_06 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 16:32:14,372] Register_06 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-21 16:32:14,421] Register_06 - Step 11: Click to 'Register' button
+[2022-09-21 16:32:15,160] Register_06 - Step 12: Verify error message displayed
+[2022-09-21 16:32:15,208]  -------------------------- PASSED -------------------------- 
+[2022-09-21 16:32:15,212] OS name = windows 10
+[2022-09-21 16:32:15,212] Driver instance name = firefoxdriver: firefox on windows (2b20efd9-e9e1-40df-8ef6-51d191306fe0)
+[2022-09-21 17:13:41,984] Precondition - Navigate to 'Register' link
+[2022-09-21 17:13:48,226] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-21 17:13:48,482] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-21 17:13:49,060] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-21 17:13:49,108] Register_01 - Step 04: Select Day of Birthday
+[2022-09-21 17:13:49,486] Register_01 - Step 05: Select Month of Birthday
+[2022-09-21 17:13:49,756] Register_01 - Step 06: Select year of Birthday
+[2022-09-21 17:13:50,038] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-21 17:13:50,088] Register_01 - Step 08: Click to Radio 
+[2022-09-21 17:13:50,127] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-21 17:13:50,178] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-21 17:13:50,229] Register_01 - Step 11: Click to register button
+[2022-09-21 17:13:50,563] Register_01 - Step 12: Verify error message displayed
+[2022-09-21 17:13:50,630]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:13:50,666]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:13:50,699]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:13:50,733]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:13:50,766]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:13:50,805] Precondition - Navigate to 'Register' link
+[2022-09-21 17:13:51,250] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-21 17:13:51,529] Register_02 - Step 02: Enter to FirstName textbox with value is Renato'
+[2022-09-21 17:13:51,613] Register_02- Step 03: Enter to LastName textbox with value is Koss'
+[2022-09-21 17:13:51,666] Register_02 - Step 04: Select Day of Birthday
+[2022-09-21 17:13:51,948] Register_02 - Step 05: Select Month of Birthday
+[2022-09-21 17:13:52,214] Register_02 - Step 06: Select year of Birthday
+[2022-09-21 17:13:52,481] Register_02 - Step 07: Enter to emailAdress textbox with value is Koss'
+[2022-09-21 17:13:52,527] Register_02 - Step 08: Click to Radio 
+[2022-09-21 17:13:52,561] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 17:13:52,616] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 17:13:52,667] Register_02 - Step 11: Click to 'Register' button
+[2022-09-21 17:13:52,930] Register_02 - Step 12: Verify error message displayed
+[2022-09-21 17:13:52,963]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:13:52,966] Precondition - Navigate to 'Register' link
+[2022-09-21 17:13:53,383] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-21 17:13:53,646] Register_03 - Step 02: Enter to FirstName textbox with value is Renato'
+[2022-09-21 17:13:53,699] Register_03 - Step 03: Enter to LastName textbox with value is Koss'
+[2022-09-21 17:13:53,752] Register_03 - Step 04: Select Day of Birthday
+[2022-09-21 17:13:54,019] Register_03 - Step 05: Select Month of Birthday
+[2022-09-21 17:13:54,281] Register_03 - Step 06: Select year of Birthday
+[2022-09-21 17:13:54,577] Register_03 - Step 07: Enter to emailAdress textbox with value is martin.marks@gmail.com'
+[2022-09-21 17:13:54,636] Register_03 - Step 08: Click to Radio 
+[2022-09-21 17:13:54,669] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 17:13:54,718] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 17:13:54,768] Register_03 - Step 11: Click to 'Register' button
+[2022-09-21 17:13:55,575] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-21 17:13:55,620]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:13:55,620] Register_03 - Step 13: Click to Logout link
+[2022-09-21 17:13:56,313] Precondition - Navigate to 'Register' link
+[2022-09-21 17:13:56,753] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-21 17:13:57,031] Register_04 - Step 02: Enter to FirstName textbox with value is Renato'
+[2022-09-21 17:13:57,097] Register_04 - Step 03: Enter to LastName textbox with value is Koss'
+[2022-09-21 17:13:57,148] Register_04 - Step 04: Select Day of Birthday
+[2022-09-21 17:13:57,426] Register_04 - Step 05: Select Month of Birthday
+[2022-09-21 17:13:57,690] Register_04 - Step 06: Select year of Birthday
+[2022-09-21 17:13:57,954] Register_04 - Step 07: Enter to emailAdress textbox with value is martin.marks@gmail.com'
+[2022-09-21 17:13:58,006] Register_04 - Step 08: Click to Radio 
+[2022-09-21 17:13:58,038] Register_04 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 17:13:58,095] Register_04 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 17:13:58,148] Register_04 - Step 11: Click to 'Register' button
+[2022-09-21 17:13:58,546] Register_04 - Step 12: Verify error existing email message displayed
+[2022-09-21 17:13:58,604]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:13:58,608] Precondition - Navigate to 'Register' link
+[2022-09-21 17:13:59,003] Register_05 - Step 01: Click to Checkbox Gender
+[2022-09-21 17:13:59,272] Register_05 - Step 02: Enter to FirstName textbox with value is Renato'
+[2022-09-21 17:13:59,327] Register_05 - Step 03: Enter to LastName textbox with value is Koss'
+[2022-09-21 17:13:59,376] Register_05 - Step 04: Select Day of Birthday
+[2022-09-21 17:13:59,646] Register_05 - Step 05: Select Month of Birthday
+[2022-09-21 17:13:59,905] Register_05 - Step 06: Select year of Birthday
+[2022-09-21 17:14:00,175] Register_05 - Step 07: Enter to emailAdress textbox with value is martin.marks@gmail.com'
+[2022-09-21 17:14:00,232] Register_05 - Step 08: Click to Radio 
+[2022-09-21 17:14:00,262] Register_05 - Step 09: Enter to password textbox with value is 123'
+[2022-09-21 17:14:00,303] Register_05 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-21 17:14:00,351] Register_05 - Step 11: Click to 'Register' button
+[2022-09-21 17:14:00,616] Register_05 - Step 12: Verify error message displayed
+[2022-09-21 17:14:00,681]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:14:00,684] Precondition - Navigate to 'Register' link
+[2022-09-21 17:14:01,074] Register_06 - Step 01: Click to Checkbox Gender
+[2022-09-21 17:14:01,336] Register_06 - Step 02: Enter to FirstName textbox with value is Renato'
+[2022-09-21 17:14:01,401] Register_06 - Step 03: Enter to LastName textbox with value is Koss'
+[2022-09-21 17:14:01,447] Register_06 - Step 04: Select Day of Birthday
+[2022-09-21 17:14:01,712] Register_06 - Step 05: Select Month of Birthday
+[2022-09-21 17:14:01,996] Register_06 - Step 06: Select year of Birthday
+[2022-09-21 17:14:02,273] Register_06 - Step 07: Enter to emailAdress textbox with value is martin.marks@gmail.com'
+[2022-09-21 17:14:02,322] Register_06 - Step 08: Click to Radio 
+[2022-09-21 17:14:02,350] Register_06 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 17:14:02,394] Register_06 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-21 17:14:02,438] Register_06 - Step 11: Click to 'Register' button
+[2022-09-21 17:14:03,175] Register_06 - Step 12: Verify error message displayed
+[2022-09-21 17:14:03,218]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:14:03,221] OS name = windows 10
+[2022-09-21 17:14:03,221] Driver instance name = firefoxdriver: firefox on windows (8454be7f-426e-423a-abbc-78a741d851d0)
+[2022-09-21 17:16:25,674] Precondition - Navigate to 'Register' link
+[2022-09-21 17:16:27,147] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-21 17:16:27,897] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-21 17:16:27,957] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-21 17:16:28,003] Register_01 - Step 04: Select Day of Birthday
+[2022-09-21 17:16:28,293] Register_01 - Step 05: Select Month of Birthday
+[2022-09-21 17:16:28,565] Register_01 - Step 06: Select year of Birthday
+[2022-09-21 17:16:28,869] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-21 17:16:28,916] Register_01 - Step 08: Click to Radio 
+[2022-09-21 17:16:28,957] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-21 17:16:29,006] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-21 17:16:29,060] Register_01 - Step 11: Click to register button
+[2022-09-21 17:16:29,801] Register_01 - Step 12: Verify error message displayed
+[2022-09-21 17:16:29,847]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:16:29,883]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:16:29,924]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:16:29,961]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:16:29,996]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:16:30,010] Precondition - Navigate to 'Register' link
+[2022-09-21 17:16:30,653] Register_02 - Step 01: Click to Checkbox Gender
+[2022-09-21 17:16:31,405] Register_02 - Step 02: Enter to FirstName textbox with value is Gavin'
+[2022-09-21 17:16:31,458] Register_02- Step 03: Enter to LastName textbox with value is Littel'
+[2022-09-21 17:16:31,514] Register_02 - Step 04: Select Day of Birthday
+[2022-09-21 17:16:31,795] Register_02 - Step 05: Select Month of Birthday
+[2022-09-21 17:16:32,057] Register_02 - Step 06: Select year of Birthday
+[2022-09-21 17:16:32,331] Register_02 - Step 07: Enter to emailAdress textbox with value is Littel'
+[2022-09-21 17:16:32,377] Register_02 - Step 08: Click to Radio 
+[2022-09-21 17:16:32,423] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 17:16:32,477] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 17:16:32,533] Register_02 - Step 11: Click to 'Register' button
+[2022-09-21 17:16:32,870] Register_02 - Step 12: Verify error message displayed
+[2022-09-21 17:16:32,938]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:16:32,943] Precondition - Navigate to 'Register' link
+[2022-09-21 17:16:33,380] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-21 17:16:34,135] Register_03 - Step 02: Enter to FirstName textbox with value is Gavin'
+[2022-09-21 17:16:34,185] Register_03 - Step 03: Enter to LastName textbox with value is Littel'
+[2022-09-21 17:16:34,243] Register_03 - Step 04: Select Day of Birthday
+[2022-09-21 17:16:34,518] Register_03 - Step 05: Select Month of Birthday
+[2022-09-21 17:16:34,791] Register_03 - Step 06: Select year of Birthday
+[2022-09-21 17:16:35,067] Register_03 - Step 07: Enter to emailAdress textbox with value is jae.rodriguez@hotmail.com'
+[2022-09-21 17:16:35,132] Register_03 - Step 08: Click to Radio 
+[2022-09-21 17:16:35,200] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-21 17:16:35,254] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-21 17:16:35,312] Register_03 - Step 11: Click to 'Register' button
+[2022-09-21 17:16:36,162] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-21 17:16:36,216]  -------------------------- FAILED -------------------------- 
+[2022-09-21 17:16:36,216] Register_03 - Step 13: Click to Logout link
+[2022-09-21 17:51:42,391] Precondition - Navigate to 'Register' link
+[2022-09-21 17:51:44,030] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-21 17:51:44,300] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-21 17:51:44,399] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-21 17:51:44,450] Register_01 - Step 04: Select Day of Birthday
+[2022-09-21 17:51:44,732] Register_01 - Step 05: Select Month of Birthday
+[2022-09-21 17:51:45,004] Register_01 - Step 06: Select year of Birthday
+[2022-09-21 17:51:45,266] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-21 17:51:45,316] Register_01 - Step 08: Click to Radio 
+[2022-09-21 17:51:45,353] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-21 17:51:45,396] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-21 17:51:45,445] Register_01 - Step 11: Click to register button
+[2022-09-21 17:51:45,711] Register_01 - Step 12: Verify error message displayed
+[2022-09-21 17:51:45,751]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:51:45,783]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:51:45,815]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:51:45,851]  -------------------------- PASSED -------------------------- 
+[2022-09-21 17:51:45,883]  -------------------------- FAILED -------------------------- 
+[2022-09-22 14:22:12,536] Precondition - Navigate to 'Register' link
+[2022-09-22 14:22:15,742] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-22 14:22:16,016] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-22 14:22:16,217] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-22 14:22:16,264] Register_01 - Step 04: Select Day of Birthday
+[2022-09-22 14:22:16,554] Register_01 - Step 05: Select Month of Birthday
+[2022-09-22 14:22:16,824] Register_01 - Step 06: Select year of Birthday
+[2022-09-22 14:22:17,123] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-22 14:22:17,173] Register_01 - Step 08: Click to Radio 
+[2022-09-22 14:22:17,209] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-22 14:22:17,258] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-22 14:22:17,306] Register_01 - Step 11: Click to register button
+[2022-09-22 14:22:17,616] Register_01 - Step 12: Verify error message displayed
+[2022-09-22 14:22:17,694]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:22:17,730]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:22:17,761]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:22:17,795]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:22:17,832]  -------------------------- FAILED -------------------------- 
+[2022-09-22 14:28:19,275] Precondition - Navigate to 'Register' link
+[2022-09-22 14:28:22,145] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-22 14:28:22,408] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-22 14:28:23,380] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-22 14:28:23,431] Register_01 - Step 04: Select Day of Birthday
+[2022-09-22 14:28:23,813] Register_01 - Step 05: Select Month of Birthday
+[2022-09-22 14:28:24,092] Register_01 - Step 06: Select year of Birthday
+[2022-09-22 14:28:24,362] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-22 14:28:24,421] Register_01 - Step 08: Click to Radio 
+[2022-09-22 14:28:24,456] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-22 14:28:24,501] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-22 14:28:24,553] Register_01 - Step 11: Click to register button
+[2022-09-22 14:28:24,827] Register_01 - Step 12: Verify error message displayed
+[2022-09-22 14:28:24,888]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:28:24,922]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:28:24,957]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:28:24,991]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:28:25,023]  -------------------------- FAILED -------------------------- 
+[2022-09-22 14:48:09,195] Precondition - Navigate to 'Register' link
+[2022-09-22 14:48:09,894] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-22 14:48:10,252] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-22 14:48:10,305] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-22 14:48:10,357] Register_01 - Step 04: Select Day of Birthday
+[2022-09-22 14:48:10,632] Register_01 - Step 05: Select Month of Birthday
+[2022-09-22 14:48:10,914] Register_01 - Step 06: Select year of Birthday
+[2022-09-22 14:48:11,191] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-22 14:48:11,251] Register_01 - Step 08: Click to Radio 
+[2022-09-22 14:48:11,284] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-22 14:48:11,328] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-22 14:48:11,372] Register_01 - Step 11: Click to register button
+[2022-09-22 14:48:11,635] Register_01 - Step 12: Verify error message displayed
+[2022-09-22 14:48:11,687]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:48:11,720]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:48:11,751]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:48:11,784]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:48:11,816]  -------------------------- FAILED -------------------------- 
+[2022-09-22 14:50:03,807] Precondition - Navigate to 'Register' link
+[2022-09-22 14:50:04,582] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-22 14:50:04,849] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-22 14:50:04,902] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-22 14:50:04,952] Register_01 - Step 04: Select Day of Birthday
+[2022-09-22 14:50:05,227] Register_01 - Step 05: Select Month of Birthday
+[2022-09-22 14:50:05,518] Register_01 - Step 06: Select year of Birthday
+[2022-09-22 14:50:05,789] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-22 14:50:05,831] Register_01 - Step 08: Click to Radio 
+[2022-09-22 14:50:05,869] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-22 14:50:06,012] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-22 14:50:06,059] Register_01 - Step 11: Click to register button
+[2022-09-22 14:50:06,321] Register_01 - Step 12: Verify error message displayed
+[2022-09-22 14:50:06,361]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:50:06,395]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:50:06,427]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:50:06,458]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:50:06,490]  -------------------------- FAILED -------------------------- 
+[2022-09-22 14:57:54,957] Precondition - Navigate to 'Register' link
+[2022-09-22 14:57:57,741] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-22 14:57:58,012] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-22 14:57:58,067] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-22 14:57:58,113] Register_01 - Step 04: Select Day of Birthday
+[2022-09-22 14:57:58,396] Register_01 - Step 05: Select Month of Birthday
+[2022-09-22 14:57:58,684] Register_01 - Step 06: Select year of Birthday
+[2022-09-22 14:57:59,031] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-22 14:57:59,072] Register_01 - Step 08: Click to Radio 
+[2022-09-22 14:57:59,106] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-22 14:57:59,149] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-22 14:57:59,195] Register_01 - Step 11: Click to register button
+[2022-09-22 14:57:59,466] Register_01 - Step 12: Verify error message displayed
+[2022-09-22 14:57:59,505]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:57:59,536]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:57:59,570]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:57:59,630]  -------------------------- PASSED -------------------------- 
+[2022-09-22 14:57:59,730]  -------------------------- FAILED -------------------------- 
+[2022-09-22 15:05:43,205] Precondition - Navigate to 'Register' link
+[2022-09-22 15:05:43,900] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:05:44,666] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-22 15:05:44,736] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-22 15:05:44,786] Register_01 - Step 04: Select Day of Birthday
+[2022-09-22 15:05:45,075] Register_01 - Step 05: Select Month of Birthday
+[2022-09-22 15:05:45,368] Register_01 - Step 06: Select year of Birthday
+[2022-09-22 15:05:45,644] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-22 15:05:45,707] Register_01 - Step 08: Click to Radio 
+[2022-09-22 15:05:45,741] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-22 15:05:45,790] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-22 15:05:45,837] Register_01 - Step 11: Click to register button
+[2022-09-22 15:05:46,587] Register_01 - Step 12: Verify error message displayed
+[2022-09-22 15:05:46,643]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:05:46,676]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:05:46,708]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:05:46,742]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:05:46,793]  -------------------------- FAILED -------------------------- 
+[2022-09-22 15:32:24,192] Precondition - Navigate to 'Register' link
+[2022-09-22 15:32:28,276] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:32:28,534] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-22 15:32:28,810] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-22 15:32:28,857] Register_01 - Step 04: Select Day of Birthday
+[2022-09-22 15:32:29,217] Register_01 - Step 05: Select Month of Birthday
+[2022-09-22 15:32:29,489] Register_01 - Step 06: Select year of Birthday
+[2022-09-22 15:32:29,792] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-22 15:32:29,835] Register_01 - Step 08: Click to Radio 
+[2022-09-22 15:32:29,871] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-22 15:32:29,916] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-22 15:32:29,964] Register_01 - Step 11: Click to register button
+[2022-09-22 15:32:30,238] Register_01 - Step 12: Verify error message displayed
+[2022-09-22 15:32:30,309]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:32:30,344]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:32:30,378]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:32:30,413]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:32:30,446]  -------------------------- FAILED -------------------------- 
+[2022-09-22 15:33:44,225] Precondition - Navigate to 'Register' link
+[2022-09-22 15:33:45,807] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:33:46,079] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-22 15:33:46,139] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-22 15:33:46,191] Register_01 - Step 04: Select Day of Birthday
+[2022-09-22 15:33:46,471] Register_01 - Step 05: Select Month of Birthday
+[2022-09-22 15:33:46,761] Register_01 - Step 06: Select year of Birthday
+[2022-09-22 15:33:47,083] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-22 15:33:47,135] Register_01 - Step 08: Click to Radio 
+[2022-09-22 15:33:47,170] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-22 15:33:47,230] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-22 15:33:47,292] Register_01 - Step 11: Click to register button
+[2022-09-22 15:33:47,561] Register_01 - Step 12: Verify error message displayed
+[2022-09-22 15:33:47,600]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:33:47,637]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:33:47,670]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:33:47,705]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:33:47,739]  -------------------------- FAILED -------------------------- 
+[2022-09-22 15:34:42,082] Precondition - Navigate to 'Register' link
+[2022-09-22 15:34:43,738] Register_02 - Step 02: Click to Checkbox Gender
+[2022-09-22 15:34:44,491] Register_02 - Step 02: Enter to FirstName textbox with value is Cleveland'
+[2022-09-22 15:34:46,672] Register_02- Step 03: Enter to LastName textbox with value is Hand'
+[2022-09-22 15:34:46,733] Register_02 - Step 04: Select Day of Birthday
+[2022-09-22 15:34:47,022] Register_02 - Step 05: Select Month of Birthday
+[2022-09-22 15:34:47,299] Register_02 - Step 06: Select year of Birthday
+[2022-09-22 15:34:47,568] Register_02 - Step 07: Enter to emailAdress textbox with value is Hand'
+[2022-09-22 15:34:47,612] Register_02 - Step 08: Click to Radio 
+[2022-09-22 15:34:47,644] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-22 15:34:47,788] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-22 15:34:47,862] Register_02 - Step 11: Click to 'Register' button
+[2022-09-22 15:34:48,602] Register_02 - Step 12: Verify error message displayed
+[2022-09-22 15:34:48,640]  -------------------------- FAILED -------------------------- 
+[2022-09-22 15:35:48,883] Precondition - Navigate to 'Register' link
+[2022-09-22 15:35:50,040] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:35:50,305] Register_03 - Step 02: Enter to FirstName textbox with value is Cleveland'
+[2022-09-22 15:35:51,811] Register_03 - Step 03: Enter to LastName textbox with value is Hand'
+[2022-09-22 15:35:51,944] Register_03 - Step 04: Select Day of Birthday
+[2022-09-22 15:35:52,259] Register_03 - Step 05: Select Month of Birthday
+[2022-09-22 15:35:52,530] Register_03 - Step 06: Select year of Birthday
+[2022-09-22 15:35:52,810] Register_03 - Step 07: Enter to emailAdress textbox with value is bebe.kirlin@yahoo.com'
+[2022-09-22 15:35:52,892] Register_03 - Step 08: Click to Radio 
+[2022-09-22 15:35:52,932] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-22 15:35:52,989] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-22 15:35:53,049] Register_03 - Step 11: Click to 'Register' button
+[2022-09-22 15:35:53,928] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-22 15:35:53,997]  -------------------------- FAILED -------------------------- 
+[2022-09-22 15:35:53,997] Register_03 - Step 13: Click to Logout link
+[2022-09-22 15:36:23,382] Precondition - Navigate to 'Register' link
+[2022-09-22 15:36:24,708] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:36:24,965] Register_04 - Step 02: Enter to FirstName textbox with value is Cleveland'
+[2022-09-22 15:36:25,129] Register_04 - Step 03: Enter to LastName textbox with value is Hand'
+[2022-09-22 15:36:25,192] Register_04 - Step 04: Select Day of Birthday
+[2022-09-22 15:36:25,499] Register_04 - Step 05: Select Month of Birthday
+[2022-09-22 15:36:25,771] Register_04 - Step 06: Select year of Birthday
+[2022-09-22 15:36:26,030] Register_04 - Step 07: Enter to emailAdress textbox with value is bebe.kirlin@yahoo.com'
+[2022-09-22 15:36:26,111] Register_04 - Step 08: Click to Radio 
+[2022-09-22 15:36:26,159] Register_04 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-22 15:36:26,225] Register_04 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-22 15:36:26,311] Register_04 - Step 11: Click to 'Register' button
+[2022-09-22 15:36:28,172] Register_04 - Step 12: Verify error existing email message displayed
+[2022-09-22 15:36:28,279]  -------------------------- FAILED -------------------------- 
+[2022-09-22 15:37:41,773] Precondition - Navigate to 'Register' link
+[2022-09-22 15:37:42,995] Register_05 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:37:43,266] Register_05 - Step 02: Enter to FirstName textbox with value is Cleveland'
+[2022-09-22 15:37:43,342] Register_05 - Step 03: Enter to LastName textbox with value is Hand'
+[2022-09-22 15:37:43,400] Register_05 - Step 04: Select Day of Birthday
+[2022-09-22 15:37:43,680] Register_05 - Step 05: Select Month of Birthday
+[2022-09-22 15:37:43,952] Register_05 - Step 06: Select year of Birthday
+[2022-09-22 15:37:44,211] Register_05 - Step 07: Enter to emailAdress textbox with value is bebe.kirlin@yahoo.com'
+[2022-09-22 15:37:44,275] Register_05 - Step 08: Click to Radio 
+[2022-09-22 15:37:44,313] Register_05 - Step 09: Enter to password textbox with value is 123'
+[2022-09-22 15:37:44,362] Register_05 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-22 15:37:44,418] Register_05 - Step 11: Click to 'Register' button
+[2022-09-22 15:37:44,684] Register_05 - Step 12: Verify error message displayed
+[2022-09-22 15:37:44,727]  -------------------------- FAILED -------------------------- 
+[2022-09-22 15:37:58,000] Precondition - Navigate to 'Register' link
+[2022-09-22 15:37:58,571] Register_06 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:37:58,833] Register_06 - Step 02: Enter to FirstName textbox with value is Cleveland'
+[2022-09-22 15:37:58,893] Register_06 - Step 03: Enter to LastName textbox with value is Hand'
+[2022-09-22 15:37:58,950] Register_06 - Step 04: Select Day of Birthday
+[2022-09-22 15:37:59,227] Register_06 - Step 05: Select Month of Birthday
+[2022-09-22 15:37:59,499] Register_06 - Step 06: Select year of Birthday
+[2022-09-22 15:37:59,759] Register_06 - Step 07: Enter to emailAdress textbox with value is bebe.kirlin@yahoo.com'
+[2022-09-22 15:37:59,815] Register_06 - Step 08: Click to Radio 
+[2022-09-22 15:37:59,860] Register_06 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-22 15:37:59,929] Register_06 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-22 15:37:59,991] Register_06 - Step 11: Click to 'Register' button
+[2022-09-22 15:38:00,747] Register_06 - Step 12: Verify error message displayed
+[2022-09-22 15:38:00,789]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:38:00,794] OS name = windows 10
+[2022-09-22 15:38:00,794] Driver instance name = firefoxdriver: firefox on windows (efe20d76-2111-4c64-82d2-06f9a6182352)
+[2022-09-22 15:44:20,799] Precondition - Navigate to 'Register' link
+[2022-09-22 15:44:23,118] Register_01 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:44:23,381] Register_01 - Step 02: Enter to FirstName textbox with value is '
+[2022-09-22 15:44:23,818] Register_01- Step 03: Enter to LastName textbox with value is '
+[2022-09-22 15:44:23,863] Register_01 - Step 04: Select Day of Birthday
+[2022-09-22 15:44:24,135] Register_01 - Step 05: Select Month of Birthday
+[2022-09-22 15:44:24,433] Register_01 - Step 06: Select year of Birthday
+[2022-09-22 15:44:24,725] Register_01 - Step 07: Enter to emailAdress textbox with value is '
+[2022-09-22 15:44:24,783] Register_01 - Step 08: Click to Radio 
+[2022-09-22 15:44:24,817] Register_01 - Step 09: Enter to password textbox with value is '
+[2022-09-22 15:44:24,862] Register_01 - Step 10: Enter to ConfirmPasswod textbox with value is '
+[2022-09-22 15:44:24,906] Register_01 - Step 11: Click to register button
+[2022-09-22 15:44:25,170] Register_01 - Step 12: Verify error message displayed
+[2022-09-22 15:44:25,218]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:44:25,250]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:44:25,281]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:44:25,313]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:44:25,345]  -------------------------- FAILED -------------------------- 
+[2022-09-22 15:44:25,841] Register_02 - Step 02: Click to Checkbox Gender
+[2022-09-22 15:44:26,097] Register_02 - Step 02: Enter to FirstName textbox with value is Timika'
+[2022-09-22 15:44:26,173] Register_02- Step 03: Enter to LastName textbox with value is Frami'
+[2022-09-22 15:44:26,224] Register_02 - Step 04: Select Day of Birthday
+[2022-09-22 15:44:26,494] Register_02 - Step 05: Select Month of Birthday
+[2022-09-22 15:44:26,772] Register_02 - Step 06: Select year of Birthday
+[2022-09-22 15:44:27,068] Register_02 - Step 07: Enter to emailAdress textbox with value is Frami'
+[2022-09-22 15:44:27,121] Register_02 - Step 08: Click to Radio 
+[2022-09-22 15:44:27,155] Register_02 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-22 15:44:27,212] Register_02 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-22 15:44:27,267] Register_02 - Step 11: Click to 'Register' button
+[2022-09-22 15:44:27,522] Register_02 - Step 12: Verify error message displayed
+[2022-09-22 15:44:27,574]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:44:28,065] Register_03 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:44:28,320] Register_03 - Step 02: Enter to FirstName textbox with value is Timika'
+[2022-09-22 15:44:28,369] Register_03 - Step 03: Enter to LastName textbox with value is Frami'
+[2022-09-22 15:44:28,420] Register_03 - Step 04: Select Day of Birthday
+[2022-09-22 15:44:28,685] Register_03 - Step 05: Select Month of Birthday
+[2022-09-22 15:44:28,958] Register_03 - Step 06: Select year of Birthday
+[2022-09-22 15:44:29,259] Register_03 - Step 07: Enter to emailAdress textbox with value is rudolf.green@hotmail.com'
+[2022-09-22 15:44:29,320] Register_03 - Step 08: Click to Radio 
+[2022-09-22 15:44:29,352] Register_03 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-22 15:44:29,400] Register_03 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-22 15:44:29,447] Register_03 - Step 11: Click to 'Register' button
+[2022-09-22 15:44:30,209] Register_03 - Step 12: Verify register success message is displayed
+[2022-09-22 15:44:30,252]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:44:30,252] Register_03 - Step 13: Click to Logout link
+[2022-09-22 15:44:31,272] Register_04 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:44:31,535] Register_04 - Step 02: Enter to FirstName textbox with value is Timika'
+[2022-09-22 15:44:31,589] Register_04 - Step 03: Enter to LastName textbox with value is Frami'
+[2022-09-22 15:44:31,637] Register_04 - Step 04: Select Day of Birthday
+[2022-09-22 15:44:31,902] Register_04 - Step 05: Select Month of Birthday
+[2022-09-22 15:44:32,234] Register_04 - Step 06: Select year of Birthday
+[2022-09-22 15:44:32,516] Register_04 - Step 07: Enter to emailAdress textbox with value is rudolf.green@hotmail.com'
+[2022-09-22 15:44:32,584] Register_04 - Step 08: Click to Radio 
+[2022-09-22 15:44:32,614] Register_04 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-22 15:44:32,664] Register_04 - Step 10: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-22 15:44:32,709] Register_04 - Step 11: Click to 'Register' button
+[2022-09-22 15:44:33,101] Register_04 - Step 12: Verify error existing email message displayed
+[2022-09-22 15:44:33,149]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:44:33,485] Register_05 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:44:33,740] Register_05 - Step 02: Enter to FirstName textbox with value is Timika'
+[2022-09-22 15:44:33,791] Register_05 - Step 03: Enter to LastName textbox with value is Frami'
+[2022-09-22 15:44:33,840] Register_05 - Step 04: Select Day of Birthday
+[2022-09-22 15:44:34,105] Register_05 - Step 05: Select Month of Birthday
+[2022-09-22 15:44:34,379] Register_05 - Step 06: Select year of Birthday
+[2022-09-22 15:44:34,647] Register_05 - Step 07: Enter to emailAdress textbox with value is rudolf.green@hotmail.com'
+[2022-09-22 15:44:34,712] Register_05 - Step 08: Click to Radio 
+[2022-09-22 15:44:34,740] Register_05 - Step 09: Enter to password textbox with value is 123'
+[2022-09-22 15:44:34,779] Register_05 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-22 15:44:34,825] Register_05 - Step 11: Click to 'Register' button
+[2022-09-22 15:44:35,090] Register_05 - Step 12: Verify error message displayed
+[2022-09-22 15:44:35,147]  -------------------------- FAILED -------------------------- 
+[2022-09-22 15:44:35,486] Register_06 - Step 01: Click to Checkbox Gender
+[2022-09-22 15:44:35,741] Register_06 - Step 02: Enter to FirstName textbox with value is Timika'
+[2022-09-22 15:44:35,805] Register_06 - Step 03: Enter to LastName textbox with value is Frami'
+[2022-09-22 15:44:35,850] Register_06 - Step 04: Select Day of Birthday
+[2022-09-22 15:44:36,115] Register_06 - Step 05: Select Month of Birthday
+[2022-09-22 15:44:36,407] Register_06 - Step 06: Select year of Birthday
+[2022-09-22 15:44:36,710] Register_06 - Step 07: Enter to emailAdress textbox with value is rudolf.green@hotmail.com'
+[2022-09-22 15:44:36,782] Register_06 - Step 08: Click to Radio 
+[2022-09-22 15:44:36,815] Register_06 - Step 09: Enter to password textbox with value is 123456'
+[2022-09-22 15:44:36,867] Register_06 - Step 10: Enter to ConfirmPasswod textbox with value is 123
+[2022-09-22 15:44:36,914] Register_06 - Step 11: Click to 'Register' button
+[2022-09-22 15:44:37,651] Register_06 - Step 12: Verify error message displayed
+[2022-09-22 15:44:37,707]  -------------------------- PASSED -------------------------- 
+[2022-09-22 15:44:37,712] OS name = windows 10
+[2022-09-22 15:44:37,712] Driver instance name = firefoxdriver: firefox on windows (17f68e77-9819-4b6b-b5ce-c9604f63f703)
+[2022-09-22 16:31:00,050] Precondition - Step 15: Click to Login link
+[2022-09-22 16:31:01,264] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-09-22 16:31:01,318] Login_01 - Step 02: Input to Password textbox with value is
+[2022-09-22 16:31:01,378] Login_01 - Step 03: Click to 'Login' button
+[2022-09-22 16:31:01,651] Login_01 - Step 04: Verify error message displayed
+[2022-09-22 16:31:01,705]  -------------------------- PASSED -------------------------- 
+[2022-09-22 16:31:01,742] OS name = windows 10
+[2022-09-22 16:31:01,742] Driver instance name = firefoxdriver: firefox on windows (892d5bf6-2cd2-48cf-bebd-e28cf3fa8b1e)

@@ -1,8 +1,17 @@
 {
 "firstName": "automation",
 "lastName":"FC",
-"emailAddress":"automationfc",
-"password":"123456",
+"email":
+{
+"invalidEmail":"123a@ht@.com",
+"emailNotExist":"test002@gmail.com"
+},
+"password":
+{
+"validPassword":"123456",
+"invalidPassword":"123",
+"wrongPassword":"123abc"
+},
 "date":"8",
 "month":"August",
 "year":"1999",

@@ -26,17 +26,16 @@ public class Level_20_Manager_Data_Json extends BaseTest {
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 		userData = UserDataMapper.getUserData();
 		emailAddress = userData.getEmailAddress() + generateFakeNumber() + "@hotmail.com";
-		
+
 		System.out.println(userData.getSubjects().get(0).getName());
 		System.out.println(userData.getSubjects().get(0).getPoint());
-		
+
 		System.out.println(userData.getSubjects().get(1).getName());
 		System.out.println(userData.getSubjects().get(1).getPoint());
-		
+
 		System.out.println(userData.getSubjects().get(2).getName());
 		System.out.println(userData.getSubjects().get(2).getPoint());
-		
-		
+
 	}
 
 	@Test
@@ -68,11 +67,11 @@ public class Level_20_Manager_Data_Json extends BaseTest {
 		log.info("Register - Step 01: Click to Radio ");
 		registerPage.clickToRadioByLabel(driver, "Newsletter:");
 
-		log.info("Register - Step 05: Enter to password textbox with value is " + userData.getPassword() + "'");
-		registerPage.inputTextboxByID(driver, "Password", userData.getPassword());
+		log.info("Register - Step 05: Enter to password textbox with value is " + userData.getValidPassword() + "'");
+		registerPage.inputTextboxByID(driver, "Password", userData.getValidPassword());
 
-		log.info("Register - Step 06: Enter to ConfirmPasswod textbox with value is " + userData.getPassword() + "'");
-		registerPage.inputTextboxByID(driver, "ConfirmPassword", userData.getPassword());
+		log.info("Register - Step 06: Enter to ConfirmPasswod textbox with value is " + userData.getValidPassword() + "'");
+		registerPage.inputTextboxByID(driver, "ConfirmPassword", userData.getValidPassword());
 
 		log.info("Register - Step 07: Click to 'Register' button");
 		registerPage.clickToButtonByText(driver, "Register");
@@ -84,16 +83,16 @@ public class Level_20_Manager_Data_Json extends BaseTest {
 		homePage = registerPage.clickToLogoutLink();
 	}
 
-	//@Test
+	// @Test
 	public void User_02_Login() {
 		log.info("Login - Step 01: Navigate to Login page");
 		loginPage = homePage.openLoginPage();
 
 		log.info("Login - Step 02: Enter to EmailAdress textbox with value is " + userData.getEmailAddress() + "'");
-		registerPage.inputTextboxByID(driver, "Email", userData.getEmailAddress());
+		loginPage.inputTextboxByID(driver, "Email", userData.getEmailAddress());
 
-		log.info("Login - Step 03: Enter to Password textbox with value is " + userData.getPassword() + "'");
-		registerPage.inputTextboxByID(driver, "Password", userData.getPassword());
+		log.info("Login - Step 03: Enter to Password textbox with value is " + userData.getValidPassword() + "'");
+		loginPage.inputTextboxByID(driver, "Password", userData.getValidPassword());
 
 		log.info("Login - Step 04: Click to 'Login' button");
 		loginPage.clickToButtonByText(driver, "Log in");
@@ -102,7 +101,7 @@ public class Level_20_Manager_Data_Json extends BaseTest {
 		verifyTrue(homePage.isMyAccountLinkDisplayed());
 	}
 
-	//@Test
+	// @Test
 	public void User_03_My_Account() {
 		log.info("MyAccount - Step 01: Navigate to Customer infor page");
 		custormerInforPage = homePage.openCustomerInforPage();
@@ -128,7 +127,7 @@ public class Level_20_Manager_Data_Json extends BaseTest {
 
 	private WebDriver driver;
 
-private String emailAddress;
+	private String emailAddress;
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserRegisterPageObject registerPage;

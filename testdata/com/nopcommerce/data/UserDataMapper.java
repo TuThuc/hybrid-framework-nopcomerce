@@ -29,10 +29,6 @@ public class UserDataMapper {
 
 	@JsonProperty("emailAddress")
 	private String emailAddress;
-
-	@JsonProperty("password")
-	private String password;
-
 	@JsonProperty("date")
 	private String date;
 
@@ -41,6 +37,48 @@ public class UserDataMapper {
 
 	@JsonProperty("year")
 	private String year;
+
+	@JsonProperty("password")
+	private Password password;
+
+	static class Password {
+		@JsonProperty("validPassword")
+		private String validPassword;
+
+		@JsonProperty("invalidPassword")
+		private String invalidPassword;
+
+		@JsonProperty("wrongPassword")
+		private String wrongPassword;
+	}
+
+	public String getValidPassword() {
+		return password.validPassword;
+	}
+
+	public String getInvalidPassword() {
+		return password.invalidPassword;
+	}
+
+	public String getWrongPassword() {
+		return password.wrongPassword;
+	}
+
+	static class Email {
+		@JsonProperty("invalidEmail")
+		private String invalidEmail;
+
+		@JsonProperty("emailNotExist")
+		private String emailNotExist;
+	}
+
+	// public String getInvalidEmail() {
+	// return email.invalidEmail;
+	// }
+
+	// public String getEmailNotExist() {
+	// return email.emailNotExist;
+	// }
 
 	@JsonProperty("login")
 	private Login login;
@@ -60,26 +98,27 @@ public class UserDataMapper {
 	public String getLoginPassword() {
 		return login.password;
 	}
-@JsonProperty("subjects")
-private List<Subject> subjects;
 
-public List<Subject>getSubjects(){
-	return subjects;
-}
-public static class Subject{
-	@JsonProperty("name")
-	private String name;
-	@JsonProperty("point")
-	private Float point;
-	public String getName() {
-		return name;
+	@JsonProperty("subjects")
+	private List<Subject> subjects;
+
+	public List<Subject> getSubjects() {
+		return subjects;
 	}
-	public float getPoint() {
-		return  point;
-	}
-}
-	public String getPassword() {
-		return password;
+
+	public static class Subject {
+		@JsonProperty("name")
+		private String name;
+		@JsonProperty("point")
+		private Float point;
+
+		public String getName() {
+			return name;
+		}
+
+		public float getPoint() {
+			return point;
+		}
 	}
 
 	public String getFirstName() {

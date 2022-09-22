@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="NopCommerce">
-
+<parameter name ="url" value = "dev"/>
   <listeners>
   <listener class-name ="commons.MethodListener"/>
-    <listener class-name="reportConfig.ReportNGListener"/>
+   <!--  <listener class-name="reportConfig.ReportNGListener"/>
 <listener class-name="reportConfig.ExtentTestListener"/>
-<listener class-name="reportConfig.AllureTestListener"/>
+<listener class-name="reportConfig.AllureTestListener"/> -->
   <listener class-name ="org.uncommons.reportng.HTMLReporter"/>
   <listener class-name ="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
 <test name="Run on firefox ">
   <parameter name = "browser" value = "firefox"/>
     <classes>
-      <class name="com.nopcomerce.user.Level_21_Multiple_Environment"/>
+      <class name="com.nopcomerce.user.account.Account_02_Login"/>
     </classes>
   </test> 
 

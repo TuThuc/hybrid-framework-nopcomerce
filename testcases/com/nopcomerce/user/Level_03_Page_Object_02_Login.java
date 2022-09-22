@@ -106,7 +106,7 @@ public class Level_03_Page_Object_02_Login {
 	}
 
 	@Test
-	public void Login_04_Exist_Email_Empty_Email() {
+	public void Login_04_Exist_Email_Empty_Password() {
 
 		System.out.println("Login_04 - Step 01: Click to Login link");
 		homePage.openLoginPage();

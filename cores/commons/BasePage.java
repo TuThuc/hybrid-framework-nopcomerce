@@ -695,6 +695,19 @@ public class BasePage {
 	}
 
 	/**
+	 * Get error message at textbox by ID
+	 * 
+	 * @author Tu Thuc
+	 * @param driver
+	 * @param errorID
+	 */
+	public String getErrorMessageAtTextboxByID(WebDriver driver, String errorID) {
+		waitForElementVisible(driver, BasePageNopComerceUI.DYNAMIC_ERROR_MESSAGE_AT_TEXTBOX_BY_ID, errorID);
+		return getElementText(driver, BasePageNopComerceUI.DYNAMIC_ERROR_MESSAGE_AT_TEXTBOX_BY_ID, errorID);
+
+	}
+
+	/**
 	 * Get value in textbox by textboxID
 	 * 
 	 * @author Tu Thuc

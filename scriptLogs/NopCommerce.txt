@@ -1,0 +1,8 @@
+[2022-09-22 16:31:00,050] Precondition - Step 15: Click to Login link
+[2022-09-22 16:31:01,264] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-09-22 16:31:01,318] Login_01 - Step 02: Input to Password textbox with value is
+[2022-09-22 16:31:01,378] Login_01 - Step 03: Click to 'Login' button
+[2022-09-22 16:31:01,651] Login_01 - Step 04: Verify error message displayed
+[2022-09-22 16:31:01,705]  -------------------------- PASSED -------------------------- 
+[2022-09-22 16:31:01,742] OS name = windows 10
+[2022-09-22 16:31:01,742] Driver instance name = firefoxdriver: firefox on windows (892d5bf6-2cd2-48cf-bebd-e28cf3fa8b1e)

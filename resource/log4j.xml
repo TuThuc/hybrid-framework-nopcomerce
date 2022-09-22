@@ -35,7 +35,7 @@
 		</layout>
 	</appender>
 
-	<category name="com.nopcomerce.user">
+	<category name="com.nopcomerce.user.account">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />
