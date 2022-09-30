@@ -1,6 +1,5 @@
+
 {
-"firstName": "automation",
-"lastName":"FC",
 "email":
 {
 "invalidEmail":"123a@ht@.com",
@@ -32,5 +31,27 @@
 "name":"Chemistry",
 "point": 8.0
 }
-]
+],
+"updateCustomerInfo":
+{
+"gender":"Female",
+"firstName": "automation",
+"lastName":"FC",
+"date":"1",
+"month":"January",
+"year":"1999",
+"company":"Automation FC"
+},
+"addressCustomer":
+{
+"country":"Viet Nam",
+"province": "Other",
+"city":"Ha Noi",
+"address1":"To Huu, Ha Dong",
+"address2":"Ngoc Liep, Quoc Oai",
+"zip":"50000005",
+"phoneNumber":"0987403392",
+"faxNumber":"0123456789"
 }
+}
+

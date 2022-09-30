@@ -656,6 +656,32 @@ public class BasePage {
 	}
 
 	/**
+	 * Click to dynamic header links by class Name
+	 * 
+	 * @author Tu Thuc
+	 * @param driver
+	 * @param className
+	 */
+	public void clickToHeaderLinksByClassName(WebDriver driver, String className) {
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_HEADER_LINK_BY_CLASS_NAME_, className);
+		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_HEADER_LINK_BY_CLASS_NAME_, className);
+
+	}
+
+	/**
+	 * Click to dynamic footer links by Text
+	 * 
+	 * @author Tu Thuc
+	 * @param driver
+	 * @param textValue
+	 */
+	public void clickToFooterLinksByText(WebDriver driver, String textValue) {
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_FOOTER_LINK_BY_TEXT, textValue);
+		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_FOOTER_LINK_BY_TEXT, textValue);
+
+	}
+
+	/**
 	 * Select item in Dropdown by name attribute
 	 * 
 	 * @author Tu Thuc
@@ -670,7 +696,7 @@ public class BasePage {
 	}
 
 	/**
-	 * Click to dynamicCheckbox by label
+	 * Click to dynamic Checkbox by label
 	 * 
 	 * @author Tu Thuc
 	 * @param driver

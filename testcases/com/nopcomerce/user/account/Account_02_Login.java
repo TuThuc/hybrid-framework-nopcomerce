@@ -104,17 +104,90 @@ public class Account_02_Login extends BaseTest {
 	public void Login_02_LoginWithInvalidEmail() {
 		log.info("Login_02 - Step 01: Open Login page");
 		loginPage.openPageUrl(driver, urlCurent);
-		// log.info("Login_02 - Step 02: Input to emailAddress textbox with value is" + i "");
-		loginPage.inputTextboxByID(driver, "Email", "");
 
-		log.info("Login_01 - Step 02: Input to Password textbox with value is" + "");
-		loginPage.inputTextboxByID(driver, "Password", "");
+		log.info("Login_02 - Step 02: Input to emailAddress textbox with value is" + userData.getInvalidEmail() + "");
+		loginPage.inputTextboxByID(driver, "Email", userData.getInvalidEmail());
 
-		log.info("Login_01 - Step 03: Click to 'Login' button");
+		log.info("Login_02 - Step 03: Input to Password textbox with value is" + validPassword + "");
+		loginPage.inputTextboxByID(driver, "Password", validPassword);
+
+		log.info("Login_02 - Step 04: Click to 'Login' button");
 		loginPage.clickToButtonByText(driver, "Log in");
 
-		log.info("Login_01 - Step 04: Verify error message displayed");
-		verifyEquals(loginPage.getErrorMessageAtTextboxByID(driver, "Email-error"), "Please enter your email");
+		log.info("Login_02 - Step 05: Verify error message displayed");
+		verifyEquals(loginPage.getErrorMessageAtTextboxByID(driver, "Email-error"), "Wrong email");
+	}
+
+	@Test
+	public void Login_03_LoginWithEmailYetRegister() {
+		log.info("Login_03 - Step 01: Open Login page");
+		loginPage.openPageUrl(driver, urlCurent);
+
+		log.info("Login_03 - Step 02: Input to emailAddress textbox with value is" + userData.getEmailNotExist() + "");
+		loginPage.inputTextboxByID(driver, "Email", userData.getEmailNotExist());
+
+		log.info("Login_03 - Step 03: Input to Password textbox with value is" + validPassword + "");
+		loginPage.inputTextboxByID(driver, "Password", validPassword);
+
+		log.info("Login_03 - Step 04: Click to 'Login' button");
+		loginPage.clickToButtonByText(driver, "Log in");
+
+		log.info("Login_03 - Step 05: Verify error message displayed");
+		verifyEquals(loginPage.getErrorMessageUnsuccessfull(), "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found");
+	}
+
+	@Test
+	public void Login_04_LoginWithExistEmailAndEmptyPassword() {
+		log.info("Login_04 - Step 01: Open Login page");
+		loginPage.openPageUrl(driver, urlCurent);
+
+		log.info("Login_04 - Step 02: Input to emailAddress textbox with value is" + emailAddress + "");
+		loginPage.inputTextboxByID(driver, "Email", emailAddress);
+
+		log.info("Login_04 - Step 03: Input to Password textbox with value is" + "");
+		loginPage.inputTextboxByID(driver, "Password", "");
+
+		log.info("Login_02 - Step 04: Click to 'Login' button");
+		loginPage.clickToButtonByText(driver, "Log in");
+
+		log.info("Login_02 - Step 05: Verify error message displayed");
+		verifyEquals(loginPage.getErrorMessageUnsuccessfull(), "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
+	}
+
+	@Test
+	public void Login_05_LoginWithExistEmailAndInvalidPassword() {
+		log.info("Login_04 - Step 01: Open Login page");
+		loginPage.openPageUrl(driver, urlCurent);
+
+		log.info("Login_04 - Step 02: Input to emailAddress textbox with value is" + emailAddress + "");
+		loginPage.inputTextboxByID(driver, "Email", emailAddress);
+
+		log.info("Login_04 - Step 03: Input to Password textbox with value is" + userData.getInvalidPassword() + "");
+		loginPage.inputTextboxByID(driver, "Password", userData.getInvalidPassword());
+
+		log.info("Login_04 - Step 04: Click to 'Login' button");
+		loginPage.clickToButtonByText(driver, "Log in");
+
+		log.info("Login_04 - Step 05: Verify error message displayed");
+		verifyEquals(loginPage.getErrorMessageUnsuccessfull(), "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
+	}
+
+	@Test
+	public void Login_06_LoginSuccessful() {
+		log.info("Login_04 - Step 01: Open Login page");
+		loginPage.openPageUrl(driver, urlCurent);
+
+		log.info("Login_04 - Step 02: Input to emailAddress textbox with value is" + emailAddress + "");
+		loginPage.inputTextboxByID(driver, "Email", emailAddress);
+
+		log.info("Login_04 - Step 03: Input to Password textbox with value is" + validPassword + "");
+		loginPage.inputTextboxByID(driver, "Password", validPassword);
+
+		log.info("Login_04 - Step 04: Click to 'Login' button");
+		homePage = loginPage.clickToLoginButton();
+
+		log.info("Login_04 - Step 05: Verify HomePage displayed");
+		verifyTrue(homePage.isMyAccountLinkDisplayed());
 	}
 
 	@AfterClass(alwaysRun = true)

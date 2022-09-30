@@ -1166,3 +1166,432 @@
 [2022-09-22 16:31:01,705]  -------------------------- PASSED -------------------------- 
 [2022-09-22 16:31:01,742] OS name = windows 10
 [2022-09-22 16:31:01,742] Driver instance name = firefoxdriver: firefox on windows (892d5bf6-2cd2-48cf-bebd-e28cf3fa8b1e)
+[2022-09-26 15:13:02,123] Precondition - Step 01: Navigate to 'Register' link
+[2022-09-26 15:13:03,131] Precondition - Step 02: Click to Checkbox Gender
+[2022-09-26 15:13:03,389] Precondition - Step 03: Enter to FirstName textbox with value is Winston'
+[2022-09-26 15:13:03,678] Precondition - Step 04: Enter to LastName textbox with value is Langosh'
+[2022-09-26 15:13:03,734] Precondition - Step 05: Select Day of Birthday
+[2022-09-26 15:13:04,016] Precondition - Step 06: Select Month of Birthday
+[2022-09-26 15:13:04,303] Precondition - Step 07: Select year of Birthday
+[2022-09-26 15:13:04,594] Precondition - Step 08: Enter to emailAdress textbox with value is silas.gislason@gmail.com'
+[2022-09-26 15:13:04,654] Precondition - Step 09: Click to Radio 
+[2022-09-26 15:13:04,690] Precondition - Step 10: Enter to password textbox with value is 123456'
+[2022-09-26 15:13:04,741] Precondition - Step 11: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-26 15:13:04,805] Precondition - Step 12: Click to 'Register' button
+[2022-09-26 15:13:05,736] Precondition - Step 13: Verify register success message is displayed
+[2022-09-26 15:13:05,779]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:05,779] Precondition - Step 14: Click to Logout link
+[2022-09-26 15:13:06,907] Precondition - Step 15: Click to Login link
+[2022-09-26 15:13:08,981] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-09-26 15:13:09,025] Login_01 - Step 02: Input to Password textbox with value is
+[2022-09-26 15:13:09,067] Login_01 - Step 03: Click to 'Login' button
+[2022-09-26 15:13:09,333] Login_01 - Step 04: Verify error message displayed
+[2022-09-26 15:13:09,380]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:09,723] Login_02 - Step 01: Open Login page
+[2022-09-26 15:13:10,095] Login_02 - Step 02: Input to emailAddress textbox with value is123a@ht@.com
+[2022-09-26 15:13:10,290] Login_02 - Step 03: Input to Password textbox with value is123456
+[2022-09-26 15:13:10,357] Login_02 - Step 04: Click to 'Login' button
+[2022-09-26 15:13:10,620] Login_02 - Step 05: Verify error message displayed
+[2022-09-26 15:13:10,655]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:10,661] Login_03 - Step 01: Open Login page
+[2022-09-26 15:13:11,023] Login_03 - Step 02: Input to emailAddress textbox with value istest002@gmail.com
+[2022-09-26 15:13:11,086] Login_03 - Step 03: Input to Password textbox with value is123456
+[2022-09-26 15:13:11,146] Login_03 - Step 04: Click to 'Login' button
+[2022-09-26 15:13:11,572] Login_03 - Step 05: Verify error message displayed
+[2022-09-26 15:13:11,626]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:11,631] Login_04 - Step 01: Open Login page
+[2022-09-26 15:13:11,971] Login_04 - Step 02: Input to emailAddress textbox with value issilas.gislason@gmail.com
+[2022-09-26 15:13:12,039] Login_04 - Step 03: Input to Password textbox with value is
+[2022-09-26 15:13:12,087] Login_02 - Step 04: Click to 'Login' button
+[2022-09-26 15:13:12,556] Login_02 - Step 05: Verify error message displayed
+[2022-09-26 15:13:12,611]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:12,617] Login_04 - Step 01: Open Login page
+[2022-09-26 15:13:12,963] Login_04 - Step 02: Input to emailAddress textbox with value issilas.gislason@gmail.com
+[2022-09-26 15:13:13,026] Login_04 - Step 03: Input to Password textbox with value is123
+[2022-09-26 15:13:13,075] Login_04 - Step 04: Click to 'Login' button
+[2022-09-26 15:13:13,499] Login_04 - Step 05: Verify error message displayed
+[2022-09-26 15:13:13,541]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:13,572] Login_04 - Step 01: Open Login page
+[2022-09-26 15:13:13,915] Login_04 - Step 02: Input to emailAddress textbox with value issilas.gislason@gmail.com
+[2022-09-26 15:13:13,983] Login_04 - Step 03: Input to Password textbox with value is123456
+[2022-09-26 15:13:14,032] Login_04 - Step 04: Click to 'Login' button
+[2022-09-26 15:13:14,788] Login_04 - Step 05: Verify HomePage displayed
+[2022-09-26 15:13:14,839]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:14,842] OS name = windows 10
+[2022-09-26 15:13:14,843] Driver instance name = firefoxdriver: firefox on windows (7f6deaa8-f179-497e-a3c6-4084f21836b9)
+[2022-09-26 15:13:49,349] Precondition - Step 01: Navigate to 'Register' link
+[2022-09-26 15:13:50,558] Precondition - Step 02: Click to Checkbox Gender
+[2022-09-26 15:13:50,822] Precondition - Step 03: Enter to FirstName textbox with value is Matha'
+[2022-09-26 15:13:50,903] Precondition - Step 04: Enter to LastName textbox with value is Walsh'
+[2022-09-26 15:13:50,957] Precondition - Step 05: Select Day of Birthday
+[2022-09-26 15:13:51,237] Precondition - Step 06: Select Month of Birthday
+[2022-09-26 15:13:51,507] Precondition - Step 07: Select year of Birthday
+[2022-09-26 15:13:51,787] Precondition - Step 08: Enter to emailAdress textbox with value is jerry.littel@gmail.com'
+[2022-09-26 15:13:51,841] Precondition - Step 09: Click to Radio 
+[2022-09-26 15:13:51,875] Precondition - Step 10: Enter to password textbox with value is 123456'
+[2022-09-26 15:13:51,924] Precondition - Step 11: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-09-26 15:13:51,972] Precondition - Step 12: Click to 'Register' button
+[2022-09-26 15:13:52,891] Precondition - Step 13: Verify register success message is displayed
+[2022-09-26 15:13:52,942]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:52,942] Precondition - Step 14: Click to Logout link
+[2022-09-26 15:13:53,650] Precondition - Step 15: Click to Login link
+[2022-09-26 15:13:54,225] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-09-26 15:13:54,268] Login_01 - Step 02: Input to Password textbox with value is
+[2022-09-26 15:13:54,311] Login_01 - Step 03: Click to 'Login' button
+[2022-09-26 15:13:54,577] Login_01 - Step 04: Verify error message displayed
+[2022-09-26 15:13:54,613]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:54,661] Login_02 - Step 01: Open Login page
+[2022-09-26 15:13:55,116] Login_02 - Step 02: Input to emailAddress textbox with value is123a@ht@.com
+[2022-09-26 15:13:55,178] Login_02 - Step 03: Input to Password textbox with value is123456
+[2022-09-26 15:13:55,231] Login_02 - Step 04: Click to 'Login' button
+[2022-09-26 15:13:55,488] Login_02 - Step 05: Verify error message displayed
+[2022-09-26 15:13:55,532]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:55,538] Login_03 - Step 01: Open Login page
+[2022-09-26 15:13:55,904] Login_03 - Step 02: Input to emailAddress textbox with value istest002@gmail.com
+[2022-09-26 15:13:55,958] Login_03 - Step 03: Input to Password textbox with value is123456
+[2022-09-26 15:13:56,007] Login_03 - Step 04: Click to 'Login' button
+[2022-09-26 15:13:56,405] Login_03 - Step 05: Verify error message displayed
+[2022-09-26 15:13:56,453]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:56,457] Login_04 - Step 01: Open Login page
+[2022-09-26 15:13:56,814] Login_04 - Step 02: Input to emailAddress textbox with value isjerry.littel@gmail.com
+[2022-09-26 15:13:56,906] Login_04 - Step 03: Input to Password textbox with value is
+[2022-09-26 15:13:56,950] Login_02 - Step 04: Click to 'Login' button
+[2022-09-26 15:13:57,400] Login_02 - Step 05: Verify error message displayed
+[2022-09-26 15:13:57,445]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:57,449] Login_04 - Step 01: Open Login page
+[2022-09-26 15:13:57,771] Login_04 - Step 02: Input to emailAddress textbox with value isjerry.littel@gmail.com
+[2022-09-26 15:13:57,832] Login_04 - Step 03: Input to Password textbox with value is123
+[2022-09-26 15:13:57,878] Login_04 - Step 04: Click to 'Login' button
+[2022-09-26 15:13:58,250] Login_04 - Step 05: Verify error message displayed
+[2022-09-26 15:13:58,297]  -------------------------- FAILED -------------------------- 
+[2022-09-26 15:13:58,319] Login_04 - Step 01: Open Login page
+[2022-09-26 15:13:58,717] Login_04 - Step 02: Input to emailAddress textbox with value isjerry.littel@gmail.com
+[2022-09-26 15:13:58,771] Login_04 - Step 03: Input to Password textbox with value is123456
+[2022-09-26 15:13:58,814] Login_04 - Step 04: Click to 'Login' button
+[2022-09-26 15:13:59,518] Login_04 - Step 05: Verify HomePage displayed
+[2022-09-26 15:13:59,576]  -------------------------- PASSED -------------------------- 
+[2022-09-26 15:13:59,580] OS name = windows 10
+[2022-09-26 15:13:59,580] Driver instance name = firefoxdriver: firefox on windows (c779b83b-f0f9-48be-badd-a20b884a6334)
+[2022-09-26 16:48:42,605] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-26 16:48:44,387] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-26 16:48:49,780] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-26 16:48:49,838]  -------------------------- PASSED -------------------------- 
+[2022-09-26 16:48:53,458] MyAccount_01 - Step 01: Open Customer Info Page
+[2022-09-26 16:48:54,959] OS name = windows 10
+[2022-09-26 16:48:54,959] Driver instance name = firefoxdriver: firefox on windows (2bf9492e-5642-44ad-bff6-5a74c18e5899)
+[2022-09-26 16:58:09,972] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-26 16:58:11,820] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-26 16:58:12,499] OS name = windows 10
+[2022-09-26 16:58:12,499] Driver instance name = firefoxdriver: firefox on windows (4fe059fa-8d74-466f-a3ba-1a3ebe3fac3b)
+[2022-09-26 16:59:08,122] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-26 16:59:09,974] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-26 16:59:14,912] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-26 16:59:15,085]  -------------------------- PASSED -------------------------- 
+[2022-09-26 16:59:16,634] MyAccount_01 - Step 01: Open Customer Info Page
+[2022-09-26 16:59:57,562] OS name = windows 10
+[2022-09-26 16:59:57,562] Driver instance name = firefoxdriver: firefox on windows (e96ed9dd-1aca-4f17-94ff-fd94ca4f77ef)
+[2022-09-27 16:49:24,262] OS name = windows 10
+[2022-09-27 16:49:24,302] 
+[2022-09-27 16:51:08,577] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-27 16:51:09,164] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-27 16:51:13,443] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-27 16:51:13,517]  -------------------------- PASSED -------------------------- 
+[2022-09-27 16:51:14,335] MyAccount_01 - Step 01: Open Customer Info Page
+[2022-09-27 16:51:14,598] OS name = windows 10
+[2022-09-27 16:51:14,599] Driver instance name = firefoxdriver: firefox on windows (c9a01c3d-51c3-47ff-8b78-597c9aa89d6e)
+[2022-09-27 16:57:49,403] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-27 16:57:50,703] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-27 16:57:55,313] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-27 16:57:55,411]  -------------------------- PASSED -------------------------- 
+[2022-09-27 16:57:55,996] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-27 16:58:36,731] OS name = windows 10
+[2022-09-27 16:58:36,732] Driver instance name = firefoxdriver: firefox on windows (c728c68d-6e25-45e2-aa0a-b26e6836aef4)
+[2022-09-29 15:49:56,580] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-29 15:49:57,824] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-29 15:50:01,583] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-29 15:50:01,699]  -------------------------- PASSED -------------------------- 
+[2022-09-29 15:50:02,227] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-29 15:50:02,418] OS name = windows 10
+[2022-09-29 15:50:02,418] Driver instance name = firefoxdriver: firefox on windows (214f1324-9f16-4724-a15b-0361f6000aa1)
+[2022-09-29 15:52:04,034] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-29 15:52:06,085] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-29 15:52:09,720] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-29 15:52:09,786]  -------------------------- PASSED -------------------------- 
+[2022-09-29 15:52:10,041] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-29 15:52:10,326] OS name = windows 10
+[2022-09-29 15:52:10,326] Driver instance name = firefoxdriver: firefox on windows (9de5fc43-4019-434a-adc2-c7fac5cd316f)
+[2022-09-29 15:57:32,660] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-29 15:57:33,392] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-29 15:57:36,455] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-29 15:57:36,940]  -------------------------- PASSED -------------------------- 
+[2022-09-29 15:57:37,087] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-29 15:57:38,258] OS name = windows 10
+[2022-09-29 15:57:38,258] Driver instance name = chromedriver: chrome on windows (8172b3233e3be5ae78c6a4adc16b79cd)
+[2022-09-29 16:06:34,254] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-29 16:06:35,399] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-29 16:06:38,454] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-29 16:06:38,867]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:06:38,954] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-29 16:07:19,599] OS name = windows 10
+[2022-09-29 16:07:19,599] Driver instance name = chromedriver: chrome on windows (e4a6be158e81dd43025d88216eeabee5)
+[2022-09-29 16:11:43,469] OS name = windows 10
+[2022-09-29 16:11:43,470] 
+[2022-09-29 16:12:10,923] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-29 16:12:11,790] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-29 16:12:14,829] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-29 16:12:15,299]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:12:15,380] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-29 16:12:16,136] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-09-29 16:12:16,189] OS name = windows 10
+[2022-09-29 16:12:16,189] Driver instance name = chromedriver: chrome on windows (b0f076b84662654644e4353264408579)
+[2022-09-29 16:16:16,811] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-29 16:16:17,777] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-29 16:16:20,819] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-29 16:16:21,231]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:16:21,323] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-29 16:16:22,003] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-09-29 16:16:22,158] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-09-29 16:16:22,321] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-09-29 16:16:22,425] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-09-29 16:16:42,617] OS name = windows 10
+[2022-09-29 16:16:42,617] Driver instance name = chromedriver: chrome on windows (0e0d89b4a7d50e5ff66b931d8bd28714)
+[2022-09-29 16:20:46,341] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-29 16:20:47,601] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-29 16:20:50,648] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-29 16:20:51,116]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:20:51,233] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-29 16:20:51,902] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-09-29 16:20:52,002] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-09-29 16:20:52,172] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-09-29 16:20:52,267] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-09-29 16:20:52,379] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-09-29 16:21:07,767] OS name = windows 10
+[2022-09-29 16:21:07,768] Driver instance name = chromedriver: chrome on windows (4aff5b1aded80731a467180748a5d6d4)
+[2022-09-29 16:21:07,783] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.11.250', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\TUTHUC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63410}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4aff5b1aded80731a467180748a5d6d4
+[2022-09-29 16:22:21,120] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-29 16:22:22,992] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-29 16:22:26,398] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-29 16:22:26,486]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:22:26,600] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-29 16:22:27,641] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-09-29 16:22:27,750] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-09-29 16:22:27,885] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-09-29 16:22:27,963] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-09-29 16:22:28,073] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-09-29 16:22:28,183] MyAccount_01 - Step 06: Select year of Birthday
+[2022-09-29 16:22:48,346] OS name = windows 10
+[2022-09-29 16:22:48,347] Driver instance name = chromedriver: chrome on windows (517fa4641d355827f3efb79997f96603)
+[2022-09-29 16:24:14,752] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-29 16:24:16,392] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-29 16:24:19,426] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-29 16:24:19,878]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:24:20,050] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-29 16:24:21,063] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-09-29 16:24:21,199] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-09-29 16:24:21,373] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-09-29 16:24:21,468] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-09-29 16:24:21,585] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-09-29 16:24:21,694] MyAccount_01 - Step 06: Select year of Birthday
+[2022-09-29 16:24:21,812] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is automationfc.vn@gmail.com
+[2022-09-29 16:24:22,004] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-09-29 16:24:22,167] MyAccount_01 - Step 09: Click Save button
+[2022-09-29 16:24:22,860] MyAccount_01 - Step 10: Verify data update success
+[2022-09-29 16:24:22,921]  -------------------------- FAILED -------------------------- 
+[2022-09-29 16:24:22,923] MyAccount_01 - Step 10: Verify data update success
+[2022-09-29 16:24:23,029]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:24:23,029] MyAccount_01 - Step 10: Verify data update success
+[2022-09-29 16:24:23,127]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:24:23,127] MyAccount_01 - Step 10: Verify data update success
+[2022-09-29 16:24:23,185]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:24:23,347] OS name = windows 10
+[2022-09-29 16:24:23,347] Driver instance name = chromedriver: chrome on windows (5eb7669e2ae18c7c9c8879307cd9de2f)
+[2022-09-29 16:33:04,191] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-29 16:33:04,832] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-29 16:33:08,265] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-29 16:33:08,336]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:33:08,428] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-29 16:33:09,085] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-09-29 16:33:09,189] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-09-29 16:33:09,367] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-09-29 16:33:09,505] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-09-29 16:33:09,620] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-09-29 16:33:09,731] MyAccount_01 - Step 06: Select year of Birthday
+[2022-09-29 16:33:09,835] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is automationfc.vn@gmail.com
+[2022-09-29 16:33:10,016] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-09-29 16:33:10,217] MyAccount_01 - Step 09: Click Save button
+[2022-09-29 16:33:10,731] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-09-29 16:33:10,785]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:33:10,785] MyAccount_01 - Step 10: Verify LastName updated success
+[2022-09-29 16:33:10,844]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:33:10,844] MyAccount_01 - Step 10: Verify Email updated success
+[2022-09-29 16:33:10,904]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:33:10,904] MyAccount_01 - Step 10: Verify Company updated success
+[2022-09-29 16:33:10,963]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:33:11,018] OS name = windows 10
+[2022-09-29 16:33:11,018] Driver instance name = chromedriver: chrome on windows (aaccdcd809943c012754fdb18aa2933b)
+[2022-09-29 16:38:16,019] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-29 16:38:17,073] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-29 16:38:20,743] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-29 16:38:20,825]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:38:20,994] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-29 16:38:21,555] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-09-29 16:38:21,654] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-09-29 16:38:21,812] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-09-29 16:38:21,947] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-09-29 16:38:22,068] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-09-29 16:38:22,174] MyAccount_01 - Step 06: Select year of Birthday
+[2022-09-29 16:38:22,294] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is joseph.shanahan@gmail.com
+[2022-09-29 16:38:22,492] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-09-29 16:38:22,661] MyAccount_01 - Step 09: Click Save button
+[2022-09-29 16:38:23,389] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-09-29 16:38:23,439]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:38:23,440] MyAccount_01 - Step 10: Verify LastName updated success
+[2022-09-29 16:38:23,490]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:38:23,490] MyAccount_01 - Step 10: Verify Email updated success
+[2022-09-29 16:38:23,539]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:38:23,539] MyAccount_01 - Step 10: Verify Company updated success
+[2022-09-29 16:38:23,577]  -------------------------- PASSED -------------------------- 
+[2022-09-29 16:38:23,658] OS name = windows 10
+[2022-09-29 16:38:23,658] Driver instance name = chromedriver: chrome on windows (d5f1be00fdbd2bf10cc855dbe7b1a8ef)
+[2022-09-30 10:59:05,788] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-30 10:59:07,146] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-30 10:59:10,252] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-30 10:59:10,673]  -------------------------- PASSED -------------------------- 
+[2022-09-30 10:59:11,572] MyAccount_01 - Step 01: Click to My Account link
+[2022-09-30 10:59:14,531] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-09-30 10:59:14,817] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-09-30 10:59:14,977] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-09-30 10:59:15,116] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-09-30 10:59:15,345] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-09-30 10:59:15,458] MyAccount_01 - Step 06: Select year of Birthday
+[2022-09-30 10:59:15,575] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is broderick.bosco@yahoo.com
+[2022-09-30 10:59:15,765] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-09-30 10:59:15,986] MyAccount_01 - Step 09: Click Save button
+[2022-09-30 10:59:16,810] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-09-30 10:59:16,859]  -------------------------- PASSED -------------------------- 
+[2022-09-30 10:59:16,859] MyAccount_01 - Step 11: Verify LastName updated success
+[2022-09-30 10:59:16,898]  -------------------------- PASSED -------------------------- 
+[2022-09-30 10:59:16,898] MyAccount_01 - Step 12: Verify Email updated success
+[2022-09-30 10:59:16,936]  -------------------------- PASSED -------------------------- 
+[2022-09-30 10:59:16,937] MyAccount_01 - Step 13: Verify Company updated success
+[2022-09-30 10:59:16,980]  -------------------------- PASSED -------------------------- 
+[2022-09-30 10:59:17,152] OS name = windows 10
+[2022-09-30 10:59:17,153] Driver instance name = chromedriver: chrome on windows (bdb438e5fd8eb7241fed5348832ba251)
+[2022-09-30 11:00:52,063] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-30 11:00:52,945] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-30 11:00:56,125] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-30 11:00:56,564]  -------------------------- PASSED -------------------------- 
+[2022-09-30 11:00:58,865] MyAccount_02 - Step 01: Click to My Account link
+[2022-09-30 11:01:00,147] MyAccount_02 - Step 02: Open address page
+[2022-09-30 11:01:00,733] OS name = windows 10
+[2022-09-30 11:01:00,734] Driver instance name = chromedriver: chrome on windows (a373514136af791877e13a68679f96b2)
+[2022-09-30 11:07:13,731] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-30 11:07:14,677] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-30 11:07:18,077] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-30 11:07:18,155]  -------------------------- PASSED -------------------------- 
+[2022-09-30 11:07:18,277] MyAccount_02 - Step 01: Click to My Account link
+[2022-09-30 11:07:19,554] MyAccount_02 - Step 02: Open address page
+[2022-09-30 11:07:19,600] OS name = windows 10
+[2022-09-30 11:07:19,600] Driver instance name = chromedriver: chrome on windows (c669d6de0b6e948957b8019a2f817fbc)
+[2022-09-30 11:13:36,646] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-30 11:13:37,253] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-30 11:13:37,407] OS name = windows 10
+[2022-09-30 11:13:37,407] Driver instance name = chromedriver: chrome on windows (a431e875d4013b1339eb14d0ab0f4325)
+[2022-09-30 11:15:40,564] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-30 11:15:41,260] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-30 11:15:44,687] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-30 11:15:44,874]  -------------------------- PASSED -------------------------- 
+[2022-09-30 11:15:45,059] MyAccount_02 - Step 01: Click to My Account link
+[2022-09-30 11:15:45,939] MyAccount_02 - Step 02: Open address page
+[2022-09-30 11:15:46,435] MyAccount_02 - Step 03: Click to Add New button
+[2022-09-30 11:15:47,017] MyAccount_02 - Step 04: Click to Add New button
+[2022-09-30 11:16:28,085] OS name = windows 10
+[2022-09-30 11:16:28,086] Driver instance name = chromedriver: chrome on windows (e10eaa1b3b05acf798cb0ead8c453122)
+[2022-09-30 11:16:34,407] chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.88.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\TUTHUC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e10eaa1b3b05acf798cb0ead8c453122
+[2022-09-30 11:18:50,923] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-30 11:18:52,585] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-30 11:18:55,984] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-30 11:18:56,081]  -------------------------- PASSED -------------------------- 
+[2022-09-30 11:18:56,555] MyAccount_02 - Step 01: Click to My Account link
+[2022-09-30 11:18:57,317] MyAccount_02 - Step 02: Open address page
+[2022-09-30 11:18:57,852] MyAccount_02 - Step 03: Click to Add New button
+[2022-09-30 11:18:58,433] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-09-30 11:19:39,313] OS name = windows 10
+[2022-09-30 11:19:39,314] Driver instance name = chromedriver: chrome on windows (b3d12ad3686eb11b6f66cc0fbbf88e39)
+[2022-09-30 11:23:29,175] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-30 11:23:29,842] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-30 11:23:32,886] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-30 11:23:33,923]  -------------------------- PASSED -------------------------- 
+[2022-09-30 11:23:34,047] MyAccount_02 - Step 01: Click to My Account link
+[2022-09-30 11:23:34,637] MyAccount_02 - Step 02: Open address page
+[2022-09-30 11:23:35,233] MyAccount_02 - Step 03: Click to Add New button
+[2022-09-30 11:23:35,816] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-09-30 11:23:35,988] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-09-30 11:23:36,126] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is mozell.leuschke@yahoo.com
+[2022-09-30 11:23:36,302] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-09-30 11:24:16,908] OS name = windows 10
+[2022-09-30 11:24:16,908] Driver instance name = chromedriver: chrome on windows (2fa287beb19bb4c631ccd1260340027e)
+[2022-09-30 11:26:53,490] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-30 11:26:54,289] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-30 11:26:57,721] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-30 11:26:57,824]  -------------------------- PASSED -------------------------- 
+[2022-09-30 11:26:57,929] MyAccount_02 - Step 01: Click to My Account link
+[2022-09-30 11:26:58,688] MyAccount_02 - Step 02: Open address page
+[2022-09-30 11:26:59,234] MyAccount_02 - Step 03: Click to Add New button
+[2022-09-30 11:26:59,912] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-09-30 11:27:00,099] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-09-30 11:27:00,245] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is raina.gleason@yahoo.com
+[2022-09-30 11:27:00,521] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-09-30 11:27:00,810] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-09-30 11:27:41,486] OS name = windows 10
+[2022-09-30 11:27:41,486] Driver instance name = chromedriver: chrome on windows (b942e800d5e6b88db736b37604a30ea8)
+[2022-09-30 11:31:15,646] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-30 11:31:17,096] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-30 11:31:20,142] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-30 11:31:20,561]  -------------------------- PASSED -------------------------- 
+[2022-09-30 11:31:20,703] MyAccount_02 - Step 01: Click to My Account link
+[2022-09-30 11:31:21,622] MyAccount_02 - Step 02: Open address page
+[2022-09-30 11:31:22,177] MyAccount_02 - Step 03: Click to Add New button
+[2022-09-30 11:31:22,919] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-09-30 11:31:23,066] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-09-30 11:31:23,195] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is cassie.streich@gmail.com
+[2022-09-30 11:31:23,379] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-09-30 11:31:23,537] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-09-30 11:32:03,912] OS name = windows 10
+[2022-09-30 11:32:03,912] Driver instance name = chromedriver: chrome on windows (ee2fe28d2baf9d164e527da1a98b27df)
+[2022-09-30 16:26:25,582] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-30 16:26:29,084] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-30 16:26:32,129] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-30 16:26:32,562]  -------------------------- PASSED -------------------------- 
+[2022-09-30 16:26:34,489] MyAccount_02 - Step 01: Click to My Account link
+[2022-09-30 16:26:35,222] MyAccount_02 - Step 02: Open address page
+[2022-09-30 16:26:35,767] MyAccount_02 - Step 03: Click to Add New button
+[2022-09-30 16:26:36,357] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-09-30 16:26:36,494] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-09-30 16:26:36,619] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is opal.stokes@hotmail.com
+[2022-09-30 16:26:36,771] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-09-30 16:26:36,919] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-09-30 16:26:37,062] MyAccount_02 - Step 10: Select Province with value :Other
+[2022-09-30 16:26:37,320] MyAccount_02 - Step 11: Enter to City textbox with value is Ha Noi'
+[2022-09-30 16:26:37,463] MyAccount_02 - Step 12: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-09-30 16:26:37,624] MyAccount_02 - Step 13: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-09-30 16:26:37,781] MyAccount_02 - Step 14: Enter to Zip textbox with value is 50000005'
+[2022-09-30 16:26:37,917] MyAccount_02 - Step 15: Enter to Phone Numver textbox with value is 0987403392'
+[2022-09-30 16:26:38,059] MyAccount_02 - Step 16: Enter to Fax Numver textbox with value is 0123456789'
+[2022-09-30 16:26:38,193] MyAccount_02 - Step 17: Click to  Save button
+[2022-09-30 16:26:39,192] MyAccount_02 - Step 18: Verify data updated success
+[2022-09-30 16:27:20,828] OS name = windows 10
+[2022-09-30 16:27:20,828] Driver instance name = chromedriver: chrome on windows (dc431aef847e7cb9e95d82e8ce6de71d)

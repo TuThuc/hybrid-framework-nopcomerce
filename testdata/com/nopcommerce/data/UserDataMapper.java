@@ -64,6 +64,9 @@ public class UserDataMapper {
 		return password.wrongPassword;
 	}
 
+	@JsonProperty("email")
+	private Email email;
+
 	static class Email {
 		@JsonProperty("invalidEmail")
 		private String invalidEmail;
@@ -72,13 +75,13 @@ public class UserDataMapper {
 		private String emailNotExist;
 	}
 
-	// public String getInvalidEmail() {
-	// return email.invalidEmail;
-	// }
+	public String getInvalidEmail() {
+		return email.invalidEmail;
+	}
 
-	// public String getEmailNotExist() {
-	// return email.emailNotExist;
-	// }
+	public String getEmailNotExist() {
+		return email.emailNotExist;
+	}
 
 	@JsonProperty("login")
 	private Login login;
@@ -97,6 +100,123 @@ public class UserDataMapper {
 
 	public String getLoginPassword() {
 		return login.password;
+	}
+
+	@JsonProperty("updateCustomerInfo")
+	private UpdateCustomerInfo updateCustomerInfo;
+
+	static class UpdateCustomerInfo {
+		@JsonProperty("fender")
+		private String fender;
+
+		@JsonProperty("firstName")
+		private String firstName;
+
+		@JsonProperty("lastName")
+		private String lastName;
+
+		@JsonProperty("date")
+		private String date;
+
+		@JsonProperty("month")
+		private String month;
+
+		@JsonProperty("year")
+		private String year;
+
+		@JsonProperty("company")
+		private String company;
+	}
+
+	public String getFender() {
+		return updateCustomerInfo.fender;
+
+	}
+
+	public String getFirstName() {
+		return updateCustomerInfo.firstName;
+	}
+
+	public String getLastName() {
+		return updateCustomerInfo.lastName;
+	}
+
+	public String getDateUpdate() {
+		return updateCustomerInfo.date;
+	}
+
+	public String getMonthUpdate() {
+		return updateCustomerInfo.month;
+	}
+
+	public String getYearUpdate() {
+		return updateCustomerInfo.year;
+	}
+
+	public String getCompany() {
+		return updateCustomerInfo.company;
+	}
+
+	@JsonProperty("addressCustomer")
+	private AddressCustomer addressCustomer;
+
+	static class AddressCustomer {
+		@JsonProperty("country")
+		private String country;
+
+		@JsonProperty("province")
+		private String province;
+
+		@JsonProperty("city")
+		private String city;
+
+		@JsonProperty("address1")
+		private String address1;
+
+		@JsonProperty("address2")
+		private String address2;
+
+		@JsonProperty("zip")
+		private String zip;
+
+		@JsonProperty("phoneNumber")
+		private String phoneNumber;
+
+		@JsonProperty("faxNumber")
+		private String faxNumber;
+	}
+
+	public String getCountry() {
+		return addressCustomer.country;
+
+	}
+
+	public String getProvince() {
+		return addressCustomer.province;
+	}
+
+	public String getCity() {
+		return addressCustomer.city;
+	}
+
+	public String getAddress1() {
+		return addressCustomer.address1;
+	}
+
+	public String getAddress2() {
+		return addressCustomer.address2;
+	}
+
+	public String getZip() {
+		return addressCustomer.zip;
+	}
+
+	public String getPhoneNumber() {
+		return addressCustomer.phoneNumber;
+	}
+
+	public String getFaxNumber() {
+		return addressCustomer.faxNumber;
 	}
 
 	@JsonProperty("subjects")
@@ -119,14 +239,6 @@ public class UserDataMapper {
 		public float getPoint() {
 			return point;
 		}
-	}
-
-	public String getFirstName() {
-		return firstName;
-	}
-
-	public String getLastName() {
-		return lastName;
 	}
 
 	public String getEmailAddress() {

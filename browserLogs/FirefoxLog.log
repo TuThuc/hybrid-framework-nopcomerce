@@ -1,9 +1,15 @@
-1663839052696	geckodriver	INFO	Listening on 127.0.0.1:3700
-1663839053366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\TUTHUC~1\\AppData\\Local\\Temp\\rust_mozprofileyvUeaF"
-1663839053756	Marionette	INFO	Marionette enabled
-1663839053762	Marionette	INFO	Listening on port 57063
-Read port: 57063
-1663839053871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TUTHUC~1\\AppData\\Local\\Temp\\rust_mozprofileyvUeaF\\search.json.mozlz4", (void 0)))
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-1663839061750	Marionette	INFO	Stopped listening on port 57063
+1664441512520	geckodriver	INFO	Listening on 127.0.0.1:1131
+1664441512994	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\TUTHUC~1\\AppData\\Local\\Temp\\rust_mozprofilekWzEeY"
+1664441513675	Marionette	INFO	Marionette enabled
+1664441513680	Marionette	INFO	Listening on port 62247
+Read port: 62247
+1664441513977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TUTHUC~1\\AppData\\Local\\Temp\\rust_mozprofilekWzEeY\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+1664441530340	Marionette	INFO	Stopped listening on port 62247
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+[Parent 10484, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+[Parent 10484, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

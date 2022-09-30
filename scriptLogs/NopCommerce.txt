@@ -1,8 +1,23 @@
-[2022-09-22 16:31:00,050] Precondition - Step 15: Click to Login link
-[2022-09-22 16:31:01,264] Login_01 - Step 01: Input to emailAddress textbox with value is
-[2022-09-22 16:31:01,318] Login_01 - Step 02: Input to Password textbox with value is
-[2022-09-22 16:31:01,378] Login_01 - Step 03: Click to 'Login' button
-[2022-09-22 16:31:01,651] Login_01 - Step 04: Verify error message displayed
-[2022-09-22 16:31:01,705]  -------------------------- PASSED -------------------------- 
-[2022-09-22 16:31:01,742] OS name = windows 10
-[2022-09-22 16:31:01,742] Driver instance name = firefoxdriver: firefox on windows (892d5bf6-2cd2-48cf-bebd-e28cf3fa8b1e)
+[2022-09-30 16:26:25,582] Pre-Condition - Step 01: Navigate to Login page
+[2022-09-30 16:26:29,084] Pre-Condition - Step 02: Set cookie and reload page
+[2022-09-30 16:26:32,129] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-09-30 16:26:32,562]  -------------------------- PASSED -------------------------- 
+[2022-09-30 16:26:34,489] MyAccount_02 - Step 01: Click to My Account link
+[2022-09-30 16:26:35,222] MyAccount_02 - Step 02: Open address page
+[2022-09-30 16:26:35,767] MyAccount_02 - Step 03: Click to Add New button
+[2022-09-30 16:26:36,357] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-09-30 16:26:36,494] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-09-30 16:26:36,619] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is opal.stokes@hotmail.com
+[2022-09-30 16:26:36,771] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-09-30 16:26:36,919] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-09-30 16:26:37,062] MyAccount_02 - Step 10: Select Province with value :Other
+[2022-09-30 16:26:37,320] MyAccount_02 - Step 11: Enter to City textbox with value is Ha Noi'
+[2022-09-30 16:26:37,463] MyAccount_02 - Step 12: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-09-30 16:26:37,624] MyAccount_02 - Step 13: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-09-30 16:26:37,781] MyAccount_02 - Step 14: Enter to Zip textbox with value is 50000005'
+[2022-09-30 16:26:37,917] MyAccount_02 - Step 15: Enter to Phone Numver textbox with value is 0987403392'
+[2022-09-30 16:26:38,059] MyAccount_02 - Step 16: Enter to Fax Numver textbox with value is 0123456789'
+[2022-09-30 16:26:38,193] MyAccount_02 - Step 17: Click to  Save button
+[2022-09-30 16:26:39,192] MyAccount_02 - Step 18: Verify data updated success
+[2022-09-30 16:27:20,828] OS name = windows 10
+[2022-09-30 16:27:20,828] Driver instance name = chromedriver: chrome on windows (dc431aef847e7cb9e95d82e8ce6de71d)
