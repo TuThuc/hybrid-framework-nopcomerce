@@ -367,6 +367,19 @@ public class BasePage {
 		}
 	}
 
+	public boolean isListElementContainText(WebDriver driver, String locatorType, String textValue, String... dynamicValues) {
+		List<WebElement> elements = getListWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
+		boolean state = true;
+		for (WebElement element : elements) {
+			if (!element.getText().contains(textValue)) {
+				state = false;
+				break;
+			}
+		}
+		return state;
+
+	}
+
 	public void overrideImplicitTimeout(WebDriver driver, long timeout) {
 		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 	}
@@ -444,6 +457,12 @@ public class BasePage {
 	public void scrollToElement(WebDriver driver, String locatorType) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, locatorType));
+	}
+
+	public String getElementValueByJSXpath(WebDriver driver, String xpathLocator) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		xpathLocator = xpathLocator.replace("xpath=", "");
+		return (String) jsExecutor.executeScript("return $document.evaluete(\"" + xpathLocator + "\", document, null, XpathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue).val()");
 	}
 
 	public void removeAttributeInDOM(WebDriver driver, String locatorType, String attributeRemove) {
@@ -663,8 +682,8 @@ public class BasePage {
 	 * @param className
 	 */
 	public void clickToHeaderLinksByClassName(WebDriver driver, String className) {
-		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_HEADER_LINK_BY_CLASS_NAME_, className);
-		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_HEADER_LINK_BY_CLASS_NAME_, className);
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_HEADER_LINK_BY_CLASS_NAME, className);
+		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_HEADER_LINK_BY_CLASS_NAME, className);
 
 	}
 
@@ -702,9 +721,21 @@ public class BasePage {
 	 * @param driver
 	 * @param radioButtonLabelName
 	 */
-	public void clickToCheckboxByLabel(WebDriver driver, String radioButtonLabelName) {
-		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_CHECKBOX_BY_LABEL, radioButtonLabelName);
-		checkToDefaultCheckboxRadio(driver, BasePageNopComerceUI.DYNAMIC_CHECKBOX_BY_LABEL, radioButtonLabelName);
+	public void clickToCheckboxByLabel(WebDriver driver, String checkboxButtonLabelName) {
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxButtonLabelName);
+		checkToDefaultCheckboxRadio(driver, BasePageNopComerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxButtonLabelName);
+	}
+
+	/**
+	 * unClick to dynamic Checkbox by label
+	 * 
+	 * @author Tu Thuc
+	 * @param driver
+	 * @param radioButtonLabelName
+	 */
+	public void unClickToCheckboxByLabel(WebDriver driver, String checkboxButtonLabelName) {
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxButtonLabelName);
+		uncheckToDefaultCheckboxRadio(driver, BasePageNopComerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxButtonLabelName);
 	}
 
 	/**

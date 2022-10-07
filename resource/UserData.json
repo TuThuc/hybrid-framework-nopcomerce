@@ -9,7 +9,8 @@
 {
 "validPassword":"123456",
 "invalidPassword":"123",
-"wrongPassword":"123abc"
+"wrongPassword":"123abc",
+"newPassword": "1234567"
 },
 "date":"8",
 "month":"August",
@@ -52,6 +53,18 @@
 "zip":"50000005",
 "phoneNumber":"0987403392",
 "faxNumber":"0123456789"
+},
+"productReview":
+{
+"reviewTitle": "Test title review",
+"reviewText": "Product is very good"
+},
+"productName":
+{
+"productNameNotExist": "Macbook Pro 2050",
+"productNameRelative": "Lenovo",
+"productNameAbsolute": "Thinkpad X1 Carbon",
+"productNameSearchCategories": "Apple Macbook Pro"
 }
 }
 

@@ -15,7 +15,7 @@
   <parameter name = "browser" value = "chrome"/>
     <classes>
     <class name="com.nopcomerce.common.Common_01_Register_Cookie"/>
-      <class name="com.nopcomerce.user.account.Account_03_MyAccount"/>
+      <class name="com.nopcomerce.user.TCs_Search"/>
       
     </classes>
   </test> 

@@ -1595,3 +1595,1262 @@ Session ID: e10eaa1b3b05acf798cb0ead8c453122
 [2022-09-30 16:26:39,192] MyAccount_02 - Step 18: Verify data updated success
 [2022-09-30 16:27:20,828] OS name = windows 10
 [2022-09-30 16:27:20,828] Driver instance name = chromedriver: chrome on windows (dc431aef847e7cb9e95d82e8ce6de71d)
+[2022-10-03 11:07:55,712] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-03 11:07:58,746] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-03 11:08:02,142] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-03 11:08:02,554]  -------------------------- PASSED -------------------------- 
+[2022-10-03 11:08:03,689] MyAccount_02 - Step 01: Click to My Account link
+[2022-10-03 11:08:04,262] MyAccount_02 - Step 02: Open address page
+[2022-10-03 11:08:04,849] MyAccount_02 - Step 03: Click to Add New button
+[2022-10-03 11:08:05,429] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-10-03 11:08:05,582] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-10-03 11:08:05,713] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is erich.collins@yahoo.com
+[2022-10-03 11:08:05,968] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-03 11:08:06,172] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-10-03 11:08:06,508] MyAccount_02 - Step 10: Select Province with value :Other
+[2022-10-03 11:08:06,814] MyAccount_02 - Step 11: Enter to City textbox with value is Ha Noi'
+[2022-10-03 11:08:06,947] MyAccount_02 - Step 12: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-03 11:08:07,108] MyAccount_02 - Step 13: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-03 11:08:07,270] MyAccount_02 - Step 14: Enter to Zip textbox with value is 50000005'
+[2022-10-03 11:08:07,407] MyAccount_02 - Step 15: Enter to Phone Numver textbox with value is 0987403392'
+[2022-10-03 11:08:07,542] MyAccount_02 - Step 16: Enter to Fax Numver textbox with value is 0123456789'
+[2022-10-03 11:08:07,690] MyAccount_02 - Step 17: Click to  Save button
+[2022-10-03 11:08:08,515] MyAccount_02 - Step 18: Verify data updated success
+[2022-10-03 11:08:28,919] OS name = windows 10
+[2022-10-03 11:08:28,920] Driver instance name = chromedriver: chrome on windows (95b702881c8cd62853b52b64208dcdf1)
+[2022-10-03 11:22:59,449] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-03 11:23:00,864] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-03 11:23:04,280] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-03 11:23:04,364]  -------------------------- PASSED -------------------------- 
+[2022-10-03 11:23:04,581] MyAccount_02 - Step 01: Click to My Account link
+[2022-10-03 11:23:05,252] MyAccount_02 - Step 02: Open address page
+[2022-10-03 11:23:05,830] MyAccount_02 - Step 03: Click to Add New button
+[2022-10-03 11:23:06,603] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-10-03 11:23:06,732] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-10-03 11:23:06,862] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is stuart.zieme@yahoo.com
+[2022-10-03 11:23:07,018] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-03 11:23:07,159] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-10-03 11:23:07,276] MyAccount_02 - Step 10: Select Province with value :Other
+[2022-10-03 11:23:07,580] MyAccount_02 - Step 11: Enter to City textbox with value is Ha Noi'
+[2022-10-03 11:23:07,724] MyAccount_02 - Step 12: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-03 11:23:07,872] MyAccount_02 - Step 13: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-03 11:23:08,056] MyAccount_02 - Step 14: Enter to Zip textbox with value is 50000005'
+[2022-10-03 11:23:08,207] MyAccount_02 - Step 15: Enter to Phone Numver textbox with value is 0987403392'
+[2022-10-03 11:23:08,353] MyAccount_02 - Step 16: Enter to Fax Numver textbox with value is 0123456789'
+[2022-10-03 11:23:08,501] MyAccount_02 - Step 17: Click to  Save button
+[2022-10-03 11:23:09,336] MyAccount_02 - Step 18: Verify data updated success
+[2022-10-03 11:23:09,389]  -------------------------- FAILED -------------------------- 
+[2022-10-03 11:23:09,435] OS name = windows 10
+[2022-10-03 11:23:09,436] Driver instance name = chromedriver: chrome on windows (ac0220fdaddea31b4bcdb265b4ce1b96)
+[2022-10-03 11:40:36,770] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-03 11:40:38,091] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-03 11:40:41,323] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-03 11:40:41,741]  -------------------------- PASSED -------------------------- 
+[2022-10-03 11:40:44,998] MyAccount_02 - Step 01: Click to My Account link
+[2022-10-03 11:40:45,680] MyAccount_02 - Step 02: Open address page
+[2022-10-03 11:40:46,431] MyAccount_02 - Step 03: Click to Add New button
+[2022-10-03 11:40:47,125] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-10-03 11:40:47,270] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-10-03 11:40:47,387] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is rosaline.shanahan@gmail.com
+[2022-10-03 11:40:47,555] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-03 11:40:47,695] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-10-03 11:40:48,256] MyAccount_02 - Step 10: Select Province with value :Other
+[2022-10-03 11:40:48,520] MyAccount_02 - Step 11: Enter to City textbox with value is Ha Noi'
+[2022-10-03 11:40:48,666] MyAccount_02 - Step 12: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-03 11:40:48,813] MyAccount_02 - Step 13: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-03 11:40:48,995] MyAccount_02 - Step 14: Enter to Zip textbox with value is 50000005'
+[2022-10-03 11:40:49,136] MyAccount_02 - Step 15: Enter to Phone Numver textbox with value is 0987403392'
+[2022-10-03 11:40:49,278] MyAccount_02 - Step 16: Enter to Fax Numver textbox with value is 0123456789'
+[2022-10-03 11:40:49,428] MyAccount_02 - Step 17: Click to  Save button
+[2022-10-03 11:40:50,285] MyAccount_02 - Step 18: Verify data updated success
+[2022-10-03 11:40:50,335]  -------------------------- FAILED -------------------------- 
+[2022-10-03 11:40:50,860] OS name = windows 10
+[2022-10-03 11:40:50,860] Driver instance name = chromedriver: chrome on windows (0a25bf7e5b0dfe3889fa0ab093036905)
+[2022-10-03 15:03:28,395] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-03 15:03:29,825] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-03 15:03:32,888] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-03 15:03:33,310]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:03:35,569] MyAccount_02 - Step 01: Click to My Account link
+[2022-10-03 15:03:36,246] MyAccount_02 - Step 02: Open address page
+[2022-10-03 15:03:36,798] MyAccount_02 - Step 03: Click to Add New button
+[2022-10-03 15:03:37,479] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-10-03 15:03:37,651] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-10-03 15:03:38,080] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is ashton.hahn@yahoo.com
+[2022-10-03 15:03:38,297] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-03 15:03:38,459] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-10-03 15:03:38,716] MyAccount_02 - Step 10: Select Province with value :Other
+[2022-10-03 15:03:38,977] MyAccount_02 - Step 11: Enter to City textbox with value is Ha Noi'
+[2022-10-03 15:03:39,134] MyAccount_02 - Step 12: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-03 15:03:39,316] MyAccount_02 - Step 13: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-03 15:03:39,600] MyAccount_02 - Step 14: Enter to Zip textbox with value is 50000005'
+[2022-10-03 15:03:39,790] MyAccount_02 - Step 15: Enter to Phone Numver textbox with value is 0987403392'
+[2022-10-03 15:03:39,979] MyAccount_02 - Step 16: Enter to Fax Numver textbox with value is 0123456789'
+[2022-10-03 15:03:40,139] MyAccount_02 - Step 17: Click to  Save button
+[2022-10-03 15:03:41,480] MyAccount_02 - Step 18: Verify data updated success
+[2022-10-03 15:04:02,405] OS name = windows 10
+[2022-10-03 15:04:02,405] Driver instance name = chromedriver: chrome on windows (65ba54299d41299d05196ee4f643294f)
+[2022-10-03 15:05:39,829] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-03 15:05:41,346] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-03 15:05:44,507] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-03 15:05:44,992]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:05:45,414] MyAccount_02 - Step 01: Click to My Account link
+[2022-10-03 15:05:46,098] MyAccount_02 - Step 02: Open address page
+[2022-10-03 15:05:46,777] MyAccount_02 - Step 03: Click to Add New button
+[2022-10-03 15:05:47,541] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-10-03 15:05:47,730] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-10-03 15:05:47,875] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is narcisa.bradtke@yahoo.com
+[2022-10-03 15:05:48,065] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-03 15:05:48,255] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-10-03 15:05:48,580] MyAccount_02 - Step 10: Select Province with value :Other
+[2022-10-03 15:05:48,839] MyAccount_02 - Step 11: Enter to City textbox with value is Ha Noi'
+[2022-10-03 15:05:48,972] MyAccount_02 - Step 12: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-03 15:05:49,116] MyAccount_02 - Step 13: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-03 15:05:49,270] MyAccount_02 - Step 14: Enter to Zip textbox with value is 50000005'
+[2022-10-03 15:05:49,437] MyAccount_02 - Step 15: Enter to Phone Numver textbox with value is 0987403392'
+[2022-10-03 15:05:49,600] MyAccount_02 - Step 16: Enter to Fax Numver textbox with value is 0123456789'
+[2022-10-03 15:05:49,772] MyAccount_02 - Step 17: Click to  Save button
+[2022-10-03 15:05:50,667] MyAccount_02 - Step 18: Verify data updated success
+[2022-10-03 15:05:50,749]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:06:33,046] OS name = windows 10
+[2022-10-03 15:06:33,046] Driver instance name = chromedriver: chrome on windows (fa0c846e569c4db94535e62ed6b1c3d2)
+[2022-10-03 15:11:25,209] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-03 15:11:26,065] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-03 15:11:29,263] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-03 15:11:29,839]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:11:36,170] MyAccount_02 - Step 01: Click to My Account link
+[2022-10-03 15:11:37,060] MyAccount_02 - Step 02: Open address page
+[2022-10-03 15:11:37,674] MyAccount_02 - Step 03: Click to Add New button
+[2022-10-03 15:11:38,588] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-10-03 15:11:38,789] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-10-03 15:11:38,962] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is shela.glover@yahoo.com
+[2022-10-03 15:11:39,203] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-03 15:11:39,404] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-10-03 15:11:40,729] MyAccount_02 - Step 10: Select Province with value :Other
+[2022-10-03 15:11:41,054] MyAccount_02 - Step 11: Enter to City textbox with value is Ha Noi'
+[2022-10-03 15:11:41,223] MyAccount_02 - Step 12: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-03 15:11:41,422] MyAccount_02 - Step 13: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-03 15:11:41,690] MyAccount_02 - Step 14: Enter to Zip textbox with value is 50000005'
+[2022-10-03 15:11:41,947] MyAccount_02 - Step 15: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-03 15:11:42,171] MyAccount_02 - Step 16: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-03 15:11:42,351] MyAccount_02 - Step 17: Click to  Save button
+[2022-10-03 15:11:43,389] MyAccount_02 - Step 18: Verify data updated success
+[2022-10-03 15:11:43,476]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:12:26,919] OS name = windows 10
+[2022-10-03 15:12:26,919] Driver instance name = chromedriver: chrome on windows (a96c5256a779ee0cd422ecf4cc0f270d)
+[2022-10-03 15:21:50,446] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-03 15:21:52,225] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-03 15:21:55,263] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-03 15:21:55,754]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:21:56,789] MyAccount_02 - Step 01: Click to My Account link
+[2022-10-03 15:21:57,695] MyAccount_02 - Step 02: Open address page
+[2022-10-03 15:21:58,293] MyAccount_02 - Step 03: Click to Add New button
+[2022-10-03 15:21:59,021] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-10-03 15:21:59,253] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-10-03 15:21:59,423] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is jim.reilly@yahoo.com
+[2022-10-03 15:21:59,708] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-03 15:21:59,980] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-10-03 15:22:00,615] MyAccount_02 - Step 10: Select Province with value :Other
+[2022-10-03 15:22:00,871] MyAccount_02 - Step 11: Enter to City textbox with value is Ha Noi'
+[2022-10-03 15:22:01,005] MyAccount_02 - Step 12: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-03 15:22:01,180] MyAccount_02 - Step 13: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-03 15:22:01,366] MyAccount_02 - Step 14: Enter to Zip textbox with value is 50000005'
+[2022-10-03 15:22:01,509] MyAccount_02 - Step 15: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-03 15:22:01,660] MyAccount_02 - Step 16: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-03 15:22:01,833] MyAccount_02 - Step 17: Click to  Save button
+[2022-10-03 15:22:02,755] MyAccount_02 - Step 18: Verify data updated success
+[2022-10-03 15:22:02,833]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:22:02,897]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:22:02,969]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:22:03,044]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:22:03,106]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:22:03,209]  -------------------------- PASSED -------------------------- 
+[2022-10-03 15:22:03,832] OS name = windows 10
+[2022-10-03 15:22:03,832] Driver instance name = chromedriver: chrome on windows (81ae29cdd071fbfbda0afe8ad4a2decc)
+[2022-10-03 16:36:45,550] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-03 16:36:51,567] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-03 16:36:55,617] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-03 16:36:55,688]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:37:02,818] MyAccount_01 - Step 01: Click to My Account link
+[2022-10-03 16:37:03,620] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-10-03 16:37:04,199] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-03 16:37:04,370] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-10-03 16:37:04,536] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-10-03 16:37:05,078] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-10-03 16:37:05,200] MyAccount_01 - Step 06: Select year of Birthday
+[2022-10-03 16:37:05,313] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is felix.gottlieb@hotmail.com
+[2022-10-03 16:37:05,464] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-03 16:37:05,595] MyAccount_01 - Step 09: Click Save button
+[2022-10-03 16:37:06,357] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-10-03 16:37:06,405]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:37:06,406] MyAccount_01 - Step 11: Verify LastName updated success
+[2022-10-03 16:37:06,448]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:37:06,448] MyAccount_01 - Step 12: Verify Email updated success
+[2022-10-03 16:37:06,493]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:37:06,493] MyAccount_01 - Step 13: Verify Company updated success
+[2022-10-03 16:37:06,535]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:37:07,790] MyAccount_02 - Step 01: Click to My Account link
+[2022-10-03 16:37:08,234] MyAccount_02 - Step 02: Open address page
+[2022-10-03 16:37:09,497] MyAccount_02 - Step 03: Click to Add New button
+[2022-10-03 16:37:10,376] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-10-03 16:37:10,513] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-10-03 16:37:10,642] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is felix.gottlieb@hotmail.com
+[2022-10-03 16:37:10,788] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-03 16:37:10,929] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-10-03 16:37:11,043] MyAccount_02 - Step 10: Select Province with value :Other
+[2022-10-03 16:37:11,457] MyAccount_02 - Step 11: Enter to City textbox with value is Ha Noi'
+[2022-10-03 16:37:11,577] MyAccount_02 - Step 12: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-03 16:37:11,711] MyAccount_02 - Step 13: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-03 16:37:11,853] MyAccount_02 - Step 14: Enter to Zip textbox with value is 50000005'
+[2022-10-03 16:37:11,976] MyAccount_02 - Step 15: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-03 16:37:12,110] MyAccount_02 - Step 16: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-03 16:37:12,243] MyAccount_02 - Step 17: Click to  Save button
+[2022-10-03 16:37:13,455] MyAccount_02 - Step 18: Verify data updated success
+[2022-10-03 16:37:13,532]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:37:13,583]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:37:13,635]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:37:13,689]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:37:13,739]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:37:13,804]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:37:13,811] MyAccount_03 - Step 01: Click to My Account link
+[2022-10-03 16:37:14,565] MyAccount_03 - Step 02: Open Change password page
+[2022-10-03 16:37:15,041] OS name = windows 10
+[2022-10-03 16:37:15,042] Driver instance name = chromedriver: chrome on windows (31349e3ab808abdba997711a3302409b)
+[2022-10-03 16:40:26,222] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-03 16:40:28,385] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-03 16:40:31,614] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-03 16:40:32,053]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:33,597] MyAccount_01 - Step 01: Click to My Account link
+[2022-10-03 16:40:34,166] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-10-03 16:40:34,415] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-03 16:40:34,580] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-10-03 16:40:34,727] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-10-03 16:40:35,056] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-10-03 16:40:35,160] MyAccount_01 - Step 06: Select year of Birthday
+[2022-10-03 16:40:35,260] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is hugo.senger@hotmail.com
+[2022-10-03 16:40:35,399] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-03 16:40:35,531] MyAccount_01 - Step 09: Click Save button
+[2022-10-03 16:40:36,274] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-10-03 16:40:36,318]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:36,318] MyAccount_01 - Step 11: Verify LastName updated success
+[2022-10-03 16:40:36,364]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:36,364] MyAccount_01 - Step 12: Verify Email updated success
+[2022-10-03 16:40:36,403]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:36,404] MyAccount_01 - Step 13: Verify Company updated success
+[2022-10-03 16:40:36,446]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:36,894] MyAccount_02 - Step 01: Click to My Account link
+[2022-10-03 16:40:37,350] MyAccount_02 - Step 02: Open address page
+[2022-10-03 16:40:37,909] MyAccount_02 - Step 03: Click to Add New button
+[2022-10-03 16:40:38,591] MyAccount_02 - Step 05: Enter to FirstName textbox with value is automation'
+[2022-10-03 16:40:38,743] MyAccount_02 - Step 06: Enter to LastName textbox with value is FC'
+[2022-10-03 16:40:38,864] MyAccount_02 - Step 07: Enter to emailAdress textbox with value is hugo.senger@hotmail.com
+[2022-10-03 16:40:39,006] MyAccount_02 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-03 16:40:39,133] MyAccount_02 - Step 09: Select Country with value : Viet Nam
+[2022-10-03 16:40:39,235] MyAccount_02 - Step 10: Select Province with value :Other
+[2022-10-03 16:40:39,534] MyAccount_02 - Step 11: Enter to City textbox with value is Ha Noi'
+[2022-10-03 16:40:39,654] MyAccount_02 - Step 12: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-03 16:40:39,789] MyAccount_02 - Step 13: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-03 16:40:39,929] MyAccount_02 - Step 14: Enter to Zip textbox with value is 50000005'
+[2022-10-03 16:40:40,055] MyAccount_02 - Step 15: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-03 16:40:40,186] MyAccount_02 - Step 16: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-03 16:40:40,318] MyAccount_02 - Step 17: Click to  Save button
+[2022-10-03 16:40:41,097] MyAccount_02 - Step 18: Verify data updated success
+[2022-10-03 16:40:41,151]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:41,197]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:41,248]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:41,293]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:41,338]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:41,403]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:41,409] MyAccount_03 - Step 01: Click to My Account link
+[2022-10-03 16:40:41,976] MyAccount_03 - Step 02: Open Change password page
+[2022-10-03 16:40:42,603] MyAccount_03 - Step 03: Enter to Old Password textbox with value is 123456'
+[2022-10-03 16:40:42,731] MyAccount_03 - Step 04: Enter to New Password textbox with value is 1234567'
+[2022-10-03 16:40:42,852] MyAccount_03 - Step 05: Enter to Confirm Password textbox with value is 1234567
+[2022-10-03 16:40:42,970] MyAccount_03 - Step 06: Click to  Change Password button
+[2022-10-03 16:40:43,441] MyAccount_03 - Step 07: Verify notify change password success
+[2022-10-03 16:40:43,532]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:43,532] MyAccount_03 - Step 08: Click close notify change password success
+[2022-10-03 16:40:43,627] MyAccount_03 - Step 08: Click to Logout Link
+[2022-10-03 16:40:45,345] MyAccount_03 - Step 09: Click to Login Link
+[2022-10-03 16:40:45,769] MyAccount_03 - Step 10: Enter to Email textbox with value is hugo.senger@hotmail.com'
+[2022-10-03 16:40:45,921] MyAccount_03 - Step 11: Enter to Password textbox with value is 123456'
+[2022-10-03 16:40:46,071] MyAccount_03 - Step 12: Click to Login Link
+[2022-10-03 16:40:46,518] MyAccount_03 - Step 13: Verify error message displayed
+[2022-10-03 16:40:46,582]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:46,582] MyAccount_03 - Step 14: Enter to Email textbox with value is hugo.senger@hotmail.com'
+[2022-10-03 16:40:46,720] MyAccount_03 - Step 15: Enter to Password textbox with value is 1234567'
+[2022-10-03 16:40:46,830] MyAccount_03 - Step 16: Click to Login Link
+[2022-10-03 16:40:47,548] MyAccount_03 - Step 17: Verify HomePage displayed
+[2022-10-03 16:40:47,610]  -------------------------- PASSED -------------------------- 
+[2022-10-03 16:40:47,614] OS name = windows 10
+[2022-10-03 16:40:47,614] Driver instance name = chromedriver: chrome on windows (77e0ede3ff3dfec0a4294f0c446b425c)
+[2022-10-04 09:40:37,187] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-04 09:40:38,438] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-04 09:40:41,596] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-04 09:40:42,010]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:45,844] MyAccount_01 - Step 01: Click to My Account link
+[2022-10-04 09:40:46,728] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-10-04 09:40:47,189] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 09:40:47,356] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-10-04 09:40:47,506] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-10-04 09:40:47,746] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-10-04 09:40:47,888] MyAccount_01 - Step 06: Select year of Birthday
+[2022-10-04 09:40:48,023] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is myrtis.ullrich@yahoo.com
+[2022-10-04 09:40:48,184] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-04 09:40:48,309] MyAccount_01 - Step 09: Click Save button
+[2022-10-04 09:40:49,045] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-10-04 09:40:49,086]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:49,087] MyAccount_01 - Step 11: Verify LastName updated success
+[2022-10-04 09:40:49,129]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:49,129] MyAccount_01 - Step 12: Verify Email updated success
+[2022-10-04 09:40:49,175]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:49,175] MyAccount_01 - Step 13: Verify Company updated success
+[2022-10-04 09:40:49,215]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:49,414] MyAccount_02 - Step 01: Open address page
+[2022-10-04 09:40:49,922] MyAccount_02 - Step 02: Click to Add New button
+[2022-10-04 09:40:50,904] MyAccount_02 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 09:40:51,035] MyAccount_02 - Step 04: Enter to LastName textbox with value is FC'
+[2022-10-04 09:40:51,158] MyAccount_02 - Step 05: Enter to emailAdress textbox with value is myrtis.ullrich@yahoo.com
+[2022-10-04 09:40:51,290] MyAccount_02 - Step 06: Enter to Company name textbox with value is Automation FC
+[2022-10-04 09:40:51,421] MyAccount_02 - Step 07: Select Country with value : Viet Nam
+[2022-10-04 09:40:51,546] MyAccount_02 - Step 08: Select Province with value :Other
+[2022-10-04 09:40:51,857] MyAccount_02 - Step 09 : Enter to City textbox with value is Ha Noi'
+[2022-10-04 09:40:52,029] MyAccount_02 - Step 10: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-04 09:40:52,197] MyAccount_02 - Step 11: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-04 09:40:52,378] MyAccount_02 - Step 12: Enter to Zip textbox with value is 50000005'
+[2022-10-04 09:40:52,532] MyAccount_02 - Step 13: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-04 09:40:52,745] MyAccount_02 - Step 14: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-04 09:40:52,990] MyAccount_02 - Step 15: Click to  Save button
+[2022-10-04 09:40:54,202] MyAccount_02 - Step 16: Verify data updated success
+[2022-10-04 09:40:54,279]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:54,339]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:54,401]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:54,466]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:54,522]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:54,605]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:54,730] MyAccount_03 - Step 02: Open Change password page
+[2022-10-04 09:40:55,419] MyAccount_03 - Step 03: Enter to Old Password textbox with value is 123456'
+[2022-10-04 09:40:55,585] MyAccount_03 - Step 04: Enter to New Password textbox with value is 1234567'
+[2022-10-04 09:40:55,854] MyAccount_03 - Step 05: Enter to Confirm Password textbox with value is 1234567
+[2022-10-04 09:40:56,054] MyAccount_03 - Step 06: Click to  Change Password button
+[2022-10-04 09:40:56,606] MyAccount_03 - Step 07: Verify notify change password success
+[2022-10-04 09:40:56,705]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:40:56,706] MyAccount_03 - Step 08: Click close notify change password success
+[2022-10-04 09:40:56,850] MyAccount_03 - Step 08: Click to Logout Link
+[2022-10-04 09:40:58,988] MyAccount_03 - Step 09: Click to Login Link
+[2022-10-04 09:40:59,584] MyAccount_03 - Step 10: Enter to Email textbox with value is myrtis.ullrich@yahoo.com'
+[2022-10-04 09:40:59,882] MyAccount_03 - Step 11: Enter to Password textbox with value is 123456'
+[2022-10-04 09:41:00,121] MyAccount_03 - Step 12: Click to Login Link
+[2022-10-04 09:41:00,680] MyAccount_03 - Step 13: Verify error message displayed
+[2022-10-04 09:41:00,754]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:41:00,754] MyAccount_03 - Step 14: Enter to Email textbox with value is myrtis.ullrich@yahoo.com'
+[2022-10-04 09:41:01,003] MyAccount_03 - Step 15: Enter to Password textbox with value is 1234567'
+[2022-10-04 09:41:01,137] MyAccount_03 - Step 16: Click to Login Link
+[2022-10-04 09:41:01,898] MyAccount_03 - Step 17: Verify HomePage displayed
+[2022-10-04 09:41:01,987]  -------------------------- PASSED -------------------------- 
+[2022-10-04 09:41:02,043] OS name = windows 10
+[2022-10-04 09:41:02,044] Driver instance name = chromedriver: chrome on windows (2419a36023a2e3064fd1ff6d43625bbb)
+[2022-10-04 10:48:38,784] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-04 10:48:40,189] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-04 10:48:43,656] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-04 10:48:43,736]  -------------------------- PASSED -------------------------- 
+[2022-10-04 10:48:45,582] MyAccount_01 - Step 01: Click to My Account link
+[2022-10-04 10:48:52,580] MyAccount_02 - Step 01: Open address page
+[2022-10-04 10:48:52,589] MyAccount_03 - Step 02: Open Change password page
+[2022-10-04 10:48:52,599] OS name = windows 10
+[2022-10-04 10:48:52,599] Driver instance name = chromedriver: chrome on windows (3787ad5bfa1e9919061fadd1810df977)
+[2022-10-04 10:49:02,917] chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.11.250', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\TUTHUC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3787ad5bfa1e9919061fadd1810df977
+[2022-10-04 10:50:06,418] OS name = windows 10
+[2022-10-04 10:50:06,419] Driver instance name = chromedriver: chrome on windows (709228a2e59ac1cd28665504f8614b1f)
+[2022-10-04 10:50:16,744] chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.11.250', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\TUTHUC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 709228a2e59ac1cd28665504f8614b1f
+[2022-10-04 15:59:34,637] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-04 15:59:35,272] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-04 15:59:38,488] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-04 15:59:38,894]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:41,620] MyAccount_01 - Step 01: Click to My Account link
+[2022-10-04 15:59:42,196] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-10-04 15:59:42,383] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 15:59:42,563] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-10-04 15:59:42,695] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-10-04 15:59:42,875] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-10-04 15:59:42,992] MyAccount_01 - Step 06: Select year of Birthday
+[2022-10-04 15:59:43,106] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is porfirio.schaden@yahoo.com
+[2022-10-04 15:59:43,278] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-04 15:59:43,416] MyAccount_01 - Step 09: Click Save button
+[2022-10-04 15:59:44,123] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-10-04 15:59:44,171]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:44,171] MyAccount_01 - Step 11: Verify LastName updated success
+[2022-10-04 15:59:44,211]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:44,211] MyAccount_01 - Step 12: Verify Email updated success
+[2022-10-04 15:59:44,250]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:44,250] MyAccount_01 - Step 13: Verify Company updated success
+[2022-10-04 15:59:44,288]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:44,609] MyAccount_02 - Step 01: Open address page
+[2022-10-04 15:59:45,112] MyAccount_02 - Step 02: Click to Add New button
+[2022-10-04 15:59:45,689] MyAccount_02 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 15:59:45,834] MyAccount_02 - Step 04: Enter to LastName textbox with value is FC'
+[2022-10-04 15:59:45,979] MyAccount_02 - Step 05: Enter to emailAdress textbox with value is porfirio.schaden@yahoo.com
+[2022-10-04 15:59:46,163] MyAccount_02 - Step 06: Enter to Company name textbox with value is Automation FC
+[2022-10-04 15:59:46,309] MyAccount_02 - Step 07: Select Country with value : Viet Nam
+[2022-10-04 15:59:46,427] MyAccount_02 - Step 08: Select Province with value :Other
+[2022-10-04 15:59:46,672] MyAccount_02 - Step 09 : Enter to City textbox with value is Ha Noi'
+[2022-10-04 15:59:46,795] MyAccount_02 - Step 10: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-04 15:59:46,923] MyAccount_02 - Step 11: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-04 15:59:47,063] MyAccount_02 - Step 12: Enter to Zip textbox with value is 50000005'
+[2022-10-04 15:59:47,187] MyAccount_02 - Step 13: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-04 15:59:47,312] MyAccount_02 - Step 14: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-04 15:59:47,439] MyAccount_02 - Step 15: Click to  Save button
+[2022-10-04 15:59:48,825] MyAccount_02 - Step 16: Verify data updated success
+[2022-10-04 15:59:48,903]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:48,955]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:49,006]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:49,057]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:49,115]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:49,184]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:49,193] MyAccount_03 - Step 02: Open Change password page
+[2022-10-04 15:59:49,888] MyAccount_03 - Step 03: Enter to Old Password textbox with value is 123456'
+[2022-10-04 15:59:50,011] MyAccount_03 - Step 04: Enter to New Password textbox with value is 1234567'
+[2022-10-04 15:59:50,138] MyAccount_03 - Step 05: Enter to Confirm Password textbox with value is 1234567
+[2022-10-04 15:59:50,259] MyAccount_03 - Step 06: Click to  Change Password button
+[2022-10-04 15:59:50,700] MyAccount_03 - Step 07: Verify notify change password success
+[2022-10-04 15:59:50,757]  -------------------------- PASSED -------------------------- 
+[2022-10-04 15:59:50,757] MyAccount_03 - Step 08: Click close notify change password success
+[2022-10-04 15:59:50,825] MyAccount_03 - Step 08: Click to Logout Link
+[2022-10-04 15:59:52,169] MyAccount_04 - Step 01: Click Add to cart at a product
+[2022-10-04 16:00:32,733] OS name = windows 10
+[2022-10-04 16:00:32,735] Driver instance name = chromedriver: chrome on windows (febe79771ca7486039df2e8e0ad41ae4)
+[2022-10-04 16:04:10,268] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-04 16:04:10,818] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-04 16:04:13,856] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-04 16:04:14,280]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:14,369] MyAccount_01 - Step 01: Click to My Account link
+[2022-10-04 16:04:14,979] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-10-04 16:04:15,087] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 16:04:15,265] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-10-04 16:04:15,417] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-10-04 16:04:15,553] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-10-04 16:04:15,664] MyAccount_01 - Step 06: Select year of Birthday
+[2022-10-04 16:04:15,775] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is rodger.orn@gmail.com
+[2022-10-04 16:04:15,927] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-04 16:04:16,070] MyAccount_01 - Step 09: Click Save button
+[2022-10-04 16:04:16,764] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-10-04 16:04:16,810]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:16,810] MyAccount_01 - Step 11: Verify LastName updated success
+[2022-10-04 16:04:16,853]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:16,853] MyAccount_01 - Step 12: Verify Email updated success
+[2022-10-04 16:04:16,896]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:16,896] MyAccount_01 - Step 13: Verify Company updated success
+[2022-10-04 16:04:16,938]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:16,987] MyAccount_02 - Step 01: Open address page
+[2022-10-04 16:04:17,474] MyAccount_02 - Step 02: Click to Add New button
+[2022-10-04 16:04:18,054] MyAccount_02 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 16:04:18,232] MyAccount_02 - Step 04: Enter to LastName textbox with value is FC'
+[2022-10-04 16:04:18,393] MyAccount_02 - Step 05: Enter to emailAdress textbox with value is rodger.orn@gmail.com
+[2022-10-04 16:04:18,564] MyAccount_02 - Step 06: Enter to Company name textbox with value is Automation FC
+[2022-10-04 16:04:18,725] MyAccount_02 - Step 07: Select Country with value : Viet Nam
+[2022-10-04 16:04:18,850] MyAccount_02 - Step 08: Select Province with value :Other
+[2022-10-04 16:04:19,098] MyAccount_02 - Step 09 : Enter to City textbox with value is Ha Noi'
+[2022-10-04 16:04:19,234] MyAccount_02 - Step 10: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-04 16:04:19,365] MyAccount_02 - Step 11: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-04 16:04:19,507] MyAccount_02 - Step 12: Enter to Zip textbox with value is 50000005'
+[2022-10-04 16:04:19,629] MyAccount_02 - Step 13: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-04 16:04:19,753] MyAccount_02 - Step 14: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-04 16:04:19,881] MyAccount_02 - Step 15: Click to  Save button
+[2022-10-04 16:04:20,615] MyAccount_02 - Step 16: Verify data updated success
+[2022-10-04 16:04:20,676]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:20,728]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:20,782]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:20,833]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:20,882]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:20,947]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:20,953] MyAccount_03 - Step 02: Open Change password page
+[2022-10-04 16:04:21,455] MyAccount_03 - Step 03: Enter to Old Password textbox with value is 123456'
+[2022-10-04 16:04:21,594] MyAccount_03 - Step 04: Enter to New Password textbox with value is 1234567'
+[2022-10-04 16:04:21,727] MyAccount_03 - Step 05: Enter to Confirm Password textbox with value is 1234567
+[2022-10-04 16:04:21,850] MyAccount_03 - Step 06: Click to  Change Password button
+[2022-10-04 16:04:22,310] MyAccount_03 - Step 07: Verify notify change password success
+[2022-10-04 16:04:22,365]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:04:22,365] MyAccount_03 - Step 08: Click close notify change password success
+[2022-10-04 16:04:22,438] MyAccount_03 - Step 08: Click to Logout Link
+[2022-10-04 16:04:23,583] MyAccount_04 - Step 01: Click Add to cart at a product
+[2022-10-04 16:05:04,162] OS name = windows 10
+[2022-10-04 16:05:04,163] Driver instance name = chromedriver: chrome on windows (83b82fc7848d12313c56367427bc9de9)
+[2022-10-04 16:19:05,123] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-04 16:19:08,444] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-04 16:19:11,490] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-04 16:19:11,892]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:12,307] MyAccount_01 - Step 01: Click to My Account link
+[2022-10-04 16:19:12,919] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-10-04 16:19:13,011] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 16:19:13,147] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-10-04 16:19:13,290] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-10-04 16:19:13,400] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-10-04 16:19:13,502] MyAccount_01 - Step 06: Select year of Birthday
+[2022-10-04 16:19:13,608] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is walton.thiel@gmail.com
+[2022-10-04 16:19:13,757] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-04 16:19:13,910] MyAccount_01 - Step 09: Click Save button
+[2022-10-04 16:19:14,625] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-10-04 16:19:14,672]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:14,672] MyAccount_01 - Step 11: Verify LastName updated success
+[2022-10-04 16:19:14,714]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:14,715] MyAccount_01 - Step 12: Verify Email updated success
+[2022-10-04 16:19:14,759]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:14,759] MyAccount_01 - Step 13: Verify Company updated success
+[2022-10-04 16:19:14,805]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:14,852] MyAccount_02 - Step 01: Open address page
+[2022-10-04 16:19:15,316] MyAccount_02 - Step 02: Click to Add New button
+[2022-10-04 16:19:16,034] MyAccount_02 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 16:19:16,163] MyAccount_02 - Step 04: Enter to LastName textbox with value is FC'
+[2022-10-04 16:19:16,283] MyAccount_02 - Step 05: Enter to emailAdress textbox with value is walton.thiel@gmail.com
+[2022-10-04 16:19:16,430] MyAccount_02 - Step 06: Enter to Company name textbox with value is Automation FC
+[2022-10-04 16:19:16,564] MyAccount_02 - Step 07: Select Country with value : Viet Nam
+[2022-10-04 16:19:16,680] MyAccount_02 - Step 08: Select Province with value :Other
+[2022-10-04 16:19:16,945] MyAccount_02 - Step 09 : Enter to City textbox with value is Ha Noi'
+[2022-10-04 16:19:17,119] MyAccount_02 - Step 10: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-04 16:19:17,265] MyAccount_02 - Step 11: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-04 16:19:17,419] MyAccount_02 - Step 12: Enter to Zip textbox with value is 50000005'
+[2022-10-04 16:19:17,548] MyAccount_02 - Step 13: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-04 16:19:17,671] MyAccount_02 - Step 14: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-04 16:19:17,803] MyAccount_02 - Step 15: Click to  Save button
+[2022-10-04 16:19:18,548] MyAccount_02 - Step 16: Verify data updated success
+[2022-10-04 16:19:18,607]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:18,654]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:18,698]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:18,743]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:18,787]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:18,853]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:18,858] MyAccount_03 - Step 02: Open Change password page
+[2022-10-04 16:19:19,340] MyAccount_03 - Step 03: Enter to Old Password textbox with value is 123456'
+[2022-10-04 16:19:19,465] MyAccount_03 - Step 04: Enter to New Password textbox with value is 1234567'
+[2022-10-04 16:19:19,607] MyAccount_03 - Step 05: Enter to Confirm Password textbox with value is 1234567
+[2022-10-04 16:19:19,767] MyAccount_03 - Step 06: Click to  Change Password button
+[2022-10-04 16:19:20,217] MyAccount_03 - Step 07: Verify notify change password success
+[2022-10-04 16:19:20,289]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:20,289] MyAccount_03 - Step 08: Click close notify change password success
+[2022-10-04 16:19:20,381] MyAccount_03 - Step 08: Click to Logout Link
+[2022-10-04 16:19:22,071] MyAccount_03 - Step 09: Click to Login Link
+[2022-10-04 16:19:22,477] MyAccount_03 - Step 10: Enter to Email textbox with value is walton.thiel@gmail.com'
+[2022-10-04 16:19:22,614] MyAccount_03 - Step 11: Enter to Password textbox with value is 123456'
+[2022-10-04 16:19:22,747] MyAccount_03 - Step 12: Click to Login Link
+[2022-10-04 16:19:23,205] MyAccount_03 - Step 13: Verify error message displayed
+[2022-10-04 16:19:23,274]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:23,275] MyAccount_03 - Step 14: Enter to Email textbox with value is walton.thiel@gmail.com'
+[2022-10-04 16:19:23,416] MyAccount_03 - Step 15: Enter to Password textbox with value is 1234567'
+[2022-10-04 16:19:23,540] MyAccount_03 - Step 16: Click to Login Link
+[2022-10-04 16:19:24,196] MyAccount_03 - Step 17: Verify HomePage displayed
+[2022-10-04 16:19:24,256]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:19:24,261] MyAccount_04 - Step 01: Click Add to cart at a product
+[2022-10-04 16:19:25,613] MyAccount_04 - Step 02: Click  to Add your review
+[2022-10-04 16:19:26,134] MyAccount_04 - Step 03: Enter  to Review title textbox with value is: Test title review
+[2022-10-04 16:19:26,293] MyAccount_04 - Step 04: Enter  to Review text textbox with value is: Product is very good
+[2022-10-04 16:20:06,870] OS name = windows 10
+[2022-10-04 16:20:06,870] Driver instance name = chromedriver: chrome on windows (8a614368b61226c2ce134db56546a85f)
+[2022-10-04 16:29:17,371] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-04 16:29:18,620] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-04 16:29:22,028] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-04 16:29:22,092]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:22,373] MyAccount_01 - Step 01: Click to My Account link
+[2022-10-04 16:29:23,087] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-10-04 16:29:23,203] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 16:29:23,369] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-10-04 16:29:23,508] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-10-04 16:29:23,625] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-10-04 16:29:23,735] MyAccount_01 - Step 06: Select year of Birthday
+[2022-10-04 16:29:23,841] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is claude.johns@gmail.com
+[2022-10-04 16:29:23,983] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-04 16:29:24,116] MyAccount_01 - Step 09: Click Save button
+[2022-10-04 16:29:24,854] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-10-04 16:29:24,896]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:24,897] MyAccount_01 - Step 11: Verify LastName updated success
+[2022-10-04 16:29:24,932]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:24,932] MyAccount_01 - Step 12: Verify Email updated success
+[2022-10-04 16:29:24,972]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:24,972] MyAccount_01 - Step 13: Verify Company updated success
+[2022-10-04 16:29:25,009]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:25,077] MyAccount_02 - Step 01: Open address page
+[2022-10-04 16:29:25,625] MyAccount_02 - Step 02: Click to Add New button
+[2022-10-04 16:29:26,207] MyAccount_02 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 16:29:26,364] MyAccount_02 - Step 04: Enter to LastName textbox with value is FC'
+[2022-10-04 16:29:26,509] MyAccount_02 - Step 05: Enter to emailAdress textbox with value is claude.johns@gmail.com
+[2022-10-04 16:29:26,662] MyAccount_02 - Step 06: Enter to Company name textbox with value is Automation FC
+[2022-10-04 16:29:26,798] MyAccount_02 - Step 07: Select Country with value : Viet Nam
+[2022-10-04 16:29:26,909] MyAccount_02 - Step 08: Select Province with value :Other
+[2022-10-04 16:29:27,177] MyAccount_02 - Step 09 : Enter to City textbox with value is Ha Noi'
+[2022-10-04 16:29:27,323] MyAccount_02 - Step 10: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-04 16:29:27,455] MyAccount_02 - Step 11: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-04 16:29:27,589] MyAccount_02 - Step 12: Enter to Zip textbox with value is 50000005'
+[2022-10-04 16:29:27,717] MyAccount_02 - Step 13: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-04 16:29:27,848] MyAccount_02 - Step 14: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-04 16:29:27,976] MyAccount_02 - Step 15: Click to  Save button
+[2022-10-04 16:29:28,806] MyAccount_02 - Step 16: Verify data updated success
+[2022-10-04 16:29:28,866]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:28,916]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:28,965]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:29,016]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:29,070]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:29,135]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:29,142] MyAccount_03 - Step 02: Open Change password page
+[2022-10-04 16:29:29,822] MyAccount_03 - Step 03: Enter to Old Password textbox with value is 123456'
+[2022-10-04 16:29:29,997] MyAccount_03 - Step 04: Enter to New Password textbox with value is 1234567'
+[2022-10-04 16:29:30,138] MyAccount_03 - Step 05: Enter to Confirm Password textbox with value is 1234567
+[2022-10-04 16:29:30,263] MyAccount_03 - Step 06: Click to  Change Password button
+[2022-10-04 16:29:30,722] MyAccount_03 - Step 07: Verify notify change password success
+[2022-10-04 16:29:30,784]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:30,784] MyAccount_03 - Step 08: Click close notify change password success
+[2022-10-04 16:29:30,853] MyAccount_03 - Step 08: Click to Logout Link
+[2022-10-04 16:29:32,693] MyAccount_03 - Step 09: Click to Login Link
+[2022-10-04 16:29:33,151] MyAccount_03 - Step 10: Enter to Email textbox with value is claude.johns@gmail.com'
+[2022-10-04 16:29:33,274] MyAccount_03 - Step 11: Enter to Password textbox with value is 123456'
+[2022-10-04 16:29:33,409] MyAccount_03 - Step 12: Click to Login Link
+[2022-10-04 16:29:33,883] MyAccount_03 - Step 13: Verify error message displayed
+[2022-10-04 16:29:34,055]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:34,055] MyAccount_03 - Step 14: Enter to Email textbox with value is claude.johns@gmail.com'
+[2022-10-04 16:29:34,182] MyAccount_03 - Step 15: Enter to Password textbox with value is 1234567'
+[2022-10-04 16:29:34,302] MyAccount_03 - Step 16: Click to Login Link
+[2022-10-04 16:29:35,038] MyAccount_03 - Step 17: Verify HomePage displayed
+[2022-10-04 16:29:35,115]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:35,121] MyAccount_04 - Step 01: Click Add to cart at a product
+[2022-10-04 16:29:37,452] MyAccount_04 - Step 02: Click  to Add your review
+[2022-10-04 16:29:38,022] MyAccount_04 - Step 03: Enter  to Review title textbox with value is: Test title review
+[2022-10-04 16:29:38,207] MyAccount_04 - Step 04: Enter  to Review text textbox with value is: Product is very good
+[2022-10-04 16:29:38,392] MyAccount_04 - Step 05: Click to Radio button
+[2022-10-04 16:29:38,489] MyAccount_04 - Step 06: Click to Submit review button
+[2022-10-04 16:29:39,198] MyAccount_04 - Step 07: Verify message add Product review succsess 
+[2022-10-04 16:29:39,299]  -------------------------- FAILED -------------------------- 
+[2022-10-04 16:29:39,299] MyAccount_04 - Step 08: Click to My account link 
+[2022-10-04 16:29:39,771] MyAccount_04 - Step 09: open My Product Reviews 
+[2022-10-04 16:29:40,561] MyAccount_04 - Step 10: Verify Product Review Title displayed 
+[2022-10-04 16:29:40,615]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:40,615] MyAccount_04 - Step 11: Verify Product Review text displayed 
+[2022-10-04 16:29:40,671]  -------------------------- PASSED -------------------------- 
+[2022-10-04 16:29:40,694] OS name = windows 10
+[2022-10-04 16:29:40,695] Driver instance name = chromedriver: chrome on windows (11cc74698731e59a28c4e0e64cf90c0c)
+[2022-10-04 17:05:29,718] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-04 17:05:31,066] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-04 17:05:34,648] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-04 17:05:34,718]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:35,418] MyAccount_01 - Step 01: Click to My Account link
+[2022-10-04 17:05:36,139] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-10-04 17:05:37,708] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 17:05:37,965] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-10-04 17:05:38,101] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-10-04 17:05:38,404] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-10-04 17:05:38,539] MyAccount_01 - Step 06: Select year of Birthday
+[2022-10-04 17:05:38,702] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is benedict.marks@yahoo.com
+[2022-10-04 17:05:38,900] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-04 17:05:39,074] MyAccount_01 - Step 09: Click Save button
+[2022-10-04 17:05:39,841] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-10-04 17:05:39,886]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:39,886] MyAccount_01 - Step 11: Verify LastName updated success
+[2022-10-04 17:05:39,929]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:39,929] MyAccount_01 - Step 12: Verify Email updated success
+[2022-10-04 17:05:39,971]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:39,971] MyAccount_01 - Step 13: Verify Company updated success
+[2022-10-04 17:05:40,013]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:40,375] MyAccount_02 - Step 01: Open address page
+[2022-10-04 17:05:40,889] MyAccount_02 - Step 02: Click to Add New button
+[2022-10-04 17:05:41,530] MyAccount_02 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-04 17:05:41,723] MyAccount_02 - Step 04: Enter to LastName textbox with value is FC'
+[2022-10-04 17:05:41,918] MyAccount_02 - Step 05: Enter to emailAdress textbox with value is benedict.marks@yahoo.com
+[2022-10-04 17:05:42,099] MyAccount_02 - Step 06: Enter to Company name textbox with value is Automation FC
+[2022-10-04 17:05:42,246] MyAccount_02 - Step 07: Select Country with value : Viet Nam
+[2022-10-04 17:05:42,379] MyAccount_02 - Step 08: Select Province with value :Other
+[2022-10-04 17:05:42,679] MyAccount_02 - Step 09 : Enter to City textbox with value is Ha Noi'
+[2022-10-04 17:05:42,802] MyAccount_02 - Step 10: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-04 17:05:42,932] MyAccount_02 - Step 11: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-04 17:05:43,066] MyAccount_02 - Step 12: Enter to Zip textbox with value is 50000005'
+[2022-10-04 17:05:43,192] MyAccount_02 - Step 13: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-04 17:05:43,320] MyAccount_02 - Step 14: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-04 17:05:43,452] MyAccount_02 - Step 15: Click to  Save button
+[2022-10-04 17:05:44,409] MyAccount_02 - Step 16: Verify data updated success
+[2022-10-04 17:05:44,489]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:44,558]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:44,626]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:44,690]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:44,766]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:44,849]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:44,855] MyAccount_03 - Step 02: Open Change password page
+[2022-10-04 17:05:45,434] MyAccount_03 - Step 03: Enter to Old Password textbox with value is 123456'
+[2022-10-04 17:05:45,560] MyAccount_03 - Step 04: Enter to New Password textbox with value is 1234567'
+[2022-10-04 17:05:45,690] MyAccount_03 - Step 05: Enter to Confirm Password textbox with value is 1234567
+[2022-10-04 17:05:45,817] MyAccount_03 - Step 06: Click to  Change Password button
+[2022-10-04 17:05:46,251] MyAccount_03 - Step 07: Verify notify change password success
+[2022-10-04 17:05:46,314]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:46,314] MyAccount_03 - Step 08: Click close notify change password success
+[2022-10-04 17:05:46,407] MyAccount_03 - Step 08: Click to Logout Link
+[2022-10-04 17:05:48,273] MyAccount_03 - Step 09: Click to Login Link
+[2022-10-04 17:05:48,872] MyAccount_03 - Step 10: Enter to Email textbox with value is benedict.marks@yahoo.com'
+[2022-10-04 17:05:49,004] MyAccount_03 - Step 11: Enter to Password textbox with value is 123456'
+[2022-10-04 17:05:49,138] MyAccount_03 - Step 12: Click to Login Link
+[2022-10-04 17:05:49,650] MyAccount_03 - Step 13: Verify error message displayed
+[2022-10-04 17:05:49,712]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:49,712] MyAccount_03 - Step 14: Enter to Email textbox with value is benedict.marks@yahoo.com'
+[2022-10-04 17:05:49,845] MyAccount_03 - Step 15: Enter to Password textbox with value is 1234567'
+[2022-10-04 17:05:49,968] MyAccount_03 - Step 16: Click to Login Link
+[2022-10-04 17:05:50,784] MyAccount_03 - Step 17: Verify HomePage displayed
+[2022-10-04 17:05:50,919]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:50,934] MyAccount_04 - Step 01: Click Add to cart at a product
+[2022-10-04 17:05:52,597] MyAccount_04 - Step 02: Click  to Add your review
+[2022-10-04 17:05:53,226] MyAccount_04 - Step 03: Enter  to Review title textbox with value is: Test title review
+[2022-10-04 17:05:53,421] MyAccount_04 - Step 04: Enter  to Review text textbox with value is: Product is very good
+[2022-10-04 17:05:53,616] MyAccount_04 - Step 05: Click to Radio button
+[2022-10-04 17:05:53,758] MyAccount_04 - Step 06: Click to Submit review button
+[2022-10-04 17:05:54,239] MyAccount_04 - Step 07: Verify message add Product review succsess 
+[2022-10-04 17:05:54,303]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:54,303] MyAccount_04 - Step 08: Click to My account link 
+[2022-10-04 17:05:54,767] MyAccount_04 - Step 09: open My Product Reviews 
+[2022-10-04 17:05:55,370] MyAccount_04 - Step 10: Verify Product Review Title displayed 
+[2022-10-04 17:05:55,430]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:55,430] MyAccount_04 - Step 11: Verify Product Review text displayed 
+[2022-10-04 17:05:55,497]  -------------------------- PASSED -------------------------- 
+[2022-10-04 17:05:55,500] OS name = windows 10
+[2022-10-04 17:05:55,500] Driver instance name = chromedriver: chrome on windows (73f8660b390b46e88d0c6012c3396422)
+[2022-10-05 10:21:50,844] Pre-condition - Step 01: Open browser and admin Site
+[2022-10-05 10:22:17,111] OS name = windows 10
+[2022-10-05 10:22:17,112] Driver instance name = chromedriver: chrome on windows (6d8db9bfc4ef9a6ac6b88547f17bfe49)
+[2022-10-05 10:23:19,137] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 10:23:19,847] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 10:23:23,518] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 10:23:23,588]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:23,663] MyAccount_01 - Step 01: Click to My Account link
+[2022-10-05 10:23:24,273] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-10-05 10:23:24,422] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-05 10:23:24,578] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-10-05 10:23:24,697] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-10-05 10:23:25,043] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-10-05 10:23:25,147] MyAccount_01 - Step 06: Select year of Birthday
+[2022-10-05 10:23:25,246] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is ian.gusikowski@gmail.com
+[2022-10-05 10:23:25,377] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-05 10:23:25,503] MyAccount_01 - Step 09: Click Save button
+[2022-10-05 10:23:26,282] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-10-05 10:23:26,343]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:26,343] MyAccount_01 - Step 11: Verify LastName updated success
+[2022-10-05 10:23:26,387]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:26,387] MyAccount_01 - Step 12: Verify Email updated success
+[2022-10-05 10:23:26,429]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:26,429] MyAccount_01 - Step 13: Verify Company updated success
+[2022-10-05 10:23:26,472]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:26,514] MyAccount_02 - Step 01: Open address page
+[2022-10-05 10:23:27,045] MyAccount_02 - Step 02: Click to Add New button
+[2022-10-05 10:23:27,905] MyAccount_02 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-05 10:23:28,026] MyAccount_02 - Step 04: Enter to LastName textbox with value is FC'
+[2022-10-05 10:23:28,146] MyAccount_02 - Step 05: Enter to emailAdress textbox with value is ian.gusikowski@gmail.com
+[2022-10-05 10:23:28,285] MyAccount_02 - Step 06: Enter to Company name textbox with value is Automation FC
+[2022-10-05 10:23:28,416] MyAccount_02 - Step 07: Select Country with value : Viet Nam
+[2022-10-05 10:23:28,523] MyAccount_02 - Step 08: Select Province with value :Other
+[2022-10-05 10:23:28,824] MyAccount_02 - Step 09 : Enter to City textbox with value is Ha Noi'
+[2022-10-05 10:23:28,953] MyAccount_02 - Step 10: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-05 10:23:29,086] MyAccount_02 - Step 11: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-05 10:23:29,232] MyAccount_02 - Step 12: Enter to Zip textbox with value is 50000005'
+[2022-10-05 10:23:29,364] MyAccount_02 - Step 13: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-05 10:23:29,499] MyAccount_02 - Step 14: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-05 10:23:29,638] MyAccount_02 - Step 15: Click to  Save button
+[2022-10-05 10:23:30,551] MyAccount_02 - Step 16: Verify data updated success
+[2022-10-05 10:23:30,603]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:30,650]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:30,693]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:30,740]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:30,782]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:30,845]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:30,851] MyAccount_03 - Step 02: Open Change password page
+[2022-10-05 10:23:31,419] MyAccount_03 - Step 03: Enter to Old Password textbox with value is 123456'
+[2022-10-05 10:23:31,553] MyAccount_03 - Step 04: Enter to New Password textbox with value is 1234567'
+[2022-10-05 10:23:31,684] MyAccount_03 - Step 05: Enter to Confirm Password textbox with value is 1234567
+[2022-10-05 10:23:31,807] MyAccount_03 - Step 06: Click to  Change Password button
+[2022-10-05 10:23:32,266] MyAccount_03 - Step 07: Verify notify change password success
+[2022-10-05 10:23:32,355]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:32,355] MyAccount_03 - Step 08: Click close notify change password success
+[2022-10-05 10:23:32,434] MyAccount_03 - Step 08: Click to Logout Link
+[2022-10-05 10:23:34,226] MyAccount_03 - Step 09: Click to Login Link
+[2022-10-05 10:23:34,676] MyAccount_03 - Step 10: Enter to Email textbox with value is ian.gusikowski@gmail.com'
+[2022-10-05 10:23:34,817] MyAccount_03 - Step 11: Enter to Password textbox with value is 123456'
+[2022-10-05 10:23:34,979] MyAccount_03 - Step 12: Click to Login Link
+[2022-10-05 10:23:35,485] MyAccount_03 - Step 13: Verify error message displayed
+[2022-10-05 10:23:35,542]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:35,542] MyAccount_03 - Step 14: Enter to Email textbox with value is ian.gusikowski@gmail.com'
+[2022-10-05 10:23:35,666] MyAccount_03 - Step 15: Enter to Password textbox with value is 1234567'
+[2022-10-05 10:23:35,770] MyAccount_03 - Step 16: Click to Login Link
+[2022-10-05 10:23:36,497] MyAccount_03 - Step 17: Verify HomePage displayed
+[2022-10-05 10:23:36,564]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:36,570] MyAccount_04 - Step 01: Click Add to cart at a product
+[2022-10-05 10:23:38,703] MyAccount_04 - Step 02: Click  to Add your review
+[2022-10-05 10:23:39,374] MyAccount_04 - Step 03: Enter  to Review title textbox with value is: Test title review
+[2022-10-05 10:23:39,617] MyAccount_04 - Step 04: Enter  to Review text textbox with value is: Product is very good
+[2022-10-05 10:23:39,813] MyAccount_04 - Step 05: Click to Radio button
+[2022-10-05 10:23:39,893] MyAccount_04 - Step 06: Click to Submit review button
+[2022-10-05 10:23:40,519] MyAccount_04 - Step 07: Verify message add Product review succsess 
+[2022-10-05 10:23:40,584]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:40,584] MyAccount_04 - Step 08: Click to My account link 
+[2022-10-05 10:23:41,091] MyAccount_04 - Step 09: open My Product Reviews 
+[2022-10-05 10:23:41,778] MyAccount_04 - Step 10: Verify Product Review Title displayed 
+[2022-10-05 10:23:41,830]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:41,830] MyAccount_04 - Step 11: Verify Product Review text displayed 
+[2022-10-05 10:23:41,877]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:23:41,877] MyAccount_04 - Step 12: Verify Date displayed 
+[2022-10-05 10:24:22,514] OS name = windows 10
+[2022-10-05 10:24:22,514] Driver instance name = chromedriver: chrome on windows (cd2f8ca3649be38f9024a3c51919694a)
+[2022-10-05 10:25:54,820] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 10:25:56,018] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 10:25:59,473] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 10:25:59,657]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:00,040] MyAccount_01 - Step 01: Click to My Account link
+[2022-10-05 10:26:01,324] MyAccount_01 - Step 02: Click to Checkbox Gender
+[2022-10-05 10:26:01,503] MyAccount_01 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-05 10:26:01,683] MyAccount_01 - Step 03: Enter to LastName textbox with value is FC'
+[2022-10-05 10:26:01,816] MyAccount_01 - Step 04: Select Day of Birthday
+[2022-10-05 10:26:01,935] MyAccount_01 - Step 05: Select Month of Birthday
+[2022-10-05 10:26:02,045] MyAccount_01 - Step 06: Select year of Birthday
+[2022-10-05 10:26:02,154] MyAccount_01 - Step 07: Enter to emailAdress textbox with value is lewis.jerde@yahoo.com
+[2022-10-05 10:26:02,325] MyAccount_01 - Step 08: Enter to Company name textbox with value is Automation FC
+[2022-10-05 10:26:02,465] MyAccount_01 - Step 09: Click Save button
+[2022-10-05 10:26:03,452] MyAccount_01 - Step 10: Verify FirstName updated success
+[2022-10-05 10:26:03,507]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:03,508] MyAccount_01 - Step 11: Verify LastName updated success
+[2022-10-05 10:26:03,556]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:03,556] MyAccount_01 - Step 12: Verify Email updated success
+[2022-10-05 10:26:03,607]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:03,607] MyAccount_01 - Step 13: Verify Company updated success
+[2022-10-05 10:26:03,652]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:03,724] MyAccount_02 - Step 01: Open address page
+[2022-10-05 10:26:04,274] MyAccount_02 - Step 02: Click to Add New button
+[2022-10-05 10:26:04,884] MyAccount_02 - Step 03: Enter to FirstName textbox with value is automation'
+[2022-10-05 10:26:05,020] MyAccount_02 - Step 04: Enter to LastName textbox with value is FC'
+[2022-10-05 10:26:05,147] MyAccount_02 - Step 05: Enter to emailAdress textbox with value is lewis.jerde@yahoo.com
+[2022-10-05 10:26:05,294] MyAccount_02 - Step 06: Enter to Company name textbox with value is Automation FC
+[2022-10-05 10:26:05,453] MyAccount_02 - Step 07: Select Country with value : Viet Nam
+[2022-10-05 10:26:05,574] MyAccount_02 - Step 08: Select Province with value :Other
+[2022-10-05 10:26:05,835] MyAccount_02 - Step 09 : Enter to City textbox with value is Ha Noi'
+[2022-10-05 10:26:05,973] MyAccount_02 - Step 10: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-05 10:26:06,115] MyAccount_02 - Step 11: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-05 10:26:06,308] MyAccount_02 - Step 12: Enter to Zip textbox with value is 50000005'
+[2022-10-05 10:26:06,507] MyAccount_02 - Step 13: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-05 10:26:06,752] MyAccount_02 - Step 14: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-05 10:26:06,938] MyAccount_02 - Step 15: Click to  Save button
+[2022-10-05 10:26:07,924] MyAccount_02 - Step 16: Verify data updated success
+[2022-10-05 10:26:07,992]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:08,055]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:08,108]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:08,165]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:08,217]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:08,288]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:08,295] MyAccount_03 - Step 02: Open Change password page
+[2022-10-05 10:26:09,089] MyAccount_03 - Step 03: Enter to Old Password textbox with value is 123456'
+[2022-10-05 10:26:09,242] MyAccount_03 - Step 04: Enter to New Password textbox with value is 1234567'
+[2022-10-05 10:26:09,395] MyAccount_03 - Step 05: Enter to Confirm Password textbox with value is 1234567
+[2022-10-05 10:26:09,524] MyAccount_03 - Step 06: Click to  Change Password button
+[2022-10-05 10:26:10,041] MyAccount_03 - Step 07: Verify notify change password success
+[2022-10-05 10:26:10,121]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:10,121] MyAccount_03 - Step 08: Click close notify change password success
+[2022-10-05 10:26:10,201] MyAccount_03 - Step 08: Click to Logout Link
+[2022-10-05 10:26:12,124] MyAccount_03 - Step 09: Click to Login Link
+[2022-10-05 10:26:13,292] MyAccount_03 - Step 10: Enter to Email textbox with value is lewis.jerde@yahoo.com'
+[2022-10-05 10:26:13,424] MyAccount_03 - Step 11: Enter to Password textbox with value is 123456'
+[2022-10-05 10:26:13,574] MyAccount_03 - Step 12: Click to Login Link
+[2022-10-05 10:26:14,042] MyAccount_03 - Step 13: Verify error message displayed
+[2022-10-05 10:26:14,155]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:14,155] MyAccount_03 - Step 14: Enter to Email textbox with value is lewis.jerde@yahoo.com'
+[2022-10-05 10:26:14,336] MyAccount_03 - Step 15: Enter to Password textbox with value is 1234567'
+[2022-10-05 10:26:14,459] MyAccount_03 - Step 16: Click to Login Link
+[2022-10-05 10:26:15,250] MyAccount_03 - Step 17: Verify HomePage displayed
+[2022-10-05 10:26:15,324]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:15,332] MyAccount_04 - Step 01: Click Add to cart at a product
+[2022-10-05 10:26:18,568] MyAccount_04 - Step 02: Click  to Add your review
+[2022-10-05 10:26:19,212] MyAccount_04 - Step 03: Enter  to Review title textbox with value is: Test title review
+[2022-10-05 10:26:19,410] MyAccount_04 - Step 04: Enter  to Review text textbox with value is: Product is very good
+[2022-10-05 10:26:19,563] MyAccount_04 - Step 05: Click to Radio button
+[2022-10-05 10:26:19,656] MyAccount_04 - Step 06: Click to Submit review button
+[2022-10-05 10:26:20,275] MyAccount_04 - Step 07: Verify message add Product review succsess 
+[2022-10-05 10:26:20,354]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:20,355] MyAccount_04 - Step 08: Click to My account link 
+[2022-10-05 10:26:20,806] MyAccount_04 - Step 09: open My Product Reviews 
+[2022-10-05 10:26:21,360] MyAccount_04 - Step 10: Verify Product Review Title displayed 
+[2022-10-05 10:26:21,422]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:21,422] MyAccount_04 - Step 11: Verify Product Review text displayed 
+[2022-10-05 10:26:21,473]  -------------------------- PASSED -------------------------- 
+[2022-10-05 10:26:21,473] MyAccount_04 - Step 12: Verify Date displayed 
+[2022-10-05 10:27:02,171] OS name = windows 10
+[2022-10-05 10:27:02,171] Driver instance name = chromedriver: chrome on windows (d1300c2c6d03d3b862f8adf3e074121f)
+[2022-10-05 11:28:15,952] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 11:28:16,543] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 11:28:19,990] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 11:28:20,083]  -------------------------- PASSED -------------------------- 
+[2022-10-05 11:28:21,028] Search_01 - Step 01: Click to Search link
+[2022-10-05 11:28:21,608] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 11:28:21,723] Search_01 - Step 03: Verify message error displayed
+[2022-10-05 11:29:03,027] Search_02 - Step 01: Click to Search link
+[2022-10-05 11:29:04,140] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 11:29:04,260] Search_01 - Step 03: Verify message error displayed
+[2022-10-05 11:29:44,857] OS name = windows 10
+[2022-10-05 11:29:44,857] Driver instance name = chromedriver: chrome on windows (77df1fa794f3e8899d2bb7074f3e0b98)
+[2022-10-05 11:36:08,753] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 11:36:09,884] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 11:36:12,928] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 11:36:13,360]  -------------------------- PASSED -------------------------- 
+[2022-10-05 11:36:13,636] Search_01 - Step 01: Click to Search link
+[2022-10-05 11:36:14,282] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 11:36:14,403] Search_01 - Step 03: Click to Search button
+[2022-10-05 11:36:14,504] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 11:36:14,648] Search_02 - Step 01: Click to Search link
+[2022-10-05 11:36:15,085] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 11:36:15,216] Search_02 - Step 03: Click to Search button
+[2022-10-05 11:36:15,306] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 11:36:15,331] OS name = windows 10
+[2022-10-05 11:36:15,332] Driver instance name = chromedriver: chrome on windows (c8c777b8a42ade82cc33599cddbcfaae)
+[2022-10-05 11:45:25,477] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 11:45:26,136] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 11:45:29,615] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 11:45:29,701]  -------------------------- PASSED -------------------------- 
+[2022-10-05 11:45:30,486] Search_01 - Step 01: Click to Search link
+[2022-10-05 11:45:31,317] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 11:45:31,436] Search_01 - Step 03: Click to Search button
+[2022-10-05 11:45:31,632] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 11:45:32,292] Search_02 - Step 01: Click to Search link
+[2022-10-05 11:45:32,743] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 11:45:32,866] Search_02 - Step 03: Click to Search button
+[2022-10-05 11:45:32,956] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 11:45:32,968] OS name = windows 10
+[2022-10-05 11:45:32,968] Driver instance name = chromedriver: chrome on windows (a8127b7087caa3f3980c0fa0369678a9)
+[2022-10-05 11:53:34,392] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 11:53:35,962] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 11:53:39,600] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 11:53:39,683]  -------------------------- PASSED -------------------------- 
+[2022-10-05 11:53:42,118] Search_01 - Step 01: Click to Search link
+[2022-10-05 11:53:42,846] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 11:53:42,977] Search_01 - Step 03: Click to Search button
+[2022-10-05 11:53:43,459] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 11:53:43,524]  -------------------------- PASSED -------------------------- 
+[2022-10-05 11:53:43,708] Search_02 - Step 01: Click to Search link
+[2022-10-05 11:53:44,160] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 11:53:44,286] Search_01 - Step 03: Click to Search button
+[2022-10-05 11:53:44,780] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 11:53:44,846]  -------------------------- PASSED -------------------------- 
+[2022-10-05 11:53:44,851] OS name = windows 10
+[2022-10-05 11:53:44,852] Driver instance name = chromedriver: chrome on windows (7b84e2e0122cb0f8115ebc0bf95d95c6)
+[2022-10-05 15:57:32,403] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 15:57:34,369] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 15:57:37,723] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 15:57:38,134]  -------------------------- PASSED -------------------------- 
+[2022-10-05 15:57:40,318] Search_01 - Step 01: Click to Search link
+[2022-10-05 15:57:41,082] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 15:57:41,200] Search_01 - Step 03: Click to Search button
+[2022-10-05 15:57:41,652] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 15:57:41,713]  -------------------------- PASSED -------------------------- 
+[2022-10-05 15:57:42,017] Search_02 - Step 01: Click to Search link
+[2022-10-05 15:57:42,441] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 15:57:42,554] Search_02 - Step 03: Click to Search button
+[2022-10-05 15:57:42,987] Search_02 - Step 04: Verify message error displayed
+[2022-10-05 15:57:43,039]  -------------------------- PASSED -------------------------- 
+[2022-10-05 15:57:43,045] Search_03 - Step 01: Click to Search link
+[2022-10-05 15:57:43,499] Search_03 - Step 02: Enter to Search textbox with value is:Lenovo
+[2022-10-05 15:57:43,652] Search_03 - Step 03: Click to Search button
+[2022-10-05 15:57:44,217] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-05 15:57:44,270]  -------------------------- PASSED -------------------------- 
+[2022-10-05 15:57:44,270] Search_03 - Step 05: Verify the product name of resulting  contains  text isLenovo
+[2022-10-05 15:58:04,331]  -------------------------- PASSED -------------------------- 
+[2022-10-05 15:58:04,335] OS name = windows 10
+[2022-10-05 15:58:04,336] Driver instance name = chromedriver: chrome on windows (167fbc35052f84a652b8fe961a5b7838)
+[2022-10-05 16:02:57,312] OS name = windows 10
+[2022-10-05 16:02:57,313] 
+[2022-10-05 16:03:29,746] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 16:03:31,099] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 16:03:34,494] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 16:03:34,565]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:03:34,633] Search_01 - Step 01: Click to Search link
+[2022-10-05 16:03:35,356] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 16:03:35,497] Search_01 - Step 03: Click to Search button
+[2022-10-05 16:03:35,981] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 16:03:36,042]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:03:36,189] Search_02 - Step 01: Click to Search link
+[2022-10-05 16:03:36,633] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 16:03:36,787] Search_02 - Step 03: Click to Search button
+[2022-10-05 16:03:37,268] Search_02 - Step 04: Verify message error displayed
+[2022-10-05 16:03:37,325]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:03:37,403] Search_03 - Step 01: Click to Search link
+[2022-10-05 16:03:37,857] Search_03 - Step 02: Enter to Search textbox with value is:Lenovo
+[2022-10-05 16:03:37,968] Search_03 - Step 03: Click to Search button
+[2022-10-05 16:03:38,499] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-05 16:03:38,554]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:03:38,554] Search_03 - Step 05: Verify the product name of resulting  contains  text isLenovo
+[2022-10-05 16:03:58,629]  -------------------------- FAILED -------------------------- 
+[2022-10-05 16:03:58,641] OS name = windows 10
+[2022-10-05 16:03:58,641] Driver instance name = chromedriver: chrome on windows (89e2a432241419164f4af8146d9fa4d2)
+[2022-10-05 16:20:31,017] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 16:20:32,215] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 16:20:35,693] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 16:20:35,759]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:20:36,983] Search_01 - Step 01: Click to Search link
+[2022-10-05 16:20:37,724] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 16:20:37,846] Search_01 - Step 03: Click to Search button
+[2022-10-05 16:20:38,309] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 16:20:38,363]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:20:38,829] Search_02 - Step 01: Click to Search link
+[2022-10-05 16:20:39,258] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 16:20:39,370] Search_02 - Step 03: Click to Search button
+[2022-10-05 16:20:39,854] Search_02 - Step 04: Verify message error displayed
+[2022-10-05 16:20:39,910]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:20:39,915] Search_03 - Step 01: Click to Search link
+[2022-10-05 16:20:40,357] Search_03 - Step 02: Enter to Search textbox with value is:Lenovo
+[2022-10-05 16:20:40,478] Search_03 - Step 03: Click to Search button
+[2022-10-05 16:20:41,122] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-05 16:20:41,173]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:20:41,173] Search_03 - Step 05: Verify the product name of resulting  contains  text isLenovo
+[2022-10-05 16:21:21,815] OS name = windows 10
+[2022-10-05 16:21:21,815] Driver instance name = chromedriver: chrome on windows (31ca2ac2a1c113482263f2f00a2407ab)
+[2022-10-05 16:22:49,756] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 16:22:50,423] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 16:22:53,475] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 16:22:53,883]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:22:54,488] Search_01 - Step 01: Click to Search link
+[2022-10-05 16:22:55,095] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 16:22:55,237] Search_01 - Step 03: Click to Search button
+[2022-10-05 16:22:55,870] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 16:22:55,939]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:22:56,050] Search_02 - Step 01: Click to Search link
+[2022-10-05 16:22:56,475] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 16:22:56,593] Search_02 - Step 03: Click to Search button
+[2022-10-05 16:22:57,041] Search_02 - Step 04: Verify message error displayed
+[2022-10-05 16:22:57,091]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:22:57,099] Search_03 - Step 01: Click to Search link
+[2022-10-05 16:22:57,524] Search_03 - Step 02: Enter to Search textbox with value is:Lenovo
+[2022-10-05 16:22:57,675] Search_03 - Step 03: Click to Search button
+[2022-10-05 16:22:58,374] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-05 16:22:58,439]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:22:58,439] Search_03 - Step 05: Verify the product name of resulting  contains  text isLenovo
+[2022-10-05 16:22:58,516]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:22:58,524] OS name = windows 10
+[2022-10-05 16:22:58,525] Driver instance name = chromedriver: chrome on windows (dc294a216a7931a9155f89041823a1a5)
+[2022-10-05 16:33:47,078] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 16:33:59,141] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 16:34:02,888] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 16:34:03,402]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:34:12,868] Search_01 - Step 01: Click to Search link
+[2022-10-05 16:34:13,740] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 16:34:13,855] Search_01 - Step 03: Click to Search button
+[2022-10-05 16:34:14,304] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 16:34:14,362]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:34:15,566] Search_02 - Step 01: Click to Search link
+[2022-10-05 16:34:16,065] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 16:34:16,248] Search_02 - Step 03: Click to Search button
+[2022-10-05 16:34:16,723] Search_02 - Step 04: Verify message error displayed
+[2022-10-05 16:34:16,780]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:34:16,786] Search_03 - Step 01: Click to Search link
+[2022-10-05 16:34:17,234] Search_03 - Step 02: Enter to Search textbox with value is:Lenovo
+[2022-10-05 16:34:17,355] Search_03 - Step 03: Click to Search button
+[2022-10-05 16:34:18,251] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-05 16:34:18,305]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:34:18,305] Search_03 - Step 05: Verify the product name of resulting  contains  text is Lenovo
+[2022-10-05 16:34:18,379]  -------------------------- FAILED -------------------------- 
+[2022-10-05 16:34:18,628] OS name = windows 10
+[2022-10-05 16:34:18,628] Driver instance name = chromedriver: chrome on windows (23fe85f2aac8356bd908b342676fd33a)
+[2022-10-05 16:39:26,468] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 16:39:28,167] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 16:39:31,214] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 16:39:31,622]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:39:33,352] Search_01 - Step 01: Click to Search link
+[2022-10-05 16:39:34,096] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 16:39:34,260] Search_01 - Step 03: Click to Search button
+[2022-10-05 16:39:34,732] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 16:39:34,783]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:39:35,159] Search_02 - Step 01: Click to Search link
+[2022-10-05 16:39:35,589] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 16:39:35,742] Search_02 - Step 03: Click to Search button
+[2022-10-05 16:39:36,204] Search_02 - Step 04: Verify message error displayed
+[2022-10-05 16:39:36,278]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:39:36,286] Search_03 - Step 01: Click to Search link
+[2022-10-05 16:39:36,787] Search_03 - Step 02: Enter to Search textbox with value is:Lenovo
+[2022-10-05 16:39:36,964] Search_03 - Step 03: Click to Search button
+[2022-10-05 16:39:37,497] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-05 16:39:37,559]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:39:37,559] Search_03 - Step 05: Verify the product name of resulting  contains  text is Lenovo
+[2022-10-05 16:39:37,626]  -------------------------- FAILED -------------------------- 
+[2022-10-05 16:39:37,648] OS name = windows 10
+[2022-10-05 16:39:37,648] Driver instance name = chromedriver: chrome on windows (9c32bb8237bee180805f465052d4de3d)
+[2022-10-05 16:41:10,319] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 16:41:10,981] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 16:41:14,020] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 16:41:14,441]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:41:14,516] Search_01 - Step 01: Click to Search link
+[2022-10-05 16:41:15,136] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 16:41:15,255] Search_01 - Step 03: Click to Search button
+[2022-10-05 16:41:15,765] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 16:41:15,830]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:41:15,883] Search_02 - Step 01: Click to Search link
+[2022-10-05 16:41:16,388] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 16:41:16,543] Search_02 - Step 03: Click to Search button
+[2022-10-05 16:41:17,026] Search_02 - Step 04: Verify message error displayed
+[2022-10-05 16:41:17,086]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:41:17,092] Search_03 - Step 01: Click to Search link
+[2022-10-05 16:41:17,547] Search_03 - Step 02: Enter to Search textbox with value is:Lenovo
+[2022-10-05 16:41:17,666] Search_03 - Step 03: Click to Search button
+[2022-10-05 16:41:18,227] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-05 16:41:18,285]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:41:18,286] Search_03 - Step 05: Verify the product name of resulting  contains  text is Lenovo
+[2022-10-05 16:41:18,356]  -------------------------- FAILED -------------------------- 
+[2022-10-05 16:41:18,363] OS name = windows 10
+[2022-10-05 16:41:18,363] Driver instance name = chromedriver: chrome on windows (fe14f8e535a562992eeff2f54ad90891)
+[2022-10-05 16:51:07,048] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-05 16:51:08,707] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-05 16:51:11,756] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-05 16:51:12,181]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:51:12,323] Search_01 - Step 01: Click to Search link
+[2022-10-05 16:51:13,062] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-05 16:51:13,231] Search_01 - Step 03: Click to Search button
+[2022-10-05 16:51:13,795] Search_01 - Step 04: Verify message error displayed
+[2022-10-05 16:51:13,855]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:51:13,898] Search_02 - Step 01: Click to Search link
+[2022-10-05 16:51:14,364] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-05 16:51:14,490] Search_02 - Step 03: Click to Search button
+[2022-10-05 16:51:14,931] Search_02 - Step 04: Verify message error displayed
+[2022-10-05 16:51:14,987]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:51:14,992] Search_03 - Step 01: Click to Search link
+[2022-10-05 16:51:15,428] Search_03 - Step 02: Enter to Search textbox with value is:Lenovo
+[2022-10-05 16:51:15,594] Search_03 - Step 03: Click to Search button
+[2022-10-05 16:51:16,172] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-05 16:51:16,273]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:51:16,274] Search_03 - Step 05: Verify the product name of resulting  contains  text is Lenovo
+[2022-10-05 16:51:16,374]  -------------------------- PASSED -------------------------- 
+[2022-10-05 16:51:16,378] OS name = windows 10
+[2022-10-05 16:51:16,378] Driver instance name = chromedriver: chrome on windows (60fb128d26ecf09afdab0a9cfc1bf075)
+[2022-10-06 11:18:50,614] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-06 11:18:52,747] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-06 11:18:55,797] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-06 11:18:56,222]  -------------------------- PASSED -------------------------- 
+[2022-10-06 11:18:56,649] Search_01 - Step 01: Click to Search link
+[2022-10-06 11:18:57,336] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-06 11:18:57,456] Search_01 - Step 03: Click to Search button
+[2022-10-06 11:18:57,902] Search_01 - Step 04: Verify message error displayed
+[2022-10-06 11:18:57,957]  -------------------------- PASSED -------------------------- 
+[2022-10-06 11:18:58,061] Search_02 - Step 01: Click to Search link
+[2022-10-06 11:18:58,510] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-06 11:18:58,649] Search_02 - Step 03: Click to Search button
+[2022-10-06 11:18:59,094] Search_02 - Step 04: Verify message error displayed
+[2022-10-06 11:18:59,150]  -------------------------- PASSED -------------------------- 
+[2022-10-06 11:18:59,157] Search_03 - Step 01: Click to Search link
+[2022-10-06 11:18:59,607] Search_03 - Step 02: Enter to Search textbox with value is:Lenovo
+[2022-10-06 11:18:59,747] Search_03 - Step 03: Click to Search button
+[2022-10-06 11:19:00,413] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-06 11:19:00,467]  -------------------------- PASSED -------------------------- 
+[2022-10-06 11:19:00,467] Search_03 - Step 05: Verify the product name of resulting  contains  text is Lenovo
+[2022-10-06 11:19:00,547]  -------------------------- PASSED -------------------------- 
+[2022-10-06 11:19:00,550] OS name = windows 10
+[2022-10-06 11:19:00,551] Driver instance name = chromedriver: chrome on windows (742a0da3909310f531f22000834c88bf)
+[2022-10-06 18:01:33,194] OS name = windows 10
+[2022-10-06 18:01:33,213] 
+[2022-10-06 18:03:31,601] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-06 18:03:33,126] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-06 18:03:36,175] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-06 18:03:36,560]  -------------------------- PASSED -------------------------- 
+[2022-10-06 18:03:36,833] Search_01 - Step 01: Click to Search link
+[2022-10-06 18:03:37,733] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-06 18:03:37,843] Search_01 - Step 03: Click to Search button
+[2022-10-06 18:03:38,272] Search_01 - Step 04: Verify message error displayed
+[2022-10-06 18:03:38,333]  -------------------------- PASSED -------------------------- 
+[2022-10-06 18:03:38,377] Search_02 - Step 01: Click to Search link
+[2022-10-06 18:03:38,820] Search_02 - Step 02: Enter to Search textbox with value is:Test abc
+[2022-10-06 18:03:38,958] Search_02 - Step 03: Click to Search button
+[2022-10-06 18:03:39,423] Search_02 - Step 04: Verify message error displayed
+[2022-10-06 18:03:39,491]  -------------------------- PASSED -------------------------- 
+[2022-10-06 18:03:39,496] Search_03 - Step 01: Click to Search link
+[2022-10-06 18:03:39,961] Search_03 - Step 02: Enter to Search textbox with value is:Lenovo
+[2022-10-06 18:03:40,081] Search_03 - Step 03: Click to Search button
+[2022-10-06 18:03:40,606] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-06 18:03:40,660]  -------------------------- PASSED -------------------------- 
+[2022-10-06 18:03:40,660] Search_03 - Step 05: Verify the product name of resulting  contains  text is Lenovo
+[2022-10-06 18:03:40,749]  -------------------------- PASSED -------------------------- 
+[2022-10-06 18:03:40,755] Search_03 - Step 01: Click to Search link
+[2022-10-06 18:03:41,335] Search_03 - Step 02: Enter to Search textbox with value is:Thinkpad X1 Carbon
+[2022-10-06 18:03:41,495] Search_03 - Step 03: Click to Search button
+[2022-10-06 18:03:42,085] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-06 18:03:42,124]  -------------------------- PASSED -------------------------- 
+[2022-10-06 18:03:42,125] Search_03 - Step 05: Verify the product name of resulting  contains  text is Thinkpad X1 Carbon
+[2022-10-06 18:03:42,189]  -------------------------- PASSED -------------------------- 
+[2022-10-06 18:03:42,193] OS name = windows 10
+[2022-10-06 18:03:42,193] Driver instance name = chromedriver: chrome on windows (162b8c89c3bf95f370bf9e3ee3b3ec09)
+[2022-10-07 15:53:41,416] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-07 15:53:42,633] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-07 15:53:45,677] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-07 15:53:46,122]  -------------------------- PASSED -------------------------- 
+[2022-10-07 15:53:48,633] Search_05 - Step 01: Click to Search link
+[2022-10-07 15:53:49,297] Search_05 - Step 02: Enter to Search textbox with value is:Apple Macbook Pro
+[2022-10-07 15:53:49,490] Search_05 - Step 03: Click to Advanced search checkbox
+[2022-10-07 15:53:49,622] Search_05 - Step 04: Select to Category dropdown
+[2022-10-07 15:54:31,268] OS name = windows 10
+[2022-10-07 15:54:31,268] Driver instance name = chromedriver: chrome on windows (f31e1918b2f97bef35d873b374b773ac)
+[2022-10-07 15:56:52,447] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-07 15:56:54,819] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-07 15:56:58,600] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-07 15:56:58,691]  -------------------------- PASSED -------------------------- 
+[2022-10-07 15:56:59,202] Search_05 - Step 01: Click to Search link
+[2022-10-07 15:56:59,978] Search_05 - Step 02: Enter to Search textbox with value is:Apple Macbook Pro
+[2022-10-07 15:57:00,281] Search_05 - Step 03: Click to Advanced search checkbox
+[2022-10-07 15:57:00,407] Search_05 - Step 04: Select to Category dropdown
+[2022-10-07 15:57:00,650] Search_05 - Step 05: unClick to Automatically search sub categories checkbox
+[2022-10-07 15:57:00,714] Search_05 - Step 06: Click to Search button
+[2022-10-07 15:57:01,319] Search_05 - Step 07: Verify message error displayed
+[2022-10-07 15:57:01,551]  -------------------------- PASSED -------------------------- 
+[2022-10-07 15:57:01,675] OS name = windows 10
+[2022-10-07 15:57:01,675] Driver instance name = chromedriver: chrome on windows (de57624af9a61005cdc80fbe6ebb5193)
+[2022-10-07 16:03:28,376] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-07 16:03:31,933] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-07 16:03:35,419] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-07 16:03:35,919]  -------------------------- PASSED -------------------------- 
+[2022-10-07 16:03:37,954] Search_05 - Step 01: Click to Search link
+[2022-10-07 16:03:38,805] Search_05 - Step 02: Enter to Search textbox with value is:Apple Macbook Pro
+[2022-10-07 16:03:38,975] Search_05 - Step 03: Click to Advanced search checkbox
+[2022-10-07 16:03:39,215] Search_05 - Step 04: Select to Category dropdown
+[2022-10-07 16:03:39,499] Search_05 - Step 05: unClick to Automatically search sub categories checkbox
+[2022-10-07 16:03:39,629] Search_05 - Step 06: Click to Search button
+[2022-10-07 16:03:40,267] Search_05 - Step 07: Verify the number of resulting searches displayed
+[2022-10-07 16:03:40,316]  -------------------------- PASSED -------------------------- 
+[2022-10-07 16:03:40,316] Search_05 - Step 07: Verify the product name of resulting  contains  text is Apple Macbook Pro
+[2022-10-07 16:04:21,309] OS name = windows 10
+[2022-10-07 16:04:21,309] Driver instance name = chromedriver: chrome on windows (98f15aa3d10aa2a9e60f69dc57095158)
+[2022-10-07 16:10:37,979] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-07 16:10:38,635] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-07 16:10:41,678] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-07 16:10:42,104]  -------------------------- PASSED -------------------------- 
+[2022-10-07 16:10:42,713] Search_05 - Step 01: Click to Search link
+[2022-10-07 16:10:43,505] Search_05 - Step 02: Enter to Search textbox with value is:Apple Macbook Pro
+[2022-10-07 16:10:43,846] Search_05 - Step 03: Click to Advanced search checkbox
+[2022-10-07 16:10:43,993] Search_05 - Step 04: Select to Category dropdown
+[2022-10-07 16:10:44,116] Search_05 - Step 05: unClick to Automatically search sub categories checkbox
+[2022-10-07 16:10:44,232] Search_05 - Step 06: Click to Search button
+[2022-10-07 16:10:44,882] Search_05 - Step 07: Verify the number of resulting searches displayed
+[2022-10-07 16:10:44,929]  -------------------------- PASSED -------------------------- 
+[2022-10-07 16:10:44,929] Search_05 - Step 07: Verify the product name of resulting  contains  text is Apple Macbook Pro
+[2022-10-07 16:11:15,195] OS name = windows 10
+[2022-10-07 16:11:15,196] Driver instance name = chromedriver: chrome on windows (c94982296976109701cdfeb022860f76)
+[2022-10-07 16:11:15,198] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.88.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\TUTHUC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c94982296976109701cdfeb022860f76
+[2022-10-07 16:20:09,141] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-07 16:20:09,805] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-07 16:20:12,857] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-07 16:20:13,271]  -------------------------- PASSED -------------------------- 
+[2022-10-07 16:20:13,389] Search_05 - Step 01: Click to Search link
+[2022-10-07 16:20:14,070] Search_05 - Step 02: Enter to Search textbox with value is:Apple Macbook Pro
+[2022-10-07 16:20:14,236] Search_05 - Step 03: Click to Advanced search checkbox
+[2022-10-07 16:20:14,336] Search_05 - Step 04: Select to Category dropdown
+[2022-10-07 16:20:14,453] Search_05 - Step 05: unClick to Automatically search sub categories checkbox
+[2022-10-07 16:20:14,545] Search_05 - Step 06: Click to Search button
+[2022-10-07 16:20:15,041] Search_05 - Step 07: Verify the number of resulting searches displayed
+[2022-10-07 16:20:15,087]  -------------------------- PASSED -------------------------- 
+[2022-10-07 16:20:15,087] Search_05 - Step 07: Verify the product name of resulting  contains  text is Apple Macbook Pro
+[2022-10-07 16:20:55,703] OS name = windows 10
+[2022-10-07 16:20:55,703] Driver instance name = chromedriver: chrome on windows (91637cbb235dfb2716b1d70c522e6c67)

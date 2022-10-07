@@ -78,4 +78,12 @@ public class UserHomePageObject extends BasePage {
 		}
 		return listNumber.size();
 	}
+
+	public UserProductDetailPageObject clickToProductTitle(WebDriver driver, String productTitle) {
+		waitForElementClickable(driver, UserHomePageUI.DYNAMIC_PRODUCT_TITLE, productTitle);
+		clickToElement(driver, UserHomePageUI.DYNAMIC_PRODUCT_TITLE, productTitle);
+		return PageGeneratorManager.getProductDetailPage(driver);
+
+	}
+
 }

@@ -50,6 +50,9 @@ public class UserDataMapper {
 
 		@JsonProperty("wrongPassword")
 		private String wrongPassword;
+
+		@JsonProperty("newPassword")
+		private String newPassword;
 	}
 
 	public String getValidPassword() {
@@ -62,6 +65,10 @@ public class UserDataMapper {
 
 	public String getWrongPassword() {
 		return password.wrongPassword;
+	}
+
+	public String getNewPassword() {
+		return password.newPassword;
 	}
 
 	@JsonProperty("email")
@@ -255,5 +262,57 @@ public class UserDataMapper {
 
 	public String getYear() {
 		return year;
+	}
+
+	@JsonProperty("productReview")
+	private ProductReview productReview;
+
+	static class ProductReview {
+		@JsonProperty("reviewTitle")
+		private String reviewTitle;
+
+		@JsonProperty("reviewText")
+		private String reviewText;
+	}
+
+	public String getReviewTitle() {
+		return productReview.reviewTitle;
+	}
+
+	public String getReviewText() {
+		return productReview.reviewText;
+	}
+
+	@JsonProperty("productName")
+	private ProductName productName;
+
+	static class ProductName {
+		@JsonProperty("productNameNotExist")
+		private String productNameNotExist;
+
+		@JsonProperty("productNameRelative")
+		private String productNameRelative;
+
+		@JsonProperty("productNameAbsolute")
+		private String productNameAbsolute;
+
+		@JsonProperty("productNameSearchCategories")
+		private String productNameSearchCategories;
+	}
+
+	public String getProductNameNotExist() {
+		return productName.productNameNotExist;
+	}
+
+	public String getProductNameRelative() {
+		return productName.productNameRelative;
+	}
+
+	public String getProductNameSearchCategories() {
+		return productName.productNameSearchCategories;
+	}
+
+	public String getProductNameAbsolute() {
+		return productName.productNameAbsolute;
 	}
 }

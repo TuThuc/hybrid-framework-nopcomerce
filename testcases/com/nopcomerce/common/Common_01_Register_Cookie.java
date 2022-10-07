@@ -81,7 +81,7 @@ public class Common_01_Register_Cookie extends BaseTest {
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		driver.close();
+		driver.quit();
 	}
 
 	private WebDriver driver;
