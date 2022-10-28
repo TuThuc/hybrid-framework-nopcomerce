@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import pageObjects.user.UserCustomerInforPageObject;
+import pageObjects.user.UserCustomerInfoPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserRegisterPageObject;
@@ -94,6 +94,6 @@ public class Level_17_Custom_Close_Driver extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserRegisterPageObject registerPage;
-	private UserCustomerInforPageObject custormerInforPage;
+	private UserCustomerInfoPageObject custormerInforPage;
 
 }

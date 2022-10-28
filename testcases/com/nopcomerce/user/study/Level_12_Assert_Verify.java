@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 
-import pageObjects.user.UserCustomerInforPageObject;
+import pageObjects.user.UserCustomerInfoPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 
@@ -82,6 +82,6 @@ public class Level_12_Assert_Verify extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserRegisterPageObject registerPage;
-	private UserCustomerInforPageObject custormerInforPage;
+	private UserCustomerInfoPageObject custormerInforPage;
 
 }

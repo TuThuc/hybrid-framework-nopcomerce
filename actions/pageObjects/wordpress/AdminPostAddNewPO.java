@@ -41,7 +41,7 @@ public class AdminPostAddNewPO extends BasePage {
 
 	public boolean isPostPublishMessageDisplayed(String postPublishedMessage) {
 		waitForElementVisible(driver, AdminPostAddNewPageUI.PUBLISHED_OR_UPDATED_MESSAGE, postPublishedMessage);
-		return isElementDisplayed(driver, AdminPostAddNewPageUI.PUBLISHED_OR_UPDATED_MESSAGE, postPublishedMessage);
+		return isElementDisplayedInDOM(driver, AdminPostAddNewPageUI.PUBLISHED_OR_UPDATED_MESSAGE, postPublishedMessage);
 	}
 
 	public AdminPostSearchPO openSearchPostPageUrl(String searchPostUrl) {

@@ -15,22 +15,22 @@ public class UserHomePO extends BasePage {
 
 	public boolean isPostInforDisplayedWithPostTitle(String postTitle) {
 		waitForElementVisible(driver, UserHomePageUI.POST_TITLE_TEXT, postTitle);
-		return isElementDisplayed(driver, UserHomePageUI.POST_TITLE_TEXT, postTitle);
+		return isElementDisplayedInDOM(driver, UserHomePageUI.POST_TITLE_TEXT, postTitle);
 	}
 
 	public boolean isPostInforDisplayedWithAuthorName(String postTitle, String authorName) {
 		waitForElementVisible(driver, UserHomePageUI.POST_AUTHOR_TEXT_BY_POST_TITLE, postTitle, authorName);
-		return isElementDisplayed(driver, UserHomePageUI.POST_AUTHOR_TEXT_BY_POST_TITLE, postTitle, authorName);
+		return isElementDisplayedInDOM(driver, UserHomePageUI.POST_AUTHOR_TEXT_BY_POST_TITLE, postTitle, authorName);
 	}
 
 	public boolean isPostInforDisplayedWithPostBody(String postTitle, String postBody) {
 		waitForElementVisible(driver, UserHomePageUI.POST_BODY_TEXT_BY_POST_TITLE, postTitle, postBody);
-		return isElementDisplayed(driver, UserHomePageUI.POST_BODY_TEXT_BY_POST_TITLE, postTitle, postBody);
+		return isElementDisplayedInDOM(driver, UserHomePageUI.POST_BODY_TEXT_BY_POST_TITLE, postTitle, postBody);
 	}
 
 	public boolean isPostInforDisplayedWithCurrentDay(String postTitle, String currentDay) {
 		waitForElementVisible(driver, UserHomePageUI.POST_CURRENT_DATE_TEXT_BY_POST_TITLE, postTitle, currentDay);
-		return isElementDisplayed(driver, UserHomePageUI.POST_CURRENT_DATE_TEXT_BY_POST_TITLE, postTitle, currentDay);
+		return isElementDisplayedInDOM(driver, UserHomePageUI.POST_CURRENT_DATE_TEXT_BY_POST_TITLE, postTitle, currentDay);
 	}
 
 	public UserPostDetailPO clickToPostTitle(String postTitle) {
@@ -57,7 +57,7 @@ public class UserHomePO extends BasePage {
 
 	public boolean isPostInforUpdatedDisplayedWithCurrentDay(String editPostTitle, String currentDay) {
 		waitForElementVisible(driver, UserHomePageUI.POST_CURRENT_DATE_TEXT_BY_POST_TITLE_UPDATED, editPostTitle, currentDay);
-		return isElementDisplayed(driver, UserHomePageUI.POST_CURRENT_DATE_TEXT_BY_POST_TITLE_UPDATED, editPostTitle, currentDay);
+		return isElementDisplayedInDOM(driver, UserHomePageUI.POST_CURRENT_DATE_TEXT_BY_POST_TITLE_UPDATED, editPostTitle, currentDay);
 	}
 
 }

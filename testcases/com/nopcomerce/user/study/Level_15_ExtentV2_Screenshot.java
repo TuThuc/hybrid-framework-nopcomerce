@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import pageObjects.user.UserCustomerInforPageObject;
+import pageObjects.user.UserCustomerInfoPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserRegisterPageObject;
@@ -102,6 +102,6 @@ public class Level_15_ExtentV2_Screenshot extends BaseTest {
 	UserHomePageObject homePage;
 	UserLoginPageObject loginPage;
 	UserRegisterPageObject registerPage;
-	UserCustomerInforPageObject custormerInforPage;
+	UserCustomerInfoPageObject custormerInforPage;
 
 }

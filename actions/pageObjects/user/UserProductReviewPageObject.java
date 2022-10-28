@@ -28,4 +28,10 @@ public class UserProductReviewPageObject extends BasePage {
 
 	}
 
+	public void clickToMyAccountLink() {
+		waitForElementClickable(driver, UserProductReviewPageUI.MY_ACCOUNT_LINK);
+		clickToElement(driver, UserProductReviewPageUI.MY_ACCOUNT_LINK);
+
+	}
+
 }

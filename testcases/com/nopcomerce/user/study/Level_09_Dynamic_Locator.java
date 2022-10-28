@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObjects.user.UserAddressPageObject;
-import pageObjects.user.UserCustomerInforPageObject;
+import pageObjects.user.UserCustomerInfoPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserMyProductReviewPageObject;
@@ -76,21 +76,21 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 	@Test
 	public void User_02_Switch_Page() {
 		// Customer -> Address
-		addressPage = custormerInforPage.openAddressPage(driver);
+		addressPage = custormerInforPage.openAddressPage();
 		// Address -> My Product Review
-		myProductReviewPage = addressPage.openMyProductReviewPage(driver);
+		myProductReviewPage = addressPage.openMyProductReviewPage();
 		// My Product Review -> Reward Point
-		rewardPointPage = myProductReviewPage.openRewardPointPage(driver);
+		rewardPointPage = myProductReviewPage.openRewardPointPage();
 		// Reward Point --> Address
-		addressPage = rewardPointPage.openAddressPage(driver);
+		addressPage = rewardPointPage.openAddressPage();
 		// address ->reward Point
-		rewardPointPage = addressPage.openRewardPointPage(driver);
+		rewardPointPage = addressPage.openRewardPointPage();
 		// Reward Point -> My Product Review
-		myProductReviewPage = rewardPointPage.openMyProductReviewPage(driver);
+		myProductReviewPage = rewardPointPage.openMyProductReviewPage();
 		// My Product Review -> Address
-		addressPage = myProductReviewPage.openAddressPage(driver);
+		addressPage = myProductReviewPage.openAddressPage();
 
-		custormerInforPage = addressPage.openCustomerInforPage(driver);
+		custormerInforPage = addressPage.openCustomerInforPage();
 
 	}
 
@@ -109,7 +109,7 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 		// Reward Point -> My Product Review
 		myProductReviewPage = (UserMyProductReviewPageObject) rewardPointPage.openPagesAtMyAccountByName(driver, "My product reviews");
 		// My Product Review -> Customer info
-		custormerInforPage = (UserCustomerInforPageObject) myProductReviewPage.openPagesAtMyAccountByName(driver, "Customer info");
+		custormerInforPage = (UserCustomerInfoPageObject) myProductReviewPage.openPagesAtMyAccountByName(driver, "Customer info");
 
 	}
 
@@ -135,7 +135,7 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 		myProductReviewPage = PageGeneratorManager.getMyProductReviewPage(driver);
 		// My Product Review -> Customer info
 		myProductReviewPage.openPagesAtMyAccountByName(driver, "Customer info");
-		custormerInforPage = PageGeneratorManager.getUserCustomerInforPage(driver);
+		custormerInforPage = PageGeneratorManager.getUserCustomerInfoPage(driver);
 
 	}
 
@@ -149,7 +149,7 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserRegisterPageObject registerPage;
-	private UserCustomerInforPageObject custormerInforPage;
+	private UserCustomerInfoPageObject custormerInforPage;
 	private UserAddressPageObject addressPage;
 	private UserMyProductReviewPageObject myProductReviewPage;
 	private UserRewardPointPageObject rewardPointPage;

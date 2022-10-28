@@ -32,7 +32,7 @@ public class HomePageObject extends BasePage {
 	public boolean isPageNumberActived(String pageNumber) {
 		waitForElementVisible(driver, HomePageUI.PAGING_PAGE_ACTIVE_BY_NUMBER, pageNumber);
 
-		return isElementDisplayed(driver, HomePageUI.PAGING_PAGE_ACTIVE_BY_NUMBER, pageNumber);
+		return isElementDisplayedInDOM(driver, HomePageUI.PAGING_PAGE_ACTIVE_BY_NUMBER, pageNumber);
 	}
 
 	public List<String> getValueEachRowAtAllPage() {

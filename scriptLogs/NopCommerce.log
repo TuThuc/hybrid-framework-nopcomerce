@@ -2854,3 +2854,2247 @@ Session ID: c94982296976109701cdfeb022860f76
 [2022-10-07 16:20:15,087] Search_05 - Step 07: Verify the product name of resulting  contains  text is Apple Macbook Pro
 [2022-10-07 16:20:55,703] OS name = windows 10
 [2022-10-07 16:20:55,703] Driver instance name = chromedriver: chrome on windows (91637cbb235dfb2716b1d70c522e6c67)
+[2022-10-10 10:43:42,387] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-10 10:43:44,107] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-10 10:43:47,149] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-10 10:43:47,617]  -------------------------- PASSED -------------------------- 
+[2022-10-10 10:43:49,007] Search_05 - Step 01: Click to Search link
+[2022-10-10 10:43:49,632] Search_05 - Step 02: Enter to Search textbox with value is:Apple Macbook Pro
+[2022-10-10 10:43:49,767] Search_05 - Step 03: Click to Advanced search checkbox
+[2022-10-10 10:43:49,864] Search_05 - Step 04: Select to Category dropdown
+[2022-10-10 10:43:49,991] Search_05 - Step 05: unClick to Automatically search sub categories checkbox
+[2022-10-10 10:43:50,090] Search_05 - Step 06: Click to Search button
+[2022-10-10 10:43:50,852] Search_05 - Step 07: Verify the number of resulting searches displayed
+[2022-10-10 10:43:50,946]  -------------------------- PASSED -------------------------- 
+[2022-10-10 10:43:50,946] Search_05 - Step 07: Verify the product name of resulting  contains  text is Apple Macbook Pro
+[2022-10-10 10:44:31,912] OS name = windows 10
+[2022-10-10 10:44:31,912] Driver instance name = chromedriver: chrome on windows (4918afefc62753ea20bd7a2224522206)
+[2022-10-10 11:31:29,612] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-10 11:31:32,929] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-10 11:31:36,129] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-10 11:31:36,533]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:31:38,441] Search_06 - Step 01: Click to Search link
+[2022-10-10 11:31:39,114] Search_06 - Step 02: Enter to Search textbox with value is:Apple MacBook Pro
+[2022-10-10 11:31:39,243] Search_06 - Step 03: Click to Advanced search checkbox
+[2022-10-10 11:31:39,480] Search_05 - Step 04: Select to Category dropdown
+[2022-10-10 11:31:39,603] Search_06 - Step 05: unClick to Automatically search sub categories checkbox
+[2022-10-10 11:31:39,697] Search_06 - Step 06: Click to Search button
+[2022-10-10 11:31:40,324] Search_06 - Step 07: Verify the number of resulting searches displayed
+[2022-10-10 11:31:40,369]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:31:40,369] Search_06 - Step 08: Verify the product name of resulting  contains  text is Apple MacBook Pro
+[2022-10-10 11:31:40,416]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:31:40,615] OS name = windows 10
+[2022-10-10 11:31:40,616] Driver instance name = chromedriver: chrome on windows (fdf5ed21e817b8434ee71714479774e6)
+[2022-10-10 11:49:48,588] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-10 11:49:49,803] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-10 11:49:53,222] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-10 11:49:53,295]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:49:54,463] Search_08 - Step 01: Click to Search link
+[2022-10-10 11:49:55,069] Search_07 - Step 02: Enter to Search textbox with value is:Apple MacBook Pro
+[2022-10-10 11:49:55,203] Search_07 - Step 03: Click to Advanced search checkbox
+[2022-10-10 11:49:55,355] Search_07 - Step 04: Select to Category dropdown
+[2022-10-10 11:49:55,478] Search_07 - Step 05: Click to Automatically search sub categories checkbox
+[2022-10-10 11:49:55,580] Search_07 - Step 06: Select to Manufacturer dropdown
+[2022-10-10 11:49:55,693] Search_07 - Step 07: Click to Search button
+[2022-10-10 11:49:56,197] Search_07 - Step 09: Verify message error displayed
+[2022-10-10 11:49:56,274]  -------------------------- FAILED -------------------------- 
+[2022-10-10 11:49:56,623] Search_08 - Step 01: Click to Search link
+[2022-10-10 11:49:57,104] Search_08 - Step 02: Enter to Search textbox with value is:Apple MacBook Pro
+[2022-10-10 11:49:57,267] Search_08 - Step 03: Click to Advanced search checkbox
+[2022-10-10 11:49:57,387] Search_08 - Step 04: Select to Category dropdown
+[2022-10-10 11:49:57,507] Search_08 - Step 05: Click to Automatically search sub categories checkbox
+[2022-10-10 11:49:57,604] Search_08 - Step 06: Select to Manufacturer dropdown
+[2022-10-10 11:49:57,696] Search_08 - Step 07: Click to Search button
+[2022-10-10 11:49:58,168] Search_08 - Step 08: Verify the number of resulting searches displayed
+[2022-10-10 11:49:58,211]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:49:58,211] Search_08 - Step 09: Verify the product name of resulting  contains  text is Apple MacBook Pro
+[2022-10-10 11:49:58,260]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:49:58,266] OS name = windows 10
+[2022-10-10 11:49:58,266] Driver instance name = chromedriver: chrome on windows (92dbda05f9f9227b6bc75e68b1bafea9)
+[2022-10-10 11:52:41,529] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-10 11:52:42,823] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-10 11:52:45,868] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-10 11:52:46,303]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:46,617] Search_01 - Step 01: Click to Search link
+[2022-10-10 11:52:47,412] Search_01 - Step 02: Enter to Search textbox with value is:
+[2022-10-10 11:52:47,625] Search_01 - Step 03: Click to Search button
+[2022-10-10 11:52:48,136] Search_01 - Step 04: Verify message error displayed
+[2022-10-10 11:52:48,196]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:48,293] Search_02 - Step 01: Click to Search link
+[2022-10-10 11:52:48,743] Search_02 - Step 02: Enter to Search textbox with value is:Macbook Pro 2050
+[2022-10-10 11:52:48,903] Search_02 - Step 03: Click to Search button
+[2022-10-10 11:52:49,379] Search_02 - Step 04: Verify message error displayed
+[2022-10-10 11:52:49,445]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:49,454] Search_03 - Step 01: Click to Search link
+[2022-10-10 11:52:49,963] Search_03 - Step 02: Enter to Search textbox with value is:Lenovo
+[2022-10-10 11:52:50,115] Search_03 - Step 03: Click to Search button
+[2022-10-10 11:52:50,678] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-10 11:52:50,774]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:50,774] Search_03 - Step 05: Verify the product name of resulting  contains  text is Lenovo
+[2022-10-10 11:52:50,863]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:50,871] Search_03 - Step 01: Click to Search link
+[2022-10-10 11:52:51,345] Search_03 - Step 02: Enter to Search textbox with value is:Thinkpad X1 Carbon
+[2022-10-10 11:52:51,488] Search_03 - Step 03: Click to Search button
+[2022-10-10 11:52:51,957] Search_03 - Step 04: Verify the number of resulting searches displayed
+[2022-10-10 11:52:52,017]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:52,017] Search_03 - Step 05: Verify the product name of resulting  contains  text is Thinkpad X1 Carbon
+[2022-10-10 11:52:52,067]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:52,073] Search_05 - Step 01: Click to Search link
+[2022-10-10 11:52:52,542] Search_05 - Step 02: Enter to Search textbox with value is:Apple MacBook Pro
+[2022-10-10 11:52:52,725] Search_05 - Step 03: Click to Advanced search checkbox
+[2022-10-10 11:52:52,939] Search_05 - Step 04: Select to Category dropdown
+[2022-10-10 11:52:53,103] Search_05 - Step 05: unClick to Automatically search sub categories checkbox
+[2022-10-10 11:52:53,163] Search_05 - Step 06: Click to Search button
+[2022-10-10 11:52:53,723] Search_05 - Step 07: Verify message error displayed
+[2022-10-10 11:52:53,781]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:53,787] Search_06 - Step 01: Click to Search link
+[2022-10-10 11:52:54,253] Search_06 - Step 02: Enter to Search textbox with value is:Apple MacBook Pro
+[2022-10-10 11:52:54,421] Search_06 - Step 03: Click to Advanced search checkbox
+[2022-10-10 11:52:54,530] Search_06 - Step 04: Select to Category dropdown
+[2022-10-10 11:52:54,646] Search_06 - Step 05: Click to Automatically search sub categories checkbox
+[2022-10-10 11:52:54,737] Search_06 - Step 06: Click to Search button
+[2022-10-10 11:52:55,240] Search_06 - Step 07: Verify the number of resulting searches displayed
+[2022-10-10 11:52:55,290]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:55,291] Search_06 - Step 08: Verify the product name of resulting  contains  text is Apple MacBook Pro
+[2022-10-10 11:52:55,340]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:55,346] Search_08 - Step 01: Click to Search link
+[2022-10-10 11:52:55,813] Search_07 - Step 02: Enter to Search textbox with value is:Apple MacBook Pro
+[2022-10-10 11:52:56,056] Search_07 - Step 03: Click to Advanced search checkbox
+[2022-10-10 11:52:56,191] Search_07 - Step 04: Select to Category dropdown
+[2022-10-10 11:52:56,312] Search_07 - Step 05: Click to Automatically search sub categories checkbox
+[2022-10-10 11:52:56,428] Search_07 - Step 06: Select to Manufacturer dropdown
+[2022-10-10 11:52:56,549] Search_07 - Step 07: Click to Search button
+[2022-10-10 11:52:57,029] Search_07 - Step 09: Verify message error displayed
+[2022-10-10 11:52:57,084]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:57,090] Search_08 - Step 01: Click to Search link
+[2022-10-10 11:52:57,544] Search_08 - Step 02: Enter to Search textbox with value is:Apple MacBook Pro
+[2022-10-10 11:52:57,704] Search_08 - Step 03: Click to Advanced search checkbox
+[2022-10-10 11:52:57,813] Search_08 - Step 04: Select to Category dropdown
+[2022-10-10 11:52:57,939] Search_08 - Step 05: Click to Automatically search sub categories checkbox
+[2022-10-10 11:52:58,035] Search_08 - Step 06: Select to Manufacturer dropdown
+[2022-10-10 11:52:58,149] Search_08 - Step 07: Click to Search button
+[2022-10-10 11:52:58,662] Search_08 - Step 08: Verify the number of resulting searches displayed
+[2022-10-10 11:52:58,726]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:58,726] Search_08 - Step 09: Verify the product name of resulting  contains  text is Apple MacBook Pro
+[2022-10-10 11:52:58,804]  -------------------------- PASSED -------------------------- 
+[2022-10-10 11:52:58,882] OS name = windows 10
+[2022-10-10 11:52:58,883] Driver instance name = chromedriver: chrome on windows (1a5c02f0ee69abc614e147a8065a0737)
+[2022-10-10 16:05:24,739] Precondition: Open the notebook page
+[2022-10-10 16:05:56,135] OS name = windows 10
+[2022-10-10 16:05:56,135] Driver instance name = chromedriver: chrome on windows (a91b3761568e56c22ac70587d3f90ab6)
+[2022-10-10 16:14:54,851] Precondition: Open the notebook page
+[2022-10-10 16:15:31,339] OS name = windows 10
+[2022-10-10 16:15:31,370] Driver instance name = chromedriver: chrome on windows (e1862765ff1e23f5d782fffc93f4ab74)
+[2022-10-10 16:16:52,102] Precondition: Open the notebook page
+[2022-10-10 16:17:08,207] OS name = windows 10
+[2022-10-10 16:17:08,208] Driver instance name = chromedriver: chrome on windows (23d6a13dd241dc4284faa6942edfd1fc)
+[2022-10-10 16:17:28,684] Precondition: Open the notebook page
+[2022-10-10 16:17:49,838] OS name = windows 10
+[2022-10-10 16:17:49,838] Driver instance name = chromedriver: chrome on windows (11153db4d484f7fe8a5d5c52d16d28f4)
+[2022-10-10 16:19:36,367] Precondition: Open the notebook page
+[2022-10-10 16:19:38,225] OS name = windows 10
+[2022-10-10 16:19:38,225] Driver instance name = chromedriver: chrome on windows (50807111b7ceedd708b6efe41044b7bc)
+[2022-10-10 16:19:59,677] Precondition: Open the notebook page
+[2022-10-10 16:20:01,725] OS name = windows 10
+[2022-10-10 16:20:01,726] Driver instance name = chromedriver: chrome on windows (9074a904278ba8f80b256cf460f41566)
+[2022-10-10 16:36:58,670] Precondition: Open the notebook page
+[2022-10-10 16:37:29,107] OS name = windows 10
+[2022-10-10 16:37:29,107] Driver instance name = chromedriver: chrome on windows (be4b60f8868673a37d98c8a9bab61f86)
+[2022-10-10 16:38:15,427] Precondition: Open the notebook page
+[2022-10-10 16:38:45,763] OS name = windows 10
+[2022-10-10 16:38:45,764] Driver instance name = chromedriver: chrome on windows (e98981d967a92f1be04177b6893816e6)
+[2022-10-10 16:43:05,063] Precondition: Open the notebook page
+[2022-10-10 16:43:08,044] OS name = windows 10
+[2022-10-10 16:43:08,045] Driver instance name = chromedriver: chrome on windows (ec68007b4e779a007285647a5b618467)
+[2022-10-10 16:50:13,998] Precondition: Open the notebook page
+[2022-10-10 16:50:17,116] Sort_01_Step 01 - Sort list produce A to Z
+[2022-10-10 16:50:58,175] OS name = windows 10
+[2022-10-10 16:50:58,175] Driver instance name = chromedriver: chrome on windows (e816a2fa011771d674687885571dcce6)
+[2022-10-10 17:40:46,180] Precondition: Open the notebook page
+[2022-10-10 17:40:49,015] Sort_01_Step 01 - Sort list produce A to Z
+[2022-10-10 17:41:10,236] OS name = windows 10
+[2022-10-10 17:41:10,236] Driver instance name = chromedriver: chrome on windows (16e27618f2965f573e234192b1761b86)
+[2022-10-10 17:42:05,628] Precondition: Open the notebook page
+[2022-10-10 17:42:07,754] Sort_01_Step 01 - Sort list produce A to Z
+[2022-10-10 17:42:08,045]  -------------------------- PASSED -------------------------- 
+[2022-10-10 17:42:08,113] OS name = windows 10
+[2022-10-10 17:42:08,113] Driver instance name = chromedriver: chrome on windows (c133a8a87ad1511b3277efeda49cc607)
+[2022-10-10 17:47:01,694] Precondition: Open the notebook page
+[2022-10-10 17:47:03,699] Sort_01_Step 01 - Sort list produce A to Z
+[2022-10-10 17:47:03,827] Sort_01_Step 02 - Verify list product sort ascending
+[2022-10-10 17:47:03,898]  -------------------------- PASSED -------------------------- 
+[2022-10-10 17:47:03,980] Sort_01_Step 01 - Sort list produce Z to A
+[2022-10-10 17:47:04,086] Sort_01_Step 02 - Verify list product sort descending
+[2022-10-10 17:47:04,126]  -------------------------- PASSED -------------------------- 
+[2022-10-10 17:47:04,131] OS name = windows 10
+[2022-10-10 17:47:04,131] Driver instance name = chromedriver: chrome on windows (82e72d37fb56aafbafd1281fb76b5306)
+[2022-10-11 09:46:01,261] Precondition: Open the notebook page
+[2022-10-11 09:46:05,184] Sort_01_Step 01 - Sort list produce A to Z
+[2022-10-11 09:46:05,457] Sort_01_Step 02 - Verify list product sort ascending
+[2022-10-11 09:46:05,549]  -------------------------- PASSED -------------------------- 
+[2022-10-11 09:46:06,159] Sort_02_Step 01 - Sort list produce Z to A
+[2022-10-11 09:46:06,294] Sort_02_Step 02 - Verify list product sort descending
+[2022-10-11 09:46:06,350]  -------------------------- PASSED -------------------------- 
+[2022-10-11 09:46:06,354] OS name = windows 10
+[2022-10-11 09:46:06,354] Driver instance name = chromedriver: chrome on windows (7a82ab5960c750823b01e31e6247f1c2)
+[2022-10-11 10:00:33,259] Precondition: Open the notebook page
+[2022-10-11 10:01:04,093] OS name = windows 10
+[2022-10-11 10:01:04,093] Driver instance name = chromedriver: chrome on windows (c6cceca739da2d5b5144c64e1d6db520)
+[2022-10-11 10:04:41,296] Precondition: Open the notebook page
+[2022-10-11 10:04:43,117] Sort_01_Step 01 - Sort list produce A to Z
+[2022-10-11 10:04:43,265] Sort_01_Step 02 - Verify list product sort ascending
+[2022-10-11 10:04:43,330]  -------------------------- PASSED -------------------------- 
+[2022-10-11 10:04:43,424] Sort_02_Step 01 - Sort list produce Z to A
+[2022-10-11 10:04:43,556] Sort_02_Step 02 - Verify list product sort descending
+[2022-10-11 10:04:43,601]  -------------------------- PASSED -------------------------- 
+[2022-10-11 10:04:43,606] OS name = windows 10
+[2022-10-11 10:04:43,606] Driver instance name = chromedriver: chrome on windows (fcc2c781c54c5b7919daf9e39a7ad1e4)
+[2022-10-11 10:06:03,786] Precondition: Open the notebook page
+[2022-10-11 10:06:05,723] Sort_01_Step 01 - Sort list produce A to Z
+[2022-10-11 10:06:05,869] Sort_01_Step 02 - Verify list product sort ascending
+[2022-10-11 10:06:06,087]  -------------------------- PASSED -------------------------- 
+[2022-10-11 10:06:06,182] Sort_02_Step 01 - Sort list produce Z to A
+[2022-10-11 10:06:06,313] Sort_02_Step 02 - Verify list product sort descending
+[2022-10-11 10:06:06,520]  -------------------------- FAILED -------------------------- 
+[2022-10-11 10:06:06,527] OS name = windows 10
+[2022-10-11 10:06:06,528] Driver instance name = chromedriver: chrome on windows (d569bc71946d08b5040775245abdd54a)
+[2022-10-11 16:11:46,512] Precondition: Open the notebook page
+[2022-10-11 16:11:49,304] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-11 16:11:50,044] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-11 16:11:50,170]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:11:50,170] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:11:50,453]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:11:50,453] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-11 16:11:50,534] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:11:51,478] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-11 16:11:51,597] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-11 16:11:51,700]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:11:51,708] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-11 16:11:51,817] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-11 16:11:51,898]  -------------------------- FAILED -------------------------- 
+[2022-10-11 16:11:52,055] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 16:11:52,150] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:11:52,349] OS name = windows 10
+[2022-10-11 16:11:52,349] Driver instance name = chromedriver: chrome on windows (03ea8d54e4637d2b04f5e217e40a2710)
+[2022-10-11 16:18:48,650] Precondition: Open the notebook page
+[2022-10-11 16:18:51,500] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-11 16:18:51,622] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-11 16:18:51,753]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:18:51,754] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:18:52,536]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:18:52,536] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-11 16:18:52,617] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:18:52,702] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-11 16:18:52,812] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-11 16:18:52,912]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:18:52,918] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-11 16:18:53,011] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-11 16:18:53,087]  -------------------------- FAILED -------------------------- 
+[2022-10-11 16:18:53,094] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 16:18:53,187] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:18:53,275] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 16:18:53,369] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:18:53,437] OS name = windows 10
+[2022-10-11 16:18:53,438] Driver instance name = chromedriver: chrome on windows (5bca07319f506cdba536ef57311aa703)
+[2022-10-11 16:46:16,725] Precondition: Open the notebook page
+[2022-10-11 16:46:22,913] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-11 16:46:23,912] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-11 16:46:24,066]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:46:24,066] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:46:24,291]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:46:24,292] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-11 16:46:24,933] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:46:25,274] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-11 16:46:25,405] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-11 16:46:25,571]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:46:25,577] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-11 16:46:25,667] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-11 16:46:25,747]  -------------------------- FAILED -------------------------- 
+[2022-10-11 16:46:25,835] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 16:46:25,936] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:46:26,086] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 16:46:26,184] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:46:26,302] OS name = windows 10
+[2022-10-11 16:46:26,302] Driver instance name = chromedriver: chrome on windows (86c5ee45bad7d991613347c2a1638f1e)
+[2022-10-11 16:48:31,923] Precondition: Open the notebook page
+[2022-10-11 16:48:33,890] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-11 16:48:34,023] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-11 16:48:34,189]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:48:34,189] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:48:34,376]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:48:34,376] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-11 16:48:34,452] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:48:34,539] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-11 16:48:34,645] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-11 16:48:34,748]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:48:34,754] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-11 16:48:34,843] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-11 16:48:34,920]  -------------------------- FAILED -------------------------- 
+[2022-10-11 16:48:34,928] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 16:48:35,023] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:48:35,111] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 16:48:35,206] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:48:35,281] OS name = windows 10
+[2022-10-11 16:48:35,282] Driver instance name = chromedriver: chrome on windows (4d8fc6b22e18e1571f0539059527314d)
+[2022-10-11 16:49:54,899] Precondition: Open the notebook page
+[2022-10-11 16:49:57,015] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-11 16:49:57,229] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-11 16:49:57,352]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:49:57,352] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:49:57,597]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:49:57,597] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-11 16:49:57,674] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:49:57,752] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-11 16:49:57,866] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-11 16:49:57,965]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:49:57,970] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-11 16:49:58,067] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-11 16:49:58,146]  -------------------------- FAILED -------------------------- 
+[2022-10-11 16:49:58,153] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 16:49:58,243] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:49:58,351]  -------------------------- FAILED -------------------------- 
+[2022-10-11 16:49:58,356] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 16:49:58,445] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:49:58,513] OS name = windows 10
+[2022-10-11 16:49:58,513] Driver instance name = chromedriver: chrome on windows (bcf1f0e4c07994f68832cd302325a1ca)
+[2022-10-11 16:53:32,517] Precondition: Open the notebook page
+[2022-10-11 16:53:34,415] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-11 16:53:34,548] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-11 16:53:34,663]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:53:34,663] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:53:34,934]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:53:34,934] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-11 16:53:35,016] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:53:35,098] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-11 16:53:35,209] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-11 16:53:35,311]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:53:35,317] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-11 16:53:35,408] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-11 16:53:35,486]  -------------------------- FAILED -------------------------- 
+[2022-10-11 16:53:35,495] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 16:53:35,591] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:53:35,708]  -------------------------- FAILED -------------------------- 
+[2022-10-11 16:53:35,714] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 16:53:35,814] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:53:35,891] OS name = windows 10
+[2022-10-11 16:53:35,892] Driver instance name = chromedriver: chrome on windows (b6f3eb1b113bab58281c092052c01b20)
+[2022-10-11 16:58:36,434] Precondition: Open the notebook page
+[2022-10-11 16:58:38,582] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-11 16:58:38,723] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-11 16:58:38,861]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:58:38,861] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:58:39,032]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:58:39,032] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-11 16:58:39,117] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 16:58:39,199] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-11 16:58:39,372] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-11 16:58:39,500]  -------------------------- PASSED -------------------------- 
+[2022-10-11 16:58:39,511] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-11 16:58:39,689] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-11 16:58:39,836]  -------------------------- FAILED -------------------------- 
+[2022-10-11 16:58:39,845] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 16:58:39,951] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:58:40,081]  -------------------------- FAILED -------------------------- 
+[2022-10-11 16:58:40,089] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 16:58:40,193] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 16:58:40,275] OS name = windows 10
+[2022-10-11 16:58:40,275] Driver instance name = chromedriver: chrome on windows (7fae910dc04af18dd2465e06e5c418a6)
+[2022-10-11 17:01:59,421] Precondition: Open the notebook page
+[2022-10-11 17:02:01,152] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-11 17:02:01,278] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-11 17:02:01,405]  -------------------------- PASSED -------------------------- 
+[2022-10-11 17:02:01,405] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 17:02:01,645]  -------------------------- PASSED -------------------------- 
+[2022-10-11 17:02:01,645] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-11 17:02:01,724] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-11 17:02:01,805] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-11 17:02:01,907] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-11 17:02:02,010]  -------------------------- PASSED -------------------------- 
+[2022-10-11 17:02:02,016] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-11 17:02:02,108] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-11 17:02:02,189]  -------------------------- FAILED -------------------------- 
+[2022-10-11 17:02:02,197] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 17:02:02,300] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:02:02,389] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 17:02:02,479] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:02:02,556] OS name = windows 10
+[2022-10-11 17:02:02,557] Driver instance name = chromedriver: chrome on windows (4ad116b884e58184aff7f745106becff)
+[2022-10-11 17:04:14,969] Precondition: Open the notebook page
+[2022-10-11 17:04:17,345] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-11 17:04:17,479] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-11 17:04:17,711]  -------------------------- PASSED -------------------------- 
+[2022-10-11 17:04:17,787] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-11 17:04:17,884] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-11 17:04:18,065]  -------------------------- FAILED -------------------------- 
+[2022-10-11 17:04:18,074] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 17:04:18,171] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:04:18,398]  -------------------------- FAILED -------------------------- 
+[2022-10-11 17:04:18,404] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 17:04:18,496] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:04:18,610] OS name = windows 10
+[2022-10-11 17:04:18,610] Driver instance name = chromedriver: chrome on windows (9a50100898e3146a13f6165416767885)
+[2022-10-11 17:09:24,569] Precondition: Open the notebook page
+[2022-10-11 17:09:26,400] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-11 17:09:26,521] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-11 17:09:26,722]  -------------------------- PASSED -------------------------- 
+[2022-10-11 17:09:26,790] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-11 17:09:26,900] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-11 17:09:27,079]  -------------------------- FAILED -------------------------- 
+[2022-10-11 17:09:27,088] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 17:09:27,179] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:09:27,415]  -------------------------- FAILED -------------------------- 
+[2022-10-11 17:09:27,421] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 17:09:27,519] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:09:27,636] OS name = windows 10
+[2022-10-11 17:09:27,636] Driver instance name = chromedriver: chrome on windows (3a8586a3c65b96dd6775d0373ce53f48)
+[2022-10-11 17:10:18,065] Precondition: Open the notebook page
+[2022-10-11 17:10:19,915] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 17:10:20,043] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:10:20,294]  -------------------------- FAILED -------------------------- 
+[2022-10-11 17:10:20,374] OS name = windows 10
+[2022-10-11 17:10:20,375] Driver instance name = chromedriver: chrome on windows (e384cdffa24dfef8a04d638cc060bcc3)
+[2022-10-11 17:12:21,215] Precondition: Open the notebook page
+[2022-10-11 17:12:23,271] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 17:12:33,394] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:12:33,627]  -------------------------- PASSED -------------------------- 
+[2022-10-11 17:12:33,703] OS name = windows 10
+[2022-10-11 17:12:33,703] Driver instance name = chromedriver: chrome on windows (11e9ad2070068c321fdc0fc2c67e19a5)
+[2022-10-11 17:23:29,579] Precondition: Open the notebook page
+[2022-10-11 17:23:31,577] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 17:23:31,721] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:23:31,947] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 17:23:32,055] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:23:32,175] OS name = windows 10
+[2022-10-11 17:23:32,176] Driver instance name = chromedriver: chrome on windows (66fa95af53ff6294abedc0f57dcb8e69)
+[2022-10-11 17:24:37,458] Precondition: Open the notebook page
+[2022-10-11 17:24:39,472] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 17:24:39,599] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:24:39,852]  -------------------------- FAILED -------------------------- 
+[2022-10-11 17:24:39,944] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 17:24:40,048] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:24:40,229]  -------------------------- FAILED -------------------------- 
+[2022-10-11 17:24:40,234] OS name = windows 10
+[2022-10-11 17:24:40,234] Driver instance name = chromedriver: chrome on windows (3d1a3f939fdc1f162eae3dd6536a3c5b)
+[2022-10-11 17:39:13,037] Precondition: Open the notebook page
+[2022-10-11 17:39:14,874] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-11 17:39:14,999] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:39:15,261]  -------------------------- FAILED -------------------------- 
+[2022-10-11 17:39:15,351] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-11 17:39:15,443] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-11 17:39:15,624]  -------------------------- FAILED -------------------------- 
+[2022-10-11 17:39:15,628] OS name = windows 10
+[2022-10-11 17:39:15,629] Driver instance name = chromedriver: chrome on windows (9bf8a215182d4f2d6cc09efc1857df5a)
+[2022-10-12 09:14:11,225] Precondition: Open the notebook page
+[2022-10-12 09:14:13,970] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-12 09:14:14,468] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-12 09:14:15,427] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-12 09:14:15,541] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-12 09:14:15,548] OS name = windows 10
+[2022-10-12 09:14:15,549] Driver instance name = chromedriver: chrome on windows (388acc7bb2af03c282b091b4f77d0d8f)
+[2022-10-12 09:15:45,732] Precondition: Open the notebook page
+[2022-10-12 09:15:47,603] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-12 09:15:47,726] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-12 09:15:48,194] OS name = windows 10
+[2022-10-12 09:15:48,194] Driver instance name = chromedriver: chrome on windows (9cc147e52f6482ac2af8bfc2a0f31037)
+[2022-10-12 09:19:57,860] Precondition: Open the notebook page
+[2022-10-12 09:19:59,749] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-12 09:19:59,900] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-12 09:20:00,173]  -------------------------- FAILED -------------------------- 
+[2022-10-12 09:20:00,257] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-12 09:20:00,352] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-12 09:20:00,532]  -------------------------- FAILED -------------------------- 
+[2022-10-12 09:20:00,537] OS name = windows 10
+[2022-10-12 09:20:00,537] Driver instance name = chromedriver: chrome on windows (0f772d0ef4825ee164833a8cd52edb24)
+[2022-10-12 09:50:02,221] Precondition: Open the notebook page
+[2022-10-12 09:50:05,116] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-12 09:50:05,516] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-12 09:50:05,770]  -------------------------- FAILED -------------------------- 
+[2022-10-12 09:50:06,589] OS name = windows 10
+[2022-10-12 09:50:06,590] Driver instance name = chromedriver: chrome on windows (1b43d18807aa4226060efa544815e356)
+[2022-10-12 09:58:47,183] Precondition: Open the notebook page
+[2022-10-12 09:58:49,087] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-12 09:58:49,219] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-12 09:58:50,112]  -------------------------- PASSED -------------------------- 
+[2022-10-12 09:58:50,183] OS name = windows 10
+[2022-10-12 09:58:50,183] Driver instance name = chromedriver: chrome on windows (841e6de9654b6f7426c8744a0ccbef54)
+[2022-10-12 10:05:03,473] Precondition: Open the notebook page
+[2022-10-12 10:05:05,316] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-12 10:05:35,656] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-12 10:06:05,956] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-12 10:06:36,261] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-12 10:07:06,379] OS name = windows 10
+[2022-10-12 10:07:06,379] Driver instance name = chromedriver: chrome on windows (1278b8aba51501523affafa10d4e060b)
+[2022-10-12 10:07:44,740] Precondition: Open the notebook page
+[2022-10-12 10:07:46,833] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-12 10:07:46,956] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-12 10:07:47,599]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:07:47,671] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-12 10:07:47,769] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-12 10:07:48,400]  -------------------------- FAILED -------------------------- 
+[2022-10-12 10:07:48,410] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-12 10:07:48,504] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-12 10:07:49,182]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:07:49,186] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-12 10:07:49,279] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-12 10:07:49,903]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:07:49,906] OS name = windows 10
+[2022-10-12 10:07:49,906] Driver instance name = chromedriver: chrome on windows (0c2393d7f7234ee1460054d796e201d2)
+[2022-10-12 10:21:30,928] Precondition: Open the notebook page
+[2022-10-12 10:21:33,088] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:21:33,214] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:21:33,334]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:21:33,335] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:21:33,617]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:21:33,617] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:21:33,812] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:21:33,894] OS name = windows 10
+[2022-10-12 10:21:33,894] Driver instance name = chromedriver: chrome on windows (b681c6cded579d2ecdfa55ec305a2ef5)
+[2022-10-12 10:26:27,366] Precondition: Open the notebook page
+[2022-10-12 10:26:29,385] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:26:29,506] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:26:29,647]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:26:29,647] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:26:29,977]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:26:29,977] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:26:30,062] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:26:30,139] OS name = windows 10
+[2022-10-12 10:26:30,139] Driver instance name = chromedriver: chrome on windows (74f040cc35783ed5dda32188251fadef)
+[2022-10-12 10:30:52,788] Precondition: Open the notebook page
+[2022-10-12 10:30:54,857] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:30:54,977] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:30:55,104]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:30:55,105] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:30:55,324]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:30:55,324] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:30:55,402] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:30:55,473] OS name = windows 10
+[2022-10-12 10:30:55,473] Driver instance name = chromedriver: chrome on windows (7d989f6b7d85e62080138e6b92dda202)
+[2022-10-12 10:32:27,474] Precondition: Open the notebook page
+[2022-10-12 10:32:29,619] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:32:29,781] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:32:29,916]  -------------------------- FAILED -------------------------- 
+[2022-10-12 10:32:29,917] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:32:30,142]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:32:30,142] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:32:30,225] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:32:30,306] OS name = windows 10
+[2022-10-12 10:32:30,307] Driver instance name = chromedriver: chrome on windows (dadfc539b959a44a64d11718d91bab1b)
+[2022-10-12 10:35:04,580] Precondition: Open the notebook page
+[2022-10-12 10:35:06,500] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:35:06,620] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:35:06,750]  -------------------------- FAILED -------------------------- 
+[2022-10-12 10:35:06,751] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:35:07,031]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:35:07,031] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:35:07,115] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:35:07,190] OS name = windows 10
+[2022-10-12 10:35:07,191] Driver instance name = chromedriver: chrome on windows (66cb4722cf095bd635377abc4c812f12)
+[2022-10-12 10:38:36,247] Precondition: Open the notebook page
+[2022-10-12 10:38:38,266] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:38:38,386] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:38:38,523]  -------------------------- FAILED -------------------------- 
+[2022-10-12 10:38:38,524] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:38:38,803]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:38:38,804] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:38:38,887] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:38:38,966] OS name = windows 10
+[2022-10-12 10:38:38,967] Driver instance name = chromedriver: chrome on windows (ec311c6bf8e24e5525a1c31af10e2109)
+[2022-10-12 10:41:25,231] Precondition: Open the notebook page
+[2022-10-12 10:41:27,330] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:41:27,470] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:41:28,233]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:41:28,234] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:41:28,326]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:41:28,326] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:41:28,411] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:41:28,512] OS name = windows 10
+[2022-10-12 10:41:28,512] Driver instance name = chromedriver: chrome on windows (e7eaa2d688232f1f253cb6f18f403e4f)
+[2022-10-12 10:41:57,611] OS name = windows 10
+[2022-10-12 10:41:57,612] 
+[2022-10-12 10:42:09,393] Precondition: Open the notebook page
+[2022-10-12 10:42:11,345] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:42:11,485] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:42:12,065]  -------------------------- FAILED -------------------------- 
+[2022-10-12 10:42:12,066] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:42:12,124]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:42:12,124] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:42:12,213] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:42:12,290] OS name = windows 10
+[2022-10-12 10:42:12,290] Driver instance name = chromedriver: chrome on windows (de04d112fbb626fcb01ab0289b987b76)
+[2022-10-12 10:43:45,961] Precondition: Open the notebook page
+[2022-10-12 10:44:09,571] OS name = windows 10
+[2022-10-12 10:44:09,571] Driver instance name = chromedriver: chrome on windows (8302e80535293223cc4baf16481183c0)
+[2022-10-12 10:44:15,896] chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.88.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\TUTHUC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62389}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8302e80535293223cc4baf16481183c0
+[2022-10-12 10:44:18,315] OS name = windows 10
+[2022-10-12 10:44:18,316] 
+[2022-10-12 10:44:51,173] Precondition: Open the notebook page
+[2022-10-12 10:44:53,263] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:44:53,387] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:44:53,956]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:44:53,957] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:44:54,012]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:44:54,013] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:44:54,093] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:44:54,179] OS name = windows 10
+[2022-10-12 10:44:54,179] Driver instance name = chromedriver: chrome on windows (ca5275e278c97d88e9622d63e8ce8fa4)
+[2022-10-12 10:45:24,003] Precondition: Open the notebook page
+[2022-10-12 10:45:26,536] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:45:26,680] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:45:27,252]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:45:27,252] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:45:27,307]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:45:27,308] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:45:27,394] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:45:27,465] OS name = windows 10
+[2022-10-12 10:45:27,466] Driver instance name = chromedriver: chrome on windows (5cf882e6b8b071a92d5e045bd34cee6d)
+[2022-10-12 10:46:43,764] Precondition: Open the notebook page
+[2022-10-12 10:46:45,768] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:46:45,915] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:46:46,484]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:46:46,484] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:46:46,538]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:46:46,538] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:46:46,616] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:46:46,699] OS name = windows 10
+[2022-10-12 10:46:46,699] Driver instance name = chromedriver: chrome on windows (de68360aff327455566d1a94ed57dc85)
+[2022-10-12 10:47:48,263] Precondition: Open the notebook page
+[2022-10-12 10:47:50,175] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:47:50,313] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:47:50,883]  -------------------------- FAILED -------------------------- 
+[2022-10-12 10:47:50,884] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:47:50,934]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:47:50,934] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:47:51,016] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:47:51,098] OS name = windows 10
+[2022-10-12 10:47:51,098] Driver instance name = chromedriver: chrome on windows (49bfbda03c81305af04ca60c465612ec)
+[2022-10-12 10:48:18,342] Precondition: Open the notebook page
+[2022-10-12 10:48:20,222] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:48:20,339] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:48:20,906]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:48:20,906] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:48:20,961]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:48:20,961] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:48:21,045] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:48:21,121] OS name = windows 10
+[2022-10-12 10:48:21,122] Driver instance name = chromedriver: chrome on windows (67c69894f9b4ea1419f42d56f1974aeb)
+[2022-10-12 10:51:58,987] Precondition: Open the notebook page
+[2022-10-12 10:52:01,108] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:52:01,258] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:52:01,847]  -------------------------- FAILED -------------------------- 
+[2022-10-12 10:52:01,848] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:52:01,910]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:52:01,910] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:52:01,993] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:52:02,073] OS name = windows 10
+[2022-10-12 10:52:02,073] Driver instance name = chromedriver: chrome on windows (54c44784bf4c876950d7ac7192ceecdf)
+[2022-10-12 10:52:23,589] Precondition: Open the notebook page
+[2022-10-12 10:52:24,809] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:52:24,970] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:52:25,538]  -------------------------- FAILED -------------------------- 
+[2022-10-12 10:52:25,539] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:52:25,596]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:52:25,596] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:52:25,681] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:52:25,773] OS name = windows 10
+[2022-10-12 10:52:25,773] Driver instance name = chromedriver: chrome on windows (7d3549b1ca87b2d03957c603f65600a9)
+[2022-10-12 10:53:11,593] Precondition: Open the notebook page
+[2022-10-12 10:53:13,497] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:53:13,619] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:53:14,185]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:53:14,185] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:53:14,236]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:53:14,236] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:53:14,314] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:53:14,390] OS name = windows 10
+[2022-10-12 10:53:14,390] Driver instance name = chromedriver: chrome on windows (30bce2a990e06b8ec514571a4064715a)
+[2022-10-12 10:53:35,383] Precondition: Open the notebook page
+[2022-10-12 10:53:36,461] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 10:53:36,584] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 10:53:37,161]  -------------------------- FAILED -------------------------- 
+[2022-10-12 10:53:37,161] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 10:53:37,218]  -------------------------- PASSED -------------------------- 
+[2022-10-12 10:53:37,218] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 10:53:37,304] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 10:53:37,379] OS name = windows 10
+[2022-10-12 10:53:37,379] Driver instance name = chromedriver: chrome on windows (2ff614494bdf81a0c59098ee97c354c5)
+[2022-10-12 14:12:06,649] Precondition: Open the notebook page
+[2022-10-12 14:12:11,267] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 14:12:11,587] Display_02 - Step 02: Verify product displayed is 3
+[2022-10-12 14:12:12,655]  -------------------------- PASSED -------------------------- 
+[2022-10-12 14:12:12,655] Display_02 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 14:12:12,731]  -------------------------- PASSED -------------------------- 
+[2022-10-12 14:12:12,731] Display_02 - Step 04: Click to Paging Page 2 
+[2022-10-12 14:12:13,151] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 14:12:13,561]  -------------------------- PASSED -------------------------- 
+[2022-10-12 14:12:14,499] OS name = windows 10
+[2022-10-12 14:12:14,500] Driver instance name = chromedriver: chrome on windows (5be922aa5f48a72fb964b7e8c7f35f2e)
+[2022-10-12 14:14:59,025] Precondition: Open the notebook page
+[2022-10-12 14:15:01,431] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 14:15:01,555] Display_01 - Step 02: Verify product displayed
+[2022-10-12 14:15:02,128]  -------------------------- PASSED -------------------------- 
+[2022-10-12 14:15:02,128] Display_01 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 14:15:02,182]  -------------------------- PASSED -------------------------- 
+[2022-10-12 14:15:02,182] Display_01 - Step 04: Click to Paging Page 2 
+[2022-10-12 14:15:02,265] Display_02 - Step 03: Verify Paging displayed 
+[2022-10-12 14:15:02,674]  -------------------------- PASSED -------------------------- 
+[2022-10-12 14:15:02,746] OS name = windows 10
+[2022-10-12 14:15:02,746] Driver instance name = chromedriver: chrome on windows (587af2404b96f5988ff30ed4d92d9a2b)
+[2022-10-12 14:18:08,717] Precondition: Open the notebook page
+[2022-10-12 14:18:11,779] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-12 14:18:11,905] Display_01 - Step 02: Verify product displayed
+[2022-10-12 14:18:13,020]  -------------------------- PASSED -------------------------- 
+[2022-10-12 14:18:13,020] Display_01 - Step 03: Verify Paging Next icon displayed 
+[2022-10-12 14:18:13,075]  -------------------------- PASSED -------------------------- 
+[2022-10-12 14:18:13,076] Display_01 - Step 04: Click to Paging Page 2 
+[2022-10-12 14:18:13,165] Display_02 - Step 03: Verify Paging Previous displayed 
+[2022-10-12 14:18:13,563]  -------------------------- PASSED -------------------------- 
+[2022-10-12 14:18:13,630] OS name = windows 10
+[2022-10-12 14:18:13,631] Driver instance name = chromedriver: chrome on windows (f803980873cf80cfc869ad23b0274b81)
+[2022-10-13 09:44:59,411] Precondition: Open the notebook page
+[2022-10-13 09:45:04,229] Display_01 - Step 01: Select display with Page size = 6
+[2022-10-13 09:45:04,753] Display_01 - Step 02: Verify product displayed
+[2022-10-13 09:45:35,142] OS name = windows 10
+[2022-10-13 09:45:35,142] Driver instance name = chromedriver: chrome on windows (74118b8d5e78cbd756cd7e5bd528103e)
+[2022-10-13 09:49:34,470] Precondition: Open the notebook page
+[2022-10-13 09:49:36,805] Display_01 - Step 01: Select display with Page size = 6
+[2022-10-13 09:49:36,901] Display_01 - Step 02: Verify product displayed
+[2022-10-13 09:50:07,320] OS name = windows 10
+[2022-10-13 09:50:07,320] Driver instance name = chromedriver: chrome on windows (ec6f94a36ebe1c1d38d67d2ccd10fd91)
+[2022-10-13 10:07:35,577] Precondition: Open the notebook page
+[2022-10-13 10:08:09,331] OS name = windows 10
+[2022-10-13 10:08:09,331] Driver instance name = chromedriver: chrome on windows (1cf6a95ea65301f81fb2374da5bd3994)
+[2022-10-13 10:08:41,976] Precondition: Open the notebook page
+[2022-10-13 10:08:43,516] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-13 10:08:43,880] Display_01 - Step 02: Verify product displayed
+[2022-10-13 10:08:44,005]  -------------------------- FAILED -------------------------- 
+[2022-10-13 10:08:44,006] Display_01 - Step 03: Verify Paging Next icon displayed 
+[2022-10-13 10:08:44,194]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:08:44,194] Display_01 - Step 04: Click to Paging Page 2 
+[2022-10-13 10:08:44,388] Display_02 - Step 03: Verify Paging Previous displayed 
+[2022-10-13 10:08:44,689]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:08:44,763] Display_01 - Step 01: Select display with Page size = 6
+[2022-10-13 10:08:44,859] Display_01 - Step 02: Verify product displayed
+[2022-10-13 10:08:44,921]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:08:44,921] Display_01 - Step 03: Verify Paging undisplayed 
+[2022-10-13 10:09:04,974] OS name = windows 10
+[2022-10-13 10:09:04,974] Driver instance name = chromedriver: chrome on windows (fd024dbb008ea1c205ebdbdfef2ebdbc)
+[2022-10-13 10:14:40,937] Precondition: Open the notebook page
+[2022-10-13 10:14:43,246] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-13 10:14:43,384] Display_01 - Step 02: Verify product displayed
+[2022-10-13 10:14:43,963]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:14:43,963] Display_01 - Step 03: Verify Paging Next icon displayed 
+[2022-10-13 10:14:44,026]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:14:44,027] Display_01 - Step 04: Click to Paging Page 2 
+[2022-10-13 10:14:44,108] Display_02 - Step 03: Verify Paging Previous displayed 
+[2022-10-13 10:14:44,439]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:14:44,517] Display_01 - Step 01: Select display with Page size = 6
+[2022-10-13 10:14:44,619] Display_01 - Step 02: Verify product displayed
+[2022-10-13 10:14:44,682]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:14:44,682] Display_01 - Step 03: Verify Paging undisplayed 
+[2022-10-13 10:15:04,708] OS name = windows 10
+[2022-10-13 10:15:04,708] Driver instance name = chromedriver: chrome on windows (a193d7a981bbc2aee7d9a4af299d35a7)
+[2022-10-13 10:18:48,169] Precondition: Open the notebook page
+[2022-10-13 10:18:49,878] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-13 10:18:50,040] Display_01 - Step 02: Verify product displayed
+[2022-10-13 10:18:50,610]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:18:50,611] Display_01 - Step 03: Verify Paging Next icon displayed 
+[2022-10-13 10:18:50,666]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:18:50,667] Display_01 - Step 04: Click to Paging Page 2 
+[2022-10-13 10:18:50,757] Display_02 - Step 03: Verify Paging Previous displayed 
+[2022-10-13 10:18:51,155]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:18:51,231] Display_01 - Step 01: Select display with Page size = 6
+[2022-10-13 10:18:51,342] Display_01 - Step 02: Verify product displayed
+[2022-10-13 10:18:51,405]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:18:51,405] Display_01 - Step 03: Verify Paging undisplayed 
+[2022-10-13 10:18:57,010]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:18:57,020] OS name = windows 10
+[2022-10-13 10:18:57,020] Driver instance name = chromedriver: chrome on windows (f4c6d6ae81e12d478d95aca4e9771010)
+[2022-10-13 10:23:08,435] Precondition: Open the notebook page
+[2022-10-13 10:23:10,057] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-13 10:23:10,212] Display_01 - Step 02: Verify product displayed
+[2022-10-13 10:23:10,793]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:23:10,793] Display_01 - Step 03: Verify Paging Next icon displayed 
+[2022-10-13 10:23:10,854]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:23:10,854] Display_01 - Step 04: Click to Paging Page 2 
+[2022-10-13 10:23:10,945] Display_02 - Step 03: Verify Paging Previous displayed 
+[2022-10-13 10:23:11,285]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:23:11,362] Display_01 - Step 01: Select display with Page size = 6
+[2022-10-13 10:23:11,478] Display_01 - Step 02: Verify product displayed
+[2022-10-13 10:23:11,543]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:23:11,543] Display_01 - Step 03: Verify Paging undisplayed 
+[2022-10-13 10:23:22,156]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:23:22,161] OS name = windows 10
+[2022-10-13 10:23:22,161] Driver instance name = chromedriver: chrome on windows (a5c97f67d44bf7c09d6f1705aaec5240)
+[2022-10-13 10:27:05,567] Precondition: Open the notebook page
+[2022-10-13 10:27:07,065] Display_01 - Step 01: Select display with Page size = 3
+[2022-10-13 10:27:07,186] Display_01 - Step 02: Verify product displayed
+[2022-10-13 10:27:07,761]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:27:07,761] Display_01 - Step 03: Verify Paging Next icon displayed 
+[2022-10-13 10:27:07,812]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:27:07,812] Display_01 - Step 04: Click to Paging Page 2 
+[2022-10-13 10:27:07,900] Display_02 - Step 03: Verify Paging Previous displayed 
+[2022-10-13 10:27:08,295]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:27:08,374] Display_01 - Step 01: Select display with Page size = 6
+[2022-10-13 10:27:08,472] Display_01 - Step 02: Verify product displayed
+[2022-10-13 10:27:08,533]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:27:08,533] Display_01 - Step 03: Verify Paging undisplayed 
+[2022-10-13 10:27:19,156]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:27:19,168] Display_01 - Step 01: Select display with Page size = 9
+[2022-10-13 10:27:19,273] Display_01 - Step 02: Verify product displayed
+[2022-10-13 10:27:19,843]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:27:19,843] Display_01 - Step 03: Verify Paging undisplayed 
+[2022-10-13 10:27:29,911]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:27:29,921] Sort_01 - Step 01: Select Sort list produce name A to Z
+[2022-10-13 10:27:30,036] Sort_01 - Step 02: Verify list product name sort ascending
+[2022-10-13 10:27:30,758]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:27:30,763] Sort_02- Step 01: Select Sort list produce name Z to A
+[2022-10-13 10:27:30,852] Sort_02 - Step 02: Verify list product name sort descending
+[2022-10-13 10:27:31,510]  -------------------------- FAILED -------------------------- 
+[2022-10-13 10:27:31,517] Sort_03 - Step 01: Select Sort with list produce price Low to High
+[2022-10-13 10:27:31,607] Sort_03 - Step 02: Verify list product sort price ascending
+[2022-10-13 10:27:32,294]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:27:32,299] Sort_03 - Step 01: Selcet Sort with list produce price High to Low
+[2022-10-13 10:27:32,388] Sort_03 - Step 02: Verify list product sort price descending
+[2022-10-13 10:27:33,038]  -------------------------- PASSED -------------------------- 
+[2022-10-13 10:27:33,041] OS name = windows 10
+[2022-10-13 10:27:33,041] Driver instance name = chromedriver: chrome on windows (cce23cdf674086f9d5fad33a3a89f5f7)
+[2022-10-14 11:31:46,309] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 11:31:47,485] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 11:31:53,357] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-14 11:31:53,467]  -------------------------- PASSED -------------------------- 
+[2022-10-14 11:31:53,467] Pre-condition - Step 04: Open a product 
+[2022-10-14 11:32:36,400] OS name = windows 10
+[2022-10-14 11:32:36,401] Driver instance name = firefoxdriver: firefox on windows (69442c01-a0fd-4b8d-a765-1420f7aab3bd)
+[2022-10-14 11:35:11,486] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 11:35:12,619] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 11:35:15,668] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-14 11:35:16,059]  -------------------------- PASSED -------------------------- 
+[2022-10-14 11:35:16,060] Pre-condition - Step 04: Open a product 
+[2022-10-14 11:35:58,519] OS name = windows 10
+[2022-10-14 11:35:58,519] Driver instance name = chromedriver: chrome on windows (3a2632bbfd3618452d35305c25878d76)
+[2022-10-14 11:40:23,575] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 11:40:24,752] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 11:40:28,165] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-14 11:40:28,237]  -------------------------- PASSED -------------------------- 
+[2022-10-14 11:40:28,237] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 11:41:09,741] OS name = windows 10
+[2022-10-14 11:41:09,742] Driver instance name = chromedriver: chrome on windows (34ebb2173cf6da4c78d455f4bd526be9)
+[2022-10-14 11:46:47,508] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 11:46:48,859] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 11:46:51,893] Pre-Condition - Step 03: Verify ' My Account' page is displayed 
+[2022-10-14 11:46:52,312]  -------------------------- PASSED -------------------------- 
+[2022-10-14 11:46:52,397] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 11:47:33,347] OS name = windows 10
+[2022-10-14 11:47:33,347] Driver instance name = chromedriver: chrome on windows (639713a45e3cbf5dbd191c006f90c4cb)
+[2022-10-14 11:50:07,645] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 11:50:08,745] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 11:50:12,459] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 11:50:53,427] OS name = windows 10
+[2022-10-14 11:50:53,427] Driver instance name = chromedriver: chrome on windows (d90a170fcc40a63d258434051f4e53ed)
+[2022-10-14 12:00:34,493] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 12:00:35,708] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 12:00:38,917] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 12:00:39,965] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 12:00:42,965] Wishlist_01 - Step 01: Click to add to wishlist
+[2022-10-14 12:00:43,689] Wishlist_01 - Step 02: Click to add to wishlist
+[2022-10-14 12:01:25,772] OS name = windows 10
+[2022-10-14 12:01:25,772] Driver instance name = chromedriver: chrome on windows (e4ca660b0f21b09314b1f00633de3c76)
+[2022-10-14 12:02:13,563] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:38110
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.88.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver
+[2022-10-14 12:02:18,852] OS name = windows 10
+[2022-10-14 12:02:18,854] Driver instance name = chromedriver: chrome on windows (b05d90f6bc29d0f58622ba3a5e837af9)
+[2022-10-14 12:02:22,872] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5974
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.88.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver
+[2022-10-14 12:03:06,820] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 12:03:07,974] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 12:03:11,015] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 12:03:11,859] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 12:03:13,079] Wishlist_01 - Step 01: Click to add to wishlist
+[2022-10-14 12:03:13,706] Wishlist_01 - Step 03: Verify success message is displayed 
+[2022-10-14 12:03:36,548] OS name = windows 10
+[2022-10-14 12:03:36,549] Driver instance name = chromedriver: chrome on windows (031de012df49d6d0255d3ef0e42e4b22)
+[2022-10-14 12:04:08,605] disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.88.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TUTHUC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55035}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 031de012df49d6d0255d3ef0e42e4b22
+[2022-10-14 13:44:57,524] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 13:44:59,288] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 13:45:02,689] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 13:45:03,849] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 13:45:10,556] Wishlist_01 - Step 01: Click to add to wishlist
+[2022-10-14 13:45:11,363] Wishlist_01 - Step 03: Verify success message is displayed 
+[2022-10-14 13:45:52,306] OS name = windows 10
+[2022-10-14 13:45:52,306] Driver instance name = chromedriver: chrome on windows (60d7e1839b12148d6ab3785265f3c216)
+[2022-10-14 13:47:28,872] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 13:47:30,639] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 13:47:33,685] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 13:47:34,493] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 13:47:36,244] Wishlist_01 - Step 01: Click to add to wishlist
+[2022-10-14 13:47:36,338] Wishlist_01 - Step 03: Verify success message is displayed 
+[2022-10-14 13:47:36,400]  -------------------------- FAILED -------------------------- 
+[2022-10-14 13:47:36,401] Wishlist_01 - Step 04: Click to Wishlist link 
+[2022-10-14 13:47:37,506] Wishlist_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-14 13:48:07,579] OS name = windows 10
+[2022-10-14 13:48:07,580] Driver instance name = chromedriver: chrome on windows (c61a3c125600f6f2cb340a21cac4b891)
+[2022-10-14 13:50:03,605] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 13:50:04,716] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 13:50:08,089] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 13:50:08,606] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 13:50:09,818] Wishlist_01 - Step 01: Click to add to wishlist
+[2022-10-14 13:50:10,038] Wishlist_01 - Step 03: Verify success message is displayed 
+[2022-10-14 13:50:10,355]  -------------------------- PASSED -------------------------- 
+[2022-10-14 13:50:10,355] Wishlist_01 - Step 04: Click to Wishlist link 
+[2022-10-14 13:50:11,559] OS name = windows 10
+[2022-10-14 13:50:11,560] Driver instance name = chromedriver: chrome on windows (72fe1f73682f8e294c93e31f7c925242)
+[2022-10-14 14:19:42,486] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 14:19:43,598] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 14:19:47,112] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 14:19:47,554] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 14:19:49,693] Wishlist_01 - Step 01: Click to add to wishlist
+[2022-10-14 14:19:49,809] Wishlist_01 - Step 02: Verify success message is displayed 
+[2022-10-14 14:19:50,151]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:19:50,151] Wishlist_01 - Step 03: Click to close button
+[2022-10-14 14:19:50,363] Wishlist_01 - Step 04: Click to Wishlist link 
+[2022-10-14 14:19:51,821] Wishlist_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-14 14:20:22,375] OS name = windows 10
+[2022-10-14 14:20:22,376] Driver instance name = chromedriver: chrome on windows (7cb026fdcfd19c5415beef62f366d940)
+[2022-10-14 14:21:43,011] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 14:21:45,798] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 14:21:49,192] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 14:21:49,788] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 14:21:51,305] Wishlist_01 - Step 01: Click to add to wishlist
+[2022-10-14 14:21:51,473] Wishlist_01 - Step 02: Verify success message is displayed 
+[2022-10-14 14:21:51,801]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:21:51,801] Wishlist_01 - Step 03: Click to close button
+[2022-10-14 14:21:51,876] Wishlist_01 - Step 04: Click to Wishlist link 
+[2022-10-14 14:21:53,463] Wishlist_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-14 14:21:53,520]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:21:53,520] Wishlist_01 - Step 06: Click to wishlist URL
+[2022-10-14 14:21:53,912] Wishlist_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-14 14:21:53,974]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:21:54,017] OS name = windows 10
+[2022-10-14 14:21:54,017] Driver instance name = chromedriver: chrome on windows (7c43410f138954a038fbba46cf48bd93)
+[2022-10-14 14:53:41,746] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 14:53:42,838] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 14:53:46,040] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 14:53:46,789] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 14:53:51,296] TC_01 - Step 01: Click to add to wishlist
+[2022-10-14 14:53:51,386] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-14 14:53:51,733]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:53:51,733] TC_01 - Step 03: Click to close button
+[2022-10-14 14:53:51,818] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-14 14:53:53,360] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-14 14:53:53,426]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:53:53,426] TC_01 - Step 06: Click to wishlist URL
+[2022-10-14 14:53:53,817] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-14 14:53:53,873]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:53:54,126] TC_02 - Step 01: Click to Checkbox Add to cart
+[2022-10-14 14:53:54,272] TC_02 - Step 02: Click to button Add to cart
+[2022-10-14 14:53:55,035] TC_02 - Step 03: Verify Product is displayed at wishlist Page 
+[2022-10-14 14:53:55,087]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:53:55,088] TC_02 - Step 04: Click to Wishlist link 
+[2022-10-14 14:53:55,993] TC_02 - Step 05: Verify Product is Undisplayed at wishlist Page 
+[2022-10-14 14:54:01,530] OS name = windows 10
+[2022-10-14 14:54:01,531] Driver instance name = chromedriver: chrome on windows (d404bf124b44595bab40e9bcc44d4752)
+[2022-10-14 14:59:13,960] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 14:59:16,980] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 14:59:20,253] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 14:59:21,139] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 14:59:32,061] TC_01 - Step 01: Click to add to wishlist
+[2022-10-14 14:59:32,174] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-14 14:59:32,521]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:59:32,521] TC_01 - Step 03: Click to close button
+[2022-10-14 14:59:32,619] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-14 14:59:34,928] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-14 14:59:34,985]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:59:34,985] TC_01 - Step 06: Click to wishlist URL
+[2022-10-14 14:59:35,856] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-14 14:59:35,906]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:59:37,981] TC_02 - Step 01: Click to Checkbox Add to cart
+[2022-10-14 14:59:38,519] TC_02 - Step 02: Click to button Add to cart
+[2022-10-14 14:59:40,638] TC_02 - Step 03: Verify Product is displayed at wishlist Page 
+[2022-10-14 14:59:40,682]  -------------------------- PASSED -------------------------- 
+[2022-10-14 14:59:40,682] TC_02 - Step 04: Click to Wishlist link 
+[2022-10-14 14:59:41,470] TC_02 - Step 05: Verify Product is Undisplayed at wishlist Page 
+[2022-10-14 14:59:48,096] OS name = windows 10
+[2022-10-14 14:59:48,096] Driver instance name = chromedriver: chrome on windows (3a5bb4d145686d1525ae089742c22a7f)
+[2022-10-14 15:02:24,195] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 15:02:25,971] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 15:02:29,844] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 15:02:30,291] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 15:02:31,622] TC_01 - Step 01: Click to add to wishlist
+[2022-10-14 15:02:31,730] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-14 15:02:32,052]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:02:32,052] TC_01 - Step 03: Click to close button
+[2022-10-14 15:02:32,148] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-14 15:02:33,793] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-14 15:02:33,846]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:02:33,846] TC_01 - Step 06: Click to wishlist URL
+[2022-10-14 15:02:34,259] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-14 15:02:34,309]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:02:34,671] TC_02 - Step 01: Click to Checkbox Add to cart
+[2022-10-14 15:02:34,796] TC_02 - Step 02: Click to button Add to cart
+[2022-10-14 15:02:35,717] TC_02 - Step 03: Verify Product is displayed at wishlist Page 
+[2022-10-14 15:02:35,763]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:02:35,763] TC_02 - Step 04: Click to Wishlist link 
+[2022-10-14 15:02:36,615] TC_02 - Step 05: Verify Product is Undisplayed at wishlist Page 
+[2022-10-14 15:02:42,011] OS name = windows 10
+[2022-10-14 15:02:42,011] Driver instance name = chromedriver: chrome on windows (159a9e1602468bd8e13fdcf3328c1037)
+[2022-10-14 15:07:00,839] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 15:07:01,417] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 15:07:04,453] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 15:07:05,382] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 15:07:07,176] TC_01 - Step 01: Click to add to wishlist
+[2022-10-14 15:07:07,270] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-14 15:07:07,609]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:07:07,609] TC_01 - Step 03: Click to close button
+[2022-10-14 15:07:07,687] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-14 15:07:09,418] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-14 15:07:09,503]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:07:09,503] TC_01 - Step 06: Click to wishlist URL
+[2022-10-14 15:07:09,901] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-14 15:07:09,947]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:07:10,001] TC_02 - Step 01: Click to Checkbox Add to cart
+[2022-10-14 15:07:10,115] TC_02 - Step 02: Click to button Add to cart
+[2022-10-14 15:07:10,985] TC_02 - Step 03: Verify Product is displayed at wishlist Page 
+[2022-10-14 15:07:11,033]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:07:11,033] TC_02 - Step 04: Click to Wishlist link 
+[2022-10-14 15:07:11,931] TC_02 - Step 05: Verify Product is Undisplayed at wishlist Page 
+[2022-10-14 15:07:17,400] OS name = windows 10
+[2022-10-14 15:07:17,400] Driver instance name = chromedriver: chrome on windows (f1e16e58d0f7ef1d22707b631a63790a)
+[2022-10-14 15:10:29,587] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-14 15:10:30,232] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-14 15:10:33,265] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-14 15:10:34,137] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-14 15:10:35,651] TC_01 - Step 01: Click to add to wishlist
+[2022-10-14 15:10:35,899] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-14 15:10:36,258]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:10:36,258] TC_01 - Step 03: Click to close button
+[2022-10-14 15:10:36,364] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-14 15:10:37,866] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-14 15:10:37,932]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:10:37,932] TC_01 - Step 06: Click to wishlist URL
+[2022-10-14 15:10:38,333] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-14 15:10:38,395]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:10:38,441] TC_02 - Step 01: Click to Checkbox Add to cart
+[2022-10-14 15:10:38,592] TC_02 - Step 02: Click to button Add to cart
+[2022-10-14 15:10:39,449] TC_02 - Step 03: Verify Product is displayed at wishlist Page 
+[2022-10-14 15:10:39,504]  -------------------------- PASSED -------------------------- 
+[2022-10-14 15:10:39,504] TC_02 - Step 04: Click to Wishlist link 
+[2022-10-14 15:10:50,424] TC_02 - Step 05: Verify Product is Undisplayed at wishlist Page 
+[2022-10-14 15:10:57,325] OS name = windows 10
+[2022-10-14 15:10:57,326] Driver instance name = chromedriver: chrome on windows (59ef628d35df74119bdcc4d462d3c7eb)
+[2022-10-17 09:52:01,241] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 09:52:03,017] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 09:52:06,479] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 09:52:07,196] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 09:52:12,307] TC_01 - Step 01: Click to add to wishlist
+[2022-10-17 09:52:12,419] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-17 09:52:12,707]  -------------------------- PASSED -------------------------- 
+[2022-10-17 09:52:12,707] TC_01 - Step 03: Click to close button
+[2022-10-17 09:52:12,789] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-17 09:52:14,507] TC_02 - Step 01: Click to Checkbox Add to cart
+[2022-10-17 09:52:14,513] OS name = windows 10
+[2022-10-17 09:52:14,513] Driver instance name = chromedriver: chrome on windows (037682e37bdb02e1b8df0eaa282fae19)
+[2022-10-17 09:59:46,319] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 09:59:47,516] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 09:59:51,150] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 09:59:51,786] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 09:59:54,643] TC_01 - Step 01: Click to add to wishlist
+[2022-10-17 09:59:54,803] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-17 09:59:55,112]  -------------------------- PASSED -------------------------- 
+[2022-10-17 09:59:55,112] TC_01 - Step 03: Click to close button
+[2022-10-17 09:59:55,358] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-17 09:59:58,613] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-17 09:59:58,743]  -------------------------- PASSED -------------------------- 
+[2022-10-17 09:59:58,743] TC_01 - Step 06: Click to wishlist URL
+[2022-10-17 09:59:59,166] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-17 09:59:59,226]  -------------------------- PASSED -------------------------- 
+[2022-10-17 09:59:59,632] TC_02 - Step 01: Click to Checkbox Add to cart
+[2022-10-17 09:59:59,799] TC_02 - Step 02: Click to button Add to cart
+[2022-10-17 10:00:01,803] TC_02 - Step 03: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:00:01,900]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:00:01,900] TC_02 - Step 04: Click to Wishlist link 
+[2022-10-17 10:00:02,797] TC_02 - Step 05: Verify Product is Undisplayed at wishlist Page 
+[2022-10-17 10:00:08,919] OS name = windows 10
+[2022-10-17 10:00:08,920] Driver instance name = chromedriver: chrome on windows (cf52329cd5a7d5f8a08d28ad53063fa6)
+[2022-10-17 10:02:15,201] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 10:02:19,761] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 10:02:23,648] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 10:02:24,291] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 10:02:27,050] TC_01 - Step 01: Click to add to wishlist
+[2022-10-17 10:02:27,197] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-17 10:02:27,498]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:02:27,498] TC_01 - Step 03: Click to close button
+[2022-10-17 10:02:27,614] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-17 10:02:29,097] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:02:29,157]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:02:29,157] TC_01 - Step 06: Click to wishlist URL
+[2022-10-17 10:02:29,775] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:02:29,828]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:02:30,213] TC_02 - Step 01: Click to Checkbox Add to cart
+[2022-10-17 10:02:30,433] TC_02 - Step 02: Click to button Add to cart
+[2022-10-17 10:02:31,279] TC_02 - Step 03: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:02:31,326]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:02:31,326] TC_02 - Step 04: Click to Wishlist link 
+[2022-10-17 10:02:42,201] TC_02 - Step 05: Verify Product is Undisplayed at wishlist Page 
+[2022-10-17 10:02:47,678] OS name = windows 10
+[2022-10-17 10:02:47,678] Driver instance name = chromedriver: chrome on windows (6ce06577b263cac830c544dbd0990437)
+[2022-10-17 10:09:20,431] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 10:09:22,165] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 10:09:25,340] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 10:09:26,225] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 10:09:28,992] TC_01 - Step 01: Click to add to wishlist
+[2022-10-17 10:09:29,137] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-17 10:09:29,447]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:09:29,447] TC_01 - Step 03: Click to close button
+[2022-10-17 10:09:29,564] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-17 10:09:32,279] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:09:32,346]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:09:32,346] TC_01 - Step 06: Click to wishlist URL
+[2022-10-17 10:09:32,778] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:09:32,842]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:09:32,999] TC_02 - Step 01: Click to Wishlist link 
+[2022-10-17 10:09:33,137] OS name = windows 10
+[2022-10-17 10:09:33,138] Driver instance name = chromedriver: chrome on windows (ec15ae495845f813a96755152d71e515)
+[2022-10-17 10:11:27,538] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 10:11:30,503] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 10:11:34,008] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 10:11:34,495] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 10:11:42,926] TC_01 - Step 01: Click to add to wishlist
+[2022-10-17 10:11:43,031] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-17 10:11:43,382]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:11:43,382] TC_01 - Step 03: Click to close button
+[2022-10-17 10:11:43,464] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-17 10:11:45,498] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:11:45,580]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:11:45,581] TC_01 - Step 06: Click to wishlist URL
+[2022-10-17 10:11:46,045] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:11:46,096]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:11:46,706] TC_02 - Step 01: Click to Wishlist link 
+[2022-10-17 10:11:47,114] TC_02 - Step 01: Click to Checkbox Add to cart
+[2022-10-17 10:11:47,394] TC_02 - Step 02: Click to button Add to cart
+[2022-10-17 10:11:48,699] TC_02 - Step 03: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:11:48,763]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:11:48,763] TC_02 - Step 04: Click to Wishlist link 
+[2022-10-17 10:11:49,659] TC_02 - Step 05: Verify Product is Undisplayed at wishlist Page 
+[2022-10-17 10:11:55,089] OS name = windows 10
+[2022-10-17 10:11:55,089] Driver instance name = chromedriver: chrome on windows (2edd0db97df10aa92f8c91a112147b4e)
+[2022-10-17 10:23:25,183] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 10:23:27,280] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 10:23:30,452] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 10:23:31,324] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 10:23:36,141] TC_01 - Step 01: Click to add to wishlist
+[2022-10-17 10:23:36,246] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-17 10:23:36,527]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:23:36,527] TC_01 - Step 03: Click to close button
+[2022-10-17 10:23:36,607] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-17 10:23:38,250] TC_02 - Step 01: Back To Wishlist Pahe 
+[2022-10-17 10:23:38,255] OS name = windows 10
+[2022-10-17 10:23:38,255] Driver instance name = chromedriver: chrome on windows (f3b88d1353d375c7abec18f8c7fb5d6d)
+[2022-10-17 10:32:00,915] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 10:32:02,147] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 10:32:05,515] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 10:32:06,093] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 10:32:09,374] TC_01 - Step 01: Click to add to wishlist
+[2022-10-17 10:32:09,627] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-17 10:32:09,948]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:32:09,948] TC_01 - Step 03: Click to close button
+[2022-10-17 10:32:10,067] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-17 10:32:11,930] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:32:11,994]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:32:11,994] TC_01 - Step 06: Click to wishlist URL
+[2022-10-17 10:32:12,430] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:32:12,513]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:32:12,559] TC_02 - Step 01: Back To Wishlist Page 
+[2022-10-17 10:32:12,898] TC_02 - Step 01: Click to Checkbox Add to cart
+[2022-10-17 10:32:13,065] TC_02 - Step 02: Click to button Add to cart
+[2022-10-17 10:32:13,896] TC_02 - Step 03: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:32:13,942]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:32:13,942] TC_02 - Step 04: Click to Wishlist link 
+[2022-10-17 10:32:14,796] TC_02 - Step 05: Verify Product is Undisplayed at wishlist Page 
+[2022-10-17 10:32:24,955]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:32:24,961] OS name = windows 10
+[2022-10-17 10:32:24,962] Driver instance name = chromedriver: chrome on windows (50ee9b52d257f4eee9d2e909acd85535)
+[2022-10-17 10:33:25,623] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 10:33:26,698] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 10:33:30,102] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 10:33:30,661] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 10:33:32,637] TC_01 - Step 01: Click to add to wishlist
+[2022-10-17 10:33:32,899] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-17 10:33:33,714]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:33:33,714] TC_01 - Step 03: Click to close button
+[2022-10-17 10:33:33,980] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-17 10:33:35,309] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:33:35,368]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:33:35,369] TC_01 - Step 06: Click to wishlist URL
+[2022-10-17 10:33:35,770] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:33:35,826]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:33:35,870] TC_02 - Step 01: Back To Wishlist Page 
+[2022-10-17 10:33:36,188] TC_02 - Step 01: Click to Checkbox Add to cart
+[2022-10-17 10:33:36,303] TC_02 - Step 02: Click to button Add to cart
+[2022-10-17 10:33:37,199] TC_02 - Step 03: Verify Product is displayed at wishlist Page 
+[2022-10-17 10:33:37,247]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:33:37,247] TC_02 - Step 04: Click to Wishlist link 
+[2022-10-17 10:33:38,178] TC_02 - Step 05: Verify Product is Undisplayed at wishlist Page 
+[2022-10-17 10:33:48,297]  -------------------------- PASSED -------------------------- 
+[2022-10-17 10:33:48,302] OS name = windows 10
+[2022-10-17 10:33:48,303] Driver instance name = chromedriver: chrome on windows (b51a7e5e89b4c0df3e932577efdafa5e)
+[2022-10-17 11:07:23,203] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 11:07:24,246] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 11:07:27,289] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 11:07:27,662] OS name = windows 10
+[2022-10-17 11:07:27,662] Driver instance name = chromedriver: chrome on windows (8407f7eba82232b380f46b34daa37b3e)
+[2022-10-17 11:08:46,080] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 11:08:47,396] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 11:08:50,448] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 11:08:51,580] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 11:08:53,189] TC_03 - Step 01: Click To Image Home Page
+[2022-10-17 11:08:53,719] TC_03 - Step 02: Click to a product  at Home Page
+[2022-10-17 11:08:54,819] TC_03 - Step 03: Click to add to wishlist
+[2022-10-17 11:08:54,928] TC_03 - Step 04: Verify success message is displayed 
+[2022-10-17 11:08:55,281]  -------------------------- PASSED -------------------------- 
+[2022-10-17 11:08:55,281] TC_03 - Step 05: Click to close button
+[2022-10-17 11:08:55,362] TC_03 - Step 06: Click to Wishlist link 
+[2022-10-17 11:08:57,045] TC_03 - Step 07: Click to  Remove
+[2022-10-17 11:08:57,553] TC_03 - Step 08: Verify message is displayed 
+[2022-10-17 11:08:57,648]  -------------------------- PASSED -------------------------- 
+[2022-10-17 11:08:57,648] TC_02 - Step 09: Verify Product is Undisplayed at wishlist Page 
+[2022-10-17 11:09:07,861]  -------------------------- PASSED -------------------------- 
+[2022-10-17 11:09:07,918] OS name = windows 10
+[2022-10-17 11:09:07,918] Driver instance name = chromedriver: chrome on windows (87f98ab5f71dd5701fa184e53647d67a)
+[2022-10-17 15:31:07,857] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 15:31:08,984] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 15:31:12,109] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 15:31:12,860] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 15:31:15,807] TC_04 - Step 01: Click To Image Home Page
+[2022-10-17 15:31:16,272] TC_04 - Step 02: Add Product to Compare list
+[2022-10-17 15:31:16,375] TC_04 - Step 03: Verify add  to compare success message is displayed 
+[2022-10-17 15:31:16,673]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:31:16,674] TC_04 - Step 04: Click to close button
+[2022-10-17 15:31:16,758] TC_04 - Step 05: Add Product to Compare list
+[2022-10-17 15:31:16,852] TC_04 - Step 06: Verify add  to compare success message is displayed 
+[2022-10-17 15:31:16,917]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:31:16,917] TC_04 - Step 07: Click to close button
+[2022-10-17 15:31:16,977] TC_04 - Step 08: Open Compare Product list Page 
+[2022-10-17 15:31:17,701] TC_04 - Step 09: Verify Product info is displayed 
+[2022-10-17 15:31:17,754]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:31:17,809]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:31:58,708] OS name = windows 10
+[2022-10-17 15:31:58,708] Driver instance name = chromedriver: chrome on windows (8430cfba81fb9ff94c74eb1e4cde134c)
+[2022-10-17 15:36:34,423] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 15:36:36,004] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 15:36:39,247] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 15:36:40,069] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 15:36:48,183] TC_04 - Step 01: Click To Image Home Page
+[2022-10-17 15:36:48,966] TC_04 - Step 02: Add Product to Compare list
+[2022-10-17 15:36:49,059] TC_04 - Step 03: Verify add  to compare success message is displayed 
+[2022-10-17 15:36:49,342]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:36:49,343] TC_04 - Step 04: Click to close button
+[2022-10-17 15:36:49,420] TC_04 - Step 05: Add Product to Compare list
+[2022-10-17 15:36:49,507] TC_04 - Step 06: Verify add  to compare success message is displayed 
+[2022-10-17 15:36:49,569]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:36:49,569] TC_04 - Step 07: Click to close button
+[2022-10-17 15:36:49,653] TC_04 - Step 08: Open Compare Product list Page 
+[2022-10-17 15:36:50,360] TC_04 - Step 09: Verify Product info is displayed 
+[2022-10-17 15:36:50,425]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:36:50,503]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:36:50,566]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:36:50,620]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:36:50,620] TC_04 - Step 10: Click To Clear list button
+[2022-10-17 15:37:32,797] OS name = windows 10
+[2022-10-17 15:37:32,798] Driver instance name = chromedriver: chrome on windows (30633bee8b4f8ea0a8799538218430b4)
+[2022-10-17 15:43:26,790] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-17 15:43:28,001] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-17 15:43:31,581] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-17 15:43:32,145] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-17 15:43:36,155] TC_04 - Step 01: Click To Image Home Page
+[2022-10-17 15:43:36,681] TC_04 - Step 02: Add Product to Compare list
+[2022-10-17 15:43:36,768] TC_04 - Step 03: Verify add  to compare success message is displayed 
+[2022-10-17 15:43:37,118]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:43:37,118] TC_04 - Step 04: Click to close button
+[2022-10-17 15:43:37,216] TC_04 - Step 05: Add Product to Compare list
+[2022-10-17 15:43:37,354] TC_04 - Step 06: Verify add  to compare success message is displayed 
+[2022-10-17 15:43:37,416]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:43:37,417] TC_04 - Step 07: Click to close button
+[2022-10-17 15:43:37,481] TC_04 - Step 08: Open Compare Product list Page 
+[2022-10-17 15:43:38,553] TC_04 - Step 09: Verify Product info is displayed 
+[2022-10-17 15:43:38,621]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:43:38,687]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:43:38,750]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:43:38,812]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:43:38,813] TC_04 - Step 10: Click To Clear list button
+[2022-10-17 15:43:39,793] TC_04 - Step 11: Verify  message is displayed 
+[2022-10-17 15:43:39,868]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:43:39,868] TC_04 - Step 12: Verify  Product  is undisplayed after click clear list button 
+[2022-10-17 15:43:50,186]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:44:00,258]  -------------------------- PASSED -------------------------- 
+[2022-10-17 15:44:00,748] OS name = windows 10
+[2022-10-17 15:44:00,749] Driver instance name = chromedriver: chrome on windows (b2fa93a04ecb37d89e540fd3c935dc0b)
+[2022-10-18 17:54:56,696] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-18 17:54:59,135] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-18 17:55:03,046] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-18 17:55:03,737] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-18 17:55:14,115] TC_05 - Step 01: Click To Image Home Page
+[2022-10-18 17:55:14,732] TC_05 - Step 02: Open the notebook product list
+[2022-10-18 17:55:18,363] TC_05 - Step 03: Click to a product at Page 
+[2022-10-18 17:55:20,494] TC_05 - Step 04: Back to notebook product list page
+[2022-10-18 17:55:20,967] TC_05 - Step 05: Click to a product at Page 
+[2022-10-18 17:55:22,751] TC_05 - Step 06: Back to notebook product list page
+[2022-10-18 17:55:23,645] TC_05 - Step 07: Click to a product at Page 
+[2022-10-18 17:55:25,757] TC_05 - Step 08: Back to notebook product list page
+[2022-10-18 17:55:26,261] TC_05 - Step 09: Click to a product at Page 
+[2022-10-18 17:55:27,563] TC_05 - Step 10: Back to notebook product list page
+[2022-10-18 17:55:28,031] TC_05 - Step 11: Click to a product at Page 
+[2022-10-18 17:55:29,264] TC_05 - Step 12: open Recently viewed product page 
+[2022-10-18 17:55:30,012] TC_05 - Step 13: Verify the number of products displayed on the page 
+[2022-10-18 17:55:30,083]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:55:30,083] TC_05 - Step 14: Verify the product name displayed on the page
+[2022-10-18 17:55:30,134]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:55:30,134] TC_05 - Step 15: Verify the product name displayed on the page
+[2022-10-18 17:55:30,179]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:55:30,179] TC_05 - Step 16: Verify the product name displayed on the page
+[2022-10-18 17:55:30,233]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:55:30,867] OS name = windows 10
+[2022-10-18 17:55:30,867] Driver instance name = chromedriver: chrome on windows (b772d3c86554fa50ca0d7ec9769425f1)
+[2022-10-18 17:57:25,394] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-18 17:57:26,199] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-18 17:57:29,581] Pre-Condition - Step 03: Click To Image Home Page
+[2022-10-18 17:57:30,145] Pre-condition - Step 04: Click to a product  at Home Page
+[2022-10-18 17:57:32,608] TC_01 - Step 01: Click to add to wishlist
+[2022-10-18 17:57:32,731] TC_01 - Step 02: Verify success message is displayed 
+[2022-10-18 17:57:33,093]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:57:33,093] TC_01 - Step 03: Click to close button
+[2022-10-18 17:57:33,178] TC_01 - Step 04: Click to Wishlist link 
+[2022-10-18 17:57:34,785] TC_01 - Step 05: Verify Product is displayed at wishlist Page 
+[2022-10-18 17:57:34,841]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:57:34,841] TC_01 - Step 06: Click to wishlist URL
+[2022-10-18 17:57:35,262] TC_01 - Step 07: Verify Product is displayed at wishlist Page 
+[2022-10-18 17:57:35,312]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:57:35,366] TC_02 - Step 01: Back To Wishlist Page 
+[2022-10-18 17:57:35,722] TC_02 - Step 02: Click to Checkbox Add to cart
+[2022-10-18 17:57:35,906] TC_02 - Step 03: Click to button Add to cart
+[2022-10-18 17:57:36,876] TC_02 - Step 04: Verify Product is displayed at wishlist Page 
+[2022-10-18 17:57:37,045]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:57:37,045] TC_02 - Step 05: Click to Wishlist link 
+[2022-10-18 17:57:37,433] TC_02 - Step 06: Verify Product is Undisplayed at wishlist Page 
+[2022-10-18 17:57:47,627]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:57:47,635] TC_03 - Step 01: Click To Image Home Page
+[2022-10-18 17:57:48,186] TC_03 - Step 02: Click to a product  at Home Page
+[2022-10-18 17:57:49,160] TC_03 - Step 03: Click to add to wishlist
+[2022-10-18 17:57:49,274] TC_03 - Step 04: Verify success message is displayed 
+[2022-10-18 17:57:49,624]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:57:49,624] TC_03 - Step 05: Click to close button
+[2022-10-18 17:57:49,699] TC_03 - Step 06: Click to Wishlist link 
+[2022-10-18 17:57:51,180] TC_03 - Step 07: Click to  Remove
+[2022-10-18 17:57:51,615] TC_03 - Step 08: Verify message is displayed 
+[2022-10-18 17:57:51,686]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:57:51,687] TC_03 - Step 09: Verify Product is Undisplayed at wishlist Page 
+[2022-10-18 17:58:01,738]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:01,748] TC_04 - Step 01: Click To Image Home Page
+[2022-10-18 17:58:02,275] TC_04 - Step 02: Add Product to Compare list
+[2022-10-18 17:58:02,358] TC_04 - Step 03: Verify add  to compare success message is displayed 
+[2022-10-18 17:58:02,693]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:02,693] TC_04 - Step 04: Click to close button
+[2022-10-18 17:58:02,762] TC_04 - Step 05: Add Product to Compare list
+[2022-10-18 17:58:02,844] TC_04 - Step 06: Verify add  to compare success message is displayed 
+[2022-10-18 17:58:03,103]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:03,103] TC_04 - Step 07: Click to close button
+[2022-10-18 17:58:03,404] TC_04 - Step 08: Open Compare Product list Page 
+[2022-10-18 17:58:04,297] TC_04 - Step 09: Verify Product info is displayed 
+[2022-10-18 17:58:04,353]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:04,404]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:04,456]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:04,510]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:04,510] TC_04 - Step 10: Click To Clear list button
+[2022-10-18 17:58:05,233] TC_04 - Step 11: Verify  message is displayed 
+[2022-10-18 17:58:05,283]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:05,283] TC_04 - Step 12: Verify  Product  is undisplayed after click clear list button 
+[2022-10-18 17:58:15,410]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:25,473]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:25,479] TC_05 - Step 01: Click To Image Home Page
+[2022-10-18 17:58:26,003] TC_05 - Step 02: Open the notebook product list
+[2022-10-18 17:58:26,961] TC_05 - Step 03: Click to a product at Page 
+[2022-10-18 17:58:27,783] TC_05 - Step 04: Back to notebook product list page
+[2022-10-18 17:58:28,199] TC_05 - Step 05: Click to a product at Page 
+[2022-10-18 17:58:29,064] TC_05 - Step 06: Back to notebook product list page
+[2022-10-18 17:58:29,459] TC_05 - Step 07: Click to a product at Page 
+[2022-10-18 17:58:30,702] TC_05 - Step 08: Back to notebook product list page
+[2022-10-18 17:58:31,139] TC_05 - Step 09: Click to a product at Page 
+[2022-10-18 17:58:31,994] TC_05 - Step 10: Back to notebook product list page
+[2022-10-18 17:58:32,457] TC_05 - Step 11: Click to a product at Page 
+[2022-10-18 17:58:33,360] TC_05 - Step 12: open Recently viewed product page 
+[2022-10-18 17:58:33,943] TC_05 - Step 13: Verify the number of products displayed on the page 
+[2022-10-18 17:58:34,012]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:34,012] TC_05 - Step 14: Verify the product name displayed on the page
+[2022-10-18 17:58:34,059]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:34,059] TC_05 - Step 15: Verify the product name displayed on the page
+[2022-10-18 17:58:34,107]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:34,107] TC_05 - Step 16: Verify the product name displayed on the page
+[2022-10-18 17:58:34,164]  -------------------------- PASSED -------------------------- 
+[2022-10-18 17:58:34,174] OS name = windows 10
+[2022-10-18 17:58:34,174] Driver instance name = chromedriver: chrome on windows (b47f0f55970a405a534c53b02380e374)
+[2022-10-19 16:53:58,048] OS name = windows 10
+[2022-10-19 16:53:58,151] Driver instance name = chromedriver: chrome on windows (e001b17bbfef5bfe7dd042520ff7865b)
+[2022-10-19 16:58:02,545] OS name = windows 10
+[2022-10-19 16:58:02,595] Driver instance name = chromedriver: chrome on windows (62fc6619597a78351acb7aa95218479d)
+[2022-10-19 17:02:24,868] OS name = windows 10
+[2022-10-19 17:02:24,868] Driver instance name = chromedriver: chrome on windows (08fcf6b440abaf3837766fdc5b6508fd)
+[2022-10-19 17:10:53,555] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-19 17:10:55,436] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-19 17:10:58,842] OS name = windows 10
+[2022-10-19 17:10:58,842] Driver instance name = chromedriver: chrome on windows (8a4e23a51d47f1b4142c6b2cdea28283)
+[2022-10-19 17:13:01,599] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-19 17:13:02,316] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-19 17:13:05,581] Precondition: Open the notebook page
+[2022-10-19 17:13:07,569] Pre-condition - Step 04: Click to a product  at Categogy Page
+[2022-10-19 17:13:21,615] TC_01 - Step 01: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-19 17:13:22,463] TC_01 - Step 02: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-19 17:13:22,848] TC_01 - Step 03: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-19 17:14:03,973] OS name = windows 10
+[2022-10-19 17:14:03,973] Driver instance name = chromedriver: chrome on windows (9711aadaec2d4294f6889831ed33c366)
+[2022-10-19 17:19:15,828] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-19 17:19:16,912] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-19 17:19:20,310] Precondition: Open the notebook page
+[2022-10-19 17:19:22,058] Pre-condition - Step 04: Click to a product  at Categogy Page
+[2022-10-19 17:19:26,303] TC_01 - Step 01: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-19 17:19:26,456] TC_01 - Step 02: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-19 17:19:26,729] TC_01 - Step 03: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-19 17:19:26,854] TC_01 - Step 04: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-19 17:19:26,958] TC_01 - Step 05: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-19 17:19:27,078] TC_01 - Step 06: Select Software with value is :Total Commander [+$5.00]
+[2022-10-19 17:19:27,178] TC_01 - Step 07: Click To 'Add to Cart' button
+[2022-10-19 17:19:27,287] TC_01 - Step 08: Verify 'Add to cart' success message displayed
+[2022-10-19 17:19:28,093]  -------------------------- PASSED -------------------------- 
+[2022-10-19 17:19:28,093] TC_01 - Step 09: Click To 'Close' button
+[2022-10-19 17:19:28,206] TC_01 - Step 10: Move To 'Shopping Cart' link
+[2022-10-19 17:19:28,387] TC_01 - Step 11: Verify Product info displayed at Shopping  cart
+[2022-10-19 17:19:38,531]  -------------------------- PASSED -------------------------- 
+[2022-10-19 17:19:38,595] OS name = windows 10
+[2022-10-19 17:19:38,595] Driver instance name = chromedriver: chrome on windows (601b9afaea07fb43d911996c78df3e0c)
+[2022-10-19 17:46:58,815] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-19 17:46:59,991] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-19 17:47:03,256] Precondition: Open the notebook page
+[2022-10-19 17:47:04,874] Pre-condition - Step 04: Click to a product  at Categogy Page
+[2022-10-19 17:47:07,606] TC_01 - Step 01: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-19 17:47:07,914] TC_01 - Step 02: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-19 17:47:08,062] TC_01 - Step 03: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-19 17:47:08,173] TC_01 - Step 04: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-19 17:47:08,267] TC_01 - Step 05: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-19 17:47:08,378] TC_01 - Step 06: Select Software with value is :Total Commander [+$5.00]
+[2022-10-19 17:47:08,474] TC_01 - Step 07: Click To 'Add to Cart' button
+[2022-10-19 17:47:08,554] TC_01 - Step 08: Verify 'Add to cart' success message displayed
+[2022-10-19 17:47:09,430]  -------------------------- PASSED -------------------------- 
+[2022-10-19 17:47:09,431] TC_01 - Step 09: Click To 'Close' button
+[2022-10-19 17:47:09,543] TC_01 - Step 10: Move To 'Shopping Cart' link
+[2022-10-19 17:47:09,725] TC_01 - Step 11: Verify Product info displayed at Mini Shopping  cart
+[2022-10-19 17:47:10,831]  -------------------------- PASSED -------------------------- 
+[2022-10-19 17:47:10,897]  -------------------------- PASSED -------------------------- 
+[2022-10-19 17:47:51,705] OS name = windows 10
+[2022-10-19 17:47:51,705] Driver instance name = chromedriver: chrome on windows (b99ce2cdd8f286b8d1565fc596877056)
+[2022-10-19 18:00:07,025] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-19 18:00:09,689] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-19 18:00:13,665] Precondition: Open the notebook page
+[2022-10-19 18:00:15,941] Pre-condition - Step 04: Click to a product  at Categogy Page
+[2022-10-19 18:00:20,866] TC_01 - Step 01: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-19 18:00:21,219] TC_01 - Step 02: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-19 18:00:21,447] TC_01 - Step 03: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-19 18:00:21,555] TC_01 - Step 04: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-19 18:00:21,654] TC_01 - Step 05: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-19 18:00:21,750] TC_01 - Step 06: Select Software with value is :Total Commander [+$5.00]
+[2022-10-19 18:00:21,843] TC_01 - Step 07: Click To 'Add to Cart' button
+[2022-10-19 18:00:21,929] TC_01 - Step 08: Verify 'Add to cart' success message displayed
+[2022-10-19 18:00:22,761]  -------------------------- PASSED -------------------------- 
+[2022-10-19 18:00:22,762] TC_01 - Step 09: Click To 'Close' button
+[2022-10-19 18:00:22,851] TC_01 - Step 10: Move To 'Shopping Cart' link
+[2022-10-19 18:00:23,049] TC_01 - Step 11: Verify Product info displayed at Mini Shopping  cart
+[2022-10-19 18:00:24,311]  -------------------------- PASSED -------------------------- 
+[2022-10-19 18:00:24,365]  -------------------------- PASSED -------------------------- 
+[2022-10-19 18:00:24,422]  -------------------------- FAILED -------------------------- 
+[2022-10-19 18:00:24,501]  -------------------------- PASSED -------------------------- 
+[2022-10-19 18:00:24,556]  -------------------------- FAILED -------------------------- 
+[2022-10-19 18:00:24,556] TC_01 - Step 12: Click To 'Shopping Cart' link
+[2022-10-19 18:00:25,198] TC_01 - Step 13: Verify Product displayed at Shopping  cart
+[2022-10-19 18:00:25,250]  -------------------------- PASSED -------------------------- 
+[2022-10-19 18:00:25,534] OS name = windows 10
+[2022-10-19 18:00:25,534] Driver instance name = chromedriver: chrome on windows (3877398e6b4f767a3d1a6ac20386451e)
+[2022-10-20 10:34:01,123] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-20 10:34:02,510] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-20 10:34:05,702] Precondition: Open the notebook page
+[2022-10-20 10:34:08,529] Pre-condition - Step 04: Click to a product  at Categogy Page
+[2022-10-20 10:34:12,307] TC_01 - Step 01: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-20 10:34:12,476] TC_01 - Step 02: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-20 10:34:12,719] TC_01 - Step 03: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-20 10:34:12,825] TC_01 - Step 04: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-20 10:34:12,930] TC_01 - Step 05: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-20 10:34:13,036] TC_01 - Step 06: Select Software with value is :Total Commander [+$5.00]
+[2022-10-20 10:34:13,141] TC_01 - Step 07: Click To 'Add to Cart' button
+[2022-10-20 10:34:13,225] TC_01 - Step 08: Verify 'Add to cart' success message displayed
+[2022-10-20 10:34:14,068]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:14,068] TC_01 - Step 09: Click To 'Close' button
+[2022-10-20 10:34:14,156] TC_01 - Step 10: Move To 'Shopping Cart' link
+[2022-10-20 10:34:14,334] TC_01 - Step 11: Verify Product info displayed at Mini Shopping  cart
+[2022-10-20 10:34:15,434]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:15,500]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:15,556]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:15,618]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:15,689]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:15,751]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:15,809]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:15,859]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:15,911]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:15,967]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:15,967] TC_01 - Step 12: Click To 'Shopping Cart' link
+[2022-10-20 10:34:17,983] TC_01 - Step 13: Verify Product displayed at Shopping  cart
+[2022-10-20 10:34:18,035]  -------------------------- PASSED -------------------------- 
+[2022-10-20 10:34:18,344] OS name = windows 10
+[2022-10-20 10:34:18,344] Driver instance name = chromedriver: chrome on windows (48bf68d552359add4bebbc053147472d)
+[2022-10-20 16:33:37,065] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-20 16:33:40,419] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-20 16:33:43,554] Precondition: Step 03: Open the desktops page
+[2022-10-20 16:33:45,264] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-20 16:33:47,075] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-20 16:33:47,216] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-20 16:33:47,401] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-20 16:33:47,505] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-20 16:33:47,605] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-20 16:33:47,706] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-20 16:33:47,797] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-20 16:33:47,888] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-20 16:33:48,289]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:48,290] TC_01 - Step 010: Click To 'Close' button
+[2022-10-20 16:33:48,418] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-20 16:33:48,637] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-20 16:33:49,738]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:49,788]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:49,838]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:49,888]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:49,936]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:49,984]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:50,031]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:50,084]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:50,138]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:50,187]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:50,187] TC_01 - Step 13: Click To 'Shopping Cart' link
+[2022-10-20 16:33:51,091] TC_01 - Step 14: Verify Product displayed at Shopping  cart
+[2022-10-20 16:33:51,144]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:51,191] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-20 16:33:52,149] TC_02 - Step 02: Select edit Processor with value is: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-10-20 16:33:52,246] TC_02 - Step 03: Select edit Ram with value is: 4GB [+$20.00]
+[2022-10-20 16:33:52,344] TC_02 - Step 04: Select edit HDD with value is :320 GB
+[2022-10-20 16:33:52,457] TC_02 - Step 05: Select edit OS with value is: Vista Home [+$50.00]
+[2022-10-20 16:33:52,576] TC_02 - Step 06: Uncheck to checkbox software value is:Acrobat Reader [+$10.00]
+[2022-10-20 16:33:52,672] TC_02 - Step 07: Uncheck to checkbox software value is:Total Commander [+$5.00]
+[2022-10-20 16:33:52,770] TC_02 - Step 08: Input to quantity textbox with value is : 2
+[2022-10-20 16:33:52,917] TC_02 - Step 09: Verify price Product after edit info
+[2022-10-20 16:33:52,969]  -------------------------- FAILED -------------------------- 
+[2022-10-20 16:33:52,969] TC_02 - Step 10: Click to 'Update' button
+[2022-10-20 16:33:53,048] TC_02 - Step 11: Verify 'Add to cart' success message displayed
+[2022-10-20 16:33:53,372]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:33:53,372] TC_02 - Step 12: Click To 'Close' button
+[2022-10-20 16:33:53,448] TC_02 - Step 13: Click To 'Shopping Cart' link
+[2022-10-20 16:33:54,692] TC_03 - Step 01: Click to  Remove button
+[2022-10-20 16:34:35,422] TC_04 - Step 01:  Open the desktops page
+[2022-10-20 16:34:36,332] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-20 16:34:36,452] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-20 16:34:36,784]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:34:36,785] TC_04 - Step 04: Click to close button
+[2022-10-20 16:34:36,865] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-20 16:34:37,961] OS name = windows 10
+[2022-10-20 16:34:37,962] Driver instance name = chromedriver: chrome on windows (703aa6d9a8528e90e14f2b1a44b1778b)
+[2022-10-20 16:45:20,665] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-20 16:45:21,728] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-20 16:45:25,093] Precondition: Step 03: Open the desktops page
+[2022-10-20 16:45:26,607] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-20 16:45:30,266] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-20 16:45:30,380] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-20 16:45:30,527] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-20 16:45:30,633] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-20 16:45:30,734] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-20 16:45:30,837] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-20 16:45:30,949] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-20 16:45:31,044] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-20 16:45:31,432]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:31,433] TC_01 - Step 010: Click To 'Close' button
+[2022-10-20 16:45:31,520] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-20 16:45:31,674] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-20 16:45:32,783]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:32,849]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:32,927]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:32,982]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:33,057]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:33,111]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:33,163]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:33,228]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:33,280]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:33,335]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:33,336] TC_01 - Step 13: Click To 'Shopping Cart' link
+[2022-10-20 16:45:34,081] TC_01 - Step 14: Verify Product displayed at Shopping  cart
+[2022-10-20 16:45:34,140]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:34,527] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-20 16:45:36,466] TC_02 - Step 02: Select edit Processor with value is: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-10-20 16:45:36,594] TC_02 - Step 03: Select edit Ram with value is: 4GB [+$20.00]
+[2022-10-20 16:45:36,736] TC_02 - Step 04: Select edit HDD with value is :320 GB
+[2022-10-20 16:45:36,843] TC_02 - Step 05: Select edit OS with value is: Vista Home [+$50.00]
+[2022-10-20 16:45:36,954] TC_02 - Step 06: Uncheck to checkbox software value is:Acrobat Reader [+$10.00]
+[2022-10-20 16:45:37,051] TC_02 - Step 07: Uncheck to checkbox software value is:Total Commander [+$5.00]
+[2022-10-20 16:45:37,146] TC_02 - Step 08: Input to quantity textbox with value is : 2
+[2022-10-20 16:45:37,283] TC_02 - Step 09: Verify price Product after edit info
+[2022-10-20 16:45:37,337]  -------------------------- FAILED -------------------------- 
+[2022-10-20 16:45:37,337] TC_02 - Step 10: Click to 'Update' button
+[2022-10-20 16:45:37,425] TC_02 - Step 11: Verify 'Add to cart' success message displayed
+[2022-10-20 16:45:37,747]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:45:37,748] TC_02 - Step 12: Click To 'Close' button
+[2022-10-20 16:45:37,827] TC_02 - Step 13: Click To 'Shopping Cart' link
+[2022-10-20 16:45:39,201] TC_03 - Step 01: Click to  Remove button
+[2022-10-20 16:46:19,841] TC_04 - Step 01:  Open the desktops page
+[2022-10-20 16:46:21,142] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-20 16:46:21,245] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-20 16:46:21,597]  -------------------------- PASSED -------------------------- 
+[2022-10-20 16:46:21,598] TC_04 - Step 04: Click to close button
+[2022-10-20 16:46:21,696] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-20 16:46:23,311] TC_04 - Step 06: Edit quantity product
+[2022-10-20 16:47:03,871] OS name = windows 10
+[2022-10-20 16:47:03,872] Driver instance name = chromedriver: chrome on windows (dfbce89bddd238b88370bd7ca10a729d)
+[2022-10-21 10:00:45,673] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-21 10:00:47,425] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-21 10:00:50,671] Precondition: Step 03: Open the desktops page
+[2022-10-21 10:00:58,032] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-21 10:01:02,789] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-21 10:01:03,034] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-21 10:01:03,220] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-21 10:01:03,327] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-21 10:01:03,428] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-21 10:01:03,533] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-21 10:01:03,635] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-21 10:01:03,734] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-21 10:01:04,600]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:01:04,601] TC_01 - Step 010: Click To 'Close' button
+[2022-10-21 10:01:04,679] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-21 10:01:04,840] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-21 10:01:35,808] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-21 10:01:35,815] TC_03 - Step 01: Click to  Remove button
+[2022-10-21 10:01:35,822] TC_04 - Step 01:  Open the desktops page
+[2022-10-21 10:01:37,174] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-21 10:01:37,281] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-21 10:01:37,705]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:01:37,705] TC_04 - Step 04: Click to close button
+[2022-10-21 10:01:37,794] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-21 10:01:39,193] OS name = windows 10
+[2022-10-21 10:01:39,193] Driver instance name = chromedriver: chrome on windows (cbc29d3a06641280f812e12d0dd7ddc6)
+[2022-10-21 10:11:10,570] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-21 10:11:16,399] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-21 10:11:19,591] Precondition: Step 03: Open the desktops page
+[2022-10-21 10:11:24,424] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-21 10:11:28,233] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-21 10:11:28,536] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-21 10:11:29,121] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-21 10:11:29,256] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-21 10:11:29,357] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-21 10:11:29,460] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-21 10:11:29,558] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-21 10:11:29,648] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-21 10:11:30,503]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:30,503] TC_01 - Step 010: Click To 'Close' button
+[2022-10-21 10:11:30,584] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-21 10:11:30,733] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-21 10:11:39,194]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:39,248]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:39,298]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:39,350]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:39,417]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:39,469]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:39,517]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:39,567]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:39,617]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:39,665]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:39,665] TC_01 - Step 13: Click To 'Shopping Cart' link
+[2022-10-21 10:11:42,113] TC_01 - Step 14: Verify Product displayed at Shopping  cart
+[2022-10-21 10:11:42,174]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:42,896] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-21 10:11:47,401] TC_02 - Step 02: Select edit Processor with value is: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-10-21 10:11:47,527] TC_02 - Step 03: Select edit Ram with value is: 4GB [+$20.00]
+[2022-10-21 10:11:47,635] TC_02 - Step 04: Select edit HDD with value is :320 GB
+[2022-10-21 10:11:47,727] TC_02 - Step 05: Select edit OS with value is: Vista Home [+$50.00]
+[2022-10-21 10:11:47,816] TC_02 - Step 06: Uncheck to checkbox software value is:Acrobat Reader [+$10.00]
+[2022-10-21 10:11:47,941] TC_02 - Step 07: Uncheck to checkbox software value is:Total Commander [+$5.00]
+[2022-10-21 10:11:48,028] TC_02 - Step 08: Input to quantity textbox with value is : 2
+[2022-10-21 10:11:48,167] TC_02 - Step 09: Verify price Product after edit info
+[2022-10-21 10:11:48,218]  -------------------------- FAILED -------------------------- 
+[2022-10-21 10:11:48,218] TC_02 - Step 10: Click to 'Update' button
+[2022-10-21 10:11:48,302] TC_02 - Step 11: Verify 'Add to cart' success message displayed
+[2022-10-21 10:11:48,633]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:11:48,633] TC_02 - Step 12: Click To 'Close' button
+[2022-10-21 10:11:48,709] TC_02 - Step 13: Click To 'Shopping Cart' link
+[2022-10-21 10:11:50,008] TC_03 - Step 01: Click to  Remove button
+[2022-10-21 10:12:30,596] TC_04 - Step 01:  Open the desktops page
+[2022-10-21 10:12:31,895] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-21 10:12:32,023] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-21 10:12:32,389]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:12:32,389] TC_04 - Step 04: Click to close button
+[2022-10-21 10:12:32,477] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-21 10:12:34,595] TC_04 - Step 06: Edit quantity product
+[2022-10-21 10:13:15,174] OS name = windows 10
+[2022-10-21 10:13:15,174] Driver instance name = chromedriver: chrome on windows (983b67348f7588fca53307e4a16ae974)
+[2022-10-21 10:23:44,651] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-21 10:23:52,698] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-21 10:23:56,113] Precondition: Step 03: Open the desktops page
+[2022-10-21 10:24:00,946] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-21 10:24:02,822] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-21 10:24:03,124] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-21 10:24:03,248] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-21 10:24:03,354] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-21 10:24:03,454] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-21 10:24:03,553] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-21 10:24:03,652] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-21 10:24:03,749] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-21 10:24:04,081]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:04,081] TC_01 - Step 010: Click To 'Close' button
+[2022-10-21 10:24:04,157] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-21 10:24:04,311] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-21 10:24:05,426]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:05,484]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:05,540]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:05,589]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:05,636]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:05,686]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:05,735]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:05,787]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:05,836]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:05,885]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:05,885] TC_01 - Step 13: Click To 'Shopping Cart' link
+[2022-10-21 10:24:06,814] TC_01 - Step 14: Verify Product displayed at Shopping  cart
+[2022-10-21 10:24:07,026]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:07,311] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-21 10:24:09,162] TC_02 - Step 02: Select edit Processor with value is: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-10-21 10:24:09,283] TC_02 - Step 03: Select edit Ram with value is: 4GB [+$20.00]
+[2022-10-21 10:24:09,386] TC_02 - Step 04: Select edit HDD with value is :320 GB
+[2022-10-21 10:24:09,515] TC_02 - Step 05: Select edit OS with value is: Vista Home [+$50.00]
+[2022-10-21 10:24:09,616] TC_02 - Step 08: Input to quantity textbox with value is : 2
+[2022-10-21 10:24:09,770] TC_02 - Step 06: Uncheck to checkbox software value is:Acrobat Reader [+$10.00]
+[2022-10-21 10:24:09,882] TC_02 - Step 07: Uncheck to checkbox software value is:Total Commander [+$5.00]
+[2022-10-21 10:24:09,979] TC_02 - Step 09: Verify price Product after edit info
+[2022-10-21 10:24:10,029]  -------------------------- FAILED -------------------------- 
+[2022-10-21 10:24:10,029] TC_02 - Step 10: Click to 'Update' button
+[2022-10-21 10:24:10,107] TC_02 - Step 11: Verify 'Add to cart' success message displayed
+[2022-10-21 10:24:10,448]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:10,448] TC_02 - Step 12: Click To 'Close' button
+[2022-10-21 10:24:10,522] TC_02 - Step 13: Click To 'Shopping Cart' link
+[2022-10-21 10:24:11,837] TC_03 - Step 01: Click to  Remove button
+[2022-10-21 10:24:52,405] TC_04 - Step 01:  Open the desktops page
+[2022-10-21 10:24:53,791] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-21 10:24:53,889] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-21 10:24:54,232]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:24:54,232] TC_04 - Step 04: Click to close button
+[2022-10-21 10:24:54,311] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-21 10:24:55,931] TC_04 - Step 06: Edit quantity product
+[2022-10-21 10:25:36,474] OS name = windows 10
+[2022-10-21 10:25:36,474] Driver instance name = chromedriver: chrome on windows (ba99cf5428f652576caaf3c944d60839)
+[2022-10-21 10:40:29,974] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-21 10:40:33,402] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-21 10:40:36,670] Precondition: Step 03: Open the desktops page
+[2022-10-21 10:41:08,316] OS name = windows 10
+[2022-10-21 10:41:08,316] Driver instance name = chromedriver: chrome on windows (8b80245c89b6aa314e37cf109ef5ae15)
+[2022-10-21 10:46:03,859] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-21 10:46:05,211] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-21 10:46:08,275] Precondition: Step 03: Open the desktops page
+[2022-10-21 10:46:11,967] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-21 10:46:16,454] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-21 10:46:16,632] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-21 10:46:16,743] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-21 10:46:16,844] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-21 10:46:16,953] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-21 10:46:17,071] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-21 10:46:17,186] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-21 10:46:17,280] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-21 10:46:18,186]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:18,186] TC_01 - Step 010: Click To 'Close' button
+[2022-10-21 10:46:18,272] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-21 10:46:18,435] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-21 10:46:19,543]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:19,594]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:19,652]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:19,707]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:19,767]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:19,817]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:19,869]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:19,923]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:19,977]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:20,036]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:20,036] TC_01 - Step 13: Click To 'Shopping Cart' link
+[2022-10-21 10:46:21,285] TC_01 - Step 14: Verify Product displayed at Shopping  cart
+[2022-10-21 10:46:21,337]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:22,370] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-21 10:46:25,023] TC_02 - Step 02: Select edit Processor with value is: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-10-21 10:46:25,155] TC_02 - Step 03: Select edit Ram with value is: 4GB [+$20.00]
+[2022-10-21 10:46:25,288] TC_02 - Step 04: Select edit HDD with value is :320 GB
+[2022-10-21 10:46:25,435] TC_02 - Step 05: Select edit OS with value is: Vista Home [+$50.00]
+[2022-10-21 10:46:25,559] TC_02 - Step 08: Input to quantity textbox with value is : 2
+[2022-10-21 10:46:25,704] TC_02 - Step 06: Uncheck to checkbox software value is:Acrobat Reader [+$10.00]
+[2022-10-21 10:46:25,809] TC_02 - Step 07: Uncheck to checkbox software value is:Total Commander [+$5.00]
+[2022-10-21 10:46:35,926] TC_02 - Step 09: Verify price Product after edit info
+[2022-10-21 10:46:35,991]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:35,991] TC_02 - Step 10: Click to 'Update' button
+[2022-10-21 10:46:36,091] TC_02 - Step 11: Verify 'Add to cart' success message displayed
+[2022-10-21 10:46:36,433]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:36,433] TC_02 - Step 12: Click To 'Close' button
+[2022-10-21 10:46:36,512] TC_02 - Step 13: Click To 'Shopping Cart' link
+[2022-10-21 10:46:38,085] TC_02 - Step 14: Verify Product info after edit info displayed 
+[2022-10-21 10:46:38,158]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:38,224]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:38,294]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:38,378]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:38,459]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:38,459] TC_02 - Step 15: Verify Total Price Product after edit info displayed 
+[2022-10-21 10:46:38,532]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:38,544] TC_03 - Step 01: Click to  Remove button
+[2022-10-21 10:46:39,194] TC_03 - Step 02: Verify message shopping cart empty displayed 
+[2022-10-21 10:46:39,257]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:46:39,257] TC_03 - Step 03: Verify Product is Undisplayed at Shopping Cart 
+[2022-10-21 10:47:19,852] TC_04 - Step 01:  Open the desktops page
+[2022-10-21 10:48:00,609] OS name = windows 10
+[2022-10-21 10:48:00,609] Driver instance name = chromedriver: chrome on windows (55035d3a60b9277fa61aeb4d3e9fbad7)
+[2022-10-21 10:57:18,949] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-21 10:57:20,630] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-21 10:57:24,115] Precondition: Step 03: Open the desktops page
+[2022-10-21 10:57:26,686] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-21 10:57:28,381] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-21 10:57:28,472] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-21 10:57:28,583] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-21 10:57:28,698] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-21 10:57:28,834] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-21 10:57:29,013] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-21 10:57:29,154] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-21 10:57:29,282] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-21 10:57:29,733]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:29,733] TC_01 - Step 010: Click To 'Close' button
+[2022-10-21 10:57:29,831] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-21 10:57:29,994] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-21 10:57:31,097]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:31,152]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:31,210]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:31,261]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:31,321]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:31,368]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:31,420]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:31,476]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:31,527]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:31,578]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:31,578] TC_01 - Step 13: Click To 'Shopping Cart' link
+[2022-10-21 10:57:32,529] TC_01 - Step 14: Verify Product displayed at Shopping  cart
+[2022-10-21 10:57:32,633]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:57:32,783] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-21 10:57:33,661] TC_02 - Step 02: Select edit Processor with value is: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-10-21 10:57:33,782] TC_02 - Step 03: Select edit Ram with value is: 4GB [+$20.00]
+[2022-10-21 10:57:33,904] TC_02 - Step 04: Select edit HDD with value is :320 GB
+[2022-10-21 10:57:34,000] TC_02 - Step 05: Select edit OS with value is: Vista Home [+$50.00]
+[2022-10-21 10:57:34,177] TC_02 - Step 08: Input to quantity textbox with value is : 2
+[2022-10-21 10:57:34,312] TC_02 - Step 06: Uncheck to checkbox software value is:Acrobat Reader [+$10.00]
+[2022-10-21 10:57:34,405] TC_02 - Step 07: Uncheck to checkbox software value is:Total Commander [+$5.00]
+[2022-10-21 10:57:34,501] TC_02 - Step 09: Verify price Product after edit info
+[2022-10-21 10:58:04,872] TC_03 - Step 01: Click to  Remove button
+[2022-10-21 10:58:46,101] TC_04 - Step 01:  Open the desktops page
+[2022-10-21 10:58:47,445] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-21 10:58:47,562] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-21 10:58:47,966]  -------------------------- PASSED -------------------------- 
+[2022-10-21 10:58:47,966] TC_04 - Step 04: Click to close button
+[2022-10-21 10:58:48,036] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-21 10:58:49,665] TC_04 - Step 06: Edit quantity product
+[2022-10-21 10:59:30,273] OS name = windows 10
+[2022-10-21 10:59:30,273] Driver instance name = chromedriver: chrome on windows (5a4ff2d0d6c37314b496e7d93e2419f2)
+[2022-10-21 11:23:11,200] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-21 11:23:13,672] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-21 11:23:16,995] Precondition: Step 03: Open the desktops page
+[2022-10-21 11:23:23,207] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-21 11:23:24,779] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-21 11:23:24,976] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-21 11:23:25,115] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-21 11:23:25,225] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-21 11:23:25,322] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-21 11:23:25,421] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-21 11:23:25,535] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-21 11:23:25,616] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-21 11:23:25,985]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:25,985] TC_01 - Step 010: Click To 'Close' button
+[2022-10-21 11:23:26,073] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-21 11:23:26,229] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-21 11:23:27,382]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:27,453]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:27,502]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:27,550]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:27,599]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:27,652]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:27,699]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:27,750]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:27,801]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:27,854]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:27,854] TC_01 - Step 13: Click To 'Shopping Cart' link
+[2022-10-21 11:23:28,646] TC_01 - Step 14: Verify Product displayed at Shopping  cart
+[2022-10-21 11:23:28,702]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:29,177] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-21 11:23:30,844] TC_02 - Step 02: Select edit Processor with value is: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-10-21 11:23:30,944] TC_02 - Step 03: Select edit Ram with value is: 4GB [+$20.00]
+[2022-10-21 11:23:31,042] TC_02 - Step 04: Select edit HDD with value is :320 GB
+[2022-10-21 11:23:31,137] TC_02 - Step 05: Select edit OS with value is: Vista Home [+$50.00]
+[2022-10-21 11:23:31,241] TC_02 - Step 08: Input to quantity textbox with value is : 2
+[2022-10-21 11:23:31,389] TC_02 - Step 06: Uncheck to checkbox software value is:Acrobat Reader [+$10.00]
+[2022-10-21 11:23:31,482] TC_02 - Step 07: Uncheck to checkbox software value is:Total Commander [+$5.00]
+[2022-10-21 11:23:31,570] TC_02 - Step 09: Verify price Product after edit info
+[2022-10-21 11:23:33,638]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:33,638] TC_02 - Step 10: Click to 'Update' button
+[2022-10-21 11:23:33,715] TC_02 - Step 11: Verify 'Add to cart' success message displayed
+[2022-10-21 11:23:34,092]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:34,092] TC_02 - Step 12: Click To 'Close' button
+[2022-10-21 11:23:34,168] TC_02 - Step 13: Click To 'Shopping Cart' link
+[2022-10-21 11:23:35,663] TC_02 - Step 14: Verify Product info after edit info displayed 
+[2022-10-21 11:23:35,721]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:35,779]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:35,831]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:35,906]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:35,974]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:35,974] TC_02 - Step 15: Verify Total Price Product after edit info displayed 
+[2022-10-21 11:23:36,033]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:36,040] TC_03 - Step 01: Click to  Remove button
+[2022-10-21 11:23:36,568] TC_03 - Step 02: Verify message shopping cart empty displayed 
+[2022-10-21 11:23:36,627]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:36,627] TC_03 - Step 03: Verify Product is Undisplayed at Shopping Cart 
+[2022-10-21 11:23:46,720]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:47,301] TC_04 - Step 01:  Open the desktops page
+[2022-10-21 11:23:48,070] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-21 11:23:48,176] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-21 11:23:48,519]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:23:48,519] TC_04 - Step 04: Click to close button
+[2022-10-21 11:23:48,591] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-21 11:23:49,730] OS name = windows 10
+[2022-10-21 11:23:49,731] Driver instance name = chromedriver: chrome on windows (cb6137dd1309c930114f546d6e607f4a)
+[2022-10-21 11:52:21,218] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-21 11:52:25,168] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-21 11:52:28,379] Precondition: Step 03: Open the desktops page
+[2022-10-21 11:53:00,168] OS name = windows 10
+[2022-10-21 11:53:00,169] Driver instance name = chromedriver: chrome on windows (168d025003e221fad0d5ae5ebc8fa31a)
+[2022-10-21 11:53:56,300] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-21 11:53:58,616] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-21 11:54:01,931] Precondition: Step 03: Open the desktops page
+[2022-10-21 11:54:06,703] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-21 11:54:10,167] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-21 11:54:10,687] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-21 11:54:10,961] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-21 11:54:11,056] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-21 11:54:11,164] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-21 11:54:11,272] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-21 11:54:11,376] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-21 11:54:11,465] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-21 11:54:12,319]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:54:12,320] TC_01 - Step 010: Click To 'Close' button
+[2022-10-21 11:54:12,398] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-21 11:54:53,240] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-21 11:54:53,248] TC_03 - Step 01: Click to  Remove button
+[2022-10-21 11:54:53,866] TC_04 - Step 01:  Open the desktops page
+[2022-10-21 11:54:55,246] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-21 11:54:55,364] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-21 11:54:55,715]  -------------------------- PASSED -------------------------- 
+[2022-10-21 11:54:55,715] TC_04 - Step 04: Click to close button
+[2022-10-21 11:54:55,799] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-21 11:54:57,753] TC_04 - Step 06: Edit quantity product
+[2022-10-21 11:55:38,306] OS name = windows 10
+[2022-10-21 11:55:38,307] Driver instance name = chromedriver: chrome on windows (130b51c16d90fda4bd31fdbe616b3144)
+[2022-10-26 16:00:57,751] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-26 16:01:01,347] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-26 16:01:05,011] Precondition: Step 03: Open the desktops page
+[2022-10-26 16:01:08,131] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-26 16:01:10,384] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-26 16:01:10,629] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-26 16:01:10,857] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-26 16:01:10,959] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-26 16:01:11,052] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-26 16:01:11,232] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-26 16:01:11,364] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-26 16:01:11,485] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-26 16:01:11,883]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:01:11,884] TC_01 - Step 010: Click To 'Close' button
+[2022-10-26 16:01:11,963] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-26 16:01:52,985] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-26 16:01:52,994] TC_03 - Step 01: Click to  Remove button
+[2022-10-26 16:01:54,094] TC_04 - Step 01:  Open the desktops page
+[2022-10-26 16:01:55,989] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-26 16:01:56,078] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-26 16:01:56,478]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:01:56,478] TC_04 - Step 04: Click to close button
+[2022-10-26 16:01:56,565] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-26 16:01:58,725] TC_04 - Step 06: Edit quantity product
+[2022-10-26 16:01:58,736] OS name = windows 10
+[2022-10-26 16:01:58,736] Driver instance name = chromedriver: chrome on windows (bb6cf290944588c65d91442095e02974)
+[2022-10-26 16:17:08,099] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-26 16:17:09,969] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-26 16:17:13,414] Precondition: Step 03: Open the desktops page
+[2022-10-26 16:17:17,865] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-26 16:17:19,158] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-26 16:17:19,320] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-26 16:17:19,526] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-26 16:17:19,646] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-26 16:17:19,741] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-26 16:17:19,854] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-26 16:17:19,954] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-26 16:17:20,042] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-26 16:17:21,138]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:21,139] TC_01 - Step 010: Click To 'Close' button
+[2022-10-26 16:17:21,225] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-26 16:17:21,406] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-26 16:17:22,505]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:22,559]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:22,640]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:22,693]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:22,742]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:22,791]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:22,837]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:22,886]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:22,937]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:22,985]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:22,985] TC_01 - Step 13: Click To 'Shopping Cart' link
+[2022-10-26 16:17:23,902] TC_01 - Step 14: Verify Product displayed at Shopping  cart
+[2022-10-26 16:17:24,405] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-26 16:17:24,412] TC_03 - Step 01: Click to  Remove button
+[2022-10-26 16:17:25,191] TC_04 - Step 01:  Open the desktops page
+[2022-10-26 16:17:25,968] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-26 16:17:26,050] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-26 16:17:26,383]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:17:26,384] TC_04 - Step 04: Click to close button
+[2022-10-26 16:17:26,463] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-26 16:17:27,941] TC_04 - Step 06: Edit quantity product
+[2022-10-26 16:17:27,947] OS name = windows 10
+[2022-10-26 16:17:27,947] Driver instance name = chromedriver: chrome on windows (0feb5dce9023c436dac59f0163140b66)
+[2022-10-26 16:19:53,106] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-26 16:19:54,222] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-26 16:19:58,077] Precondition: Step 03: Open the desktops page
+[2022-10-26 16:19:59,116] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-26 16:20:00,356] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-26 16:20:00,456] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-26 16:20:00,589] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-26 16:20:00,703] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-26 16:20:00,810] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-26 16:20:00,939] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-26 16:20:01,045] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-26 16:20:01,129] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-26 16:20:01,512]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:01,512] TC_01 - Step 010: Click To 'Close' button
+[2022-10-26 16:20:01,586] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-26 16:20:01,749] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-26 16:20:02,848]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:02,896]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:02,950]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:03,004]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:03,054]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:03,107]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:03,155]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:03,205]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:03,259]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:03,310]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:03,310] TC_01 - Step 13: Click To 'Shopping Cart' link
+[2022-10-26 16:20:03,875] TC_01 - Step 14: Verify Product displayed at Shopping  cart
+[2022-10-26 16:20:03,944]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:04,000] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-26 16:20:05,430] TC_02 - Step 02: Select edit Processor with value is: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-10-26 16:20:05,544] TC_02 - Step 03: Select edit Ram with value is: 4GB [+$20.00]
+[2022-10-26 16:20:05,638] TC_02 - Step 04: Select edit HDD with value is :320 GB
+[2022-10-26 16:20:05,725] TC_02 - Step 05: Select edit OS with value is: Vista Home [+$50.00]
+[2022-10-26 16:20:05,822] TC_02 - Step 08: Input to quantity textbox with value is : 2
+[2022-10-26 16:20:05,951] TC_02 - Step 06: Uncheck to checkbox software value is:Acrobat Reader [+$10.00]
+[2022-10-26 16:20:06,047] TC_02 - Step 07: Uncheck to checkbox software value is:Total Commander [+$5.00]
+[2022-10-26 16:20:06,144] TC_02 - Step 09: Verify price Product after edit info
+[2022-10-26 16:20:08,213]  -------------------------- FAILED -------------------------- 
+[2022-10-26 16:20:08,213] TC_02 - Step 10: Click to 'Update' button
+[2022-10-26 16:20:08,354] TC_02 - Step 11: Verify 'Add to cart' success message displayed
+[2022-10-26 16:20:08,715]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:08,715] TC_02 - Step 12: Click To 'Close' button
+[2022-10-26 16:20:08,789] TC_02 - Step 13: Click To 'Shopping Cart' link
+[2022-10-26 16:20:10,051] TC_03 - Step 01: Click to  Remove button
+[2022-10-26 16:20:51,638] TC_04 - Step 01:  Open the desktops page
+[2022-10-26 16:20:52,913] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-26 16:20:52,996] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-26 16:20:53,356]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:20:53,356] TC_04 - Step 04: Click to close button
+[2022-10-26 16:20:53,429] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-26 16:20:54,967] TC_04 - Step 06: Edit quantity product
+[2022-10-26 16:21:35,554] OS name = windows 10
+[2022-10-26 16:21:35,554] Driver instance name = chromedriver: chrome on windows (d709be07483ca060313a9c69db7c9a25)
+[2022-10-26 16:23:52,450] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-26 16:23:53,546] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-26 16:23:56,581] Precondition: Step 03: Open the desktops page
+[2022-10-26 16:23:57,913] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-26 16:23:58,936] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-26 16:23:59,018] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-26 16:23:59,122] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-26 16:23:59,218] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-26 16:23:59,311] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-26 16:23:59,401] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-26 16:23:59,493] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-26 16:23:59,597] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-26 16:23:59,949]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:23:59,949] TC_01 - Step 010: Click To 'Close' button
+[2022-10-26 16:24:00,051] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-26 16:24:00,215] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-26 16:24:01,314]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:01,363]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:01,413]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:01,463]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:01,512]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:01,558]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:01,605]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:01,652]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:01,698]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:01,748]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:01,748] TC_01 - Step 13: Click To 'Shopping Cart' link
+[2022-10-26 16:24:02,282] TC_01 - Step 14: Verify Product displayed at Shopping  cart
+[2022-10-26 16:24:02,331]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:02,370] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-26 16:24:04,180] TC_02 - Step 02: Select edit Processor with value is: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-10-26 16:24:04,333] TC_02 - Step 03: Select edit Ram with value is: 4GB [+$20.00]
+[2022-10-26 16:24:04,429] TC_02 - Step 04: Select edit HDD with value is :320 GB
+[2022-10-26 16:24:04,524] TC_02 - Step 05: Select edit OS with value is: Vista Home [+$50.00]
+[2022-10-26 16:24:04,618] TC_02 - Step 08: Input to quantity textbox with value is : 2
+[2022-10-26 16:24:04,746] TC_02 - Step 06: Uncheck to checkbox software value is:Acrobat Reader [+$10.00]
+[2022-10-26 16:24:04,839] TC_02 - Step 07: Uncheck to checkbox software value is:Total Commander [+$5.00]
+[2022-10-26 16:24:04,935] TC_02 - Step 09: Verify price Product after edit info
+[2022-10-26 16:24:09,992]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:09,992] TC_02 - Step 10: Click to 'Update' button
+[2022-10-26 16:24:10,072] TC_02 - Step 11: Verify 'Add to cart' success message displayed
+[2022-10-26 16:24:10,423]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:10,423] TC_02 - Step 12: Click To 'Close' button
+[2022-10-26 16:24:10,502] TC_02 - Step 13: Click To 'Shopping Cart' link
+[2022-10-26 16:24:11,957] TC_02 - Step 14: Verify Product info after edit info displayed 
+[2022-10-26 16:24:12,012]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:12,063]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:12,116]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:12,165]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:12,233]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:12,233] TC_02 - Step 15: Verify Total Price Product after edit info displayed 
+[2022-10-26 16:24:12,294]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:12,302] TC_03 - Step 01: Click to  Remove button
+[2022-10-26 16:24:12,758] TC_03 - Step 02: Verify message shopping cart empty displayed 
+[2022-10-26 16:24:12,824]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:12,824] TC_03 - Step 03: Verify Product is Undisplayed at Shopping Cart 
+[2022-10-26 16:24:22,873]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:24:23,385] TC_04 - Step 01:  Open the desktops page
+[2022-10-26 16:24:53,949] OS name = windows 10
+[2022-10-26 16:24:53,949] Driver instance name = chromedriver: chrome on windows (4aaf860bfba714a3985254c6f2c44b8e)
+[2022-10-26 16:29:32,503] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-26 16:29:33,615] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-26 16:29:36,657] Precondition: Step 03: Open the desktops page
+[2022-10-26 16:29:38,913] TC_04 - Step 01:  Open the desktops page
+[2022-10-26 16:29:39,603] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-26 16:29:39,699] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-26 16:29:40,040]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:29:40,040] TC_04 - Step 04: Click to close button
+[2022-10-26 16:29:40,122] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-26 16:29:41,689] TC_04 - Step 06: Edit quantity product
+[2022-10-26 16:30:22,485] OS name = windows 10
+[2022-10-26 16:30:22,486] Driver instance name = chromedriver: chrome on windows (42cfc5e9405c9fc90af0d5d18347315e)
+[2022-10-26 16:39:01,686] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-26 16:39:02,738] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-26 16:39:06,080] Precondition: Step 03: Open the desktops page
+[2022-10-26 16:39:18,755] TC_04 - Step 01:  Open the desktops page
+[2022-10-26 16:39:19,410] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-26 16:39:19,496] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-26 16:39:19,840]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:39:19,841] TC_04 - Step 04: Click to close button
+[2022-10-26 16:39:19,909] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-26 16:39:22,481] OS name = windows 10
+[2022-10-26 16:39:22,481] Driver instance name = chromedriver: chrome on windows (add6578cec8782c3d77cdeb74608fa61)
+[2022-10-26 16:43:07,638] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-26 16:43:12,225] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-26 16:43:15,608] Precondition: Step 03: Open the desktops page
+[2022-10-26 16:43:18,982] TC_04 - Step 01:  Open the desktops page
+[2022-10-26 16:43:19,647] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-26 16:43:19,733] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-26 16:43:20,074]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:43:20,074] TC_04 - Step 04: Click to close button
+[2022-10-26 16:43:20,146] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-26 16:43:23,244] TC_04 - Step 06: Edit quantity product
+[2022-10-26 16:43:23,381] TC_04 - Step 07: Click to 'Update shopping cart' button
+[2022-10-26 16:43:23,854] TC_04 - Step 08: Verify Total Price Product  after update info displayed 
+[2022-10-26 16:43:23,908]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:43:23,947] OS name = windows 10
+[2022-10-26 16:43:23,947] Driver instance name = chromedriver: chrome on windows (dbf5c76a1f923e27af918b941544ea3d)
+[2022-10-26 16:44:39,337] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-26 16:44:40,694] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-26 16:44:44,090] Precondition: Step 03: Open the desktops page
+[2022-10-26 16:44:47,716] TC_01 - Step 01: Click to a product  at Categogy Page
+[2022-10-26 16:44:50,188] TC_01 - Step 02: Select to Processor with value is: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-10-26 16:44:50,415] TC_01 - Step 03: Select to Ram with value is: 8GB [+$60.00]
+[2022-10-26 16:44:50,706] TC_01 - Step 04: Select to HDD with value is :400 GB [+$100.00]
+[2022-10-26 16:44:50,819] TC_01 - Step 05: Select OS with value is: Vista Premium [+$60.00]
+[2022-10-26 16:44:50,924] TC_01 - Step 06: Select Software with value is :Acrobat Reader [+$10.00]
+[2022-10-26 16:44:51,025] TC_01 - Step 07: Select Software with value is :Total Commander [+$5.00]
+[2022-10-26 16:44:51,136] TC_01 - Step 08: Click To 'Add to Cart' button
+[2022-10-26 16:44:51,210] TC_01 - Step 09: Verify 'Add to cart' success message displayed
+[2022-10-26 16:44:51,614]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:51,614] TC_01 - Step 010: Click To 'Close' button
+[2022-10-26 16:44:51,706] TC_01 - Step 11: Move To 'Shopping Cart' link
+[2022-10-26 16:44:51,872] TC_01 - Step 12: Verify Product info displayed at Mini Shopping  cart
+[2022-10-26 16:44:52,989]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:53,042]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:53,092]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:53,144]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:53,190]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:53,246]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:53,291]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:53,342]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:53,391]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:53,439]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:53,439] TC_01 - Step 13: Click To 'Shopping Cart' link
+[2022-10-26 16:44:55,687] TC_01 - Step 14: Verify Product displayed at Shopping  cart
+[2022-10-26 16:44:55,745]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:44:56,276] TC_02 - Step 01: Click to 'Edit' button
+[2022-10-26 16:44:58,027] TC_02 - Step 02: Select edit Processor with value is: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-10-26 16:44:58,150] TC_02 - Step 03: Select edit Ram with value is: 4GB [+$20.00]
+[2022-10-26 16:44:58,272] TC_02 - Step 04: Select edit HDD with value is :320 GB
+[2022-10-26 16:44:58,388] TC_02 - Step 05: Select edit OS with value is: Vista Home [+$50.00]
+[2022-10-26 16:44:58,496] TC_02 - Step 08: Input to quantity textbox with value is : 2
+[2022-10-26 16:44:58,638] TC_02 - Step 06: Uncheck to checkbox software value is:Acrobat Reader [+$10.00]
+[2022-10-26 16:44:58,740] TC_02 - Step 07: Uncheck to checkbox software value is:Total Commander [+$5.00]
+[2022-10-26 16:44:58,846] TC_02 - Step 09: Verify price Product after edit info
+[2022-10-26 16:45:03,906]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:03,907] TC_02 - Step 10: Click to 'Update' button
+[2022-10-26 16:45:03,989] TC_02 - Step 11: Verify 'Add to cart' success message displayed
+[2022-10-26 16:45:04,344]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:04,344] TC_02 - Step 12: Click To 'Close' button
+[2022-10-26 16:45:04,465] TC_02 - Step 13: Click To 'Shopping Cart' link
+[2022-10-26 16:45:05,925] TC_02 - Step 14: Verify Product info after edit info displayed 
+[2022-10-26 16:45:05,981]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:06,035]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:06,085]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:06,134]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:06,206]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:06,206] TC_02 - Step 15: Verify Total Price Product after edit info displayed 
+[2022-10-26 16:45:06,273]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:06,280] TC_03 - Step 01: Click to  Remove button
+[2022-10-26 16:45:07,756] TC_03 - Step 02: Verify message shopping cart empty displayed 
+[2022-10-26 16:45:07,819]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:07,820] TC_03 - Step 03: Verify Product is Undisplayed at Shopping Cart 
+[2022-10-26 16:45:18,150]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:18,655] TC_04 - Step 01:  Open the desktops page
+[2022-10-26 16:45:20,014] TC_04 - Step 02: Click to a product  at Categogy Page
+[2022-10-26 16:45:20,112] TC_04 - Step 03: Verify add  to cart success message is displayed 
+[2022-10-26 16:45:20,460]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:20,460] TC_04 - Step 04: Click to close button
+[2022-10-26 16:45:20,528] TC_04 - Step 05: Click to 'Shopping cart' link
+[2022-10-26 16:45:22,144] TC_04 - Step 06: Edit quantity product
+[2022-10-26 16:45:22,300] TC_04 - Step 07: Click to 'Update shopping cart' button
+[2022-10-26 16:45:22,811] TC_04 - Step 08: Verify Total Price Product  after update info displayed 
+[2022-10-26 16:45:22,867]  -------------------------- PASSED -------------------------- 
+[2022-10-26 16:45:22,872] OS name = windows 10
+[2022-10-26 16:45:22,872] Driver instance name = chromedriver: chrome on windows (0d5cbf4c58ffe598332090e6b368a61e)

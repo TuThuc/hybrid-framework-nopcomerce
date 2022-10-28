@@ -2,13 +2,14 @@ package pageObjects.user;
 
 import org.openqa.selenium.WebDriver;
 
-import commons.BasePage;
+import pageObject.navigation.SideBarMyAccountPageObject;
 import pageUIs.user.UserAddressPageUI;
 
-public class UserAddressPageObject extends BasePage {
+public class UserAddressPageObject extends SideBarMyAccountPageObject {
 	WebDriver driver;
 
 	public UserAddressPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 
@@ -20,7 +21,7 @@ public class UserAddressPageObject extends BasePage {
 
 	public boolean isValueAddressDisplayed(WebDriver driver, String textValue) {
 		waitForElementVisible(driver, UserAddressPageUI.DYNAMIC_ADDRESS_LIST_BY_CONTAINS_TEXT, textValue);
-		return isElementDisplayed(driver, UserAddressPageUI.DYNAMIC_ADDRESS_LIST_BY_CONTAINS_TEXT, textValue);
+		return isElementDisplayedInDOM(driver, UserAddressPageUI.DYNAMIC_ADDRESS_LIST_BY_CONTAINS_TEXT, textValue);
 	}
 
 }

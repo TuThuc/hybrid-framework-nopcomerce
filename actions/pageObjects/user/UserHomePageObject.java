@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import commons.BasePage;
 import commons.PageGeneratorManager;
 import io.qameta.allure.Step;
+import pageUIs.user.BasePageNopComerceUI;
 import pageUIs.user.UserHomePageUI;
 import utlities.SQLJTDSConnection;
 
@@ -41,14 +42,14 @@ public class UserHomePageObject extends BasePage {
 
 	public boolean isMyAccountLinkDisplayed() {
 		waitForElementVisible(driver, UserHomePageUI.MY_ACCOUNT_LINK);
-		return isElementDisplayed(driver, UserHomePageUI.MY_ACCOUNT_LINK);
+		return isElementDisplayedInDOM(driver, UserHomePageUI.MY_ACCOUNT_LINK);
 	}
 
-	public UserCustomerInforPageObject openCustomerInforPage() {
+	public UserCustomerInfoPageObject openCustomerInforPage() {
 		waitForElementClickable(driver, UserHomePageUI.MY_ACCOUNT_LINK);
 
 		clickToElement(driver, UserHomePageUI.MY_ACCOUNT_LINK);
-		return PageGeneratorManager.getUserCustomerInforPage(driver);
+		return PageGeneratorManager.getUserCustomerInfoPage(driver);
 	}
 
 	public int getEmployeeListNumberUI() {
@@ -80,10 +81,41 @@ public class UserHomePageObject extends BasePage {
 	}
 
 	public UserProductDetailPageObject clickToProductTitle(WebDriver driver, String productTitle) {
-		waitForElementClickable(driver, UserHomePageUI.DYNAMIC_PRODUCT_TITLE, productTitle);
-		clickToElement(driver, UserHomePageUI.DYNAMIC_PRODUCT_TITLE, productTitle);
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_PRODUCT_TITLE_BY_TEXT, productTitle);
+		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_PRODUCT_TITLE_BY_TEXT, productTitle);
 		return PageGeneratorManager.getProductDetailPage(driver);
 
+	}
+
+	public UserCategoryPageObject clickToSubmenuAtHeaderMenuByText(WebDriver driver, String valueMenuHeader, String valueSubMenuHeader) {
+		waitForElementVisible(driver, BasePageNopComerceUI.DYNAMIC_TOP_MENU_HEADER_BY_TEXT, valueMenuHeader);
+		hoverMouseToElement(driver, BasePageNopComerceUI.DYNAMIC_TOP_MENU_HEADER_BY_TEXT, valueMenuHeader);
+
+		waitForElementVisible(driver, BasePageNopComerceUI.DYNAMIC_TOP_MENU_HEADER_BY_TEXT, valueSubMenuHeader);
+		doubleClickToElement(driver, BasePageNopComerceUI.DYNAMIC_TOP_MENU_HEADER_BY_TEXT, valueSubMenuHeader);
+		return PageGeneratorManager.getUserCategoryPage(driver);
+	}
+
+	public void AddProductToCompareListByProductName(WebDriver driver, String productName) {
+		waitForElementVisible(driver, UserHomePageUI.ADD_TO_COMPARE_BY_PRODUCT_NAME, productName);
+		clickToElement(driver, UserHomePageUI.ADD_TO_COMPARE_BY_PRODUCT_NAME, productName);
+
+	}
+
+	public Object getAddToCompareSuccessMessage() {
+		waitForElementVisible(driver, UserHomePageUI.ADD_TO_COMPARE_SUCCESS_MESSAGE);
+		return getElementText(driver, UserHomePageUI.ADD_TO_COMPARE_SUCCESS_MESSAGE);
+	}
+
+	public void clickToCloseButton() {
+		waitForElementVisible(driver, UserHomePageUI.CLOSE_BUTTON);
+		clickToElement(driver, UserHomePageUI.CLOSE_BUTTON);
+	}
+
+	public UserLoginPageObject clickToLoginLink() {
+		waitForElementVisible(driver, UserHomePageUI.LOGIN_LINK);
+		clickToElement(driver, UserHomePageUI.LOGIN_LINK);
+		return PageGeneratorManager.getUserLoginPage(driver);
 	}
 
 }

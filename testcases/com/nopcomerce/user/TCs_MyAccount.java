@@ -15,7 +15,7 @@ import commons.PageGeneratorManager;
 import environmentConfig.Environment;
 import pageObjects.user.UserAddressPageObject;
 import pageObjects.user.UserChangePasswordPageObject;
-import pageObjects.user.UserCustomerInforPageObject;
+import pageObjects.user.UserCustomerInfoPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserMyProductReviewPageObject;
@@ -48,19 +48,18 @@ public class TCs_MyAccount extends BaseTest {
 		faxNumber = userData.getFaxNumber();
 		oldPassword = userData.getValidPassword();
 		newPassword = userData.getNewPassword();
-		reviewTitle = userData.getReviewTitle();
-		reviewText = userData.getReviewText();
+		reviewTitle = userData.getReviewTitle() + generateFakeNumber();
+		reviewText = userData.getReviewText() + generateFakeNumber();
 
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		log.info("Pre-Condition - Step 01: Navigate to Login page");
 		loginPage = homePage.openLoginPage();
+
 		log.info("Pre-Condition - Step 02: Set cookie and reload page");
 		loginPage.setCookies(driver, Common_01_Register_Cookie.loggedCookies);
-		loginPage.refreshCurrentPage(driver);
 
-		log.info("Pre-Condition - Step 03: Verify ' My Account' page is displayed ");
-		verifyTrue(homePage.isMyAccountLinkDisplayed());
+		loginPage.refreshCurrentPage(driver);
 	}
 
 	@Test
@@ -68,7 +67,7 @@ public class TCs_MyAccount extends BaseTest {
 		log.info("MyAccount_01 - Step 01: Click to My Account link");
 		homePage.clickToFooterLinksByText(driver, "My account");
 
-		custormerInforPage = PageGeneratorManager.getUserCustomerInforPage(driver);
+		custormerInforPage = PageGeneratorManager.getUserCustomerInfoPage(driver);
 
 		log.info("MyAccount_01 - Step 02: Click to Checkbox Gender");
 		custormerInforPage.clickToCheckboxByLabel(driver, "Female");
@@ -114,7 +113,7 @@ public class TCs_MyAccount extends BaseTest {
 	public void MyAccount_02_UpdateAddressCustomer() {
 
 		log.info("MyAccount_02 - Step 01: Open address page");
-		addressPage = custormerInforPage.openAddressPage(driver);
+		addressPage = custormerInforPage.openAddressPage();
 
 		log.info("MyAccount_02 - Step 02: Click to Add New button");
 		addressPage.clickToButtonByText(driver, "Add new");
@@ -204,11 +203,10 @@ public class TCs_MyAccount extends BaseTest {
 		changePasswordPage.clickToCloseAtNotify();
 
 		log.info("MyAccount_03 - Step 08: Click to Logout Link");
-		changePasswordPage.clickToHeaderLinksByClassName(driver, "ico-logout");
-		loginPage = PageGeneratorManager.getUserLoginPage(driver);
+		homePage = changePasswordPage.clickToLogoutLink();
 
 		log.info("MyAccount_03 - Step 09: Click to Login Link");
-		loginPage.clickToHeaderLinksByClassName(driver, "ico-login");
+		loginPage = homePage.clickToLoginLink();
 
 		log.info("MyAccount_03 - Step 10: Enter to Email textbox with value is " + emailAddress + "'");
 		loginPage.inputTextboxByID(driver, "Email", emailAddress);
@@ -262,9 +260,9 @@ public class TCs_MyAccount extends BaseTest {
 		verifyEquals(productReviewPage.getProductReviewSuccessMessage(), "Product review is successfully added.");
 
 		log.info("MyAccount_04 - Step 08: Click to My account link ");
-		productReviewPage.clickToHeaderLinksByClassName(driver, "ico-account");
+		productReviewPage.clickToMyAccountLink();
 
-		custormerInforPage = PageGeneratorManager.getUserCustomerInforPage(driver);
+		custormerInforPage = PageGeneratorManager.getUserCustomerInfoPage(driver);
 
 		log.info("MyAccount_04 - Step 09: open My Product Reviews ");
 		custormerInforPage.openPagesAtMyAccountByPageName(driver, "My product reviews");
@@ -275,7 +273,7 @@ public class TCs_MyAccount extends BaseTest {
 		verifyEquals(myProductReviewPage.getValueReviewTitle(driver, reviewTitle), reviewTitle);
 
 		log.info("MyAccount_04 - Step 11: Verify Product Review text displayed ");
-		verifyEquals(myProductReviewPage.getValueReviewText(driver, reviewText), reviewText);
+		verifyEquals(myProductReviewPage.getValueReviewText(reviewText), reviewText);
 	}
 
 	@AfterClass(alwaysRun = true)
@@ -289,7 +287,7 @@ public class TCs_MyAccount extends BaseTest {
 	private String emailAddress, firstName, lastName, company, country, province, city, address1, address2, zip, phoneNumber, faxNumber, oldPassword, newPassword, reviewTitle, reviewText;
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
-	private UserCustomerInforPageObject custormerInforPage;
+	private UserCustomerInfoPageObject custormerInforPage;
 	private UserAddressPageObject addressPage;
 	private UserChangePasswordPageObject changePasswordPage;
 	private UserProductDetailPageObject productDetailPage;

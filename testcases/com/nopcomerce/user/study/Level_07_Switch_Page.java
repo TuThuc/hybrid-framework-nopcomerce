@@ -1,6 +1,5 @@
 package com.nopcomerce.user.study;
 
-
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -13,7 +12,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObjects.user.UserAddressPageObject;
-import pageObjects.user.UserCustomerInforPageObject;
+import pageObjects.user.UserCustomerInfoPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserMyProductReviewPageObject;
@@ -21,7 +20,7 @@ import pageObjects.user.UserRegisterPageObject;
 import pageObjects.user.UserRewardPointPageObject;
 
 public class Level_07_Switch_Page extends BaseTest {
-	
+
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
@@ -33,7 +32,7 @@ public class Level_07_Switch_Page extends BaseTest {
 		firstName = "Automation";
 		lastName = "FC";
 		password = "123456";
-		emailAdress = "afc" + generateFakeNumber() + "@mail.vn";	
+		emailAdress = "afc" + generateFakeNumber() + "@mail.vn";
 	}
 
 	@Test
@@ -56,6 +55,7 @@ public class Level_07_Switch_Page extends BaseTest {
 		System.out.println("Step 05: Click to Logout link");
 		homePage = registerPage.clickToLogoutLink();
 	}
+
 	@Test
 	public void User_02_Login() {
 		System.out.println("Login_02 - Step 01: Click to Login link");
@@ -71,55 +71,49 @@ public class Level_07_Switch_Page extends BaseTest {
 
 		System.out.println("Login_06 - Step 04: Verify Login Success");
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
-		
+
 	}
+
 	@Test
 	public void User_03_Customer_Infor() {
-	custormerInforPage = homePage.openCustomerInforPage();
-	Assert.assertTrue(custormerInforPage.isCustomerInforPageDisplayed());
+		custormerInforPage = homePage.openCustomerInforPage();
+		Assert.assertTrue(custormerInforPage.isCustomerInforPageDisplayed());
 	}
 
 	@Test
 	public void User_04_Switch_Page() {
-//Customer -> Address
-		addressPage = custormerInforPage.openAddressPage(driver);
-		//Address -> My Product Review
-		myProductReviewPage = addressPage.openMyProductReviewPage(driver);
+		// Customer -> Address
+		addressPage = custormerInforPage.openAddressPage();
+		// Address -> My Product Review
+		myProductReviewPage = addressPage.openMyProductReviewPage();
 		// My Product Review -> Reward Point
-		rewardPointPage = myProductReviewPage.openRewardPointPage(driver);
-				// Reward Point --> Address 
-				addressPage = rewardPointPage.openAddressPage(driver);
-		//address ->reward Point
-		rewardPointPage = addressPage.openRewardPointPage(driver);
-		// Reward Point -> My Product Review 
-		myProductReviewPage = rewardPointPage.openMyProductReviewPage(driver);
-		//  My Product Review  -> Address
-		addressPage = myProductReviewPage.openAddressPage(driver);
-		
-		custormerInforPage =addressPage.openCustomerInforPage(driver);
-		
-		
-		
-		
-		
-		
+		rewardPointPage = myProductReviewPage.openRewardPointPage();
+		// Reward Point --> Address
+		addressPage = rewardPointPage.openAddressPage();
+		// address ->reward Point
+		rewardPointPage = addressPage.openRewardPointPage();
+		// Reward Point -> My Product Review
+		myProductReviewPage = rewardPointPage.openMyProductReviewPage();
+		// My Product Review -> Address
+		addressPage = myProductReviewPage.openAddressPage();
+
+		custormerInforPage = addressPage.openCustomerInforPage();
 
 	}
-
-
 
 	@AfterClass
 	public void afterClass() {
 		driver.quit();
 	}
+
 	private WebDriver driver;
-	private String firstName, lastName, emailAdress,  password;
+	private String firstName, lastName, emailAdress, password;
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserRegisterPageObject registerPage;
-	private UserCustomerInforPageObject custormerInforPage;
-private UserAddressPageObject addressPage;
-private UserMyProductReviewPageObject  myProductReviewPage;
-private UserRewardPointPageObject rewardPointPage;
+	private UserCustomerInfoPageObject custormerInforPage;
+	private UserAddressPageObject addressPage;
+	private UserMyProductReviewPageObject myProductReviewPage;
+	private UserRewardPointPageObject rewardPointPage;
 
 }

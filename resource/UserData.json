@@ -64,7 +64,26 @@
 "productNameNotExist": "Macbook Pro 2050",
 "productNameRelative": "Lenovo",
 "productNameAbsolute": "Thinkpad X1 Carbon",
-"productNameSearchCategories": "Apple Macbook Pro"
+"productNameSearchCategories": "Apple MacBook Pro"
+},
+"productInfoAddToCart":
+{
+"processor": "2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]",
+"ram": "8GB [+$60.00]",
+"hdd": "400 GB [+$100.00]",
+"os": "Vista Premium [+$60.00]",
+"software1": "Acrobat Reader [+$10.00]",
+"software2": "Total Commander [+$5.00]"
+
+},
+"editProductInfoInShoppingCart":
+{
+"editProcessor": "2.2 GHz Intel Pentium Dual-Core E2200",
+"editRam": "4GB [+$20.00]",
+"editHDD": "320 GB",
+"editOS": "Vista Home [+$50.00]",
+"editSoftware": "Microsoft Office [+$50.00]",
+"editQuantity": "2"
 }
 }
 

@@ -2,13 +2,15 @@ package pageObjects.user;
 
 import org.openqa.selenium.WebDriver;
 
-import commons.BasePage;
+import commons.PageGeneratorManager;
+import pageObject.navigation.SideBarMyAccountPageObject;
 import pageUIs.user.UserChangePasswordPageUI;
 
-public class UserChangePasswordPageObject extends BasePage {
+public class UserChangePasswordPageObject extends SideBarMyAccountPageObject {
 	WebDriver driver;
 
 	public UserChangePasswordPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 
@@ -21,6 +23,13 @@ public class UserChangePasswordPageObject extends BasePage {
 	public void clickToCloseAtNotify() {
 		waitForElementVisible(driver, UserChangePasswordPageUI.CLOSE_NOTIFY);
 		clickToElement(driver, UserChangePasswordPageUI.CLOSE_NOTIFY);
+
+	}
+
+	public UserHomePageObject clickToLogoutLink() {
+		waitForElementVisible(driver, UserChangePasswordPageUI.LOGOUT_LINK);
+		clickToElement(driver, UserChangePasswordPageUI.LOGOUT_LINK);
+		return PageGeneratorManager.getUserHomePage(driver);
 
 	}
 }

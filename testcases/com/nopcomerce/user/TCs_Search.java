@@ -36,8 +36,8 @@ public class TCs_Search extends BaseTest {
 		log.info("Pre-Condition - Step 01: Navigate to Login page");
 
 		loginPage = homePage.openLoginPage();
-		log.info("Pre-Condition - Step 02: Set cookie and reload page");
 
+		log.info("Pre-Condition - Step 02: Set cookie and reload page");
 		loginPage.setCookies(driver, Common_01_Register_Cookie.loggedCookies);
 		loginPage.refreshCurrentPage(driver);
 
@@ -45,7 +45,7 @@ public class TCs_Search extends BaseTest {
 		verifyTrue(homePage.isMyAccountLinkDisplayed());
 	}
 
-	// @Test
+	@Test
 	public void Search_01_SearchWithEmptyData() {
 		log.info("Search_01 - Step 01: Click to Search link");
 		homePage.clickToFooterLinksByText(driver, "Search");
@@ -62,7 +62,7 @@ public class TCs_Search extends BaseTest {
 		verifyEquals(searchPage.getSearchErrorMessage(), "Search term minimum length is 3 characters");
 	}
 
-	// @Test
+	@Test
 	public void Search_02_SearchWithDataNotExist() {
 		log.info("Search_02 - Step 01: Click to Search link");
 		homePage.clickToFooterLinksByText(driver, "Search");
@@ -80,7 +80,7 @@ public class TCs_Search extends BaseTest {
 
 	}
 
-	// @Test
+	@Test
 	public void Search_03_SearchWithProductNameRelative() {
 		log.info("Search_03 - Step 01: Click to Search link");
 		homePage.clickToFooterLinksByText(driver, "Search");
@@ -94,14 +94,14 @@ public class TCs_Search extends BaseTest {
 		searchPage.clickToButtonSearch();
 
 		log.info("Search_03 - Step 04: Verify the number of resulting searches displayed");
-		verifyEquals(searchPage.getNumberListProducByProductTitle(), 2);
+		verifyEquals(searchPage.getNumberProducByProductTitle(), 2);
 
 		log.info("Search_03 - Step 05: Verify the product name of resulting  contains  text is " + productNameRelative + "");
 		verifyTrue(searchPage.isListProductNameDisplayed(driver, productNameRelative));
 
 	}
 
-	// @Test
+	@Test
 	public void Search_04_SearchWithProductNameAbsolute() {
 		log.info("Search_03 - Step 01: Click to Search link");
 		homePage.clickToFooterLinksByText(driver, "Search");
@@ -115,14 +115,14 @@ public class TCs_Search extends BaseTest {
 		searchPage.clickToButtonSearch();
 
 		log.info("Search_03 - Step 04: Verify the number of resulting searches displayed");
-		verifyEquals(searchPage.getNumberListProducByProductTitle(), 1);
+		verifyEquals(searchPage.getNumberProducByProductTitle(), 1);
 
 		log.info("Search_03 - Step 05: Verify the product name of resulting  contains  text is " + productNameAbsolute + "");
 		verifyTrue(searchPage.isListProductNameDisplayed(driver, productNameAbsolute));
 
 	}
 
-	// @Test
+	@Test
 	public void Search_05_AdvancedSearchWithParentCategories() {
 		log.info("Search_05 - Step 01: Click to Search link");
 		homePage.clickToFooterLinksByText(driver, "Search");
@@ -151,32 +151,94 @@ public class TCs_Search extends BaseTest {
 
 	@Test
 	public void Search_06_AdvancedSearchWithSubCategories() {
-		log.info("Search_05 - Step 01: Click to Search link");
+		log.info("Search_06 - Step 01: Click to Search link");
 		homePage.clickToFooterLinksByText(driver, "Search");
 
 		searchPage = PageGeneratorManager.getUserSearchPage(driver);
 
-		log.info("Search_05 - Step 02: Enter to Search textbox with value is:" + productNameSearchWithCategories + "");
+		log.info("Search_06 - Step 02: Enter to Search textbox with value is:" + productNameSearchWithCategories + "");
 		searchPage.inputTextboxByID(driver, "q", productNameSearchWithCategories);
 
-		log.info("Search_05 - Step 03: Click to Advanced search checkbox");
+		log.info("Search_06 - Step 03: Click to Advanced search checkbox");
 		searchPage.clickToCheckboxByLabel(driver, "Advanced search");
 
-		log.info("Search_05 - Step 04: Select to Category dropdown");
+		log.info("Search_06 - Step 04: Select to Category dropdown");
 		searchPage.selectToDropdownByName(driver, "cid", "Computers");
 
-		log.info("Search_05 - Step 05: unClick to Automatically search sub categories checkbox");
+		log.info("Search_06 - Step 05: Click to Automatically search sub categories checkbox");
 		searchPage.clickToCheckboxByLabel(driver, "Automatically search sub categories");
 
-		log.info("Search_05 - Step 06: Click to Search button");
+		log.info("Search_06 - Step 06: Click to Search button");
 		searchPage.clickToButtonSearch();
 
-		log.info("Search_05 - Step 07: Verify the number of resulting searches displayed");
-		verifyEquals(searchPage.getNumberListProducByProductTitle(), 1);
+		log.info("Search_06 - Step 07: Verify the number of resulting searches displayed");
+		verifyEquals(searchPage.getNumberProducByProductTitle(), 1);
 
-		log.info("Search_05 - Step 07: Verify the product name of resulting  contains  text is " + productNameSearchWithCategories + "");
+		log.info("Search_06 - Step 08: Verify the product name of resulting  contains  text is " + productNameSearchWithCategories + "");
 		verifyTrue(searchPage.isListProductNameDisplayed(driver, productNameSearchWithCategories));
 
+	}
+
+	@Test
+	public void Search_07_AdvancedSearchWithIncorrectManufacturer() {
+		log.info("Search_08 - Step 01: Click to Search link");
+		homePage.clickToFooterLinksByText(driver, "Search");
+
+		searchPage = PageGeneratorManager.getUserSearchPage(driver);
+
+		log.info("Search_07 - Step 02: Enter to Search textbox with value is:" + productNameSearchWithCategories + "");
+		searchPage.inputTextboxByID(driver, "q", productNameSearchWithCategories);
+
+		log.info("Search_07 - Step 03: Click to Advanced search checkbox");
+		searchPage.clickToCheckboxByLabel(driver, "Advanced search");
+
+		log.info("Search_07 - Step 04: Select to Category dropdown");
+		searchPage.selectToDropdownByName(driver, "cid", "Computers");
+
+		log.info("Search_07 - Step 05: Click to Automatically search sub categories checkbox");
+		searchPage.clickToCheckboxByLabel(driver, "Automatically search sub categories");
+
+		log.info("Search_07 - Step 06: Select to Manufacturer dropdown");
+		searchPage.selectToDropdownByName(driver, "mid", "HP");
+
+		log.info("Search_07 - Step 07: Click to Search button");
+		searchPage.clickToButtonSearch();
+
+		log.info("Search_07 - Step 09: Verify message error displayed");
+		verifyEquals(searchPage.getSearchErrorMessage(), "No products were found that matched your criteria.");
+
+	}
+
+	@Test
+	public void Search_08_AdvancedSearchWithCorrectManufacturer() {
+		log.info("Search_08 - Step 01: Click to Search link");
+		homePage.clickToFooterLinksByText(driver, "Search");
+
+		searchPage = PageGeneratorManager.getUserSearchPage(driver);
+
+		log.info("Search_08 - Step 02: Enter to Search textbox with value is:" + productNameSearchWithCategories + "");
+		searchPage.inputTextboxByID(driver, "q", productNameSearchWithCategories);
+
+		log.info("Search_08 - Step 03: Click to Advanced search checkbox");
+		searchPage.clickToCheckboxByLabel(driver, "Advanced search");
+
+		log.info("Search_08 - Step 04: Select to Category dropdown");
+		searchPage.selectToDropdownByName(driver, "cid", "Computers");
+
+		log.info("Search_08 - Step 05: Click to Automatically search sub categories checkbox");
+		searchPage.clickToCheckboxByLabel(driver, "Automatically search sub categories");
+
+		log.info("Search_08 - Step 06: Select to Manufacturer dropdown");
+		searchPage.selectToDropdownByName(driver, "mid", "Apple");
+
+		log.info("Search_08 - Step 07: Click to Search button");
+		searchPage.clickToButtonSearch();
+
+		log.info("Search_08 - Step 08: Verify the number of resulting searches displayed");
+		verifyEquals(searchPage.getNumberProducByProductTitle(), 1);
+
+		log.info("Search_08 - Step 09: Verify the product name of resulting  contains  text is " + productNameSearchWithCategories + "");
+		verifyTrue(searchPage.isListProductNameDisplayed(driver, productNameSearchWithCategories));
 	}
 
 	@AfterClass(alwaysRun = true)

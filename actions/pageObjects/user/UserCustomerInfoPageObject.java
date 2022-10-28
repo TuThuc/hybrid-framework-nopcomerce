@@ -2,19 +2,20 @@ package pageObjects.user;
 
 import org.openqa.selenium.WebDriver;
 
-import commons.BasePage;
+import pageObject.navigation.SideBarMyAccountPageObject;
 import pageUIs.user.UserCustomerInforPageUI;
 
-public class UserCustomerInforPageObject extends BasePage {
+public class UserCustomerInfoPageObject extends SideBarMyAccountPageObject {
 	WebDriver driver;
 
-	public UserCustomerInforPageObject(WebDriver driver) {
+	public UserCustomerInfoPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 
 	public boolean isCustomerInforPageDisplayed() {
 		waitForElementVisible(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADER);
-		return isElementDisplayed(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADER);
+		return isElementDisplayedInDOM(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADER);
 	}
 
 }

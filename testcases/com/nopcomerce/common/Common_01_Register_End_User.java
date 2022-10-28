@@ -1,52 +1,60 @@
 package com.nopcomerce.common;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
+import com.nopcommerce.data.UserDataMapper;
+
 import commons.BaseTest;
 import commons.PageGeneratorManager;
+import environmentConfig.Environment;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserRegisterPageObject;
+import utlities.DataHelper;
 
 public class Common_01_Register_End_User extends BaseTest {
 
-	@Parameters("browser")
+	@Parameters({ "browser", "url" })
 	@BeforeTest(description = "Creat new common User for all classes Test")
-	public void Register(String browserName) {
-		driver = getBrowerDriver(browserName);
-
+	public void Register(String browserName, String appURL) {
+		Environment environment;
+		ConfigFactory.setProperty("env", appURL);
+		environment = ConfigFactory.create(Environment.class);
+		driver = getBrowerDriver(browserName, environment.appUrl());
+		dataFaker = DataHelper.getDataHelper();
+		userData = UserDataMapper.getUserData();
+		validPassword = userData.getValidPassword();
+		emailAddress = dataFaker.getEmailAddress();
 		homePage = PageGeneratorManager.getUserHomePage(driver);
-		firstName = "Automation";
-		lastName = "FC";
-		password = "123456";
-		emailAdress = "afc" + generateFakeNumber() + "@mail.vn";
-		log.info("Pre-Condition - Step 01: Navigate to 'Register' link");
+
+		log.info("Register - Step 01: Navigate to 'Register' link");
 		registerPage = homePage.openRegisterPage();
 
-		log.info("Pre-Condition- Step 02: Enter to FirstName textbox with value is " + firstName + "'");
-		registerPage.inputToFirstnameTextbox(firstName);
+		log.info("Register - Step 02: Enter to FirstName textbox with value is " + dataFaker.getFirstName() + "'");
+		registerPage.inputTextboxByID(driver, "FirstName", dataFaker.getFirstName());
 
-		log.info("Pre-Condition - Step 03: Enter to FirstName textbox with value is " + lastName + "'");
-		registerPage.inputToLastnameTextbox(lastName);
+		log.info("Register - Step 03: Enter to LastName textbox with value is " + dataFaker.getLastName() + "'");
+		registerPage.inputTextboxByID(driver, "LastName", dataFaker.getLastName());
 
-		log.info("Pre-Condition - Step 04: Enter to emailAdress textbox with value is " + emailAdress + "'");
-		registerPage.inputToEmailTextbox(emailAdress);
+		log.info("Register - Step 04: Enter to emailAdress textbox with value is " + emailAddress + "'");
+		registerPage.inputTextboxByID(driver, "Email", emailAddress);
 
-		log.info("Pre-Condition - Step 05: Enter to password textbox with value is " + password + "'");
-		registerPage.inputToPasswordTextbox(password);
+		log.info("Register - Step 05: Enter to password textbox with value is " + validPassword + "'");
+		registerPage.inputTextboxByID(driver, "Password", validPassword);
 
-		log.info("Pre-Condition - Step 06: Enter to ConfirmPasswod textbox with value is " + password + "'");
-		registerPage.inputToConfirmPasswordTextbox(password);
+		log.info("Register - Step 06: Enter to ConfirmPasswod textbox with value is " + validPassword + "'");
+		registerPage.inputTextboxByID(driver, "ConfirmPassword", validPassword);
 
-		log.info("Pre-Condition - Step 07: Click to 'Register' button");
-		registerPage.clickToRegisterButton();
+		log.info("Register - Step 07: Click to 'Register' button");
+		registerPage.clickToButtonByText(driver, "Register");
 
-		log.info("Pre-Condition - Step 08: Verify register success message is displayed");
+		log.info("Register - Step 08: Verify register success message is displayed");
 		verifyEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 
-		log.info("Pre-Condition - Step 09: Click to Logout link");
+		log.info("Register - Step 09: Click to Logout link");
 		homePage = registerPage.clickToLogoutLink();
 
 	}
@@ -57,8 +65,9 @@ public class Common_01_Register_End_User extends BaseTest {
 	}
 
 	private WebDriver driver;
-	private String firstName, lastName;
-	public static String emailAdress, password;
+	private DataHelper dataFaker;
+	private UserDataMapper userData;
+	public static String emailAddress, validPassword;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 

@@ -31,7 +31,7 @@ public class AdminPostSearchPO extends BasePage {
 	public boolean isPostSearchTableDisplayed(String headerID, String cellValue) {
 		int headerIndex = getElementSize(driver, AdminPostSearchPageUI.TABLE_HEADER_INDEX_BY_HEADER_NAME, headerID) + 1;
 		waitForElementVisible(driver, AdminPostSearchPageUI.TABLE_ROW_VALUE_BY_HEADER_INDEX, String.valueOf(headerIndex), cellValue);
-		return isElementDisplayed(driver, AdminPostSearchPageUI.TABLE_ROW_VALUE_BY_HEADER_INDEX, String.valueOf(headerIndex), cellValue);
+		return isElementDisplayedInDOM(driver, AdminPostSearchPageUI.TABLE_ROW_VALUE_BY_HEADER_INDEX, String.valueOf(headerIndex), cellValue);
 	}
 
 	public AdminPostAddNewPO clickToPostTitleLink(String postTitle) {
@@ -59,12 +59,12 @@ public class AdminPostSearchPO extends BasePage {
 
 	public boolean isMoveToTrashMessageDisplayed(String message) {
 		waitForElementVisible(driver, AdminPostSearchPageUI.MOVE_TO_TRASH_MESSAGE, message);
-		return isElementDisplayed(driver, AdminPostSearchPageUI.MOVE_TO_TRASH_MESSAGE, message);
+		return isElementDisplayedInDOM(driver, AdminPostSearchPageUI.MOVE_TO_TRASH_MESSAGE, message);
 	}
 
 	public boolean isNoPostFoundMessageDisplayed(String message) {
 		waitForElementVisible(driver, AdminPostSearchPageUI.NO_POST_FOUND_MESSAGE, message);
-		return isElementDisplayed(driver, AdminPostSearchPageUI.NO_POST_FOUND_MESSAGE, message);
+		return isElementDisplayedInDOM(driver, AdminPostSearchPageUI.NO_POST_FOUND_MESSAGE, message);
 	}
 
 }

@@ -1,7 +1,11 @@
 package commons;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -20,11 +24,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageObjects.admin.AdminLoginPageObject;
-import pageObjects.user.UserAddressPageObject;
-import pageObjects.user.UserCustomerInforPageObject;
 import pageObjects.user.UserHomePageObject;
-import pageObjects.user.UserMyProductReviewPageObject;
-import pageObjects.user.UserRewardPointPageObject;
 import pageObjects.wordpress.AdminDashboardPO;
 import pageObjects.wordpress.UserHomePO;
 import pageUIs.jQuery.uploadFile.BasePageJQueryUI;
@@ -315,22 +315,6 @@ public class BasePage {
 		}
 	}
 
-	public boolean isElementDisplayed(WebDriver driver, String locatorType) {
-		// Ti thấy element
-		// Case 1: Displayed - trả về true
-		// Case 2: Undisplayed - trả về false
-		try {
-			return getWebElement(driver, locatorType).isDisplayed();
-		} catch (NoSuchElementException e) {
-			// Case 3: trả về false
-			return false;
-		}
-	}
-	// public boolean isElementUnDisplayed(WebDriver driver, String locatorType) {
-	//
-	// return (!getWebElement(driver, locatorType).isDisplayed());
-
-	// }
 	public boolean isElementUnDisplayed(WebDriver driver, String locatorType) {
 		overrideImplicitTimeout(driver, shortTimeout);
 		List<WebElement> elements = getListWebElement(driver, locatorType);
@@ -384,7 +368,11 @@ public class BasePage {
 		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 	}
 
-	public boolean isElementDisplayed(WebDriver driver, String locatorType, String... dynamicValues) {
+	public boolean isElementDisplayedInDOM(WebDriver driver, String locatorType) {
+		return getWebElement(driver, locatorType).isDisplayed();
+	}
+
+	public boolean isElementDisplayedInDOM(WebDriver driver, String locatorType, String... dynamicValues) {
 
 		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).isDisplayed();
 
@@ -409,6 +397,21 @@ public class BasePage {
 	public void hoverMouseToElement(WebDriver driver, String locatorType) {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locatorType)).perform();
+	}
+
+	public void hoverMouseToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		Actions action = new Actions(driver);
+		action.moveToElement(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues))).perform();
+	}
+
+	public void doubleClickToElement(WebDriver driver, String locatorType) {
+		Actions action = new Actions(driver);
+		action.doubleClick(getWebElement(driver, locatorType)).perform();
+	}
+
+	public void doubleClickToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		Actions action = new Actions(driver);
+		action.doubleClick(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues))).perform();
 	}
 
 	public void pressKeyToElement(WebDriver driver, String locatorType, Keys key) {
@@ -538,34 +541,41 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByLocator(getDynamicXpath(locatorType, dynamicValues))));
 	}
 
-	public void waitForElementInvisible(WebDriver driver, String locatorType) {
+	public void waitForElementInvisibleInDOM(WebDriver driver, String locatorType) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
+	}
+
+	public void waitForElementInvisibleInDOM(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(getDynamicXpath(locatorType, dynamicValues))));
+	}
+
+	public void waitForAllElementInvisibleInDOM(WebDriver driver, String locatorType) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		explicitWait.until(ExpectedConditions.invisibilityOfAllElements(getWebElement(driver, locatorType)));
+	}
+
+	public void waitForAllElementInvisibleInDOM(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		explicitWait.until(ExpectedConditions.invisibilityOfAllElements(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues))));
 	}
 
 	/*
 	 * Wait for element undisplayed in DOM or not in DOM and override implicit timeout
 	 */
-	public void waitForElementUndisplayed(WebDriver driver, String locatorType) {
+	public void waitForElementInvisibleNotInDOM(WebDriver driver, String locatorType) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, shortTimeout);
 		overrideImplicitTimeout(driver, shortTimeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
 		overrideImplicitTimeout(driver, longTimeout);
 	}
 
-	public void waitForElementInvisible(WebDriver driver, String locatorType, String... dynamicValues) {
-		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+	public void waitForElementInvisibleNotInDOM(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, shortTimeout);
+		overrideImplicitTimeout(driver, shortTimeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(getDynamicXpath(locatorType, dynamicValues))));
-	}
-
-	public void waitForAllElementInvisible(WebDriver driver, String locatorType) {
-		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
-		explicitWait.until(ExpectedConditions.invisibilityOfAllElements(getWebElement(driver, locatorType)));
-	}
-
-	public void waitForAllElementInvisible(WebDriver driver, String locatorType, String... dynamicValues) {
-		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
-		explicitWait.until(ExpectedConditions.invisibilityOfAllElements(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues))));
+		overrideImplicitTimeout(driver, longTimeout);
 	}
 
 	public void waitForElementClickable(WebDriver driver, String locatorType) {
@@ -596,29 +606,118 @@ public class BasePage {
 		getWebElement(driver, BasePageJQueryUI.UPLOAD_FILE).sendKeys(fullFileName);
 	}
 
-	// Tối ưu ở bài học Level_07_Switch_Page
-	public UserAddressPageObject openAddressPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageNopComerceUI.ADDRESS_LINK);
-		clickToElement(driver, BasePageNopComerceUI.ADDRESS_LINK);
-		return PageGeneratorManager.getUserAddressPage(driver);
+	public boolean isProductNameSortByAscending(WebDriver driver, String locatorType, String... dynamicValues) {
+		ArrayList<String> productUIList = new ArrayList<String>();
+		List<WebElement> productNameTexts = getListWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
+
+		for (WebElement productName : productNameTexts) {
+			productUIList.add(productName.getText());
+		}
+		ArrayList<String> productSortList = new ArrayList<String>();
+		for (String product : productUIList) {
+			productSortList.add(product);
+		}
+		Collections.sort(productSortList);
+		return productSortList.equals(productUIList);
 	}
 
-	public UserCustomerInforPageObject openCustomerInforPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageNopComerceUI.CUSTOMER_INFOR__LINK);
-		clickToElement(driver, BasePageNopComerceUI.CUSTOMER_INFOR__LINK);
-		return PageGeneratorManager.getUserCustomerInforPage(driver);
+	public boolean isProductNameSortByDescending(WebDriver driver, String locatorType, String... dynamicValues) {
+		ArrayList<String> productUIList = new ArrayList<String>();
+		List<WebElement> productNameTexts = getListWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
+		for (WebElement productName : productNameTexts) {
+			productUIList.add(productName.getText());
+		}
+		ArrayList<String> productSortList = new ArrayList<String>();
+		for (String product : productUIList) {
+			productSortList.add(product);
+		}
+		Collections.sort(productSortList);
+		Collections.reverse(productSortList);
+		return productSortList.equals(productUIList);
 	}
 
-	public UserMyProductReviewPageObject openMyProductReviewPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageNopComerceUI.MY_PRODUCT_REVIEW_LINK);
-		clickToElement(driver, BasePageNopComerceUI.MY_PRODUCT_REVIEW_LINK);
-		return PageGeneratorManager.getMyProductReviewPage(driver);
+	public boolean isProductPriceSortByAscending(WebDriver driver, String locatorType) {
+		ArrayList<Float> productUIList = new ArrayList<Float>();
+		List<WebElement> priceProducts = getListWebElement(driver, locatorType);
+		for (WebElement priceProduct : priceProducts) {
+
+			productUIList.add(Float.parseFloat(priceProduct.getText().replace("$", "").replace(",", "")));
+		}
+		ArrayList<Float> productPriceSortLists = new ArrayList<Float>();
+		for (Float priceSortProduct : productUIList) {
+			productPriceSortLists.add(priceSortProduct);
+		}
+		Collections.sort(productPriceSortLists);
+		return productPriceSortLists.equals(productUIList);
 	}
 
-	public UserRewardPointPageObject openRewardPointPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageNopComerceUI.REWARD_POINTS_LINK);
-		clickToElement(driver, BasePageNopComerceUI.REWARD_POINTS_LINK);
-		return PageGeneratorManager.getUserRewardPointPage(driver);
+	public boolean isProductPriceSortByDescending(WebDriver driver, String locatorType) {
+
+		ArrayList<Float> productUIList = new ArrayList<Float>();
+		List<WebElement> priceProducts = getListWebElement(driver, locatorType);
+		for (WebElement priceProduct : priceProducts) {
+			productUIList.add(Float.parseFloat(priceProduct.getText().replace("$", "").replace(",", "")));
+		}
+		ArrayList<Float> productPriceSortLists = new ArrayList<Float>();
+		for (Float priceSortProduct : productUIList) {
+			productPriceSortLists.add(priceSortProduct);
+		}
+		Collections.sort(productPriceSortLists);
+		Collections.reverse(productPriceSortLists);
+		return productPriceSortLists.equals(productUIList);
+	}
+
+	public boolean isProductNumberSortByAscending(WebDriver driver, String locatorType) {
+		ArrayList<Integer> productUIList = new ArrayList<Integer>();
+		List<WebElement> numberProducts = getListWebElement(driver, locatorType);
+		for (WebElement numberProduct : numberProducts) {
+			productUIList.add(Integer.parseInt(numberProduct.getText()));
+		}
+		ArrayList<Integer> numberProductSortLists = new ArrayList<Integer>();
+		for (Integer numberSortProduct : productUIList) {
+			numberProductSortLists.add(numberSortProduct);
+		}
+		Collections.sort(numberProductSortLists);
+		return numberProductSortLists.equals(productUIList);
+	}
+
+	public boolean isDataDateSortedByAscending(WebDriver driver, String locatorType) {
+		ArrayList<Date> arrayListUI = new ArrayList<Date>();
+		List<WebElement> elementList = getListWebElement(driver, locatorType);
+		for (WebElement element : elementList) {
+			arrayListUI.add(convertStringToDate(element.getText()));
+		}
+		ArrayList<Date> arraySortedList = new ArrayList<Date>();
+		for (Date sortedList : arrayListUI) {
+			arraySortedList.add(sortedList);
+		}
+		Collections.sort(arraySortedList);
+		return arraySortedList.equals(arrayListUI);
+	}
+
+	public Date convertStringToDate(String dateInString) {
+		dateInString = dateInString.replace(",", "");
+		SimpleDateFormat formatter = new SimpleDateFormat("MMM dd yyyy");
+		Date date = null;
+		try {
+			date = formatter.parse(dateInString);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return date;
+	}
+
+	public boolean isDataDisplayedByPageSize(WebDriver driver, String locatorType, int pageSize, String... dynamicValues) {
+		int elementSize = getElementSize(driver, getDynamicXpath(locatorType, dynamicValues));
+		boolean status = true;
+		if (elementSize <= pageSize) {
+			status = true;
+		} else {
+			status = false;
+		}
+
+		return status;
+
 	}
 
 	// Tối ưu ở bài học Level_09_Dynamic_Locator
@@ -627,7 +726,7 @@ public class BasePage {
 		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
 		switch (pageName) {
 		case "Customer info":
-			return PageGeneratorManager.getUserCustomerInforPage(driver);
+			return PageGeneratorManager.getUserCustomerInfoPage(driver);
 		case "Addresses":
 			return PageGeneratorManager.getUserAddressPage(driver);
 		case "My product reviews":
@@ -681,9 +780,9 @@ public class BasePage {
 	 * @param driver
 	 * @param className
 	 */
-	public void clickToHeaderLinksByClassName(WebDriver driver, String className) {
-		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_HEADER_LINK_BY_CLASS_NAME, className);
-		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_HEADER_LINK_BY_CLASS_NAME, className);
+	public void clickToHeaderLinksByText(WebDriver driver, String textValue) {
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_HEADER_LINK_BY_TEXT, textValue);
+		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_HEADER_LINK_BY_TEXT, textValue);
 
 	}
 
@@ -694,9 +793,9 @@ public class BasePage {
 	 * @param driver
 	 * @param textValue
 	 */
-	public void clickToFooterLinksByText(WebDriver driver, String textValue) {
-		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_FOOTER_LINK_BY_TEXT, textValue);
-		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_FOOTER_LINK_BY_TEXT, textValue);
+	public void clickToFooterLinksByText(WebDriver driver, String textLink) {
+		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_FOOTER_LINK_BY_TEXT, textLink);
+		clickToElement(driver, BasePageNopComerceUI.DYNAMIC_FOOTER_LINK_BY_TEXT, textLink);
 
 	}
 
@@ -709,9 +808,9 @@ public class BasePage {
 	 * @param itemValue
 	 */
 
-	public void selectToDropdownByName(WebDriver driver, String dropdownAttributeName, String itemValue) {
+	public void selectToDropdownByName(WebDriver driver, String dropdownAttributeName, String dropdownItemText) {
 		waitForElementClickable(driver, BasePageNopComerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName);
-		selectItemInDefaultDropdown(driver, BasePageNopComerceUI.DYNAMIC_DROPDOWN_BY_NAME, itemValue, dropdownAttributeName);
+		selectItemInDefaultDropdown(driver, BasePageNopComerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownItemText, dropdownAttributeName);
 	}
 
 	/**
@@ -774,7 +873,12 @@ public class BasePage {
 	public String getTextboxValueByID(WebDriver driver, String textboxID) {
 		waitForElementVisible(driver, BasePageNopComerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
 		return getElementAttribute(driver, BasePageNopComerceUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
+	}
 
+	public BasePage clickToImageHomePage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageNopComerceUI.IMAGE_HOME_PAGE);
+		clickToElement(driver, BasePageNopComerceUI.IMAGE_HOME_PAGE);
+		return PageGeneratorManager.getUserHomePage(driver);
 	}
 
 	// Level_08_Switch_Role

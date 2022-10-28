@@ -18,7 +18,7 @@ public class HomePageObject extends BasePage {
 	public boolean isFileLoadedByName(String fileName) {
 		waitForElementVisible(driver, HomePageUI.FILE_NAME_LOADED, fileName);
 
-		return isElementDisplayed(driver, HomePageUI.FILE_NAME_LOADED, fileName);
+		return isElementDisplayedInDOM(driver, HomePageUI.FILE_NAME_LOADED, fileName);
 	}
 
 	public void clickToStartButtons() {
@@ -32,7 +32,7 @@ public class HomePageObject extends BasePage {
 	public boolean isFileLinkUploadedByName(String fileName) {
 		waitForElementVisible(driver, HomePageUI.FILE_NAME_UPLOADED_LINK, fileName);
 
-		return isElementDisplayed(driver, HomePageUI.FILE_NAME_UPLOADED_LINK, fileName);
+		return isElementDisplayedInDOM(driver, HomePageUI.FILE_NAME_UPLOADED_LINK, fileName);
 	}
 
 	public boolean isFileImageUploadedByName(String fileName) {

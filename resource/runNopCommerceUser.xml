@@ -14,8 +14,8 @@
   <test name="Run on chrome ">
   <parameter name = "browser" value = "chrome"/>
     <classes>
-    <class name="com.nopcomerce.common.Common_01_Register_Cookie"/>
-      <class name="com.nopcomerce.user.TCs_Search"/>
+   <class name="com.nopcomerce.common.Common_01_Register_Cookie"/>
+      <class name="com.nopcomerce.user.TCs_Order"/>
       
     </classes>
   </test> 

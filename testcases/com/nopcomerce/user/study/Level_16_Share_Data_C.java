@@ -11,7 +11,7 @@ import com.nopcomerce.common.Common_01_Register_End_User;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import pageObjects.user.UserCustomerInforPageObject;
+import pageObjects.user.UserCustomerInfoPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserRegisterPageObject;
@@ -24,8 +24,8 @@ public class Level_16_Share_Data_C extends BaseTest {
 		driver = getBrowerDriver(browserName);
 
 		homePage = PageGeneratorManager.getUserHomePage(driver);
-		emailAdress = Common_01_Register_End_User.emailAdress;
-		validPassword = Common_01_Register_End_User.password;
+		emailAdress = Common_01_Register_End_User.emailAddress;
+		validPassword = Common_01_Register_End_User.validPassword;
 		log.info("Pre-Condition - Step 01: Navigate to Login page");
 		loginPage = homePage.openLoginPage();
 		log.info("Pre-Condition - Step 02: Set cookie and reload page");
@@ -77,6 +77,6 @@ public class Level_16_Share_Data_C extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserRegisterPageObject registerPage;
-	private UserCustomerInforPageObject custormerInforPage;
+	private UserCustomerInfoPageObject custormerInforPage;
 
 }

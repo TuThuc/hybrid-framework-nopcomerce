@@ -3,6 +3,7 @@ package pageObjects.user;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import pageUIs.user.BasePageNopComerceUI;
 import pageUIs.user.UserSearchPageUI;
 
 public class UserSearchPageObject extends BasePage {
@@ -22,9 +23,9 @@ public class UserSearchPageObject extends BasePage {
 		clickToElement(driver, UserSearchPageUI.SEARCH_BUTTON);
 	}
 
-	public int getNumberListProducByProductTitle() {
-		waitForAllElementVisible(driver, UserSearchPageUI.LIST_PRODUCT_BY_PRODUCT_TITLE);
-		return getElementSize(driver, UserSearchPageUI.LIST_PRODUCT_BY_PRODUCT_TITLE);
+	public Object getNumberProducByProductTitle() {
+		waitForAllElementVisible(driver, BasePageNopComerceUI.LIST_PRODUCT_BY_TITLE);
+		return getElementSize(driver, BasePageNopComerceUI.LIST_PRODUCT_BY_TITLE);
 	}
 
 	public boolean isListProductNameDisplayed(WebDriver driver, String productName) {

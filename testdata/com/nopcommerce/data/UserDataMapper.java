@@ -315,4 +315,101 @@ public class UserDataMapper {
 	public String getProductNameAbsolute() {
 		return productName.productNameAbsolute;
 	}
+
+	@JsonProperty("productInfoAddToCart")
+	private ProductInforAddToCart productInfoAddToCart;
+
+	static class ProductInforAddToCart {
+		@JsonProperty("processor")
+		private String processor;
+
+		@JsonProperty("ram")
+		private String ram;
+
+		@JsonProperty("hdd")
+		private String hdd;
+
+		@JsonProperty("os")
+		private String os;
+
+		@JsonProperty("software1")
+		private String software1;
+
+		@JsonProperty("software2")
+		private String software2;
+
+	}
+
+	public String getProcessor() {
+		return productInfoAddToCart.processor;
+	}
+
+	public String getRam() {
+		return productInfoAddToCart.ram;
+	}
+
+	public String getHDD() {
+		return productInfoAddToCart.hdd;
+	}
+
+	public String getOS() {
+		return productInfoAddToCart.os;
+	}
+
+	public String getSoftware1() {
+		return productInfoAddToCart.software1;
+	}
+
+	public String getSoftware2() {
+		return productInfoAddToCart.software2;
+	}
+
+	@JsonProperty("editProductInfoInShoppingCart")
+	private EditProductInforInShoppingCart editProductInfoInShoppingCart;
+
+	static class EditProductInforInShoppingCart {
+		@JsonProperty("editProcessor")
+		private String editProcessor;
+
+		@JsonProperty("editRam")
+		private String editRam;
+
+		@JsonProperty("editHDD")
+		private String editHDD;
+
+		@JsonProperty("editOS")
+		private String editOS;
+
+		@JsonProperty("editSoftware")
+		private String editSoftware;
+
+		@JsonProperty("editQuantity")
+		private String editQuantity;
+
+	}
+
+	public String getEditProcessor() {
+		return editProductInfoInShoppingCart.editProcessor;
+	}
+
+	public String getEditRam() {
+		return editProductInfoInShoppingCart.editRam;
+	}
+
+	public String getEditHDD() {
+		return editProductInfoInShoppingCart.editHDD;
+	}
+
+	public String getEditOS() {
+		return editProductInfoInShoppingCart.editOS;
+	}
+
+	public String getEditSoftware() {
+		return editProductInfoInShoppingCart.editSoftware;
+	}
+
+	public String getEditQuantity() {
+		return editProductInfoInShoppingCart.editQuantity;
+	}
+
 }

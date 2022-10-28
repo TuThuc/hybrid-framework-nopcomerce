@@ -14,7 +14,7 @@ import commons.GlobalConstants;
 import commons.PageGeneratorManager;
 import pageObjects.admin.AdminDashboardPageObject;
 import pageObjects.admin.AdminLoginPageObject;
-import pageObjects.user.UserCustomerInforPageObject;
+import pageObjects.user.UserCustomerInfoPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 
@@ -74,7 +74,7 @@ public class Level_08_Switch_Role extends BaseTest {
 	private String userEmailAddress, userPassword, adminEmailAddress, adminPassword;
 	private UserHomePageObject userHomePage;
 	private UserLoginPageObject userLoginPage;
-	private UserCustomerInforPageObject userCustomerInforPage;
+	private UserCustomerInfoPageObject userCustomerInforPage;
 	private AdminLoginPageObject adminLoginPage;
 	private AdminDashboardPageObject adminDashboardPage;
 
