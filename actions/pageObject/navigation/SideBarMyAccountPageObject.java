@@ -7,6 +7,7 @@ import commons.PageGeneratorManager;
 import pageObjects.user.UserAddressPageObject;
 import pageObjects.user.UserCustomerInfoPageObject;
 import pageObjects.user.UserMyProductReviewPageObject;
+import pageObjects.user.UserOrderPageObject;
 import pageObjects.user.UserRewardPointPageObject;
 import pageUIs.navigation.SideBarMyAccountPageUI;
 
@@ -40,6 +41,12 @@ public class SideBarMyAccountPageObject extends BasePage {
 		waitForElementVisible(driver, SideBarMyAccountPageUI.REWARD_POINTS_LINK);
 		clickToElement(driver, SideBarMyAccountPageUI.REWARD_POINTS_LINK);
 		return PageGeneratorManager.getUserRewardPointPage(driver);
+	}
+
+	public UserOrderPageObject openOrderPage() {
+		waitForElementVisible(driver, SideBarMyAccountPageUI.ORDER__LINK);
+		clickToElement(driver, SideBarMyAccountPageUI.ORDER__LINK);
+		return PageGeneratorManager.getUserOrderPage(driver);
 	}
 
 }

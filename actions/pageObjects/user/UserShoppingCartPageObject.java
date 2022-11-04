@@ -60,4 +60,10 @@ public class UserShoppingCartPageObject extends BasePage {
 		checkToDefaultCheckboxRadio(driver, UserShoppingCartPageUI.TERMS_OF_SERVICE_CHECKBOX);
 
 	}
+
+	public void clickToCheckOutButton() {
+		waitForElementClickable(driver, UserShoppingCartPageUI.CHECKOUT_BUTTON);
+		clickToElement(driver, UserShoppingCartPageUI.CHECKOUT_BUTTON);
+	}
+
 }

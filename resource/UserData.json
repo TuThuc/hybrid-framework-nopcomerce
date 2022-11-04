@@ -84,6 +84,26 @@
 "editOS": "Vista Home [+$50.00]",
 "editSoftware": "Microsoft Office [+$50.00]",
 "editQuantity": "2"
+},
+"billingAddress":
+{
+"firstName":"Test 01",
+"lastName":"Nguyen Van",
+"emailAddress":"test123@gmail.com",
+"country":"Viet Nam",
+"province": "Other",
+"city":"Ha Noi",
+"address1":"To Huu, Ha Dong",
+"address2":"Ngoc Liep, Quoc Oai",
+"zip":"50000005",
+"phoneNumber":"0987403392",
+"faxNumber":"0123456789"
+},
+"creditCard":
+{
+"cardHoderName":"NGUYEN VAN A",
+"cardNumber":"3537961051995347",
+"cardCode":"3132"
 }
 }
 

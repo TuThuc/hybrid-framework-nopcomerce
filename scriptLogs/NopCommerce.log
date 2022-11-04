@@ -5098,3 +5098,1124 @@ Session ID: 031de012df49d6d0255d3ef0e42e4b22
 [2022-10-26 16:45:22,867]  -------------------------- PASSED -------------------------- 
 [2022-10-26 16:45:22,872] OS name = windows 10
 [2022-10-26 16:45:22,872] Driver instance name = chromedriver: chrome on windows (0d5cbf4c58ffe598332090e6b368a61e)
+[2022-10-31 11:13:45,857] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-31 11:13:47,023] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-31 11:13:50,153] Precondition: Step 03: Open the desktops page
+[2022-10-31 11:13:52,559] TC_05 - Step 01: Click To Image Home Page
+[2022-10-31 11:13:53,839] TC_05 - Step 02: Click to a product  at Home Page
+[2022-10-31 11:13:56,382] TC_05 - Step 03: Click To 'Add to Cart' button
+[2022-10-31 11:13:56,465] TC_05 - Step 04: Verify 'Add to cart' success message displayed
+[2022-10-31 11:13:56,815]  -------------------------- PASSED -------------------------- 
+[2022-10-31 11:13:56,815] TC_05 - Step 05: Click To 'Close' button
+[2022-10-31 11:13:56,903] TC_05 - Step 06: Click To 'Shopping Cart' link
+[2022-10-31 11:13:58,967] TC_05 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-10-31 11:13:59,509] TC_05 - Step 08: Click To checkout button
+[2022-10-31 11:14:01,733] TC_05 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-10-31 11:14:01,889] TC_05 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-10-31 11:14:02,052] TC_05 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-10-31 11:14:02,209] TC_05 - Step 12: Select Country with value : Viet Nam
+[2022-10-31 11:14:02,571] TC_05 - Step 13: Select Province with value :Other
+[2022-10-31 11:14:02,832] TC_05 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-10-31 11:14:02,968] TC_05 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-31 11:14:03,103] TC_05 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-31 11:14:03,237] TC_05 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-10-31 11:14:03,362] TC_05 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-31 11:14:03,492] TC_05 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-31 11:14:03,617] TC_05 - Step 20: Click to  Continue button
+[2022-10-31 11:14:03,691] TC_05 - Step 21: Click to  Continue button at shipping method
+[2022-10-31 11:14:34,065] OS name = windows 10
+[2022-10-31 11:14:34,065] Driver instance name = chromedriver: chrome on windows (d499bbad7a31fe2a915c5d9669e835a1)
+[2022-10-31 11:31:49,313] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-31 11:31:51,300] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-31 11:31:54,471] Precondition: Step 03: Open the desktops page
+[2022-10-31 11:31:56,931] TC_05 - Step 01: Click To Image Home Page
+[2022-10-31 11:31:57,395] TC_05 - Step 02: Click to a product  at Home Page
+[2022-10-31 11:31:58,879] TC_05 - Step 03: Click To 'Add to Cart' button
+[2022-10-31 11:31:58,983] TC_05 - Step 04: Verify 'Add to cart' success message displayed
+[2022-10-31 11:31:59,321]  -------------------------- PASSED -------------------------- 
+[2022-10-31 11:31:59,321] TC_05 - Step 05: Click To 'Close' button
+[2022-10-31 11:31:59,397] TC_05 - Step 06: Click To 'Shopping Cart' link
+[2022-10-31 11:32:00,969] OS name = windows 10
+[2022-10-31 11:32:00,969] Driver instance name = chromedriver: chrome on windows (4234f5c4f34b3fb7622ff9cd2f4caf9e)
+[2022-10-31 11:35:38,304] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-31 11:35:39,338] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-31 11:35:42,378] Precondition: Step 03: Open the desktops page
+[2022-10-31 11:35:43,803] TC_05 - Step 01: Click To Image Home Page
+[2022-10-31 11:35:44,341] TC_05 - Step 02: Click to a product  at Home Page
+[2022-10-31 11:35:46,004] TC_05 - Step 03: Click To 'Add to Cart' button
+[2022-10-31 11:35:46,095] TC_05 - Step 04: Verify 'Add to cart' success message displayed
+[2022-10-31 11:35:46,444]  -------------------------- PASSED -------------------------- 
+[2022-10-31 11:35:46,444] TC_05 - Step 05: Click To 'Close' button
+[2022-10-31 11:35:46,573] TC_05 - Step 06: Click To 'Shopping Cart' link
+[2022-10-31 11:35:48,589] TC_05 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-10-31 11:35:48,893] TC_05 - Step 08: Click To checkout button
+[2022-10-31 11:35:49,931] TC_05 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-10-31 11:35:50,120] TC_05 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-10-31 11:35:50,303] TC_05 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-10-31 11:35:50,476] TC_05 - Step 12: Select Country with value : Viet Nam
+[2022-10-31 11:35:50,617] TC_05 - Step 13: Select Province with value :Other
+[2022-10-31 11:35:50,881] TC_05 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-10-31 11:35:51,016] TC_05 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-31 11:35:51,170] TC_05 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-31 11:35:51,325] TC_05 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-10-31 11:35:51,458] TC_05 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-31 11:35:51,591] TC_05 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-31 11:35:51,748] TC_05 - Step 20: Click to  Continue button
+[2022-10-31 11:35:51,831] TC_05 - Step 21: Click to  Continue button at shipping method
+[2022-10-31 11:35:52,450] TC_05 - Step 22: Click to  Continue button at payment method
+[2022-10-31 11:35:53,081] TC_05 - Step 23: Verify Payment info displayed
+[2022-10-31 11:35:53,382]  -------------------------- PASSED -------------------------- 
+[2022-10-31 11:35:53,382] TC_05 - Step 24: Click to  Continue button at payment Info
+[2022-10-31 11:35:53,457] TC_05 - Step 25: Verify Billing address displayed
+[2022-10-31 11:35:53,757]  -------------------------- PASSED -------------------------- 
+[2022-10-31 11:36:34,394] OS name = windows 10
+[2022-10-31 11:36:34,394] Driver instance name = chromedriver: chrome on windows (3cde7e375dee65f2d8d91c5f68b4bddd)
+[2022-10-31 17:00:37,236] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-31 17:00:38,374] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-31 17:00:42,273] Precondition: Step 03: Open the desktops page
+[2022-10-31 17:00:47,218] TC_05 - Step 01: Click To Image Home Page
+[2022-10-31 17:00:48,705] TC_05 - Step 02: Click to a product  at Home Page
+[2022-10-31 17:00:51,515] TC_05 - Step 03: Click To 'Add to Cart' button
+[2022-10-31 17:00:51,612] TC_05 - Step 04: Verify 'Add to cart' success message displayed
+[2022-10-31 17:00:51,959]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:00:51,959] TC_05 - Step 05: Click To 'Close' button
+[2022-10-31 17:00:52,054] TC_05 - Step 06: Click To 'Shopping Cart' link
+[2022-10-31 17:00:53,681] TC_05 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-10-31 17:00:53,867] TC_05 - Step 08: Click To checkout button
+[2022-10-31 17:00:55,160] TC_05 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-10-31 17:00:55,319] TC_05 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-10-31 17:00:55,459] TC_05 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-10-31 17:00:55,606] TC_05 - Step 12: Select Country with value : Viet Nam
+[2022-10-31 17:00:55,844] TC_05 - Step 13: Select Province with value :Other
+[2022-10-31 17:00:56,111] TC_05 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-10-31 17:00:56,234] TC_05 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-31 17:00:56,364] TC_05 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-31 17:00:56,508] TC_05 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-10-31 17:00:56,634] TC_05 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-31 17:00:56,761] TC_05 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-31 17:00:56,897] TC_05 - Step 20: Click to  Continue button
+[2022-10-31 17:00:56,980] TC_05 - Step 21: Click to  Continue button at shipping method
+[2022-10-31 17:00:57,602] TC_05 - Step 22: Click to  Continue button at payment method
+[2022-10-31 17:00:58,212] TC_05 - Step 23: Verify Payment info displayed
+[2022-10-31 17:00:58,545]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:00:58,545] TC_05 - Step 24: Click to  Continue button at payment Info
+[2022-10-31 17:00:58,615] TC_05 - Step 25: Verify Billing address displayed
+[2022-10-31 17:00:58,940]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:00:58,993]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:00:58,993] TC_05 - Step 26: Verify Shipping address displayed
+[2022-10-31 17:01:39,765] OS name = windows 10
+[2022-10-31 17:01:39,766] Driver instance name = chromedriver: chrome on windows (6b180d344d5cf03fa26781a7fd548311)
+[2022-10-31 17:05:49,815] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-31 17:05:50,917] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-31 17:05:53,960] Precondition: Step 03: Open the desktops page
+[2022-10-31 17:05:55,798] TC_05 - Step 01: Click To Image Home Page
+[2022-10-31 17:05:56,275] TC_05 - Step 02: Click to a product  at Home Page
+[2022-10-31 17:05:57,557] TC_05 - Step 03: Click To 'Add to Cart' button
+[2022-10-31 17:05:57,650] TC_05 - Step 04: Verify 'Add to cart' success message displayed
+[2022-10-31 17:05:57,955]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:05:57,956] TC_05 - Step 05: Click To 'Close' button
+[2022-10-31 17:05:58,033] TC_05 - Step 06: Click To 'Shopping Cart' link
+[2022-10-31 17:05:59,802] TC_05 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-10-31 17:05:59,954] TC_05 - Step 08: Click To checkout button
+[2022-10-31 17:06:01,476] TC_05 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-10-31 17:06:01,623] TC_05 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-10-31 17:06:01,785] TC_05 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-10-31 17:06:01,963] TC_05 - Step 12: Select Country with value : Viet Nam
+[2022-10-31 17:06:02,684] TC_05 - Step 13: Select Province with value :Other
+[2022-10-31 17:06:02,958] TC_05 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-10-31 17:06:03,119] TC_05 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-31 17:06:03,325] TC_05 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-31 17:06:03,566] TC_05 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-10-31 17:06:03,723] TC_05 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-31 17:06:03,860] TC_05 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-31 17:06:04,001] TC_05 - Step 20: Click to  Continue button
+[2022-10-31 17:06:04,079] TC_05 - Step 21: Click to  Continue button at shipping method
+[2022-10-31 17:06:04,681] TC_05 - Step 22: Click to  Continue button at payment method
+[2022-10-31 17:06:05,302] TC_05 - Step 23: Verify Payment info displayed
+[2022-10-31 17:06:05,585]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:06:05,586] TC_05 - Step 24: Click to  Continue button at payment Info
+[2022-10-31 17:06:05,659] TC_05 - Step 25: Verify Billing address displayed
+[2022-10-31 17:06:06,001]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:06:06,061]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:06:06,062] TC_05 - Step 26: Verify Shipping address displayed
+[2022-10-31 17:06:46,741] OS name = windows 10
+[2022-10-31 17:06:46,742] Driver instance name = chromedriver: chrome on windows (39fd9091ffcdda6b786c8ea0ac20e855)
+[2022-10-31 17:09:10,631] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-31 17:09:13,083] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-31 17:09:16,120] Precondition: Step 03: Open the desktops page
+[2022-10-31 17:09:18,307] TC_05 - Step 01: Click To Image Home Page
+[2022-10-31 17:09:18,826] TC_05 - Step 02: Click to a product  at Home Page
+[2022-10-31 17:09:20,333] TC_05 - Step 03: Click To 'Add to Cart' button
+[2022-10-31 17:09:20,433] TC_05 - Step 04: Verify 'Add to cart' success message displayed
+[2022-10-31 17:09:20,733]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:09:20,733] TC_05 - Step 05: Click To 'Close' button
+[2022-10-31 17:09:21,064] TC_05 - Step 06: Click To 'Shopping Cart' link
+[2022-10-31 17:09:22,751] TC_05 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-10-31 17:09:22,857] TC_05 - Step 08: Click To checkout button
+[2022-10-31 17:09:24,073] TC_05 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-10-31 17:09:24,238] TC_05 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-10-31 17:09:24,395] TC_05 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-10-31 17:09:24,556] TC_05 - Step 12: Select Country with value : Viet Nam
+[2022-10-31 17:09:24,674] TC_05 - Step 13: Select Province with value :Other
+[2022-10-31 17:09:24,918] TC_05 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-10-31 17:09:25,045] TC_05 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-31 17:09:25,184] TC_05 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-31 17:09:25,330] TC_05 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-10-31 17:09:25,462] TC_05 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-31 17:09:25,597] TC_05 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-31 17:09:25,746] TC_05 - Step 20: Click to  Continue button
+[2022-10-31 17:09:25,838] TC_05 - Step 21: Click to  Continue button at shipping method
+[2022-10-31 17:09:26,445] TC_05 - Step 22: Click to  Continue button at payment method
+[2022-10-31 17:09:27,068] TC_05 - Step 23: Verify Payment info displayed
+[2022-10-31 17:09:27,389]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:09:27,390] TC_05 - Step 24: Click to  Continue button at payment Info
+[2022-10-31 17:09:27,472] TC_05 - Step 25: Verify Billing address displayed
+[2022-10-31 17:09:27,806]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:09:27,857]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:09:27,858] TC_05 - Step 26: Verify Shipping address displayed
+[2022-10-31 17:09:27,913]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:09:29,882]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:09:29,938]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:10:03,031] OS name = windows 10
+[2022-10-31 17:10:03,031] Driver instance name = chromedriver: chrome on windows (7b6cf8cbe6c1a31c9e2c4bb3b9c15662)
+[2022-10-31 17:13:15,972] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-31 17:13:19,920] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-31 17:13:23,634] Precondition: Step 03: Open the desktops page
+[2022-10-31 17:13:41,791] TC_05 - Step 01: Click To Image Home Page
+[2022-10-31 17:13:42,514] TC_05 - Step 02: Click to a product  at Home Page
+[2022-10-31 17:13:46,979] TC_05 - Step 03: Click To 'Add to Cart' button
+[2022-10-31 17:13:47,074] TC_05 - Step 04: Verify 'Add to cart' success message displayed
+[2022-10-31 17:13:47,395]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:13:47,395] TC_05 - Step 05: Click To 'Close' button
+[2022-10-31 17:13:47,482] TC_05 - Step 06: Click To 'Shopping Cart' link
+[2022-10-31 17:13:50,127] OS name = windows 10
+[2022-10-31 17:13:50,127] Driver instance name = chromedriver: chrome on windows (ad46e800d3bd94f43218e4d41376fdb7)
+[2022-10-31 17:14:50,409] Pre-Condition - Step 01: Navigate to Login page
+[2022-10-31 17:14:52,247] Pre-Condition - Step 02: Set cookie and reload page
+[2022-10-31 17:14:55,285] Precondition: Step 03: Open the desktops page
+[2022-10-31 17:14:56,862] TC_05 - Step 01: Click To Image Home Page
+[2022-10-31 17:14:57,438] TC_05 - Step 02: Click to a product  at Home Page
+[2022-10-31 17:14:59,716] TC_05 - Step 03: Click To 'Add to Cart' button
+[2022-10-31 17:14:59,809] TC_05 - Step 04: Verify 'Add to cart' success message displayed
+[2022-10-31 17:15:00,152]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:15:00,152] TC_05 - Step 05: Click To 'Close' button
+[2022-10-31 17:15:00,234] TC_05 - Step 06: Click To 'Shopping Cart' link
+[2022-10-31 17:15:01,993] TC_05 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-10-31 17:15:02,084] TC_05 - Step 08: Click To checkout button
+[2022-10-31 17:15:03,191] TC_05 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-10-31 17:15:03,334] TC_05 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-10-31 17:15:03,486] TC_05 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-10-31 17:15:03,649] TC_05 - Step 12: Select Country with value : Viet Nam
+[2022-10-31 17:15:03,791] TC_05 - Step 13: Select Province with value :Other
+[2022-10-31 17:15:04,056] TC_05 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-10-31 17:15:04,204] TC_05 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-10-31 17:15:04,354] TC_05 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-10-31 17:15:04,509] TC_05 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-10-31 17:15:04,646] TC_05 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-10-31 17:15:04,819] TC_05 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-10-31 17:15:04,976] TC_05 - Step 20: Click to  Continue button
+[2022-10-31 17:15:05,066] TC_05 - Step 21: Click to  Continue button at shipping method
+[2022-10-31 17:15:05,695] TC_05 - Step 22: Click to  Continue button at payment method
+[2022-10-31 17:15:06,323] TC_05 - Step 23: Verify Payment info displayed
+[2022-10-31 17:15:06,657]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:15:06,658] TC_05 - Step 24: Click to  Continue button at payment Info
+[2022-10-31 17:15:06,723] TC_05 - Step 25: Verify Billing address displayed
+[2022-10-31 17:15:07,059]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:15:07,115]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:15:07,116] TC_05 - Step 26: Verify Shipping address displayed
+[2022-10-31 17:15:07,170]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:15:10,212]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:15:10,259]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:15:12,684]  -------------------------- PASSED -------------------------- 
+[2022-10-31 17:15:12,720] OS name = windows 10
+[2022-10-31 17:15:12,720] Driver instance name = chromedriver: chrome on windows (1ab2907ad415d29cde9182819563de89)
+[2022-11-01 10:23:54,441] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 10:23:56,172] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 10:23:59,416] Precondition: Step 03: Open the desktops page
+[2022-11-01 10:24:04,092] TC_05 - Step 01: Click To Image Home Page
+[2022-11-01 10:24:04,612] TC_05 - Step 02: Click to a product  at Home Page
+[2022-11-01 10:24:07,088] TC_05 - Step 03: Click To 'Add to Cart' button
+[2022-11-01 10:24:07,187] TC_05 - Step 04: Verify 'Add to cart' success message displayed
+[2022-11-01 10:24:07,529]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:24:07,529] TC_05 - Step 05: Click To 'Close' button
+[2022-11-01 10:24:07,615] TC_05 - Step 06: Click To 'Shopping Cart' link
+[2022-11-01 10:24:09,188] TC_05 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 10:24:09,324] TC_05 - Step 08: Click To checkout button
+[2022-11-01 10:24:10,481] TC_05 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-11-01 10:24:10,628] TC_05 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-11-01 10:24:10,774] TC_05 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-11-01 10:24:10,924] TC_05 - Step 12: Select Country with value : Viet Nam
+[2022-11-01 10:24:11,246] TC_05 - Step 13: Select Province with value :Other
+[2022-11-01 10:24:11,503] TC_05 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-11-01 10:24:11,623] TC_05 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-11-01 10:24:11,755] TC_05 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-11-01 10:24:11,890] TC_05 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-11-01 10:24:12,015] TC_05 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-11-01 10:24:12,142] TC_05 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-11-01 10:24:12,277] TC_05 - Step 20: Click to  Continue button
+[2022-11-01 10:24:12,357] TC_05 - Step 21: Click to  Continue button at shipping method
+[2022-11-01 10:24:12,961] TC_05 - Step 22: Click to  Continue button at payment method
+[2022-11-01 10:24:13,582] TC_05 - Step 23: Verify Payment info displayed
+[2022-11-01 10:24:13,925]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:24:13,925] TC_05 - Step 24: Click to  Continue button at payment Info
+[2022-11-01 10:24:14,013] TC_05 - Step 25: Verify Billing address displayed
+[2022-11-01 10:24:14,354]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:24:14,406]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:24:14,406] TC_05 - Step 26: Verify Shipping address displayed
+[2022-11-01 10:24:55,188] OS name = windows 10
+[2022-11-01 10:24:55,188] Driver instance name = chromedriver: chrome on windows (a66dc023f732dc0c414400b08304d933)
+[2022-11-01 10:33:22,761] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 10:33:23,454] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 10:33:26,497] Precondition: Step 03: Open the desktops page
+[2022-11-01 10:33:28,908] TC_05 - Step 01: Click To Image Home Page
+[2022-11-01 10:33:29,411] TC_05 - Step 02: Click to a product  at Home Page
+[2022-11-01 10:33:32,455] TC_05 - Step 03: Click To 'Add to Cart' button
+[2022-11-01 10:33:32,549] TC_05 - Step 04: Verify 'Add to cart' success message displayed
+[2022-11-01 10:33:32,897]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:33:32,897] TC_05 - Step 05: Click To 'Close' button
+[2022-11-01 10:33:32,994] TC_05 - Step 06: Click To 'Shopping Cart' link
+[2022-11-01 10:33:35,091] TC_05 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 10:33:35,395] TC_05 - Step 08: Click To checkout button
+[2022-11-01 10:33:36,621] TC_05 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-11-01 10:33:36,768] TC_05 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-11-01 10:33:36,907] TC_05 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-11-01 10:33:37,041] TC_05 - Step 12: Select Country with value : Viet Nam
+[2022-11-01 10:33:37,236] TC_05 - Step 13: Select Province with value :Other
+[2022-11-01 10:33:37,498] TC_05 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-11-01 10:33:37,640] TC_05 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-11-01 10:33:37,802] TC_05 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-11-01 10:33:37,958] TC_05 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-11-01 10:33:38,096] TC_05 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-11-01 10:33:38,237] TC_05 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-11-01 10:33:38,415] TC_05 - Step 20: Click to  Continue button
+[2022-11-01 10:33:38,504] TC_05 - Step 21: Click to  Continue button at shipping method
+[2022-11-01 10:33:39,110] TC_05 - Step 22: Click to  Continue button at payment method
+[2022-11-01 10:33:39,740] TC_05 - Step 23: Verify Payment info displayed
+[2022-11-01 10:33:40,035]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:33:40,036] TC_05 - Step 24: Click to  Continue button at payment Info
+[2022-11-01 10:33:40,105] TC_05 - Step 25: Verify Billing address displayed
+[2022-11-01 10:33:40,432]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:33:40,485]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:33:40,485] TC_05 - Step 26: Verify Shipping address displayed
+[2022-11-01 10:33:40,537]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:33:40,596]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:33:40,653]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:33:40,653] TC_05 - Step 27: Click To Confirm Button
+[2022-11-01 10:33:40,733] TC_05 - Step 28: Verify Order successful message displayed
+[2022-11-01 10:33:42,648]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:33:42,648] TC_05 - Step 29: Verify Order number  displayed
+[2022-11-01 10:33:42,696]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:33:42,696] TC_05 - Step 30: Open My Account page
+[2022-11-01 10:33:44,293] TC_05 - Step 31: Open Order page
+[2022-11-01 10:33:46,472] TC_05 - Step 32: Verify total price displayed
+[2022-11-01 10:33:46,524]  -------------------------- PASSED -------------------------- 
+[2022-11-01 10:33:47,686] OS name = windows 10
+[2022-11-01 10:33:47,687] Driver instance name = chromedriver: chrome on windows (bea636183469f4b4355d2ef8435acb04)
+[2022-11-01 14:48:41,058] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 14:48:42,537] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 14:48:45,588] Precondition: Step 03: Open the desktops page
+[2022-11-01 14:48:49,510] TC_06 - Step 01: Click To Image Home Page
+[2022-11-01 14:48:50,001] TC_06 - Step 02: Click to a product  at Home Page
+[2022-11-01 14:48:52,239] TC_06 - Step 03: Click To 'Add to Cart' button
+[2022-11-01 14:48:52,347] TC_06 - Step 04: Verify 'Add to cart' success message displayed
+[2022-11-01 14:48:52,658]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:48:52,658] TC_06 - Step 05: Click To 'Close' button
+[2022-11-01 14:48:52,735] TC_06 - Step 06: Click To 'Shopping Cart' link
+[2022-11-01 14:48:54,340] OS name = windows 10
+[2022-11-01 14:48:54,340] Driver instance name = chromedriver: chrome on windows (e03caea8ecdfa248e2e30e7ea68f8d58)
+[2022-11-01 14:49:31,735] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 14:49:32,532] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 14:49:35,570] Precondition: Step 03: Open the desktops page
+[2022-11-01 14:49:38,863] TC_06 - Step 01: Click To Image Home Page
+[2022-11-01 14:49:39,362] TC_06 - Step 02: Click to a product  at Home Page
+[2022-11-01 14:49:44,174] TC_06 - Step 03: Click To 'Add to Cart' button
+[2022-11-01 14:49:44,253] TC_06 - Step 04: Verify 'Add to cart' success message displayed
+[2022-11-01 14:49:44,589]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:49:44,589] TC_06 - Step 05: Click To 'Close' button
+[2022-11-01 14:49:44,670] TC_06 - Step 06: Click To 'Shopping Cart' link
+[2022-11-01 14:49:47,835] TC_06 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 14:49:48,031] TC_06 - Step 08: Click To checkout button
+[2022-11-01 14:49:50,516] TC_06 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-11-01 14:49:50,659] TC_06 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-11-01 14:49:50,819] TC_06 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-11-01 14:49:50,989] TC_06 - Step 12: Select Country with value : Viet Nam
+[2022-11-01 14:49:51,191] TC_06 - Step 13: Select Province with value :Other
+[2022-11-01 14:49:51,453] TC_06 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-11-01 14:49:51,607] TC_06 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-11-01 14:49:51,764] TC_06 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-11-01 14:49:51,907] TC_06 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-11-01 14:49:52,048] TC_06 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-11-01 14:49:52,183] TC_06 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-11-01 14:49:52,333] TC_06 - Step 20: Click to  Continue button
+[2022-11-01 14:49:52,412] TC_06 - Step 21: Click to  Continue button at shipping method
+[2022-11-01 14:49:53,023] TC_06 - Step 22: Click to 'Credit Card' checkbox
+[2022-11-01 14:49:53,400] TC_06 - Step 23: Click to  Continue button at payment method
+[2022-11-01 14:49:53,473] TC_06 - Step 24: Input to 'Cardholder name' textbox
+[2022-11-01 14:49:53,905] TC_06 - Step 25: Input to 'Card number' textbox
+[2022-11-01 14:49:54,072] TC_06 - Step 26: Select to 'Expriration date' dropdown
+[2022-11-01 14:49:54,202] TC_06 - Step 27: Select to 'Expriration date' dropdown
+[2022-11-01 14:49:54,332] TC_06 - Step 28: Input to 'Card code' textbox
+[2022-11-01 14:49:54,471] TC_06 - Step 29: Click to  Continue button at payment Info
+[2022-11-01 14:49:54,551] TC_06 - Step 30: Verify Billing address displayed
+[2022-11-01 14:49:54,905]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:49:54,956]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:49:55,006]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:49:55,057]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:49:55,057] TC_06 - Step 31: Verify Shipping address displayed
+[2022-11-01 14:49:55,110]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:49:55,161]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:49:55,223]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:49:55,223] TC_06 - Step 32: Click To Confirm Button
+[2022-11-01 14:49:55,300] TC_06 - Step 33: Verify Order successful message displayed
+[2022-11-01 14:49:57,221]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:49:57,222] TC_06 - Step 34: Verify Order number  displayed
+[2022-11-01 14:49:57,275]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:49:57,275] TC_06 - Step 35: Open My Account page
+[2022-11-01 14:49:57,822] TC_06 - Step 36: Open Order page
+[2022-11-01 14:49:59,792] TC_06 - Step 372: Verify total price displayed
+[2022-11-01 14:49:59,843]  -------------------------- PASSED -------------------------- 
+[2022-11-01 14:49:59,884] OS name = windows 10
+[2022-11-01 14:49:59,884] Driver instance name = chromedriver: chrome on windows (bec83e2315bdd34750bb73e57f58cf17)
+[2022-11-01 15:17:04,892] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 15:17:05,884] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 15:17:08,920] Precondition: Step 03: Open the desktops page
+[2022-11-01 15:17:40,044] OS name = windows 10
+[2022-11-01 15:17:40,045] Driver instance name = chromedriver: chrome on windows (9b1f004feaf7ad9b6200190a50449677)
+[2022-11-01 15:18:16,158] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 15:18:17,197] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 15:18:20,237] Precondition: Step 03: Open the desktops page
+[2022-11-01 15:18:22,034] TC_06 - Step 01: Click To Image Home Page
+[2022-11-01 15:18:22,544] TC_06 - Step 02: Click to a product  at Home Page
+[2022-11-01 15:18:25,327] TC_06 - Step 03: Click To 'Add to Cart' button
+[2022-11-01 15:18:25,444] TC_06 - Step 04: Verify 'Add to cart' success message displayed
+[2022-11-01 15:18:25,797]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:18:25,798] TC_06 - Step 05: Click To 'Close' button
+[2022-11-01 15:18:26,053] TC_06 - Step 06: Click To 'Shopping Cart' link
+[2022-11-01 15:18:27,978] TC_06 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:18:28,212] TC_06 - Step 08: Click To checkout button
+[2022-11-01 15:18:29,732] TC_06 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-11-01 15:18:29,870] TC_06 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-11-01 15:18:30,019] TC_06 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-11-01 15:18:30,185] TC_06 - Step 12: Select Country with value : Viet Nam
+[2022-11-01 15:18:30,413] TC_06 - Step 13: Select Province with value :Other
+[2022-11-01 15:18:30,655] TC_06 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-11-01 15:18:30,798] TC_06 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-11-01 15:18:31,068] TC_06 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-11-01 15:18:31,313] TC_06 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-11-01 15:18:31,511] TC_06 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-11-01 15:18:31,719] TC_06 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-11-01 15:18:31,912] TC_06 - Step 20: Click to  Continue button
+[2022-11-01 15:18:32,000] TC_06 - Step 21: Click to  Continue button at shipping method
+[2022-11-01 15:18:32,656] TC_06 - Step 22: Click to 'Credit Card' checkbox
+[2022-11-01 15:18:32,997] TC_06 - Step 23: Click to  Continue button at payment method
+[2022-11-01 15:18:33,068] TC_06 - Step 24: Input to 'Cardholder name' textbox
+[2022-11-01 15:18:33,464] TC_06 - Step 25: Input to 'Card number' textbox
+[2022-11-01 15:18:33,611] TC_06 - Step 26: Select to 'Expriration date' dropdown
+[2022-11-01 15:18:33,732] TC_06 - Step 27: Select to 'Expriration date' dropdown
+[2022-11-01 15:18:33,882] TC_06 - Step 28: Input to 'Card code' textbox
+[2022-11-01 15:18:34,091] TC_06 - Step 29: Click to  Continue button at payment Info
+[2022-11-01 15:18:34,192] TC_06 - Step 30: Verify Billing address displayed
+[2022-11-01 15:18:34,490]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:18:34,552]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:18:34,608]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:18:34,662]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:18:34,662] TC_06 - Step 31: Verify Shipping address displayed
+[2022-11-01 15:18:34,714]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:18:34,765]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:18:34,816]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:18:34,816] TC_06 - Step 32: Click To Confirm Button
+[2022-11-01 15:18:34,889] TC_06 - Step 33: Verify Order successful message displayed
+[2022-11-01 15:18:35,646]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:18:35,647] TC_06 - Step 34: Verify Order number  displayed
+[2022-11-01 15:18:35,696]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:18:35,696] TC_06 - Step 35: Open My Account page
+[2022-11-01 15:18:36,158] TC_06 - Step 36: Open Order page
+[2022-11-01 15:18:36,623] TC_06 - Step 37: Verify total price displayed
+[2022-11-01 15:18:36,676]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:18:36,719] TC_07 - Step 01: Click to 'detail' order button
+[2022-11-01 15:18:38,323] TC_07 - Step 02: Click to 'Re-order'  button
+[2022-11-01 15:18:39,055] TC_07 - Step 03: Edit Qty product 
+[2022-11-01 15:18:39,182] TC_07 - Step 04: Click To Update shopping cart button
+[2022-11-01 15:18:39,626] TC_07 - Step 04: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:18:39,714] TC_07 - Step 05: Click To checkout button
+[2022-11-01 15:19:20,366] OS name = windows 10
+[2022-11-01 15:19:20,367] Driver instance name = chromedriver: chrome on windows (a7e2f0aacfd13dbcf2967a419d4f27bd)
+[2022-11-01 15:22:07,078] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 15:22:08,163] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 15:22:11,520] Precondition: Step 03: Open the desktops page
+[2022-11-01 15:22:13,536] TC_06 - Step 01: Click To Image Home Page
+[2022-11-01 15:22:14,075] TC_06 - Step 02: Click to a product  at Home Page
+[2022-11-01 15:22:15,737] TC_06 - Step 03: Click To 'Add to Cart' button
+[2022-11-01 15:22:15,847] TC_06 - Step 04: Verify 'Add to cart' success message displayed
+[2022-11-01 15:22:16,157]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:22:16,157] TC_06 - Step 05: Click To 'Close' button
+[2022-11-01 15:22:16,278] TC_06 - Step 06: Click To 'Shopping Cart' link
+[2022-11-01 15:22:17,818] TC_06 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:22:17,907] TC_06 - Step 08: Click To checkout button
+[2022-11-01 15:22:19,889] TC_06 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-11-01 15:22:20,076] TC_06 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-11-01 15:22:20,225] TC_06 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-11-01 15:22:20,388] TC_06 - Step 12: Select Country with value : Viet Nam
+[2022-11-01 15:22:20,495] TC_06 - Step 13: Select Province with value :Other
+[2022-11-01 15:22:20,742] TC_06 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-11-01 15:22:20,901] TC_06 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-11-01 15:22:21,050] TC_06 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-11-01 15:22:21,246] TC_06 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-11-01 15:22:21,390] TC_06 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-11-01 15:22:21,529] TC_06 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-11-01 15:22:21,670] TC_06 - Step 20: Click to  Continue button
+[2022-11-01 15:22:21,754] TC_06 - Step 21: Click to  Continue button at shipping method
+[2022-11-01 15:22:22,385] TC_06 - Step 22: Click to 'Credit Card' checkbox
+[2022-11-01 15:22:22,754] TC_06 - Step 23: Click to  Continue button at payment method
+[2022-11-01 15:22:22,846] TC_06 - Step 24: Input to 'Cardholder name' textbox
+[2022-11-01 15:22:23,224] TC_06 - Step 25: Input to 'Card number' textbox
+[2022-11-01 15:22:23,365] TC_06 - Step 26: Select to 'Expriration date' dropdown
+[2022-11-01 15:22:23,466] TC_06 - Step 27: Select to 'Expriration date' dropdown
+[2022-11-01 15:22:23,569] TC_06 - Step 28: Input to 'Card code' textbox
+[2022-11-01 15:22:23,706] TC_06 - Step 29: Click to  Continue button at payment Info
+[2022-11-01 15:22:23,784] TC_06 - Step 30: Verify Billing address displayed
+[2022-11-01 15:22:24,086]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:22:24,137]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:22:24,191]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:22:24,246]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:22:24,246] TC_06 - Step 31: Verify Shipping address displayed
+[2022-11-01 15:22:24,301]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:22:24,353]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:22:24,402]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:22:24,402] TC_06 - Step 32: Click To Confirm Button
+[2022-11-01 15:22:24,476] TC_06 - Step 33: Verify Order successful message displayed
+[2022-11-01 15:22:25,380]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:22:25,380] TC_06 - Step 34: Verify Order number  displayed
+[2022-11-01 15:22:25,451]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:22:25,451] TC_06 - Step 35: Open My Account page
+[2022-11-01 15:22:26,008] TC_06 - Step 36: Open Order page
+[2022-11-01 15:22:26,557] TC_06 - Step 37: Verify total price displayed
+[2022-11-01 15:22:26,611]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:22:26,695] TC_07 - Step 01: Click to 'detail' order button
+[2022-11-01 15:22:27,466] TC_07 - Step 02: Click to 'Re-order'  button
+[2022-11-01 15:22:28,291] TC_07 - Step 03: Edit Qty product 
+[2022-11-01 15:22:28,533] TC_07 - Step 04: Click To Update shopping cart button
+[2022-11-01 15:22:29,011] TC_07 - Step 04: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:22:29,126] TC_07 - Step 05: Click To checkout button
+[2022-11-01 15:23:09,777] OS name = windows 10
+[2022-11-01 15:23:09,777] Driver instance name = chromedriver: chrome on windows (d1f4ce844b8d5f3827a1971f9c6f2a3c)
+[2022-11-01 15:31:53,013] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 15:31:54,087] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 15:31:57,129] Precondition: Step 03: Open the desktops page
+[2022-11-01 15:31:58,635] TC_06 - Step 01: Click To Image Home Page
+[2022-11-01 15:31:59,106] TC_06 - Step 02: Click to a product  at Home Page
+[2022-11-01 15:32:01,314] TC_06 - Step 03: Click To 'Add to Cart' button
+[2022-11-01 15:32:01,407] TC_06 - Step 04: Verify 'Add to cart' success message displayed
+[2022-11-01 15:32:01,736]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:32:01,736] TC_06 - Step 05: Click To 'Close' button
+[2022-11-01 15:32:01,815] TC_06 - Step 06: Click To 'Shopping Cart' link
+[2022-11-01 15:32:04,924] TC_06 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:32:05,034] TC_06 - Step 08: Click To checkout button
+[2022-11-01 15:32:07,378] TC_06 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-11-01 15:32:07,531] TC_06 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-11-01 15:32:07,681] TC_06 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-11-01 15:32:07,849] TC_06 - Step 12: Select Country with value : Viet Nam
+[2022-11-01 15:32:07,974] TC_06 - Step 13: Select Province with value :Other
+[2022-11-01 15:32:08,283] TC_06 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-11-01 15:32:08,484] TC_06 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-11-01 15:32:08,633] TC_06 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-11-01 15:32:08,785] TC_06 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-11-01 15:32:08,915] TC_06 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-11-01 15:32:09,046] TC_06 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-11-01 15:32:09,208] TC_06 - Step 20: Click to  Continue button
+[2022-11-01 15:32:09,304] TC_06 - Step 21: Click to  Continue button at shipping method
+[2022-11-01 15:32:09,914] TC_06 - Step 22: Click to 'Credit Card' checkbox
+[2022-11-01 15:32:10,285] TC_06 - Step 23: Click to  Continue button at payment method
+[2022-11-01 15:32:10,356] TC_06 - Step 24: Input to 'Cardholder name' textbox
+[2022-11-01 15:32:10,805] TC_06 - Step 25: Input to 'Card number' textbox
+[2022-11-01 15:32:10,943] TC_06 - Step 26: Select to 'Expriration date' dropdown
+[2022-11-01 15:32:11,045] TC_06 - Step 27: Select to 'Expriration date' dropdown
+[2022-11-01 15:32:11,149] TC_06 - Step 28: Input to 'Card code' textbox
+[2022-11-01 15:32:11,273] TC_06 - Step 29: Click to  Continue button at payment Info
+[2022-11-01 15:32:11,349] TC_06 - Step 30: Verify Billing address displayed
+[2022-11-01 15:32:11,666]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:32:11,715]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:32:11,765]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:32:11,815]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:32:11,815] TC_06 - Step 31: Verify Shipping address displayed
+[2022-11-01 15:32:11,864]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:32:11,915]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:32:11,969]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:32:11,970] TC_06 - Step 32: Click To Confirm Button
+[2022-11-01 15:32:12,044] TC_06 - Step 33: Verify Order successful message displayed
+[2022-11-01 15:32:15,007]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:32:15,007] TC_06 - Step 34: Verify Order number  displayed
+[2022-11-01 15:32:15,059]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:32:15,059] TC_06 - Step 35: Open My Account page
+[2022-11-01 15:32:15,649] TC_06 - Step 36: Open Order page
+[2022-11-01 15:32:16,830] TC_06 - Step 37: Verify total price displayed
+[2022-11-01 15:32:16,879]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:32:16,918] TC_07 - Step 01: Click to 'detail' order button
+[2022-11-01 15:32:18,893] TC_07 - Step 02: Click to 'Re-order'  button
+[2022-11-01 15:32:19,635] TC_07 - Step 03: Edit Qty product 
+[2022-11-01 15:32:19,753] TC_07 - Step 04: Click To Update shopping cart button
+[2022-11-01 15:32:20,195] TC_07 - Step 04: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:32:20,301] TC_07 - Step 05: Click To checkout button
+[2022-11-01 15:32:21,268] TC_07 - Step 06: Click to  Continue button
+[2022-11-01 15:32:21,355] TC_07 - Step 07: select shipping method checkbox
+[2022-11-01 15:33:02,011] OS name = windows 10
+[2022-11-01 15:33:02,011] Driver instance name = chromedriver: chrome on windows (94983180bdc0ddc15d676575b04e2fc5)
+[2022-11-01 15:34:22,230] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 15:34:23,438] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 15:34:26,481] Precondition: Step 03: Open the desktops page
+[2022-11-01 15:34:29,931] TC_06 - Step 01: Click To Image Home Page
+[2022-11-01 15:34:30,434] TC_06 - Step 02: Click to a product  at Home Page
+[2022-11-01 15:34:31,441] TC_06 - Step 03: Click To 'Add to Cart' button
+[2022-11-01 15:34:31,531] TC_06 - Step 04: Verify 'Add to cart' success message displayed
+[2022-11-01 15:34:31,816]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:31,816] TC_06 - Step 05: Click To 'Close' button
+[2022-11-01 15:34:31,901] TC_06 - Step 06: Click To 'Shopping Cart' link
+[2022-11-01 15:34:34,701] TC_06 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:34:34,798] TC_06 - Step 08: Click To checkout button
+[2022-11-01 15:34:36,819] TC_06 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-11-01 15:34:36,968] TC_06 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-11-01 15:34:37,123] TC_06 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-11-01 15:34:37,290] TC_06 - Step 12: Select Country with value : Viet Nam
+[2022-11-01 15:34:37,399] TC_06 - Step 13: Select Province with value :Other
+[2022-11-01 15:34:37,645] TC_06 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-11-01 15:34:37,776] TC_06 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-11-01 15:34:37,929] TC_06 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-11-01 15:34:38,091] TC_06 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-11-01 15:34:38,236] TC_06 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-11-01 15:34:38,393] TC_06 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-11-01 15:34:38,539] TC_06 - Step 20: Click to  Continue button
+[2022-11-01 15:34:38,625] TC_06 - Step 21: Click to  Continue button at shipping method
+[2022-11-01 15:34:39,245] TC_06 - Step 22: Click to 'Credit Card' checkbox
+[2022-11-01 15:34:39,561] TC_06 - Step 23: Click to  Continue button at payment method
+[2022-11-01 15:34:39,636] TC_06 - Step 24: Input to 'Cardholder name' textbox
+[2022-11-01 15:34:40,082] TC_06 - Step 25: Input to 'Card number' textbox
+[2022-11-01 15:34:40,225] TC_06 - Step 26: Select to 'Expriration date' dropdown
+[2022-11-01 15:34:40,330] TC_06 - Step 27: Select to 'Expriration date' dropdown
+[2022-11-01 15:34:40,432] TC_06 - Step 28: Input to 'Card code' textbox
+[2022-11-01 15:34:40,554] TC_06 - Step 29: Click to  Continue button at payment Info
+[2022-11-01 15:34:40,625] TC_06 - Step 30: Verify Billing address displayed
+[2022-11-01 15:34:40,924]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:40,972]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:41,023]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:41,075]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:41,075] TC_06 - Step 31: Verify Shipping address displayed
+[2022-11-01 15:34:41,123]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:41,174]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:41,225]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:41,226] TC_06 - Step 32: Click To Confirm Button
+[2022-11-01 15:34:41,300] TC_06 - Step 33: Verify Order successful message displayed
+[2022-11-01 15:34:43,257]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:43,257] TC_06 - Step 34: Verify Order number  displayed
+[2022-11-01 15:34:43,306]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:43,307] TC_06 - Step 35: Open My Account page
+[2022-11-01 15:34:45,028] TC_06 - Step 36: Open Order page
+[2022-11-01 15:34:46,762] TC_06 - Step 37: Verify total price displayed
+[2022-11-01 15:34:46,813]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:46,852] TC_07 - Step 01: Click to 'detail' order button
+[2022-11-01 15:34:48,694] TC_07 - Step 02: Click to 'Re-order'  button
+[2022-11-01 15:34:49,429] TC_07 - Step 03: Edit Qty product 
+[2022-11-01 15:34:49,555] TC_07 - Step 04: Click To Update shopping cart button
+[2022-11-01 15:34:49,990] TC_07 - Step 04: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:34:50,097] TC_07 - Step 05: Click To checkout button
+[2022-11-01 15:34:50,990] TC_07 - Step 06: Click to  Continue button
+[2022-11-01 15:34:51,077] TC_07 - Step 07: select shipping method checkbox
+[2022-11-01 15:34:51,455] TC_07 - Step 08: Click to  Continue button at shipping method
+[2022-11-01 15:34:51,524] TC_07 - Step 09: Click to  Continue button at payment method
+[2022-11-01 15:34:52,142] TC_07 - Step 10: Verify Payment info displayed
+[2022-11-01 15:34:52,483]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:52,483] TC_07 - Step 11: Click to  Continue button at payment Info
+[2022-11-01 15:34:52,546] TC_07 - Step 13: Verify Billing address displayed
+[2022-11-01 15:34:52,855]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:52,898]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:52,945]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:34:52,945] TC_07 - Step 14: Click To Confirm Button
+[2022-11-01 15:34:53,010] TC_07 - Step 15: Verify Order successful message displayed
+[2022-11-01 15:34:53,787] OS name = windows 10
+[2022-11-01 15:34:53,787] Driver instance name = chromedriver: chrome on windows (9700a7ea3700dc39aec3a1e808e5a741)
+[2022-11-01 15:37:23,930] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 15:37:24,980] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 15:37:28,021] Precondition: Step 03: Open the desktops page
+[2022-11-01 15:37:29,683] TC_06 - Step 01: Click To Image Home Page
+[2022-11-01 15:37:30,165] TC_06 - Step 02: Click to a product  at Home Page
+[2022-11-01 15:37:32,039] TC_06 - Step 03: Click To 'Add to Cart' button
+[2022-11-01 15:37:32,141] TC_06 - Step 04: Verify 'Add to cart' success message displayed
+[2022-11-01 15:37:32,423]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:37:32,423] TC_06 - Step 05: Click To 'Close' button
+[2022-11-01 15:37:32,499] TC_06 - Step 06: Click To 'Shopping Cart' link
+[2022-11-01 15:37:33,668] TC_07 - Step 01: Click to 'detail' order button
+[2022-11-01 15:37:33,680] OS name = windows 10
+[2022-11-01 15:37:33,680] Driver instance name = chromedriver: chrome on windows (8a143cf6fab507a630c18fecd2cb5107)
+[2022-11-01 15:38:06,637] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 15:38:08,823] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 15:38:12,236] Precondition: Step 03: Open the desktops page
+[2022-11-01 15:38:13,878] TC_06 - Step 01: Click To Image Home Page
+[2022-11-01 15:38:14,333] TC_06 - Step 02: Click to a product  at Home Page
+[2022-11-01 15:38:15,933] TC_06 - Step 03: Click To 'Add to Cart' button
+[2022-11-01 15:38:16,030] TC_06 - Step 04: Verify 'Add to cart' success message displayed
+[2022-11-01 15:38:16,366]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:16,366] TC_06 - Step 05: Click To 'Close' button
+[2022-11-01 15:38:16,449] TC_06 - Step 06: Click To 'Shopping Cart' link
+[2022-11-01 15:38:18,185] TC_06 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:38:18,287] TC_06 - Step 08: Click To checkout button
+[2022-11-01 15:38:19,500] TC_06 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-11-01 15:38:19,641] TC_06 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-11-01 15:38:19,788] TC_06 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-11-01 15:38:19,947] TC_06 - Step 12: Select Country with value : Viet Nam
+[2022-11-01 15:38:20,126] TC_06 - Step 13: Select Province with value :Other
+[2022-11-01 15:38:20,388] TC_06 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-11-01 15:38:20,548] TC_06 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-11-01 15:38:20,720] TC_06 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-11-01 15:38:20,899] TC_06 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-11-01 15:38:21,070] TC_06 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-11-01 15:38:21,263] TC_06 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-11-01 15:38:21,431] TC_06 - Step 20: Click to  Continue button
+[2022-11-01 15:38:21,531] TC_06 - Step 21: Click to  Continue button at shipping method
+[2022-11-01 15:38:22,144] TC_06 - Step 22: Click to 'Credit Card' checkbox
+[2022-11-01 15:38:22,525] TC_06 - Step 23: Click to  Continue button at payment method
+[2022-11-01 15:38:22,594] TC_06 - Step 24: Input to 'Cardholder name' textbox
+[2022-11-01 15:38:23,026] TC_06 - Step 25: Input to 'Card number' textbox
+[2022-11-01 15:38:23,201] TC_06 - Step 26: Select to 'Expriration date' dropdown
+[2022-11-01 15:38:23,311] TC_06 - Step 27: Select to 'Expriration date' dropdown
+[2022-11-01 15:38:23,418] TC_06 - Step 28: Input to 'Card code' textbox
+[2022-11-01 15:38:23,554] TC_06 - Step 29: Click to  Continue button at payment Info
+[2022-11-01 15:38:23,648] TC_06 - Step 30: Verify Billing address displayed
+[2022-11-01 15:38:24,002]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:24,056]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:24,119]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:24,180]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:24,180] TC_06 - Step 31: Verify Shipping address displayed
+[2022-11-01 15:38:24,247]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:24,315]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:24,385]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:24,385] TC_06 - Step 32: Click To Confirm Button
+[2022-11-01 15:38:24,488] TC_06 - Step 33: Verify Order successful message displayed
+[2022-11-01 15:38:25,306]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:25,307] TC_06 - Step 34: Verify Order number  displayed
+[2022-11-01 15:38:25,355]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:25,355] TC_06 - Step 35: Open My Account page
+[2022-11-01 15:38:25,844] TC_06 - Step 36: Open Order page
+[2022-11-01 15:38:26,335] TC_06 - Step 37: Verify total price displayed
+[2022-11-01 15:38:26,390]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:26,437] TC_07 - Step 01: Click to 'detail' order button
+[2022-11-01 15:38:27,052] TC_07 - Step 02: Click to 'Re-order'  button
+[2022-11-01 15:38:27,835] TC_07 - Step 03: Edit Qty product 
+[2022-11-01 15:38:27,994] TC_07 - Step 04: Click To Update shopping cart button
+[2022-11-01 15:38:28,471] TC_07 - Step 04: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:38:28,560] TC_07 - Step 05: Click To checkout button
+[2022-11-01 15:38:29,567] TC_07 - Step 06: Click to  Continue button
+[2022-11-01 15:38:29,660] TC_07 - Step 07: select shipping method checkbox
+[2022-11-01 15:38:30,053] TC_07 - Step 08: Click to  Continue button at shipping method
+[2022-11-01 15:38:30,138] TC_07 - Step 09: Click to  Continue button at payment method
+[2022-11-01 15:38:30,743] TC_07 - Step 10: Verify Payment info displayed
+[2022-11-01 15:38:31,033]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:31,033] TC_07 - Step 11: Click to  Continue button at payment Info
+[2022-11-01 15:38:31,111] TC_07 - Step 13: Verify Billing address displayed
+[2022-11-01 15:38:31,406]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:31,449]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:31,495]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:38:31,495] TC_07 - Step 14: Click To Confirm Button
+[2022-11-01 15:38:31,561] TC_07 - Step 15: Verify Order successful message displayed
+[2022-11-01 15:38:32,328] OS name = windows 10
+[2022-11-01 15:38:32,328] Driver instance name = chromedriver: chrome on windows (b5374a67ec7b46a7e0162be4adcf2bfe)
+[2022-11-01 15:45:34,257] Pre-Condition - Step 01: Navigate to Login page
+[2022-11-01 15:45:36,758] Pre-Condition - Step 02: Set cookie and reload page
+[2022-11-01 15:45:40,834] Precondition: Step 03: Open the desktops page
+[2022-11-01 15:45:46,303] TC_06 - Step 01: Click To Image Home Page
+[2022-11-01 15:45:46,867] TC_06 - Step 02: Click to a product  at Home Page
+[2022-11-01 15:45:48,572] TC_06 - Step 03: Click To 'Add to Cart' button
+[2022-11-01 15:45:48,706] TC_06 - Step 04: Verify 'Add to cart' success message displayed
+[2022-11-01 15:45:49,098]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:45:49,098] TC_06 - Step 05: Click To 'Close' button
+[2022-11-01 15:45:49,199] TC_06 - Step 06: Click To 'Shopping Cart' link
+[2022-11-01 15:45:51,427] TC_06 - Step 07: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:45:51,598] TC_06 - Step 08: Click To checkout button
+[2022-11-01 15:45:52,858] TC_06 - Step 09: Enter to FirstName textbox with value is Test 01'
+[2022-11-01 15:45:53,037] TC_06 - Step 10: Enter to LastName textbox with value is Nguyen Van'
+[2022-11-01 15:45:53,221] TC_06 - Step 11: Enter to emailAdress textbox with value is test123@gmail.com
+[2022-11-01 15:45:53,398] TC_06 - Step 12: Select Country with value : Viet Nam
+[2022-11-01 15:45:53,589] TC_06 - Step 13: Select Province with value :Other
+[2022-11-01 15:45:53,847] TC_06 - Step 14 : Enter to City textbox with value is Ha Noi'
+[2022-11-01 15:45:54,009] TC_06 - Step 15: Enter to Address 1 textbox with value is To Huu, Ha Dong'
+[2022-11-01 15:45:54,201] TC_06 - Step 16: Enter to Address 2 textbox with value is Ngoc Liep, Quoc Oai'
+[2022-11-01 15:45:54,383] TC_06 - Step 17: Enter to Zip textbox with value is 50000005'
+[2022-11-01 15:45:54,576] TC_06 - Step 18: Enter to Phone Number textbox with value is 0987403392'
+[2022-11-01 15:45:54,761] TC_06 - Step 19: Enter to Fax Number textbox with value is 0123456789'
+[2022-11-01 15:45:54,967] TC_06 - Step 20: Click to  Continue button
+[2022-11-01 15:45:55,071] TC_06 - Step 21: Click to  Continue button at shipping method
+[2022-11-01 15:45:55,679] TC_06 - Step 22: Click to 'Credit Card' checkbox
+[2022-11-01 15:45:56,164] TC_06 - Step 23: Click to  Continue button at payment method
+[2022-11-01 15:45:56,244] TC_06 - Step 24: Input to 'Cardholder name' textbox
+[2022-11-01 15:45:56,654] TC_06 - Step 25: Input to 'Card number' textbox
+[2022-11-01 15:45:56,785] TC_06 - Step 26: Select to 'Expriration date' dropdown
+[2022-11-01 15:45:56,896] TC_06 - Step 27: Select to 'Expriration date' dropdown
+[2022-11-01 15:45:57,014] TC_06 - Step 28: Input to 'Card code' textbox
+[2022-11-01 15:45:57,147] TC_06 - Step 29: Click to  Continue button at payment Info
+[2022-11-01 15:45:57,244] TC_06 - Step 30: Verify Billing address displayed
+[2022-11-01 15:45:57,596]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:45:57,665]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:45:57,742]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:45:57,815]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:45:57,816] TC_06 - Step 31: Verify Shipping address displayed
+[2022-11-01 15:45:57,890]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:45:57,962]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:45:58,021]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:45:58,021] TC_06 - Step 32: Click To Confirm Button
+[2022-11-01 15:45:58,099] TC_06 - Step 33: Verify Order successful message displayed
+[2022-11-01 15:45:59,116]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:45:59,117] TC_06 - Step 34: Verify Order number  displayed
+[2022-11-01 15:45:59,172]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:45:59,172] TC_06 - Step 35: Open My Account page
+[2022-11-01 15:45:59,762] TC_06 - Step 36: Open Order page
+[2022-11-01 15:46:00,482] TC_06 - Step 37: Verify total price displayed
+[2022-11-01 15:46:00,594]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:46:01,041] TC_07 - Step 01: Click to 'detail' order button
+[2022-11-01 15:46:01,862] TC_07 - Step 02: Click to 'Re-order'  button
+[2022-11-01 15:46:02,750] TC_07 - Step 03: Edit Qty product 
+[2022-11-01 15:46:02,900] TC_07 - Step 04: Click To Update shopping cart button
+[2022-11-01 15:46:03,478] TC_07 - Step 04: Click To checkbox 'I agree with the terms .. ' 
+[2022-11-01 15:46:03,628] TC_07 - Step 05: Click To checkout button
+[2022-11-01 15:46:04,660] TC_07 - Step 06: Click to  Continue button
+[2022-11-01 15:46:04,746] TC_07 - Step 07: select shipping method checkbox
+[2022-11-01 15:46:05,131] TC_07 - Step 08: Click to  Continue button at shipping method
+[2022-11-01 15:46:05,206] TC_07 - Step 09: Click to  Continue button at payment method
+[2022-11-01 15:46:05,818] TC_07 - Step 10: Verify Payment info displayed
+[2022-11-01 15:46:06,162]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:46:06,162] TC_07 - Step 11: Click to  Continue button at payment Info
+[2022-11-01 15:46:06,268] TC_07 - Step 13: Verify Billing address displayed
+[2022-11-01 15:46:06,618]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:46:06,679]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:46:06,730]  -------------------------- PASSED -------------------------- 
+[2022-11-01 15:46:06,730] TC_07 - Step 14: Click To Confirm Button
+[2022-11-01 15:46:06,811] TC_07 - Step 15: Verify Order successful message displayed
+[2022-11-01 15:46:07,852] OS name = windows 10
+[2022-11-01 15:46:07,854] Driver instance name = chromedriver: chrome on windows (9d3251cb7898eebc204f7d6bf52b2e53)
+[2022-11-03 11:41:52,179] OS name = windows 10
+[2022-11-03 11:41:52,226] 
+[2022-11-03 11:43:19,538] Precondition - Step 01: Navigate to 'Register' link
+[2022-11-03 11:43:21,054] Precondition - Step 02: Click to Checkbox Gender
+[2022-11-03 11:43:21,262] Precondition - Step 03: Enter to FirstName textbox with value is Iola'
+[2022-11-03 11:43:21,564] Precondition - Step 04: Enter to LastName textbox with value is Swift'
+[2022-11-03 11:43:21,708] Precondition - Step 05: Select Day of Birthday
+[2022-11-03 11:43:21,898] Precondition - Step 06: Select Month of Birthday
+[2022-11-03 11:43:22,015] Precondition - Step 07: Select year of Birthday
+[2022-11-03 11:43:22,129] Precondition - Step 08: Enter to emailAdress textbox with value is kieth.lesch@yahoo.com'
+[2022-11-03 11:43:22,275] Precondition - Step 09: Click to Radio 
+[2022-11-03 11:44:03,160] OS name = windows 10
+[2022-11-03 11:44:03,161] Driver instance name = remotewebdriver: chrome on windows (988ac56a3a01f706ffb850a539231cc4)
+[2022-11-03 11:45:12,545] Precondition - Step 01: Navigate to 'Register' link
+[2022-11-03 11:45:13,153] Precondition - Step 02: Click to Checkbox Gender
+[2022-11-03 11:45:13,274] Precondition - Step 03: Enter to FirstName textbox with value is Jacquetta'
+[2022-11-03 11:45:13,413] Precondition - Step 04: Enter to LastName textbox with value is Dooley'
+[2022-11-03 11:45:13,556] Precondition - Step 05: Select Day of Birthday
+[2022-11-03 11:45:13,694] Precondition - Step 06: Select Month of Birthday
+[2022-11-03 11:45:13,816] Precondition - Step 07: Select year of Birthday
+[2022-11-03 11:45:13,936] Precondition - Step 08: Enter to emailAdress textbox with value is aron.ratke@yahoo.com'
+[2022-11-03 11:45:14,083] Precondition - Step 09: Click to Radio 
+[2022-11-03 11:45:14,083] Precondition - Step 10: Enter to password textbox with value is 123456'
+[2022-11-03 11:45:14,215] Precondition - Step 11: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-11-03 11:45:14,348] Precondition - Step 12: Click to 'Register' button
+[2022-11-03 11:45:15,147] Precondition - Step 13: Verify register success message is displayed
+[2022-11-03 11:45:15,238]  -------------------------- PASSED -------------------------- 
+[2022-11-03 11:45:15,238] Precondition - Step 14: Click to Logout link
+[2022-11-03 11:45:15,890] Precondition - Step 15: Click to Login link
+[2022-11-03 11:45:16,418] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-03 11:45:16,524] Login_01 - Step 02: Input to Password textbox with value is
+[2022-11-03 11:45:16,631] Login_01 - Step 03: Click to 'Login' button
+[2022-11-03 11:45:16,734] Login_01 - Step 04: Verify error message displayed
+[2022-11-03 11:45:16,794]  -------------------------- PASSED -------------------------- 
+[2022-11-03 11:45:16,834] Login_02 - Step 01: Open Login page
+[2022-11-03 11:45:17,144] Login_02 - Step 02: Input to emailAddress textbox with value is123a@ht@.com
+[2022-11-03 11:45:17,265] Login_02 - Step 03: Input to Password textbox with value is123456
+[2022-11-03 11:45:17,391] Login_02 - Step 04: Click to 'Login' button
+[2022-11-03 11:45:17,478] Login_02 - Step 05: Verify error message displayed
+[2022-11-03 11:45:17,530]  -------------------------- PASSED -------------------------- 
+[2022-11-03 11:45:17,536] Login_03 - Step 01: Open Login page
+[2022-11-03 11:45:17,930] Login_03 - Step 02: Input to emailAddress textbox with value istest002@gmail.com
+[2022-11-03 11:45:18,050] Login_03 - Step 03: Input to Password textbox with value is123456
+[2022-11-03 11:45:18,172] Login_03 - Step 04: Click to 'Login' button
+[2022-11-03 11:45:18,558] Login_03 - Step 05: Verify error message displayed
+[2022-11-03 11:45:18,622]  -------------------------- PASSED -------------------------- 
+[2022-11-03 11:45:18,627] Login_04 - Step 01: Open Login page
+[2022-11-03 11:45:18,922] Login_04 - Step 02: Input to emailAddress textbox with value isaron.ratke@yahoo.com
+[2022-11-03 11:45:19,048] Login_04 - Step 03: Input to Password textbox with value is
+[2022-11-03 11:45:19,157] Login_02 - Step 04: Click to 'Login' button
+[2022-11-03 11:45:19,577] Login_02 - Step 05: Verify error message displayed
+[2022-11-03 11:45:19,645]  -------------------------- PASSED -------------------------- 
+[2022-11-03 11:45:19,650] Login_04 - Step 01: Open Login page
+[2022-11-03 11:45:20,068] Login_04 - Step 02: Input to emailAddress textbox with value isaron.ratke@yahoo.com
+[2022-11-03 11:45:20,195] Login_04 - Step 03: Input to Password textbox with value is123
+[2022-11-03 11:45:20,316] Login_04 - Step 04: Click to 'Login' button
+[2022-11-03 11:45:20,749] Login_04 - Step 05: Verify error message displayed
+[2022-11-03 11:45:20,801]  -------------------------- PASSED -------------------------- 
+[2022-11-03 11:45:20,806] Login_04 - Step 01: Open Login page
+[2022-11-03 11:45:21,116] Login_04 - Step 02: Input to emailAddress textbox with value isaron.ratke@yahoo.com
+[2022-11-03 11:45:21,273] Login_04 - Step 03: Input to Password textbox with value is123456
+[2022-11-03 11:45:21,394] Login_04 - Step 04: Click to 'Login' button
+[2022-11-03 11:45:22,063] Login_04 - Step 05: Verify HomePage displayed
+[2022-11-03 11:45:22,136]  -------------------------- PASSED -------------------------- 
+[2022-11-03 11:45:22,140] OS name = windows 10
+[2022-11-03 11:45:22,140] Driver instance name = remotewebdriver: chrome on windows (517c428ba3b9b18daae13b5b2261a414)
+[2022-11-04 11:56:45,507] Precondition - Step 01: Navigate to 'Register' link
+[2022-11-04 11:56:48,221] Precondition - Step 02: Click to Checkbox Gender
+[2022-11-04 11:56:50,053] Precondition - Step 03: Enter to FirstName textbox with value is Les'
+[2022-11-04 11:56:51,399] Precondition - Step 04: Enter to LastName textbox with value is Purdy'
+[2022-11-04 11:56:52,777] Precondition - Step 05: Select Day of Birthday
+[2022-11-04 11:56:55,415] Precondition - Step 06: Select Month of Birthday
+[2022-11-04 11:56:57,972] Precondition - Step 07: Select year of Birthday
+[2022-11-04 11:57:00,552] Precondition - Step 08: Enter to emailAdress textbox with value is nannie.bechtelar@hotmail.com'
+[2022-11-04 11:57:01,901] Precondition - Step 09: Click to Radio 
+[2022-11-04 11:57:01,902] Precondition - Step 10: Enter to password textbox with value is 123456'
+[2022-11-04 11:57:03,275] Precondition - Step 11: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-11-04 11:57:04,606] Precondition - Step 12: Click to 'Register' button
+[2022-11-04 11:57:06,600] Precondition - Step 13: Verify register success message is displayed
+[2022-11-04 11:57:07,664]  -------------------------- PASSED -------------------------- 
+[2022-11-04 11:57:07,664] Precondition - Step 14: Click to Logout link
+[2022-11-04 11:57:09,684] Precondition - Step 15: Click to Login link
+[2022-11-04 11:57:13,684] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-04 11:57:14,968] Login_01 - Step 02: Input to Password textbox with value is
+[2022-11-04 11:57:16,267] Login_01 - Step 03: Click to 'Login' button
+[2022-11-04 11:57:18,798] Login_01 - Step 04: Verify error message displayed
+[2022-11-04 11:57:20,285]  -------------------------- PASSED -------------------------- 
+[2022-11-04 11:57:20,329] Login_02 - Step 01: Open Login page
+[2022-11-04 11:57:20,978] Login_02 - Step 02: Input to emailAddress textbox with value is123a@ht@.com
+[2022-11-04 11:57:22,273] Login_02 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 11:57:23,602] Login_02 - Step 04: Click to 'Login' button
+[2022-11-04 11:57:25,171] Login_02 - Step 05: Verify error message displayed
+[2022-11-04 11:57:26,203]  -------------------------- PASSED -------------------------- 
+[2022-11-04 11:57:26,210] Login_03 - Step 01: Open Login page
+[2022-11-04 11:57:26,852] Login_03 - Step 02: Input to emailAddress textbox with value istest002@gmail.com
+[2022-11-04 11:57:28,149] Login_03 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 11:57:29,500] Login_03 - Step 04: Click to 'Login' button
+[2022-11-04 11:57:31,184] Login_03 - Step 05: Verify error message displayed
+[2022-11-04 11:57:32,211]  -------------------------- PASSED -------------------------- 
+[2022-11-04 11:57:32,217] Login_04 - Step 01: Open Login page
+[2022-11-04 11:57:32,858] Login_04 - Step 02: Input to emailAddress textbox with value isnannie.bechtelar@hotmail.com
+[2022-11-04 11:57:34,209] Login_04 - Step 03: Input to Password textbox with value is
+[2022-11-04 11:57:35,515] Login_02 - Step 04: Click to 'Login' button
+[2022-11-04 11:57:37,225] Login_02 - Step 05: Verify error message displayed
+[2022-11-04 11:57:38,265]  -------------------------- PASSED -------------------------- 
+[2022-11-04 11:57:38,271] Login_04 - Step 01: Open Login page
+[2022-11-04 11:57:38,931] Login_04 - Step 02: Input to emailAddress textbox with value isnannie.bechtelar@hotmail.com
+[2022-11-04 11:57:40,293] Login_04 - Step 03: Input to Password textbox with value is123
+[2022-11-04 11:57:41,665] Login_04 - Step 04: Click to 'Login' button
+[2022-11-04 11:57:43,361] Login_04 - Step 05: Verify error message displayed
+[2022-11-04 11:57:44,439]  -------------------------- PASSED -------------------------- 
+[2022-11-04 11:57:44,448] Login_04 - Step 01: Open Login page
+[2022-11-04 11:57:45,101] Login_04 - Step 02: Input to emailAddress textbox with value isnannie.bechtelar@hotmail.com
+[2022-11-04 11:57:46,441] Login_04 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 11:57:47,749] Login_04 - Step 04: Click to 'Login' button
+[2022-11-04 11:57:50,865] Login_04 - Step 05: Verify HomePage displayed
+[2022-11-04 11:57:52,435]  -------------------------- PASSED -------------------------- 
+[2022-11-04 11:57:52,449] OS name = windows 10
+[2022-11-04 11:57:52,450] Driver instance name = remotewebdriver: firefox on windows (a3b582a47eb9f233dc24a305d6c8ed99232df8e6)
+[2022-11-04 11:57:57,317] OS name = windows 10
+[2022-11-04 11:57:57,317] 
+[2022-11-04 12:02:18,972] Precondition - Step 01: Navigate to 'Register' link
+[2022-11-04 12:02:21,783] Precondition - Step 02: Click to Checkbox Gender
+[2022-11-04 12:02:23,380] Precondition - Step 03: Enter to FirstName textbox with value is Andrea'
+[2022-11-04 12:02:24,889] Precondition - Step 04: Enter to LastName textbox with value is Torphy'
+[2022-11-04 12:02:26,255] Precondition - Step 05: Select Day of Birthday
+[2022-11-04 12:02:28,597] Precondition - Step 06: Select Month of Birthday
+[2022-11-04 12:02:31,013] Precondition - Step 07: Select year of Birthday
+[2022-11-04 12:02:33,369] Precondition - Step 08: Enter to emailAdress textbox with value is sena.hermiston@yahoo.com'
+[2022-11-04 12:02:34,783] Precondition - Step 09: Click to Radio 
+[2022-11-04 12:02:34,783] Precondition - Step 10: Enter to password textbox with value is 123456'
+[2022-11-04 12:02:36,094] Precondition - Step 11: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-11-04 12:02:37,448] Precondition - Step 12: Click to 'Register' button
+[2022-11-04 12:02:39,444] Precondition - Step 13: Verify register success message is displayed
+[2022-11-04 12:02:40,521]  -------------------------- PASSED -------------------------- 
+[2022-11-04 12:02:40,521] Precondition - Step 14: Click to Logout link
+[2022-11-04 12:02:42,362] Precondition - Step 15: Click to Login link
+[2022-11-04 12:02:44,361] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-04 12:02:45,675] Login_01 - Step 02: Input to Password textbox with value is
+[2022-11-04 12:02:46,974] Login_01 - Step 03: Click to 'Login' button
+[2022-11-04 12:02:49,363] Login_01 - Step 04: Verify error message displayed
+[2022-11-04 12:02:50,853]  -------------------------- PASSED -------------------------- 
+[2022-11-04 12:02:50,896] Login_02 - Step 01: Open Login page
+[2022-11-04 12:02:51,416] Login_02 - Step 02: Input to emailAddress textbox with value is123a@ht@.com
+[2022-11-04 12:02:52,764] Login_02 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 12:02:54,114] Login_02 - Step 04: Click to 'Login' button
+[2022-11-04 12:02:55,421] Login_02 - Step 05: Verify error message displayed
+[2022-11-04 12:02:56,497]  -------------------------- PASSED -------------------------- 
+[2022-11-04 12:02:56,503] Login_03 - Step 01: Open Login page
+[2022-11-04 12:02:57,029] Login_03 - Step 02: Input to emailAddress textbox with value istest002@gmail.com
+[2022-11-04 12:02:58,371] Login_03 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 12:02:59,808] Login_03 - Step 04: Click to 'Login' button
+[2022-11-04 12:03:01,342] Login_03 - Step 05: Verify error message displayed
+[2022-11-04 12:03:02,390]  -------------------------- PASSED -------------------------- 
+[2022-11-04 12:03:02,400] Login_04 - Step 01: Open Login page
+[2022-11-04 12:03:03,169] Login_04 - Step 02: Input to emailAddress textbox with value issena.hermiston@yahoo.com
+[2022-11-04 12:03:04,653] Login_04 - Step 03: Input to Password textbox with value is
+[2022-11-04 12:03:06,006] Login_02 - Step 04: Click to 'Login' button
+[2022-11-04 12:03:07,592] Login_02 - Step 05: Verify error message displayed
+[2022-11-04 12:03:08,684]  -------------------------- PASSED -------------------------- 
+[2022-11-04 12:03:08,696] Login_04 - Step 01: Open Login page
+[2022-11-04 12:03:09,234] Login_04 - Step 02: Input to emailAddress textbox with value issena.hermiston@yahoo.com
+[2022-11-04 12:03:10,597] Login_04 - Step 03: Input to Password textbox with value is123
+[2022-11-04 12:03:11,948] Login_04 - Step 04: Click to 'Login' button
+[2022-11-04 12:03:13,558] Login_04 - Step 05: Verify error message displayed
+[2022-11-04 12:03:14,598]  -------------------------- PASSED -------------------------- 
+[2022-11-04 12:03:14,606] Login_04 - Step 01: Open Login page
+[2022-11-04 12:03:15,127] Login_04 - Step 02: Input to emailAddress textbox with value issena.hermiston@yahoo.com
+[2022-11-04 12:03:16,502] Login_04 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 12:03:17,863] Login_04 - Step 04: Click to 'Login' button
+[2022-11-04 12:03:20,709] Login_04 - Step 05: Verify HomePage displayed
+[2022-11-04 12:03:22,207]  -------------------------- PASSED -------------------------- 
+[2022-11-04 12:03:22,213] OS name = windows 10
+[2022-11-04 12:03:22,213] Driver instance name = remotewebdriver: chrome on mac (9069c7480bbce44bdcce4df6118a678996b678ba)
+[2022-11-04 14:39:38,343] OS name = windows 10
+[2022-11-04 14:39:38,368] 
+[2022-11-04 14:39:40,136] OS name = windows 10
+[2022-11-04 14:39:40,136] 
+[2022-11-04 14:44:20,659] OS name = windows 10
+[2022-11-04 14:44:20,676] 
+[2022-11-04 14:44:22,227] OS name = windows 10
+[2022-11-04 14:44:22,228] 
+[2022-11-04 14:50:51,920] OS name = windows 10
+[2022-11-04 14:50:51,921] 
+[2022-11-04 14:50:53,514] OS name = windows 10
+[2022-11-04 14:50:53,515] 
+[2022-11-04 14:58:07,611] OS name = windows 10
+[2022-11-04 14:58:07,612] 
+[2022-11-04 14:58:09,695] OS name = windows 10
+[2022-11-04 14:58:09,695] 
+[2022-11-04 14:58:54,986] OS name = windows 10
+[2022-11-04 14:58:55,016] 
+[2022-11-04 14:58:56,659] OS name = windows 10
+[2022-11-04 14:58:56,659] 
+[2022-11-04 15:10:03,661] OS name = windows 10
+[2022-11-04 15:10:03,662] 
+[2022-11-04 15:10:05,001] OS name = windows 10
+[2022-11-04 15:10:05,002] 
+[2022-11-04 15:11:27,938] OS name = windows 10
+[2022-11-04 15:11:27,938] 
+[2022-11-04 15:11:29,432] OS name = windows 10
+[2022-11-04 15:11:29,432] 
+[2022-11-04 15:15:12,088] Precondition - Step 01: Navigate to 'Register' link
+[2022-11-04 15:15:15,473] Precondition - Step 02: Click to Checkbox Gender
+[2022-11-04 15:15:17,646] Precondition - Step 03: Enter to FirstName textbox with value is Donetta'
+[2022-11-04 15:15:19,544] Precondition - Step 04: Enter to LastName textbox with value is Flatley'
+[2022-11-04 15:15:21,880] Precondition - Step 05: Select Day of Birthday
+[2022-11-04 15:15:24,851] Precondition - Step 06: Select Month of Birthday
+[2022-11-04 15:15:27,840] Precondition - Step 07: Select year of Birthday
+[2022-11-04 15:15:30,698] Precondition - Step 08: Enter to emailAdress textbox with value is nydia.mcdermott@gmail.com'
+[2022-11-04 15:15:32,490] Precondition - Step 09: Click to Radio 
+[2022-11-04 15:15:32,490] Precondition - Step 10: Enter to password textbox with value is 123456'
+[2022-11-04 15:15:34,337] Precondition - Step 11: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-11-04 15:15:36,217] Precondition - Step 12: Click to 'Register' button
+[2022-11-04 15:15:38,746] Precondition - Step 13: Verify register success message is displayed
+[2022-11-04 15:15:39,889]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:15:39,889] Precondition - Step 14: Click to Logout link
+[2022-11-04 15:15:42,371] Precondition - Step 15: Click to Login link
+[2022-11-04 15:15:44,926] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-04 15:15:46,731] Login_01 - Step 02: Input to Password textbox with value is
+[2022-11-04 15:15:48,523] Login_01 - Step 03: Click to 'Login' button
+[2022-11-04 15:15:50,349] Login_01 - Step 04: Verify error message displayed
+[2022-11-04 15:15:51,474]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:15:51,537] Login_02 - Step 01: Open Login page
+[2022-11-04 15:15:52,468] Login_02 - Step 02: Input to emailAddress textbox with value is123a@ht@.com
+[2022-11-04 15:15:54,295] Login_02 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 15:15:56,256] Login_02 - Step 04: Click to 'Login' button
+[2022-11-04 15:15:58,057] Login_02 - Step 05: Verify error message displayed
+[2022-11-04 15:15:59,210]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:15:59,220] Login_03 - Step 01: Open Login page
+[2022-11-04 15:16:00,070] Login_03 - Step 02: Input to emailAddress textbox with value istest002@gmail.com
+[2022-11-04 15:16:01,872] Login_03 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 15:16:03,694] Login_03 - Step 04: Click to 'Login' button
+[2022-11-04 15:16:05,759] Login_03 - Step 05: Verify error message displayed
+[2022-11-04 15:16:06,895]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:16:06,900] Login_04 - Step 01: Open Login page
+[2022-11-04 15:16:07,813] Login_04 - Step 02: Input to emailAddress textbox with value isnydia.mcdermott@gmail.com
+[2022-11-04 15:16:09,649] Login_04 - Step 03: Input to Password textbox with value is
+[2022-11-04 15:16:11,408] Login_02 - Step 04: Click to 'Login' button
+[2022-11-04 15:16:13,450] Login_02 - Step 05: Verify error message displayed
+[2022-11-04 15:16:14,596]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:16:14,605] Login_04 - Step 01: Open Login page
+[2022-11-04 15:16:15,485] Login_04 - Step 02: Input to emailAddress textbox with value isnydia.mcdermott@gmail.com
+[2022-11-04 15:16:17,257] Login_04 - Step 03: Input to Password textbox with value is123
+[2022-11-04 15:16:19,079] Login_04 - Step 04: Click to 'Login' button
+[2022-11-04 15:16:21,102] Login_04 - Step 05: Verify error message displayed
+[2022-11-04 15:16:22,246]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:16:22,255] Login_04 - Step 01: Open Login page
+[2022-11-04 15:16:23,116] Login_04 - Step 02: Input to emailAddress textbox with value isnydia.mcdermott@gmail.com
+[2022-11-04 15:16:24,915] Login_04 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 15:16:26,655] Login_04 - Step 04: Click to 'Login' button
+[2022-11-04 15:16:29,030] Login_04 - Step 05: Verify HomePage displayed
+[2022-11-04 15:16:30,227]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:16:30,234] OS name = windows 10
+[2022-11-04 15:16:30,234] Driver instance name = remotewebdriver: firefox on mac (51c6afaff53f4f178536992e3676dea4)
+[2022-11-04 15:16:32,984] OS name = windows 10
+[2022-11-04 15:16:32,984] 
+[2022-11-04 15:19:20,145] Precondition - Step 01: Navigate to 'Register' link
+[2022-11-04 15:19:22,841] Precondition - Step 02: Click to Checkbox Gender
+[2022-11-04 15:19:24,805] Precondition - Step 03: Enter to FirstName textbox with value is Hans'
+[2022-11-04 15:19:26,636] Precondition - Step 04: Enter to LastName textbox with value is Ritchie'
+[2022-11-04 15:19:28,351] Precondition - Step 05: Select Day of Birthday
+[2022-11-04 15:19:30,854] Precondition - Step 06: Select Month of Birthday
+[2022-11-04 15:19:33,900] Precondition - Step 07: Select year of Birthday
+[2022-11-04 15:19:36,348] Precondition - Step 08: Enter to emailAdress textbox with value is lino.gaylord@hotmail.com'
+[2022-11-04 15:19:38,017] Precondition - Step 09: Click to Radio 
+[2022-11-04 15:19:38,017] Precondition - Step 10: Enter to password textbox with value is 123456'
+[2022-11-04 15:19:39,680] Precondition - Step 11: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-11-04 15:19:41,340] Precondition - Step 12: Click to 'Register' button
+[2022-11-04 15:19:43,576] Precondition - Step 13: Verify register success message is displayed
+[2022-11-04 15:19:44,617]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:19:44,618] Precondition - Step 14: Click to Logout link
+[2022-11-04 15:19:46,815] Precondition - Step 15: Click to Login link
+[2022-11-04 15:19:49,776] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-04 15:19:51,410] Login_01 - Step 02: Input to Password textbox with value is
+[2022-11-04 15:19:53,144] Login_01 - Step 03: Click to 'Login' button
+[2022-11-04 15:19:54,628] Login_01 - Step 04: Verify error message displayed
+[2022-11-04 15:19:55,662]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:19:55,705] Login_02 - Step 01: Open Login page
+[2022-11-04 15:19:56,479] Login_02 - Step 02: Input to emailAddress textbox with value is123a@ht@.com
+[2022-11-04 15:19:58,128] Login_02 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 15:19:59,815] Login_02 - Step 04: Click to 'Login' button
+[2022-11-04 15:20:01,267] Login_02 - Step 05: Verify error message displayed
+[2022-11-04 15:20:02,307]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:20:02,317] Login_03 - Step 01: Open Login page
+[2022-11-04 15:20:03,037] Login_03 - Step 02: Input to emailAddress textbox with value istest002@gmail.com
+[2022-11-04 15:20:04,662] Login_03 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 15:20:06,269] Login_03 - Step 04: Click to 'Login' button
+[2022-11-04 15:20:08,092] Login_03 - Step 05: Verify error message displayed
+[2022-11-04 15:20:09,134]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:20:09,144] Login_04 - Step 01: Open Login page
+[2022-11-04 15:20:09,880] Login_04 - Step 02: Input to emailAddress textbox with value islino.gaylord@hotmail.com
+[2022-11-04 15:20:11,573] Login_04 - Step 03: Input to Password textbox with value is
+[2022-11-04 15:20:13,194] Login_02 - Step 04: Click to 'Login' button
+[2022-11-04 15:20:15,025] Login_02 - Step 05: Verify error message displayed
+[2022-11-04 15:20:16,056]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:20:16,064] Login_04 - Step 01: Open Login page
+[2022-11-04 15:20:16,834] Login_04 - Step 02: Input to emailAddress textbox with value islino.gaylord@hotmail.com
+[2022-11-04 15:20:18,462] Login_04 - Step 03: Input to Password textbox with value is123
+[2022-11-04 15:20:20,136] Login_04 - Step 04: Click to 'Login' button
+[2022-11-04 15:20:21,892] Login_04 - Step 05: Verify error message displayed
+[2022-11-04 15:20:22,912]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:20:22,921] Login_04 - Step 01: Open Login page
+[2022-11-04 15:20:23,647] Login_04 - Step 02: Input to emailAddress textbox with value islino.gaylord@hotmail.com
+[2022-11-04 15:20:25,502] Login_04 - Step 03: Input to Password textbox with value is123456
+[2022-11-04 15:20:27,196] Login_04 - Step 04: Click to 'Login' button
+[2022-11-04 15:20:29,435] Login_04 - Step 05: Verify HomePage displayed
+[2022-11-04 15:20:30,506]  -------------------------- PASSED -------------------------- 
+[2022-11-04 15:20:30,512] OS name = windows 10
+[2022-11-04 15:20:30,513] Driver instance name = remotewebdriver: chrome on windows (ba94689d034f46429bd16ab57c07e21a)
+[2022-11-04 16:19:17,236] OS name = windows 10
+[2022-11-04 16:19:17,269] 
+[2022-11-04 16:19:18,620] OS name = windows 10
+[2022-11-04 16:19:18,621] 
+[2022-11-04 16:25:21,528] OS name = windows 10
+[2022-11-04 16:25:21,539] 
+[2022-11-04 16:25:21,674] OS name = windows 10
+[2022-11-04 16:25:21,674] 
+[2022-11-04 16:27:03,579] OS name = windows 10
+[2022-11-04 16:27:03,580] 
+[2022-11-04 16:27:04,926] OS name = windows 10
+[2022-11-04 16:27:04,926] 
+[2022-11-04 16:42:38,156] OS name = windows 10
+[2022-11-04 16:42:38,179] 
+[2022-11-04 16:42:39,646] OS name = windows 10
+[2022-11-04 16:42:39,646] 
+[2022-11-04 16:53:05,709] OS name = windows 10
+[2022-11-04 16:53:05,732] 
+[2022-11-04 16:53:07,215] OS name = windows 10
+[2022-11-04 16:53:07,215] 

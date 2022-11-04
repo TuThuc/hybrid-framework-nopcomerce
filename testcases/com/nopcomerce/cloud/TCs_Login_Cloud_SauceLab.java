@@ -1,4 +1,4 @@
-package com.nopcomerce.user;
+package com.nopcomerce.cloud;
 
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
@@ -17,15 +17,15 @@ import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserRegisterPageObject;
 import utlities.DataHelper;
 
-public class TCs_Login extends BaseTest {
+public class TCs_Login_Cloud_SauceLab extends BaseTest {
 	Environment environment;
 
-	@Parameters({ "browser", "url", "ipAddress", "port" })
+	@Parameters({ "browser", "url", "osName" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appURL, String ipAddress, String portNumber) {
+	public void beforeClass(String browserName, String appURL, String osName) {
 		ConfigFactory.setProperty("env", appURL);
 		environment = ConfigFactory.create(Environment.class);
-		driver = getBrowerDriver(browserName, environment.appUrl(), ipAddress, portNumber);
+		driver = getBrowerDriverSauceLab(browserName, environment.appUrl(), osName);
 		dataFaker = DataHelper.getDataHelper();
 		userData = UserDataMapper.getUserData();
 		firstName = dataFaker.getFirstName();

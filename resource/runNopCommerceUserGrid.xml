@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="NopCommerce">
+<parameter name ="url" value = "dev"/>
+  <listeners>
+  <listener class-name ="commons.MethodListener"/>
+   <!--  <listener class-name="reportConfig.ReportNGListener"/>
+<listener class-name="reportConfig.ExtentTestListener"/>
+<listener class-name="reportConfig.AllureTestListener"/> -->
+  <listener class-name ="org.uncommons.reportng.HTMLReporter"/>
+  <listener class-name ="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+<!-- <test name="Run on firefox ">
+  <parameter name = "browser" value = "firefox"/> -->
+  <test name="Run on chrome ">
+  <parameter name = "browser" value = "chrome"/>
+  <parameter name = "ipAddress" value = "192.168.11.250"/>
+    <parameter name = "port" value = "5555"/>
+    <classes>
+   <!-- <class name="com.nopcomerce.common.Common_01_Register_Cookie"/> -->
+      <class name="com.nopcomerce.user.TCs_Login"/>
+      
+    </classes>
+  </test> 
+
+</suite>

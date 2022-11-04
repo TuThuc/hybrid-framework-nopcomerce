@@ -13,6 +13,7 @@ import pageObjects.user.UserCustomerInfoPageObject;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserMyProductReviewPageObject;
+import pageObjects.user.UserOrderPageObject;
 import pageObjects.user.UserProductDetailPageObject;
 import pageObjects.user.UserProductReviewPageObject;
 import pageObjects.user.UserRecentlyViewedProductPageObject;
@@ -97,6 +98,10 @@ public class PageGeneratorManager {
 
 	public static UserCheckoutPageObject getUserCheckoutPage(WebDriver driver) {
 		return new UserCheckoutPageObject(driver);
+	}
+
+	public static UserOrderPageObject getUserOrderPage(WebDriver driver) {
+		return new UserOrderPageObject(driver);
 	}
 
 }

@@ -9,13 +9,22 @@
   <listener class-name ="org.uncommons.reportng.HTMLReporter"/>
   <listener class-name ="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-<!-- <test name="Run on firefox ">
-  <parameter name = "browser" value = "firefox"/> -->
-  <test name="Run on chrome ">
-  <parameter name = "browser" value = "chrome"/>
+<test name="Run on Firefox ">
+  <parameter name = "browser" value = "firefox"/>
+  <parameter name = "osName" value = "macOS"/>
+    <parameter name = "osVersion" value = "12"/>
+  
+       <classes>
+      <class name="com.nopcomerce.cloud.TCs_Login_Cloud_Bitbar"/>      
+    </classes>
+      </test> 
+  <test name="Run on Chrome ">
+        <parameter name = "browser" value = "chrome"/>
+    <parameter name = "osName" value = "Windows"/>
+        <parameter name = "osVersion" value = "10"/>
+    
     <classes>
-   <class name="com.nopcomerce.common.Common_01_Register_Cookie"/>
-      <class name="com.nopcomerce.user.TCs_Order"/>
+      <class name="com.nopcomerce.cloud.TCs_Login_Cloud_Bitbar"/>
       
     </classes>
   </test> 

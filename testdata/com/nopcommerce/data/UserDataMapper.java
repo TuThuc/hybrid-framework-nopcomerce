@@ -412,4 +412,109 @@ public class UserDataMapper {
 		return editProductInfoInShoppingCart.editQuantity;
 	}
 
+	@JsonProperty("billingAddress")
+	private BillingAddress billingAddress;
+
+	static class BillingAddress {
+		@JsonProperty("firstName")
+		private String firstName;
+
+		@JsonProperty("lastName")
+		private String lastName;
+
+		@JsonProperty("emailAddress")
+		private String emailAddress;
+
+		@JsonProperty("country")
+		private String country;
+
+		@JsonProperty("province")
+		private String province;
+
+		@JsonProperty("city")
+		private String city;
+
+		@JsonProperty("address1")
+		private String address1;
+
+		@JsonProperty("address2")
+		private String address2;
+
+		@JsonProperty("zip")
+		private String zip;
+
+		@JsonProperty("phoneNumber")
+		private String phoneNumber;
+
+		@JsonProperty("faxNumber")
+		private String faxNumber;
+	}
+
+	public String geFirstNameBilling() {
+		return billingAddress.firstName;
+	}
+
+	public String getLastNameBilling() {
+		return billingAddress.lastName;
+	}
+
+	public String getEmailAddressBilling() {
+		return billingAddress.emailAddress;
+	}
+
+	public String getCountryBilling() {
+		return billingAddress.country;
+
+	}
+
+	public String getProvinceBilling() {
+		return billingAddress.province;
+	}
+
+	public String getCityBilling() {
+		return billingAddress.city;
+	}
+
+	public String getAddress1Billing() {
+		return billingAddress.address1;
+	}
+
+	public String getAddress2Billing() {
+		return billingAddress.address2;
+	}
+
+	public String getZipBilling() {
+		return billingAddress.zip;
+	}
+
+	public String getPhoneNumberBilling() {
+		return billingAddress.phoneNumber;
+	}
+
+	@JsonProperty("creditCard")
+	private CreditCard creditCard;
+
+	static class CreditCard {
+		@JsonProperty("cardHoderName")
+		private String cardHoderName;
+
+		@JsonProperty("cardNumber")
+		private String cardNumber;
+
+		@JsonProperty("cardCode")
+		private String cardCode;
+	}
+
+	public String getCardHoderName() {
+		return creditCard.cardHoderName;
+	}
+
+	public String getCardNumber() {
+		return creditCard.cardNumber;
+	}
+
+	public String getCardCode() {
+		return creditCard.cardCode;
+	}
+
 }

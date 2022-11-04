@@ -10,5 +10,6 @@ public class UserShoppingCartPageUI {
 	public static final String EMPTY_DATA_MESSAGE = "xpath=//div[@class='no-data']";
 	public static final String QTY_TEXTBOX = "xpath=//input[@class='qty-input']";
 	public static final String TERMS_OF_SERVICE_CHECKBOX = "xpath=//input[@id='termsofservice']";
+	public static final String CHECKOUT_BUTTON = "xpath=//button[@id='checkout']";
 
 }

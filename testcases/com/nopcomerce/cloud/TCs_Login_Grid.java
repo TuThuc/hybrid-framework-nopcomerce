@@ -1,4 +1,4 @@
-package com.nopcomerce.user;
+package com.nopcomerce.cloud;
 
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +17,7 @@ import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserRegisterPageObject;
 import utlities.DataHelper;
 
-public class TCs_Login extends BaseTest {
+public class TCs_Login_Grid extends BaseTest {
 	Environment environment;
 
 	@Parameters({ "browser", "url", "ipAddress", "port" })
