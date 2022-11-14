@@ -2,31 +2,28 @@ package com.nopcomerce.common;
 
 import java.util.Set;
 
-import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.nopcommerce.data.UserDataMapper;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import environmentConfig.Environment;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserRegisterPageObject;
 import utlities.DataHelper;
 
 public class Common_01_Register_Cookie extends BaseTest {
-	@Parameters({ "browser", "url" })
-	@BeforeTest(description = "Creat new common User for all classes Test")
-	public void Register(String browserName, String appURL) {
-		Environment environment;
-		ConfigFactory.setProperty("env", appURL);
-		environment = ConfigFactory.create(Environment.class);
-		driver = getBrowerDriver(browserName, environment.appUrl());
+	@Parameters({ "envName", "serverName", "browserName", "ipAddress", "port", "osName", "osVersion" })
+	@BeforeClass
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
+		driver = getBrowserDriver(envName, browserName, serverName, ipAddress, portNumber, osName, osVersion);
 		dataFaker = DataHelper.getDataHelper();
 		userData = UserDataMapper.getUserData();
 		validPassword = userData.getValidPassword();

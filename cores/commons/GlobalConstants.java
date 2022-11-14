@@ -32,4 +32,8 @@ public class GlobalConstants {
 	public static final String BITBAR_AUTOMATE_KEY = "ZS3i8gl3teNETEe9IxPP1BYxx4maizOf";
 	public static final String BITBAR_URL = "https://appium.bitbar.com/wd/hub";
 
+	public static final String LAMBDA_USERNAME = "oauth-tuthuc176216-91dbe";
+	public static final String LAMBDA_AUTOMATE_KEY = "bc18b83f-ee05-4afd-b38e-1ab69390a95c";
+	public static final String LAMBDA_URL = "https://" + LAMBDA_USERNAME + ":" + LAMBDA_AUTOMATE_KEY + "@hub.lambdatest.com/wd/hub";
+
 }

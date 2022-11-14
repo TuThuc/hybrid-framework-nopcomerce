@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -14,10 +15,11 @@ import pageObject.sauceLab.ProductPageObject;
 
 public class Level_19_Sort_Asc_Desc extends BaseTest {
 
-	@Parameters({ "browser", "appUrl" })
+	@Parameters({ "envName", "serverName", "browserName", "ipAddress", "port", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String saucelabUrl) {
-		driver = getBrowerDriver(browserName, saucelabUrl);
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
+		driver = getBrowserDriver(envName, browserName, serverName, ipAddress, portNumber, osName, osVersion);
 		loginPage = PageGeneratorManager.getLoginPage(driver);
 
 		loginPage.enterToUsernameTextbox("standard_user");
@@ -52,9 +54,10 @@ public class Level_19_Sort_Asc_Desc extends BaseTest {
 
 	}
 
+	@Parameters("envName")
 	@AfterClass(alwaysRun = true)
-	public void afterClass() {
-		closeBrowserAndDriver();
+	public void afterClass(String envName) {
+		closeBrowserAndDriver(envName);
 	}
 
 	private WebDriver driver;

@@ -1,9 +1,9 @@
 package com.nopcomerce.cloud;
 
-import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -11,21 +11,17 @@ import com.nopcommerce.data.UserDataMapper;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import environmentConfig.Environment;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserRegisterPageObject;
 import utlities.DataHelper;
 
 public class TCs_Login_Local extends BaseTest {
-	Environment environment;
-
-	@Parameters({ "browser", "url" })
+	@Parameters({ "envName", "serverName", "browserName", "ipAddress", "port", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appURL) {
-		ConfigFactory.setProperty("env", appURL);
-		environment = ConfigFactory.create(Environment.class);
-		driver = getBrowerDriver(browserName, environment.appUrl());
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
+		driver = getBrowserDriver(envName, browserName, serverName, ipAddress, portNumber, osName, osVersion);
 		dataFaker = DataHelper.getDataHelper();
 		userData = UserDataMapper.getUserData();
 		firstName = dataFaker.getFirstName();
@@ -100,7 +96,7 @@ public class TCs_Login_Local extends BaseTest {
 		verifyEquals(loginPage.getErrorMessageAtTextboxByID(driver, "Email-error"), "Please enter your email");
 	}
 
-	@Test
+	// @Test
 	public void Login_02_LoginWithInvalidEmail() {
 		log.info("Login_02 - Step 01: Open Login page");
 		loginPage.openPageUrl(driver, urlCurent);
@@ -118,7 +114,7 @@ public class TCs_Login_Local extends BaseTest {
 		verifyEquals(loginPage.getErrorMessageAtTextboxByID(driver, "Email-error"), "Wrong email");
 	}
 
-	@Test
+	// @Test
 	public void Login_03_LoginWithEmailYetRegister() {
 		log.info("Login_03 - Step 01: Open Login page");
 		loginPage.openPageUrl(driver, urlCurent);
@@ -136,7 +132,7 @@ public class TCs_Login_Local extends BaseTest {
 		verifyEquals(loginPage.getErrorMessageUnsuccessfull(), "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found");
 	}
 
-	@Test
+	// @Test
 	public void Login_04_LoginWithExistEmailAndEmptyPassword() {
 		log.info("Login_04 - Step 01: Open Login page");
 		loginPage.openPageUrl(driver, urlCurent);
@@ -154,7 +150,7 @@ public class TCs_Login_Local extends BaseTest {
 		verifyEquals(loginPage.getErrorMessageUnsuccessfull(), "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
 	}
 
-	@Test
+	// @Test
 	public void Login_05_LoginWithExistEmailAndInvalidPassword() {
 		log.info("Login_04 - Step 01: Open Login page");
 		loginPage.openPageUrl(driver, urlCurent);
@@ -172,7 +168,7 @@ public class TCs_Login_Local extends BaseTest {
 		verifyEquals(loginPage.getErrorMessageUnsuccessfull(), "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
 	}
 
-	@Test
+	// @Test
 	public void Login_06_LoginSuccessful() {
 		log.info("Login_04 - Step 01: Open Login page");
 		loginPage.openPageUrl(driver, urlCurent);
@@ -190,9 +186,10 @@ public class TCs_Login_Local extends BaseTest {
 		verifyTrue(homePage.isMyAccountLinkDisplayed());
 	}
 
+	@Parameters("envName")
 	@AfterClass(alwaysRun = true)
-	public void afterClass() {
-		closeBrowserAndDriver();
+	public void afterClass(String envName) {
+		closeBrowserAndDriver(envName);
 	}
 
 	private WebDriver driver;

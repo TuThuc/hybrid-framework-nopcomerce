@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -21,10 +22,11 @@ import pageObjects.user.UserRewardPointPageObject;
 
 public class Level_07_Switch_Page extends BaseTest {
 
-	@Parameters("browser")
+	@Parameters({ "envName", "serverName", "browserName", "ipAddress", "port", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName) {
-		driver = getBrowerDriver(browserName);
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
+		driver = getBrowserDriver(envName, browserName, serverName, ipAddress, portNumber, osName, osVersion);
 
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://demo.nopcommerce.com/");

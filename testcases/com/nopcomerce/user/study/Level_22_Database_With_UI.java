@@ -5,6 +5,7 @@ import java.sql.SQLException;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -14,11 +15,11 @@ import pageObjects.user.UserHomePageObject;
 
 public class Level_22_Database_With_UI extends BaseTest {
 
-	@Parameters("browser")
+	@Parameters({ "envName", "serverName", "browserName", "ipAddress", "port", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName) {
-		driver = getBrowerDriver(browserName);
-
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
+		driver = getBrowserDriver(envName, browserName, serverName, ipAddress, portNumber, osName, osVersion);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 	}
 
@@ -34,9 +35,10 @@ public class Level_22_Database_With_UI extends BaseTest {
 		verifyEquals(employeeListNumberUI, employeeListNumberInDB);
 	}
 
+	@Parameters("envName")
 	@AfterClass(alwaysRun = true)
-	public void afterClass() {
-		closeBrowserAndDriver();
+	public void afterClass(String envName) {
+		closeBrowserAndDriver(envName);
 	}
 
 	private WebDriver driver;

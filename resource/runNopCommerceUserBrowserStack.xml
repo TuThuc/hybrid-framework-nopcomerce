@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="NopCommerce">
-<parameter name ="url" value = "dev"/>
+<parameter name ="envName" value = "browserStack"/>
+<parameter name ="serverName" value = "dev"/>
   <listeners>
   <listener class-name ="commons.MethodListener"/>
    <!--  <listener class-name="reportConfig.ReportNGListener"/>
@@ -9,16 +10,16 @@
   <listener class-name ="org.uncommons.reportng.HTMLReporter"/>
   <listener class-name ="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-<!-- <test name="Run on Firefox ">
-  <parameter name = "browser" value = "Firefox"/>
+<test name="Run on Firefox ">
+  <parameter name = "browserName" value = "Firefox"/>
   <parameter name = "osName" value = "Windows"/>
       <parameter name = "osVersion" value = "10"/>
        <classes>
       <class name="com.nopcomerce.cloud.TCs_Login_Cloud_BrowserStack"/>      
     </classes>
-      </test>  -->
+      </test> 
   <test name="Run on Chrome ">
-        <parameter name = "browser" value = "Chrome"/>
+        <parameter name = "browserName" value = "Chrome"/>
     <parameter name = "osName" value = "OS X"/>
       <parameter name = "osVersion" value = "Big Sur"/>
     <classes>

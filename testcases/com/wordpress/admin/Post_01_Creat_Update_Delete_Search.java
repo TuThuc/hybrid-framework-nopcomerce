@@ -3,6 +3,7 @@ package com.wordpress.admin;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -18,14 +19,15 @@ import pageObjects.wordpress.UserSearchPostPO;
 
 public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 
-	@Parameters({ "browser", "adminUrl", "endUserUrl" })
+	@Parameters({ "envName", "serverName", "browserName", "ipAddress", "port", "osName", "osVersion", "adminUrl", "endUserUrl" })
 	@BeforeClass
-	public void beforeClass(String browserName, String adminUrl, String endUserUrl) {
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
 		log.info("Pre-condition - Step 01: Open browser and admin Site");
-		this.adminUrl = adminUrl;
-		this.endUserUrl = endUserUrl;
-		driver = getBrowerDriver(browserName, this.adminUrl);
+		// this.adminUrl = adminUrl;
+		// this.endUserUrl = endUserUrl;
 
+		driver = getBrowserDriver(envName, browserName, serverName, ipAddress, portNumber, osName, osVersion);
 		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
 
 		log.info("Pre-condition - Step 02: Enter to Username textbox with value " + adminUsername);
@@ -215,9 +217,10 @@ public class Post_01_Creat_Update_Delete_Search extends BaseTest {
 
 	}
 
+	@Parameters("envName")
 	@AfterClass(alwaysRun = true)
-	public void afterClass() {
-		closeBrowserAndDriver();
+	public void afterClass(String envName) {
+		closeBrowserAndDriver(envName);
 	}
 
 	private WebDriver driver;

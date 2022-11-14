@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="NopCommerce">
-<parameter name ="url" value = "dev"/>
+<parameter name ="envName" value = "sauceLab"/>
+<parameter name ="serverName" value = "dev"/>
   <listeners>
   <listener class-name ="commons.MethodListener"/>
    <!--  <listener class-name="reportConfig.ReportNGListener"/>

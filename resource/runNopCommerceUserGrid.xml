@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="NopCommerce">
-<parameter name ="url" value = "dev"/>
+<parameter name ="envName" value = "grid"/>
+<parameter name ="serverName" value = "dev"/>
   <listeners>
   <listener class-name ="commons.MethodListener"/>
    <!--  <listener class-name="reportConfig.ReportNGListener"/>
@@ -13,11 +14,11 @@
   <parameter name = "browser" value = "firefox"/> -->
   <test name="Run on chrome ">
   <parameter name = "browser" value = "chrome"/>
-  <parameter name = "ipAddress" value = "192.168.11.250"/>
-    <parameter name = "port" value = "5555"/>
+  <parameter name = "ipAddress" value = "192.168.11.181"/>
+    <parameter name = "port" value = "4445"/>
     <classes>
    <!-- <class name="com.nopcomerce.common.Common_01_Register_Cookie"/> -->
-      <class name="com.nopcomerce.user.TCs_Login"/>
+      <class name="com.nopcomerce.cloud.TCs_Login_Grid"/>
       
     </classes>
   </test> 

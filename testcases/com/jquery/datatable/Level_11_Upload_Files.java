@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -15,10 +16,11 @@ public class Level_11_Upload_Files extends BaseTest {
 	String user = "user.png";
 	String[] multipleFileNames = { image, logo, user };
 
-	@Parameters({ "browser", "url" })
+	@Parameters({ "envName", "serverName", "browserName", "ipAddress", "port", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appURL) {
-		driver = getBrowerDriver(browserName, appURL);
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
+		driver = getBrowserDriver(envName, browserName, serverName, ipAddress, portNumber, osName, osVersion);
 		homePage = pageObject.JQuery_UploadFile.PageGeneratorManager.getHomePage(driver);
 	}
 

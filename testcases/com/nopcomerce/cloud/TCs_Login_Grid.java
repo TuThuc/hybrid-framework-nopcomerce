@@ -1,9 +1,9 @@
 package com.nopcomerce.cloud;
 
-import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -20,12 +20,11 @@ import utlities.DataHelper;
 public class TCs_Login_Grid extends BaseTest {
 	Environment environment;
 
-	@Parameters({ "browser", "url", "ipAddress", "port" })
+	@Parameters({ "envName", "serverName", "browser", "ipAddress", "port", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appURL, String ipAddress, String portNumber) {
-		ConfigFactory.setProperty("env", appURL);
-		environment = ConfigFactory.create(Environment.class);
-		driver = getBrowerDriver(browserName, environment.appUrl(), ipAddress, portNumber);
+	public void beforeClass(@Optional("local") String envName, @Optional("chrome") String browserName, @Optional("dev") String serverName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
+		driver = getBrowserDriver(envName, serverName, browserName, ipAddress, portNumber, osName, osVersion);
 		dataFaker = DataHelper.getDataHelper();
 		userData = UserDataMapper.getUserData();
 		firstName = dataFaker.getFirstName();
@@ -190,9 +189,10 @@ public class TCs_Login_Grid extends BaseTest {
 		verifyTrue(homePage.isMyAccountLinkDisplayed());
 	}
 
+	@Parameters("envName")
 	@AfterClass(alwaysRun = true)
-	public void afterClass() {
-		closeBrowserAndDriver();
+	public void afterClass(String envName) {
+		closeBrowserAndDriver(envName);
 	}
 
 	private WebDriver driver;

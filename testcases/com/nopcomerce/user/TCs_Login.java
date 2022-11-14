@@ -1,9 +1,9 @@
 package com.nopcomerce.user;
 
-import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -11,21 +11,18 @@ import com.nopcommerce.data.UserDataMapper;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import environmentConfig.Environment;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserRegisterPageObject;
 import utlities.DataHelper;
 
 public class TCs_Login extends BaseTest {
-	Environment environment;
 
-	@Parameters({ "browser", "url", "ipAddress", "port" })
+	@Parameters({ "envName", "serverName", "browserName", "ipAddress", "port", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appURL, String ipAddress, String portNumber) {
-		ConfigFactory.setProperty("env", appURL);
-		environment = ConfigFactory.create(Environment.class);
-		driver = getBrowerDriver(browserName, environment.appUrl(), ipAddress, portNumber);
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
+		driver = getBrowserDriver(envName, browserName, serverName, ipAddress, portNumber, osName, osVersion);
 		dataFaker = DataHelper.getDataHelper();
 		userData = UserDataMapper.getUserData();
 		firstName = dataFaker.getFirstName();
@@ -192,7 +189,7 @@ public class TCs_Login extends BaseTest {
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		closeBrowserAndDriver();
+		closeBrowserAndDriver("envName");
 	}
 
 	private WebDriver driver;

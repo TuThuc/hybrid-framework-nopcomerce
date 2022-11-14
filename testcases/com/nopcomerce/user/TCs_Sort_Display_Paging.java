@@ -1,27 +1,23 @@
 package com.nopcomerce.user;
 
-import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import environmentConfig.Environment;
 import pageObjects.user.UserCategoryPageObject;
 import pageObjects.user.UserHomePageObject;
 
 public class TCs_Sort_Display_Paging extends BaseTest {
-	Environment environment;
-
-	@Parameters({ "browser", "url" })
+	@Parameters({ "envName", "serverName", "browserName", "ipAddress", "port", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appURL) {
-		ConfigFactory.setProperty("env", appURL);
-		environment = ConfigFactory.create(Environment.class);
-		driver = getBrowerDriver(browserName, environment.appUrl());
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
+		driver = getBrowserDriver(envName, browserName, serverName, ipAddress, portNumber, osName, osVersion);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		log.info("Precondition: Open the notebook page");
@@ -111,7 +107,7 @@ public class TCs_Sort_Display_Paging extends BaseTest {
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		closeBrowserAndDriver();
+		closeBrowserAndDriver("local");
 	}
 
 	private WebDriver driver;

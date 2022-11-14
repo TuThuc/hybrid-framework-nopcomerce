@@ -1,13 +1,15 @@
 package com.nopcomerce.user.study;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import environmentConfig.Environment;
 import pageFactory.HomePageObject;
 import pageFactory.LoginPageObject;
 import pageFactory.RegisterPageObject;
@@ -19,10 +21,13 @@ public class Level_05_Page_Factory extends BaseTest {
 	private LoginPageObject loginPage;
 	private RegisterPageObject registerPage;
 
-	@Parameters("browser")
-	@BeforeClass
-	public void beforeClass(String browserName) {
-		driver = getBrowerDriver(browserName);
+	@Parameters({ "envName", "serverName", "browserName", "ipAddress", "port", "osName", "osVersion" })
+	public void beforeTest(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
+		Environment environment;
+		ConfigFactory.setProperty("env", serverName);
+		environment = ConfigFactory.create(Environment.class);
+		driver = getBrowserDriver(envName, browserName, environment.appUrl(), ipAddress, portNumber, osName, osVersion);
 		homePage = new HomePageObject(driver);
 
 		firstName = "Automation";

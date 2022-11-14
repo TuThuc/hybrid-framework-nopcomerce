@@ -6219,3 +6219,257 @@ Session ID: 031de012df49d6d0255d3ef0e42e4b22
 [2022-11-04 16:53:05,732] 
 [2022-11-04 16:53:07,215] OS name = windows 10
 [2022-11-04 16:53:07,215] 
+[2022-11-09 14:53:25,152] OS name = windows 10
+[2022-11-09 14:53:25,153] 
+[2022-11-09 14:58:32,417] OS name = windows 10
+[2022-11-09 14:58:32,418] 
+[2022-11-09 15:02:41,127] OS name = windows 10
+[2022-11-09 15:02:41,128] 
+[2022-11-09 15:05:04,503] OS name = windows 10
+[2022-11-09 15:05:04,504] 
+[2022-11-09 15:08:06,662] OS name = windows 10
+[2022-11-09 15:08:06,688] 
+[2022-11-09 15:20:55,741] OS name = windows 10
+[2022-11-09 15:20:55,759] 
+[2022-11-09 15:21:54,820] OS name = windows 10
+[2022-11-09 15:21:54,821] 
+[2022-11-09 15:24:20,284] OS name = windows 10
+[2022-11-09 15:24:20,305] 
+[2022-11-09 15:25:33,627] OS name = windows 10
+[2022-11-09 15:25:33,629] 
+[2022-11-09 15:33:02,521] OS name = windows 10
+[2022-11-09 15:33:02,540] 
+[2022-11-09 15:34:57,104] OS name = windows 10
+[2022-11-09 15:34:57,105] 
+[2022-11-09 15:37:08,468] OS name = windows 10
+[2022-11-09 15:37:08,484] 
+[2022-11-09 15:38:32,378] OS name = windows 10
+[2022-11-09 15:38:32,378] 
+[2022-11-09 15:43:54,151] OS name = windows 10
+[2022-11-09 15:43:54,153] 
+[2022-11-09 15:45:33,525] Precondition - Step 01: Navigate to 'Register' link
+[2022-11-09 15:46:04,292] OS name = windows 10
+[2022-11-09 15:46:04,293] Driver instance name = chromedriver: chrome on windows (dace1309c5dc9be7b44bf8a6b27f237e)
+[2022-11-09 15:46:04,301] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.11.250', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TUTHUC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dace1309c5dc9be7b44bf8a6b27f237e
+[2022-11-09 15:49:47,497] OS name = windows 10
+[2022-11-09 15:49:47,497] 
+[2022-11-09 15:53:32,134] OS name = windows 10
+[2022-11-09 15:53:32,167] 
+[2022-11-09 15:55:36,829] OS name = windows 10
+[2022-11-09 15:55:36,830] 
+[2022-11-09 15:55:40,680] OS name = windows 10
+[2022-11-09 15:55:40,681] 
+[2022-11-09 15:59:26,145] OS name = windows 10
+[2022-11-09 15:59:26,146] 
+[2022-11-09 15:59:26,246] OS name = windows 10
+[2022-11-09 15:59:26,246] 
+[2022-11-09 16:00:41,947] OS name = windows 10
+[2022-11-09 16:00:41,948] 
+[2022-11-09 16:00:44,695] OS name = windows 10
+[2022-11-09 16:00:44,696] 
+[2022-11-10 10:13:13,151] OS name = windows 10
+[2022-11-10 10:13:13,181] 
+[2022-11-10 10:13:16,033] OS name = windows 10
+[2022-11-10 10:13:16,035] 
+[2022-11-10 10:16:11,305] Precondition - Step 01: Navigate to 'Register' link
+[2022-11-10 10:16:15,232] Precondition - Step 02: Click to Checkbox Gender
+[2022-11-10 10:16:17,050] Precondition - Step 03: Enter to FirstName textbox with value is Cathie'
+[2022-11-10 10:16:18,451] Precondition - Step 04: Enter to LastName textbox with value is White'
+[2022-11-10 10:16:19,824] Precondition - Step 05: Select Day of Birthday
+[2022-11-10 10:16:22,758] Precondition - Step 06: Select Month of Birthday
+[2022-11-10 10:16:25,387] Precondition - Step 07: Select year of Birthday
+[2022-11-10 10:16:28,244] Precondition - Step 08: Enter to emailAdress textbox with value is reina.cummerata@hotmail.com'
+[2022-11-10 10:16:29,614] Precondition - Step 09: Click to Radio 
+[2022-11-10 10:16:29,614] Precondition - Step 10: Enter to password textbox with value is 123456'
+[2022-11-10 10:16:31,078] Precondition - Step 11: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-11-10 10:16:32,410] Precondition - Step 12: Click to 'Register' button
+[2022-11-10 10:16:35,649] Precondition - Step 13: Verify register success message is displayed
+[2022-11-10 10:16:36,706]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:16:36,706] Precondition - Step 14: Click to Logout link
+[2022-11-10 10:16:38,666] Precondition - Step 15: Click to Login link
+[2022-11-10 10:16:41,966] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-10 10:16:43,279] Login_01 - Step 02: Input to Password textbox with value is
+[2022-11-10 10:16:44,616] Login_01 - Step 03: Click to 'Login' button
+[2022-11-10 10:16:47,186] Login_01 - Step 04: Verify error message displayed
+[2022-11-10 10:16:48,703]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:16:48,762] Login_02 - Step 01: Open Login page
+[2022-11-10 10:16:49,412] Login_02 - Step 02: Input to emailAddress textbox with value is123a@ht@.com
+[2022-11-10 10:16:50,735] Login_02 - Step 03: Input to Password textbox with value is123456
+[2022-11-10 10:16:52,065] Login_02 - Step 04: Click to 'Login' button
+[2022-11-10 10:16:53,652] Login_02 - Step 05: Verify error message displayed
+[2022-11-10 10:16:54,725]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:16:54,731] Login_03 - Step 01: Open Login page
+[2022-11-10 10:16:55,378] Login_03 - Step 02: Input to emailAddress textbox with value istest002@gmail.com
+[2022-11-10 10:16:56,731] Login_03 - Step 03: Input to Password textbox with value is123456
+[2022-11-10 10:16:58,070] Login_03 - Step 04: Click to 'Login' button
+[2022-11-10 10:16:59,854] Login_03 - Step 05: Verify error message displayed
+[2022-11-10 10:17:00,938]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:17:00,947] Login_04 - Step 01: Open Login page
+[2022-11-10 10:17:01,626] Login_04 - Step 02: Input to emailAddress textbox with value isreina.cummerata@hotmail.com
+[2022-11-10 10:17:02,987] Login_04 - Step 03: Input to Password textbox with value is
+[2022-11-10 10:17:04,335] Login_02 - Step 04: Click to 'Login' button
+[2022-11-10 10:17:06,107] Login_02 - Step 05: Verify error message displayed
+[2022-11-10 10:17:07,159]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:17:07,167] Login_04 - Step 01: Open Login page
+[2022-11-10 10:17:07,826] Login_04 - Step 02: Input to emailAddress textbox with value isreina.cummerata@hotmail.com
+[2022-11-10 10:17:09,167] Login_04 - Step 03: Input to Password textbox with value is123
+[2022-11-10 10:17:10,513] Login_04 - Step 04: Click to 'Login' button
+[2022-11-10 10:17:12,253] Login_04 - Step 05: Verify error message displayed
+[2022-11-10 10:17:13,319]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:17:13,329] Login_04 - Step 01: Open Login page
+[2022-11-10 10:17:14,003] Login_04 - Step 02: Input to emailAddress textbox with value isreina.cummerata@hotmail.com
+[2022-11-10 10:17:15,345] Login_04 - Step 03: Input to Password textbox with value is123456
+[2022-11-10 10:17:16,711] Login_04 - Step 04: Click to 'Login' button
+[2022-11-10 10:17:19,746] Login_04 - Step 05: Verify HomePage displayed
+[2022-11-10 10:17:21,307]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:17:21,314] OS name = windows 10
+[2022-11-10 10:17:21,314] Driver instance name = remotewebdriver: firefox on windows (78325038712d5fd65b83e02b9f109204b409419c)
+[2022-11-10 10:17:32,006] Precondition - Step 01: Navigate to 'Register' link
+[2022-11-10 10:17:34,837] Precondition - Step 02: Click to Checkbox Gender
+[2022-11-10 10:17:36,484] Precondition - Step 03: Enter to FirstName textbox with value is Brady'
+[2022-11-10 10:17:37,878] Precondition - Step 04: Enter to LastName textbox with value is Smitham'
+[2022-11-10 10:17:39,338] Precondition - Step 05: Select Day of Birthday
+[2022-11-10 10:17:41,689] Precondition - Step 06: Select Month of Birthday
+[2022-11-10 10:17:44,036] Precondition - Step 07: Select year of Birthday
+[2022-11-10 10:17:46,376] Precondition - Step 08: Enter to emailAdress textbox with value is gaylord.satterfield@gmail.com'
+[2022-11-10 10:17:47,816] Precondition - Step 09: Click to Radio 
+[2022-11-10 10:17:47,817] Precondition - Step 10: Enter to password textbox with value is 123456'
+[2022-11-10 10:17:49,211] Precondition - Step 11: Enter to ConfirmPasswod textbox with value is 123456'
+[2022-11-10 10:17:50,584] Precondition - Step 12: Click to 'Register' button
+[2022-11-10 10:17:52,575] Precondition - Step 13: Verify register success message is displayed
+[2022-11-10 10:17:53,612]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:17:53,613] Precondition - Step 14: Click to Logout link
+[2022-11-10 10:17:55,609] Precondition - Step 15: Click to Login link
+[2022-11-10 10:17:57,610] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-10 10:17:58,960] Login_01 - Step 02: Input to Password textbox with value is
+[2022-11-10 10:18:00,336] Login_01 - Step 03: Click to 'Login' button
+[2022-11-10 10:18:02,678] Login_01 - Step 04: Verify error message displayed
+[2022-11-10 10:18:04,207]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:18:04,216] Login_02 - Step 01: Open Login page
+[2022-11-10 10:18:04,804] Login_02 - Step 02: Input to emailAddress textbox with value is123a@ht@.com
+[2022-11-10 10:18:06,194] Login_02 - Step 03: Input to Password textbox with value is123456
+[2022-11-10 10:18:07,676] Login_02 - Step 04: Click to 'Login' button
+[2022-11-10 10:18:09,296] Login_02 - Step 05: Verify error message displayed
+[2022-11-10 10:18:10,353]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:18:10,382] Login_03 - Step 01: Open Login page
+[2022-11-10 10:18:10,935] Login_03 - Step 02: Input to emailAddress textbox with value istest002@gmail.com
+[2022-11-10 10:18:12,301] Login_03 - Step 03: Input to Password textbox with value is123456
+[2022-11-10 10:18:13,700] Login_03 - Step 04: Click to 'Login' button
+[2022-11-10 10:18:15,436] Login_03 - Step 05: Verify error message displayed
+[2022-11-10 10:18:16,476]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:18:16,641] Login_04 - Step 01: Open Login page
+[2022-11-10 10:18:17,196] Login_04 - Step 02: Input to emailAddress textbox with value isgaylord.satterfield@gmail.com
+[2022-11-10 10:18:18,570] Login_04 - Step 03: Input to Password textbox with value is
+[2022-11-10 10:18:19,922] Login_02 - Step 04: Click to 'Login' button
+[2022-11-10 10:18:21,547] Login_02 - Step 05: Verify error message displayed
+[2022-11-10 10:18:22,590]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:18:22,623] Login_04 - Step 01: Open Login page
+[2022-11-10 10:18:23,167] Login_04 - Step 02: Input to emailAddress textbox with value isgaylord.satterfield@gmail.com
+[2022-11-10 10:18:24,554] Login_04 - Step 03: Input to Password textbox with value is123
+[2022-11-10 10:18:25,943] Login_04 - Step 04: Click to 'Login' button
+[2022-11-10 10:18:27,573] Login_04 - Step 05: Verify error message displayed
+[2022-11-10 10:18:28,611]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:18:28,641] Login_04 - Step 01: Open Login page
+[2022-11-10 10:18:29,206] Login_04 - Step 02: Input to emailAddress textbox with value isgaylord.satterfield@gmail.com
+[2022-11-10 10:18:30,603] Login_04 - Step 03: Input to Password textbox with value is123456
+[2022-11-10 10:18:31,968] Login_04 - Step 04: Click to 'Login' button
+[2022-11-10 10:18:35,037] Login_04 - Step 05: Verify HomePage displayed
+[2022-11-10 10:18:36,629]  -------------------------- PASSED -------------------------- 
+[2022-11-10 10:18:36,634] OS name = windows 10
+[2022-11-10 10:18:36,634] Driver instance name = remotewebdriver: chrome on windows (a05f65208c55bb15d7c6cc8da4b0578afb6b81d0)
+[2022-11-10 10:23:39,235] OS name = windows 10
+[2022-11-10 10:23:39,236] 
+[2022-11-10 10:28:05,425] OS name = windows 10
+[2022-11-10 10:28:05,426] 
+[2022-11-10 10:43:40,226] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-10 10:43:40,319] Login_02 - Step 01: Open Login page
+[2022-11-10 10:43:40,326] Login_03 - Step 01: Open Login page
+[2022-11-10 10:43:40,334] Login_04 - Step 01: Open Login page
+[2022-11-10 10:43:40,342] Login_04 - Step 01: Open Login page
+[2022-11-10 10:43:40,354] Login_04 - Step 01: Open Login page
+[2022-11-10 10:43:40,363] OS name = windows 10
+[2022-11-10 10:43:40,363] 
+[2022-11-10 10:46:01,279] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-10 10:46:01,368] Login_02 - Step 01: Open Login page
+[2022-11-10 10:46:01,375] Login_03 - Step 01: Open Login page
+[2022-11-10 10:46:01,381] Login_04 - Step 01: Open Login page
+[2022-11-10 10:46:01,388] Login_04 - Step 01: Open Login page
+[2022-11-10 10:46:01,397] Login_04 - Step 01: Open Login page
+[2022-11-10 10:46:01,405] OS name = windows 10
+[2022-11-10 10:46:01,406] 
+[2022-11-10 10:47:05,325] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-10 10:47:05,424] Login_02 - Step 01: Open Login page
+[2022-11-10 10:47:05,431] Login_03 - Step 01: Open Login page
+[2022-11-10 10:47:05,442] Login_04 - Step 01: Open Login page
+[2022-11-10 10:47:05,450] Login_04 - Step 01: Open Login page
+[2022-11-10 10:47:05,471] Login_04 - Step 01: Open Login page
+[2022-11-10 10:47:05,478] OS name = windows 10
+[2022-11-10 10:47:05,478] 
+[2022-11-10 10:48:42,141] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-10 10:48:42,234] Login_02 - Step 01: Open Login page
+[2022-11-10 10:48:42,245] Login_03 - Step 01: Open Login page
+[2022-11-10 10:48:42,253] Login_04 - Step 01: Open Login page
+[2022-11-10 10:48:42,262] Login_04 - Step 01: Open Login page
+[2022-11-10 10:48:42,278] Login_04 - Step 01: Open Login page
+[2022-11-10 10:48:42,285] OS name = windows 10
+[2022-11-10 10:48:42,285] 
+[2022-11-10 10:51:56,791] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-10 10:51:56,881] Login_02 - Step 01: Open Login page
+[2022-11-10 10:51:56,888] Login_03 - Step 01: Open Login page
+[2022-11-10 10:51:56,895] Login_04 - Step 01: Open Login page
+[2022-11-10 10:51:56,902] Login_04 - Step 01: Open Login page
+[2022-11-10 10:51:56,916] Login_04 - Step 01: Open Login page
+[2022-11-10 10:51:56,923] OS name = windows 10
+[2022-11-10 10:51:56,924] 
+[2022-11-10 10:56:36,029] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-10 10:56:36,170] Login_02 - Step 01: Open Login page
+[2022-11-10 10:56:36,182] Login_03 - Step 01: Open Login page
+[2022-11-10 10:56:36,194] Login_04 - Step 01: Open Login page
+[2022-11-10 10:56:36,208] Login_04 - Step 01: Open Login page
+[2022-11-10 10:56:36,240] Login_04 - Step 01: Open Login page
+[2022-11-10 10:56:36,256] OS name = windows 10
+[2022-11-10 10:56:36,256] 
+[2022-11-10 10:58:08,491] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-10 10:58:08,588] Login_02 - Step 01: Open Login page
+[2022-11-10 10:58:08,597] Login_03 - Step 01: Open Login page
+[2022-11-10 10:58:08,605] Login_04 - Step 01: Open Login page
+[2022-11-10 10:58:08,613] Login_04 - Step 01: Open Login page
+[2022-11-10 10:58:08,621] Login_04 - Step 01: Open Login page
+[2022-11-10 10:58:08,632] OS name = windows 10
+[2022-11-10 10:58:08,632] 
+[2022-11-10 10:58:57,885] Login_01 - Step 01: Input to emailAddress textbox with value is
+[2022-11-10 10:58:57,975] Login_02 - Step 01: Open Login page
+[2022-11-10 10:58:57,988] Login_03 - Step 01: Open Login page
+[2022-11-10 10:58:57,995] Login_04 - Step 01: Open Login page
+[2022-11-10 10:58:58,002] Login_04 - Step 01: Open Login page
+[2022-11-10 10:58:58,015] Login_04 - Step 01: Open Login page
+[2022-11-10 10:58:58,023] OS name = windows 10
+[2022-11-10 10:58:58,023] 
+[2022-11-10 11:01:16,844] OS name = windows 10
+[2022-11-10 11:01:16,845] Driver instance name = chromedriver: chrome on windows (33c3bab6c93664c1b8080d3707e5b90f)
+[2022-11-10 11:01:20,878] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:22675
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'THUCTV', ip: '192.168.11.250', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver
+[2022-11-10 14:34:09,500] Register - Step 01: Navigate to 'Register' link
+[2022-11-10 14:34:09,612] OS name = windows 10
+[2022-11-10 14:34:09,612] 
+[2022-11-10 14:44:38,214] Register - Step 01: Navigate to 'Register' link
+[2022-11-10 14:44:38,306] OS name = windows 10
+[2022-11-10 14:44:38,307] 
+[2022-11-10 14:46:20,839] Register - Step 01: Navigate to 'Register' link
+[2022-11-10 14:46:20,926] OS name = windows 10
+[2022-11-10 14:46:20,926] 
+[2022-11-10 14:56:45,901] Register - Step 01: Navigate to 'Register' link
+[2022-11-10 14:56:46,009] OS name = windows 10
+[2022-11-10 14:56:46,009] 
+[2022-11-10 14:58:05,109] Register - Step 01: Navigate to 'Register' link
+[2022-11-10 14:58:05,214] OS name = windows 10
+[2022-11-10 14:58:05,214] 
