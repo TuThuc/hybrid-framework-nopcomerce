@@ -17,7 +17,7 @@
   <parameter name = "browserName" value = "chrome"/>
   <classes>
    <!-- <class name="com.nopcomerce.common.Common_01_Register_Cookie"/> -->
-      <class name="com.nopcomerce.user.study.Level_21_Multiple_Environment"/> 
+      <class name="com.nopcomerce.cloud.TCs_Login_Local"/> 
     </classes>
   </test> 
 

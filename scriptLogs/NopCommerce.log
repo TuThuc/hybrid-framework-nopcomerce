@@ -6473,3 +6473,6 @@ Driver info: driver.version: RemoteWebDriver
 [2022-11-10 14:58:05,109] Register - Step 01: Navigate to 'Register' link
 [2022-11-10 14:58:05,214] OS name = windows 10
 [2022-11-10 14:58:05,214] 
+[2022-11-14 11:29:03,454] Register - Step 01: Navigate to 'Register' link
+[2022-11-14 11:29:03,589] OS name = windows 10
+[2022-11-14 11:29:03,590] Cannot invoke "Object.toString()" because "this.driver" is null

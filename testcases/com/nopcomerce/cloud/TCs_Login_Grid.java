@@ -11,20 +11,17 @@ import com.nopcommerce.data.UserDataMapper;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import environmentConfig.Environment;
 import pageObjects.user.UserHomePageObject;
 import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.UserRegisterPageObject;
 import utlities.DataHelper;
 
 public class TCs_Login_Grid extends BaseTest {
-	Environment environment;
-
-	@Parameters({ "envName", "serverName", "browser", "ipAddress", "port", "osName", "osVersion" })
+	@Parameters({ "envName", "serverName", "browserName", "ipAddress", "portNumber", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(@Optional("local") String envName, @Optional("chrome") String browserName, @Optional("dev") String serverName, @Optional("Windows") String osName, @Optional("10") String osVersion,
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion,
 			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
-		driver = getBrowserDriver(envName, serverName, browserName, ipAddress, portNumber, osName, osVersion);
+		driver = getBrowserDriver(envName, browserName, serverName, ipAddress, portNumber, osName, osVersion);
 		dataFaker = DataHelper.getDataHelper();
 		userData = UserDataMapper.getUserData();
 		firstName = dataFaker.getFirstName();
